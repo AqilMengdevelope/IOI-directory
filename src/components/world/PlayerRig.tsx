@@ -11,10 +11,11 @@ import { MaleCharacter } from "./character/MaleCharacter";
 import type { CharacterLimbs } from "./character/types";
 import type { PlayerRigProps } from "./types";
 
-const SPAWN_X = 4.2;
-const SPAWN_Z = 1.2;
+// Clear corridor just in front of the atrium on Levels 1 and 2 (checked against unit polygons).
+const SPAWN_X = 2.5;
+const SPAWN_Z = 6.0;
 const PAD_X = SPAWN_X;
-const PAD_Z = SPAWN_Z - 1.4;
+const PAD_Z = SPAWN_Z - 2.4;
 const PAD_RADIUS = 0.55;
 const PAD_TRIGGER_DISTANCE = 0.8;
 const PAD_TRIGGER_DELAY = 0.4;

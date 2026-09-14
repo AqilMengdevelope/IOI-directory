@@ -29,6 +29,7 @@ export default function WorldCanvas(props: WorldCanvasProps) {
     <Canvas
       camera={{ position: [34, 38, 42], fov: 45, near: 0.1, far: 400 }}
       dpr={[1, 2]}
+      flat
       gl={{ antialias: true }}
       aria-label="Interactive GMBB floor. WASD to walk, space to jump, drag to turn."
       fallback={<div className="world-fallback">WebGL is unavailable. The spaces list still works.</div>}
