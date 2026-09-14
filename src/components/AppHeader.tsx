@@ -10,7 +10,7 @@ interface AppHeaderProps {
   onToggleSettings: () => void;
   /** Opens the "Message us" modal. */
   onOpenMessage: () => void;
-  /** Opens the "What’s GMBB?" modal. */
+  /** Opens the "What’s IOI City Mall?" modal. */
   onOpenAbout: () => void;
   /** Rendered inside `.main-menu` after the Settings button while open. */
   settingsMenu: ReactNode;
@@ -70,10 +70,10 @@ export function AppHeader({
         <button
           type="button"
           className="wordmark"
-          aria-label="What’s GMBB?"
+          aria-label="What’s IOI City Mall?"
           onClick={onOpenAbout}
         >
-          <i>Jalan</i>GMBB
+          <i>Jalan</i>IOI
         </button>
         <span className="cutaway-draft">3D DRAFT</span>
       </div>

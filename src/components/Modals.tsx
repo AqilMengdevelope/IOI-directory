@@ -87,34 +87,35 @@ export function AboutModal({ onClose }: AboutModalProps) {
   const [imageFailed, setImageFailed] = useState(false);
 
   return (
-    <Modal label="What’s GMBB?" className="about-modal" heading="What’s GMBB?" onClose={onClose}>
+    <Modal label="What’s IOI City Mall?" className="about-modal" heading="What’s IOI City Mall?" onClose={onClose}>
       {imageFailed ? (
         <div className="gmbb-photo gmbb-photo-empty">[Image]</div>
       ) : (
         /* eslint-disable-next-line @next/next/no-img-element */
         <img
           className="gmbb-photo"
-          alt="GMBB building"
-          src="/maps/gmbb/gmbb-building.webp"
+          alt="IOI City Mall at night"
+          src="/maps/ioi/ioi-city-mall-night.jpg"
           onError={() => setImageFailed(true)}
         />
       )}
       <p className="modal-body">
-        GMBB is a creative community mall on Jalan Robertson in Bukit Bintang, Kuala Lumpur. Instead of
-        typical retail brands, it’s an enterprising hub and artistic space that brings together Malaysian
-        artists, independent creators and artisanal enterprises.
+        IOI City Mall is the largest shopping mall in Malaysia, at IOI Resort City in Putrajaya. Its West
+        and East wings hold more than 700 shops across two phases, with anchors such as Parkson, AEON,
+        Lotus’s and HomePro, GSC cinemas with an IMAX hall, the Icescape ice rink, District 21 and the IOI
+        Sports Centre.
       </p>
       <div className="modal-actions gmbb-actions">
         <a
           className="primary-button"
-          href="https://www.google.com/maps/dir/?api=1&destination=GMBB%2C%202%20Jalan%20Robertson%2C%2050150%20Kuala%20Lumpur"
+          href="https://www.google.com/maps/dir/?api=1&destination=IOI%20City%20Mall%2C%20Lebuh%20IRC%2C%20IOI%20Resort%20City%2C%2062502%20Putrajaya"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Icon name="pin" size={18} />
           Get directions
         </a>
-        <a className="quiet-button" href="https://gmbb.com.my/" target="_blank" rel="noopener noreferrer">
+        <a className="quiet-button" href="https://www.ioicitymall.com.my/" target="_blank" rel="noopener noreferrer">
           <Icon name="external" size={18} />
           Website
         </a>
@@ -142,7 +143,7 @@ export function MessageModal({ onClose }: MessageModalProps) {
       onClose={onClose}
     >
       <p className="modal-body">
-        Jalan GMBB is still an experiment. Most of the information here is gathered from public sources and
+        Jalan IOI is still an experiment. Most of the information here is gathered from public sources and
         hasn’t been manually verified, so some things may be inaccurate or outdated.
       </p>
       <p className="modal-body">

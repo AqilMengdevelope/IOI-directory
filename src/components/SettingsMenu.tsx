@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Icon } from "@/components/icons";
-import type { CameraMode, CharacterGender, MusicMood } from "@/types/gmbb";
+import type { CameraMode, CharacterGender, MusicMood } from "@/types/mall";
 
 interface SettingsMenuProps {
   mode: CameraMode;

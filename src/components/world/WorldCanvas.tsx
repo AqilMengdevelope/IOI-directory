@@ -2,7 +2,7 @@
 
 import { Suspense, useEffect, useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { WORLD_BACKGROUND } from "@/lib/gmbb";
+import { WORLD_BACKGROUND } from "@/lib/mall";
 import { PlayerRig } from "./PlayerRig";
 import { WorldScene } from "./WorldScene";
 import type { WorldCanvasProps } from "./types";
@@ -31,7 +31,7 @@ export default function WorldCanvas(props: WorldCanvasProps) {
       dpr={[1, 2]}
       flat
       gl={{ antialias: true }}
-      aria-label="Interactive GMBB floor. WASD to walk, space to jump, drag to turn."
+      aria-label="Interactive IOI City Mall floor. WASD to walk, space to jump, drag to turn."
       fallback={<div className="world-fallback">WebGL is unavailable. The spaces list still works.</div>}
     >
       <color attach="background" args={[WORLD_BACKGROUND]} />

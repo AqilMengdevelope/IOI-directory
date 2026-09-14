@@ -5,17 +5,14 @@ import { useFrame, useThree } from "@react-three/fiber";
 import gsap from "gsap";
 import { Suspense, useCallback, useEffect, useMemo, useRef } from "react";
 import { Group, MathUtils, Vector3 } from "three";
-import { CAMERA_DIRECTION, ZOOM_MAX, ZOOM_MIN, getFloorPlan, planToWorld } from "@/lib/gmbb";
+import { CAMERA_DIRECTION, ZOOM_MAX, ZOOM_MIN, getFloorPlan, planToWorld, spawnPoint } from "@/lib/mall";
 import { FemaleCharacter } from "./character/FemaleCharacter";
 import { MaleCharacter } from "./character/MaleCharacter";
 import type { CharacterLimbs } from "./character/types";
 import type { PlayerRigProps } from "./types";
 
-// Clear corridor just in front of the atrium on Levels 1 and 2 (checked against unit polygons).
-const SPAWN_X = 2.5;
-const SPAWN_Z = 6.0;
-const PAD_X = SPAWN_X;
-const PAD_Z = SPAWN_Z - 2.4;
+/** The level-picker pad sits this far from the spawn point, off the corridor. */
+const PAD_OFFSET_Z = -2.4;
 const PAD_RADIUS = 0.55;
 const PAD_TRIGGER_DISTANCE = 0.8;
 const PAD_TRIGGER_DELAY = 0.4;
@@ -69,8 +66,8 @@ interface RigState {
 
 function createRigState(): RigState {
   return {
-    x: SPAWN_X,
-    z: SPAWN_Z,
+    x: 0,
+    z: 0,
     y: 0,
     vy: 0,
     heading: 0,
@@ -84,7 +81,7 @@ function createRigState(): RigState {
     padTriggered: false,
     jumpQueued: false,
     tween: null,
-    proxy: { x: SPAWN_X, z: SPAWN_Z },
+    proxy: { x: 0, z: 0 },
     cameraReady: false,
     look: new Vector3(),
   };
@@ -127,7 +124,10 @@ export function PlayerRig(props: PlayerRigProps) {
 
   const floorData = useMemo(() => {
     const plan = getFloorPlan(floor);
+    const [spawnX, spawnZ] = spawnPoint(floor);
     return {
+      spawn: { x: spawnX, z: spawnZ },
+      pad: { x: spawnX, z: spawnZ + PAD_OFFSET_Z },
       footprint: plan.footprint.map((point) => planToWorld(point)),
       units: plan.units.map((unit) => {
         const [x, z] = planToWorld(unit.labelPoint);
@@ -154,8 +154,8 @@ export function PlayerRig(props: PlayerRigProps) {
     const s = rig.current;
     s.tween?.kill();
     s.tween = null;
-    s.x = SPAWN_X;
-    s.z = SPAWN_Z;
+    s.x = floorData.spawn.x;
+    s.z = floorData.spawn.z;
     s.y = 0;
     s.vy = 0;
     s.heading = 0;
@@ -164,7 +164,7 @@ export function PlayerRig(props: PlayerRigProps) {
     s.padTimer = 0;
     s.padTriggered = false;
     s.nearbyTimer = NEARBY_INTERVAL;
-  }, [floor]);
+  }, [floor, floorData]);
 
   // Directory click → auto-walk to the unit's label point.
   const walkNonce = props.walkTarget?.nonce;
@@ -202,7 +202,7 @@ export function PlayerRig(props: PlayerRigProps) {
       }
       if (event.code === "KeyE") {
         if (!event.repeat && rig.current.nearbyId) {
-          window.dispatchEvent(new CustomEvent("gmbb:open-nearby"));
+          window.dispatchEvent(new CustomEvent("mall:open-nearby"));
         }
         return;
       }
@@ -418,7 +418,8 @@ export function PlayerRig(props: PlayerRigProps) {
     }
 
     // --- Level picker pad ---
-    if (Math.hypot(s.x - PAD_X, s.z - PAD_Z) < PAD_TRIGGER_DISTANCE) {
+    const pad = floorDataRef.current.pad;
+    if (Math.hypot(s.x - pad.x, s.z - pad.z) < PAD_TRIGGER_DISTANCE) {
       s.padTimer += dt;
       if (s.padTimer > PAD_TRIGGER_DELAY && !s.padTriggered) {
         s.padTriggered = true;
@@ -452,7 +453,7 @@ export function PlayerRig(props: PlayerRigProps) {
     // --- Camera ---
     const camera = state.camera;
     if (mode === "overview") {
-      scratchDesired.set(0, 95, 0.01);
+      scratchDesired.set(0, 140, 0.01);
       scratchLook.set(0, 0, 0);
     } else if (mode === "eye") {
       const hx = Math.sin(s.heading);
@@ -478,7 +479,7 @@ export function PlayerRig(props: PlayerRigProps) {
 
   return (
     <>
-      <group ref={rootRef} position={[SPAWN_X, 0, SPAWN_Z]}>
+      <group ref={rootRef} position={[floorData.spawn.x, 0, floorData.spawn.z]}>
         <mesh rotation-x={-Math.PI / 2} position={[0, 0.018, 0]}>
           <circleGeometry args={[0.36, 48]} />
           <meshBasicMaterial color="#303038" transparent opacity={0.15} depthWrite={false} />
@@ -507,11 +508,11 @@ export function PlayerRig(props: PlayerRigProps) {
         </group>
       </group>
 
-      <mesh rotation-x={-Math.PI / 2} position={[PAD_X, 0.015, PAD_Z]}>
+      <mesh rotation-x={-Math.PI / 2} position={[floorData.pad.x, 0.015, floorData.pad.z]}>
         <circleGeometry args={[PAD_RADIUS, 48]} />
         <meshBasicMaterial color="#e0dbd0" transparent opacity={0.9} depthWrite={false} />
       </mesh>
-      <Html center position={[PAD_X, 1.0, PAD_Z]} zIndexRange={[12, 10]}>
+      <Html center position={[floorData.pad.x, 1.0, floorData.pad.z]} zIndexRange={[12, 10]}>
         <button type="button" className="floor-pad-label" onClick={onOpenLevelPicker}>
           Level picker
         </button>

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Icon } from "@/components/icons";
 import { SpaceArt } from "@/components/SpaceArt";
-import type { DirectorySpace, FloorId } from "@/types/gmbb";
+import type { DirectorySpace, FloorId } from "@/types/mall";
 
 interface DirectoryPanelProps {
   floor: FloorId;
@@ -20,7 +20,7 @@ export function DirectoryPanel({ floor, spaces, onSelect, onClose }: DirectoryPa
   );
 
   return (
-    <aside className="side-panel" aria-label="GMBB shops">
+    <aside className="side-panel" aria-label="IOI City Mall shops">
       <div className="panel-top">
         <span className="eyebrow">
           LEVEL {floor} · {spaces.length} SPACES

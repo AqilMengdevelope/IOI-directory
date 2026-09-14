@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import type { DirectorySpace } from "@/types/gmbb";
+import type { DirectorySpace } from "@/types/mall";
 
 type Pattern = "swirl" | "grid" | "speckle" | "arch" | "bloom";
 

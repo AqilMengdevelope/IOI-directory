@@ -7,8 +7,16 @@ import { mergeGeometries } from "three/examples/jsm/utils/BufferGeometryUtils.js
 import type { ThreeEvent } from "@react-three/fiber";
 import { Html } from "@react-three/drei";
 import { Icon } from "@/components/icons";
-import { getDirectory, getFloorPlan, planToWorld, polygonCentre, WORLD_BACKGROUND } from "@/lib/gmbb";
-import type { FloorId, FloorPlan, FloorUnit, PlanPoint } from "@/types/gmbb";
+import {
+  adjacentFloor,
+  floorTitle,
+  getDirectory,
+  getFloorPlan,
+  planToWorld,
+  polygonCentre,
+  WORLD_BACKGROUND,
+} from "@/lib/mall";
+import type { FloorId, FloorPlan, FloorUnit, PlanPoint } from "@/types/mall";
 
 export interface WorldSceneProps {
   floor: FloorId;
@@ -182,12 +190,11 @@ function frontEdgeIndex(unit: FloorUnit): number {
 // Scene geometry build
 // ---------------------------------------------------------------------------
 
-interface AtriumLayout {
-  blocks: { x: number; width: number }[];
-  voidX: number;
-  voidWidth: number;
-  upX: number;
-  downX: number;
+interface EscalatorPlacement {
+  x: number;
+  z: number;
+  /** Rotation about Y; the ramp rises towards its local −z. */
+  angle: number;
 }
 
 interface WorldGeometry {
@@ -201,84 +208,59 @@ interface WorldGeometry {
   caps: THREE.BufferGeometry | null;
   counters: THREE.BufferGeometry | null;
   darkBlocks: THREE.BufferGeometry | null;
-  atriumBlocks: THREE.BufferGeometry | null;
-  voidFloor: THREE.BufferGeometry | null;
+  anchors: THREE.BufferGeometry | null;
   treads: THREE.BufferGeometry | null;
   rails: THREE.BufferGeometry | null;
-  atrium: AtriumLayout | null;
+  escalators: EscalatorPlacement[];
 }
 
-const ATRIUM_HALF_DEPTH = 4.5;
-const ATRIUM_BLOCK_WIDTH = 7;
-const ATRIUM_BLOCK_HEIGHT = 3.2;
-const ATRIUM_MARGIN = 0.6;
-const ESCALATOR_RUN = 7;
-const ESCALATOR_RISE = 2.4;
-const ESCALATOR_WIDTH = 1.1;
+const ANCHOR_HEIGHT = 3.2;
+const KIOSK_HEIGHT = 1.1;
+const ESCALATOR_RUN = 5;
+const ESCALATOR_RISE = 2.2;
+const ESCALATOR_WIDTH = 1.0;
 
-/** Finds the clear corridor gap around the world origin and lays the atrium out inside it. */
-function layoutAtrium(plan: FloorPlan): AtriumLayout | null {
-  const footprint = plan.footprint.map(planToWorld);
-  const minX = Math.min(...footprint.map((p) => p[0]));
-  const maxX = Math.max(...footprint.map((p) => p[0]));
-
-  const intervals = plan.units
-    .map((unit) => unit.polygon.map(planToWorld))
-    .filter((poly) => {
-      const zs = poly.map((p) => p[1]);
-      return Math.max(...zs) > -ATRIUM_HALF_DEPTH && Math.min(...zs) < ATRIUM_HALF_DEPTH;
-    })
-    .map((poly): XZ => [Math.min(...poly.map((p) => p[0])), Math.max(...poly.map((p) => p[0]))])
-    .sort((a, b) => a[0] - b[0]);
-
-  const gaps: XZ[] = [];
-  let cursor = minX;
-  for (const [start, end] of intervals) {
-    if (start > cursor) gaps.push([cursor, start]);
-    cursor = Math.max(cursor, end);
-  }
-  if (maxX > cursor) gaps.push([cursor, maxX]);
-  if (gaps.length === 0) return null;
-
-  const gap =
-    gaps.find(([a, b]) => a <= 0 && b >= 0) ?? gaps.reduce((best, g) => (g[1] - g[0] > best[1] - best[0] ? g : best));
-  const available = gap[1] - gap[0] - ATRIUM_MARGIN * 2;
-  const blockWidth = Math.min(ATRIUM_BLOCK_WIDTH, (available - 5) / 2);
-  if (blockWidth < 2) return null;
-  const voidWidth = Math.min(available - blockWidth * 2, 8);
-  const centre = (gap[0] + gap[1]) / 2;
-  const half = blockWidth + voidWidth / 2;
-
-  return {
-    blocks: [
-      { x: centre - half + blockWidth / 2, width: blockWidth },
-      { x: centre + half - blockWidth / 2, width: blockWidth },
-    ],
-    voidX: centre,
-    voidWidth,
-    upX: centre + voidWidth / 4,
-    downX: centre - voidWidth / 4,
-  };
+/** Direction of the corridor centreline at its point nearest `x, z`, as an angle about Y. */
+function corridorAngleAt(corridor: XZ[], x: number, z: number): number {
+  if (corridor.length < 2) return 0;
+  let best = 0;
+  let bestDistance = Infinity;
+  corridor.forEach(([cx, cz], i) => {
+    const d = Math.hypot(cx - x, cz - z);
+    if (d < bestDistance) {
+      bestDistance = d;
+      best = i;
+    }
+  });
+  const a = corridor[Math.max(0, best - 1)];
+  const b = corridor[Math.min(corridor.length - 1, best + 1)];
+  // Ramp geometry runs along local z, so rotate the +z axis onto the corridor direction.
+  return Math.atan2(b[0] - a[0], b[1] - a[1]);
 }
 
-function buildEscalator(x: number, treads: THREE.BufferGeometry[], rails: THREE.BufferGeometry[]) {
+function buildEscalator(place: EscalatorPlacement, treads: THREE.BufferGeometry[], rails: THREE.BufferGeometry[]) {
   const length = Math.hypot(ESCALATOR_RUN, ESCALATOR_RISE);
-  const angle = Math.atan2(ESCALATOR_RISE, ESCALATOR_RUN);
-  // Rises towards −z; low end sits at z = +RUN/2 on the floor.
+  const slope = Math.atan2(ESCALATOR_RISE, ESCALATOR_RUN);
+  const parts: [THREE.BufferGeometry, boolean][] = [];
+  // Rises towards local −z; low end sits at local z = +RUN/2 on the floor.
   const sloped = (w: number, h: number, dx: number, lift: number) => {
     const geometry = new THREE.BoxGeometry(w, h, length);
-    geometry.rotateX(angle);
-    geometry.translate(x + dx, ESCALATOR_RISE / 2 + lift, 0);
+    geometry.rotateX(slope);
+    geometry.translate(dx, ESCALATOR_RISE / 2 + lift, 0);
     return geometry;
   };
-  treads.push(sloped(ESCALATOR_WIDTH, 0.14, 0, 0.07));
+  parts.push([sloped(ESCALATOR_WIDTH, 0.14, 0, 0.07), true]);
   const side = ESCALATOR_WIDTH / 2 + 0.04;
   for (const dx of [-side, side]) {
-    rails.push(sloped(0.08, 0.3, dx, 0.12));
-    rails.push(sloped(0.06, 0.06, dx, 1.0));
-    // Newel posts at both ends.
-    rails.push(box(0.06, 1.0, 0.06, x + dx, 0.5, ESCALATOR_RUN / 2));
-    rails.push(box(0.06, 1.0, 0.06, x + dx, ESCALATOR_RISE + 0.5, -ESCALATOR_RUN / 2));
+    parts.push([sloped(0.08, 0.3, dx, 0.12), false]);
+    parts.push([sloped(0.06, 0.06, dx, 1.0), false]);
+    parts.push([box(0.06, 1.0, 0.06, dx, 0.5, ESCALATOR_RUN / 2), false]);
+    parts.push([box(0.06, 1.0, 0.06, dx, ESCALATOR_RISE + 0.5, -ESCALATOR_RUN / 2), false]);
+  }
+  for (const [geometry, isTread] of parts) {
+    geometry.rotateY(place.angle);
+    geometry.translate(place.x, 0, place.z);
+    (isTread ? treads : rails).push(geometry);
   }
 }
 
@@ -295,6 +277,7 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
   const wallEdges = new Map<string, { a: XZ; b: XZ; height: number }>();
   const counterParts: THREE.BufferGeometry[] = [];
   const darkParts: THREE.BufferGeometry[] = [];
+  const anchorParts: THREE.BufferGeometry[] = [];
 
   for (const unit of plan.units) {
     const poly = unit.polygon.map(planToWorld);
@@ -305,17 +288,25 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
     tileTriangleEnds.push(triangleCount);
     tileUnitIds.push(unit.id);
 
-    const front = frontEdgeIndex(unit);
+    // Anchors read as solid department-store blocks rather than open-top shop boxes.
+    if (unit.kind === "anchor") {
+      anchorParts.push(extrudeFlat(poly, ANCHOR_HEIGHT, ANCHOR_HEIGHT));
+      continue;
+    }
+
+    const isKiosk = unit.kind === "kiosk";
+    const front = isKiosk ? -1 : frontEdgeIndex(unit);
     poly.forEach((a, i) => {
       const b = poly[(i + 1) % poly.length];
       if (Math.hypot(b[0] - a[0], b[1] - a[1]) < 0.05) return;
       const ka = `${a[0].toFixed(1)},${a[1].toFixed(1)}`;
       const kb = `${b[0].toFixed(1)},${b[1].toFixed(1)}`;
       const key = ka < kb ? `${ka}|${kb}` : `${kb}|${ka}`;
-      const height = i === front ? LIP_HEIGHT : WALL_HEIGHT;
+      const height = isKiosk ? KIOSK_HEIGHT : i === front ? LIP_HEIGHT : WALL_HEIGHT;
       const existing = wallEdges.get(key);
       if (!existing || existing.height < height) wallEdges.set(key, { a, b, height });
     });
+    if (isKiosk) continue;
 
     // Deterministic furniture.
     const random = seededRandom(hashString(unit.id));
@@ -366,19 +357,18 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
     capParts.push(edgeBox(a, b, CAP_WIDTH, CAP_HEIGHT, height, CAP_WIDTH));
   }
 
-  const atrium = plan.units.length > 0 ? layoutAtrium(plan) : null;
-  const atriumParts: THREE.BufferGeometry[] = [];
+  // Escalators come from the traced amenities, aligned to the corridor and sorted nearest the East Court.
+  const corridor = plan.corridor.map(planToWorld);
+  const escalators: EscalatorPlacement[] = plan.amenities
+    .filter((amenity) => amenity.kind === "escalator")
+    .map((amenity) => {
+      const [x, z] = planToWorld(amenity.at);
+      return { x, z, angle: corridorAngleAt(corridor, x, z) };
+    })
+    .sort((a, b) => Math.hypot(a.x, a.z) - Math.hypot(b.x, b.z));
   const treadParts: THREE.BufferGeometry[] = [];
   const railParts: THREE.BufferGeometry[] = [];
-  let voidFloor: THREE.BufferGeometry | null = null;
-  if (atrium) {
-    for (const block of atrium.blocks) {
-      atriumParts.push(box(block.width, ATRIUM_BLOCK_HEIGHT, ATRIUM_HALF_DEPTH * 2, block.x, ATRIUM_BLOCK_HEIGHT / 2, 0));
-    }
-    voidFloor = box(atrium.voidWidth, 0.02, ATRIUM_HALF_DEPTH * 2, atrium.voidX, 0.02, 0);
-    buildEscalator(atrium.upX, treadParts, railParts);
-    buildEscalator(atrium.downX, treadParts, railParts);
-  }
+  for (const place of escalators) buildEscalator(place, treadParts, railParts);
 
   return {
     slab,
@@ -390,11 +380,10 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
     caps: mergeAndDispose(capParts),
     counters: mergeAndDispose(counterParts),
     darkBlocks: mergeAndDispose(darkParts),
-    atriumBlocks: mergeAndDispose(atriumParts),
-    voidFloor,
+    anchors: mergeAndDispose(anchorParts),
     treads: mergeAndDispose(treadParts),
     rails: mergeAndDispose(railParts),
-    atrium,
+    escalators,
   };
 }
 
@@ -407,8 +396,7 @@ function disposeWorld(world: WorldGeometry) {
     world.caps,
     world.counters,
     world.darkBlocks,
-    world.atriumBlocks,
-    world.voidFloor,
+    world.anchors,
     world.treads,
     world.rails,
   ].forEach((geometry) => geometry?.dispose());
@@ -449,10 +437,12 @@ export function WorldScene({ floor, nearbyUnitId, onSelectUnit }: WorldSceneProp
     : null;
   const nearbyPosition = nearbyUnit ? planToWorld(nearbyUnit.labelPoint) : null;
 
-  const upLabel = floor === "2" ? "↑ Level 3" : "↑ Level 2";
-  const upAria = floor === "2" ? "Up escalator to Level 3" : "Up escalator to Level 2";
-  const downLabel = floor === "2" ? "↓ Level 1" : "↓ Level G · Coming soon";
-  const downAria = floor === "2" ? "Down escalator to Level 1" : "Down escalator to Level G coming soon";
+  const above = adjacentFloor(floor, "up");
+  const below = adjacentFloor(floor, "down");
+  const upLabel = above ? `↑ ${floorTitle(above)}` : "↑ Top level";
+  const upAria = above ? `Up escalator to ${floorTitle(above)}` : "Top level";
+  const downLabel = below ? `↓ ${floorTitle(below)}` : "↓ Lowest level";
+  const downAria = below ? `Down escalator to ${floorTitle(below)}` : "Lowest level";
 
   const handleTileClick = (event: ThreeEvent<MouseEvent>) => {
     const id = unitIdForFace(world, event.faceIndex);
@@ -515,14 +505,9 @@ export function WorldScene({ floor, nearbyUnitId, onSelectUnit }: WorldSceneProp
           <meshLambertMaterial color={COLORS.dark} />
         </mesh>
       )}
-      {world.atriumBlocks && (
-        <mesh geometry={world.atriumBlocks}>
+      {world.anchors && (
+        <mesh geometry={world.anchors}>
           <meshLambertMaterial color={COLORS.atrium} />
-        </mesh>
-      )}
-      {world.voidFloor && (
-        <mesh geometry={world.voidFloor}>
-          <meshLambertMaterial color={COLORS.voidFloor} />
         </mesh>
       )}
       {world.treads && (
@@ -536,29 +521,29 @@ export function WorldScene({ floor, nearbyUnitId, onSelectUnit }: WorldSceneProp
         </mesh>
       )}
 
-      {world.atrium && (
-        <>
-          <Html
-            center
-            position={[world.atrium.upX + 1.6, 0.9, ESCALATOR_RUN / 2 + 0.6]}
-            zIndexRange={[12, 10]}
-            style={{ pointerEvents: "none" }}
-          >
-            <span className="escalator-direction" aria-label={upAria}>
-              {upLabel}
-            </span>
-          </Html>
-          <Html
-            center
-            position={[world.atrium.downX - 1.6, ESCALATOR_RISE + 0.9, -ESCALATOR_RUN / 2]}
-            zIndexRange={[12, 10]}
-            style={{ pointerEvents: "none" }}
-          >
-            <span className="escalator-direction" aria-label={downAria}>
-              {downLabel}
-            </span>
-          </Html>
-        </>
+      {world.escalators[0] && (
+        <Html
+          center
+          position={[world.escalators[0].x, ESCALATOR_RISE + 0.9, world.escalators[0].z]}
+          zIndexRange={[12, 10]}
+          style={{ pointerEvents: "none" }}
+        >
+          <span className="escalator-direction" aria-label={upAria}>
+            {upLabel}
+          </span>
+        </Html>
+      )}
+      {world.escalators[1] && (
+        <Html
+          center
+          position={[world.escalators[1].x, ESCALATOR_RISE + 0.9, world.escalators[1].z]}
+          zIndexRange={[12, 10]}
+          style={{ pointerEvents: "none" }}
+        >
+          <span className="escalator-direction" aria-label={downAria}>
+            {downLabel}
+          </span>
+        </Html>
       )}
 
       {!hasUnits && (

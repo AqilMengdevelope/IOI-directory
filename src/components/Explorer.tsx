@@ -13,13 +13,15 @@ import {
   DEFAULT_FLOOR,
   FLOORS,
   FLOOR_RAIL_ORDER,
+  MALL_NAME,
   ZOOM_DEFAULT,
   ZOOM_MAX,
   ZOOM_MIN,
   ZOOM_STEP,
+  floorTitle,
   getDirectory,
-} from "@/lib/gmbb";
-import type { CameraMode, CharacterGender, FloorId, MusicMood } from "@/types/gmbb";
+} from "@/lib/mall";
+import type { CameraMode, CharacterGender, FloorId, MusicMood } from "@/types/mall";
 
 const WorldCanvas = dynamic(() => import("@/components/world/WorldCanvas"), {
   ssr: false,
@@ -49,7 +51,7 @@ export function Explorer() {
   const [nearbyUnitId, setNearbyUnitId] = useState<string | null>(null);
   const [walkTarget, setWalkTarget] = useState<WalkTarget | null>(null);
   const [padPromptSteps, setPadPromptSteps] = useState<number | null>(null);
-  const [status, setStatus] = useState(`Level ${DEFAULT_FLOOR} ready.`);
+  const [status, setStatus] = useState(`${floorTitle(DEFAULT_FLOOR)} ready.`);
 
   const inputRef = useRef<WorldInput>({ move: { x: 0, y: 0 }, jump: false });
   const bgmRef = useRef<HTMLAudioElement | null>(null);
@@ -107,7 +109,7 @@ export function Explorer() {
     }
     setPhase("idle");
     setPendingFloor(null);
-    setStatus(`Level ${next} ready.`);
+    setStatus(`${floorTitle(next)} ready.`);
   }, []);
 
   const changeFloor = useCallback(
@@ -175,10 +177,10 @@ export function Explorer() {
         setModal("lift");
       }
     };
-    window.addEventListener("gmbb:open-nearby", openNearby);
+    window.addEventListener("mall:open-nearby", openNearby);
     window.addEventListener("keydown", onKey);
     return () => {
-      window.removeEventListener("gmbb:open-nearby", openNearby);
+      window.removeEventListener("mall:open-nearby", openNearby);
       window.removeEventListener("keydown", onKey);
     };
   }, [padPromptVisible]);
@@ -231,7 +233,7 @@ export function Explorer() {
         settingsMenu={settingsMenu}
       />
       <div className="workspace">
-        <section className="world-region" aria-label={`GMBB Level ${floor}`}>
+        <section className="world-region" aria-label={`${MALL_NAME} ${floorTitle(floor)}`}>
           <WorldCanvas
             floor={floor}
             cameraMode={cameraMode}

@@ -16,9 +16,9 @@ const cherryBombOne = Cherry_Bomb_One({
 });
 
 export const metadata: Metadata = {
-  title: "Jalan GMBB",
+  title: "Jalan IOI",
   description:
-    "Explore Levels 1 and 2 of GMBB in a detailed 3D cutaway draft, with shop interiors inspired by the supplied walking recordings.",
+    "Walk every level of IOI City Mall, Putrajaya, in a 3D cutaway draft traced from the mall's own floor map: LG to Level 4, West and East wings.",
   icons: {
     icon: [{ url: "/seo/icon.png", type: "image/png", sizes: "192x192" }],
     apple: [{ url: "/seo/apple-icon.png", type: "image/png", sizes: "180x180" }],

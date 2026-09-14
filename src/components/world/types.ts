@@ -1,5 +1,5 @@
 import type { RefObject } from "react";
-import type { CameraMode, CharacterGender, FloorId } from "@/types/gmbb";
+import type { CameraMode, CharacterGender, FloorId } from "@/types/mall";
 
 /** Shared mutable input written by keyboard handlers and the touch sticks, read every frame. */
 export interface WorldInput {

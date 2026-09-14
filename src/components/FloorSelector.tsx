@@ -3,8 +3,8 @@
 import { useEffect, useRef, useState } from "react";
 import type { FocusEvent, MouseEvent } from "react";
 
-import { FLOORS, FLOOR_RAIL_ORDER, floorLabel } from "@/lib/gmbb";
-import type { FloorId } from "@/types/gmbb";
+import { FLOORS, FLOOR_RAIL_ORDER, floorLabel } from "@/lib/mall";
+import type { FloorId } from "@/types/mall";
 
 interface FloorSelectorProps {
   floor: FloorId;
