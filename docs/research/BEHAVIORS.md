@@ -19,8 +19,8 @@ Captured with Chrome DevTools MCP at 1440×876 (DPR 2) and 390×844 (DPR 3, mobi
 
 ## Settings menu (click-driven)
 - Items: Mode (submenu, value "Follow"), Music (submenu, value "Hiphop lofi"), Gender (toggle, value "Male"), Browse spaces (count 51).
-- Submenus expand inline (`.menu-sub`); chevron rotates when `aria-expanded=true`.
-- Mode options: Follow, Eye level, Overview. Music options: Hiphop lofi, Chill lofi, Rock. Gender toggles Male ↔ Female.
+- Submenus expand inline (`.menu-sub`, pop-in); the item gains class `expanded` and its chevron gets inline `transform: rotate(180deg)`. One submenu open at a time. Settings button gains class `open` (bg #111, white icon).
+- Mode options: Follow, Eye level. Music options (in order): Chill lofi, Hiphop lofi, Rock. Gender toggles Male ↔ Female. Active option: bg #757575, white, radius 16px.
 - Browse spaces closes the menu and opens the directory side panel.
 
 ## Level rail / picker (click-driven)

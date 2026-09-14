@@ -33,7 +33,7 @@ Mark the file `"use client"` only if needed (it has no state of its own; handler
     </div>
     <div class="header-tools">
       <div class="main-menu">
-        <button class="menu-button header-icon" aria-label="Settings" aria-expanded="{settingsOpen}" aria-controls="explorer-more-menu">
+        <button class="menu-button header-icon{settingsOpen ? ' open' : ''}" aria-label="Settings" aria-expanded="{settingsOpen}" aria-controls="explorer-more-menu">
           <Icon name="cog" size=20 /><span>Settings</span>
         </button>
         {settingsOpen && settingsMenu}
@@ -80,7 +80,7 @@ Import `Icon` from `@/components/icons`. Use the typographic apostrophe `’` ex
 
 ## States & Behaviors
 - **Audio toggle:** on → icon `speaker`, aria-label "Mute sound", aria-pressed true, title "Sound is on". Off → icon `speakerOff`, aria-label "Unmute sound", aria-pressed false, title "Sound is off".
-- **Settings open:** `aria-expanded="true"`; gmbb.css paints the button black with a white icon (see settings-open screenshot). Verify the selector in gmbb.css (search `menu-button`).
+- **Settings open:** `aria-expanded="true"` and class `open` on the button; computed state: background rgb(17,17,17), color #fff (see settings-open screenshot). The `.menu-button.open` rule lives in gmbb.css.
 - **All buttons:** `transition: background .18s, color .18s, transform .12s, box-shadow .18s`; `:active` scale(.95) — global CSS, nothing to add.
 - **Hover:** check `@media (hover:hover) and (pointer:fine)` block in gmbb.css for `.header-icon:hover`.
 
