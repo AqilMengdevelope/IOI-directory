@@ -1,0 +1,308 @@
+{
+  "tenantAssignments": [
+    {
+      "unitId": "gmbb-l1-1",
+      "name": "Jiak Kopi",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-2",
+      "name": "Topcup",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-3",
+      "name": "Topcup",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-3a",
+      "name": "Lucky Bowl",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-5",
+      "name": "Tanoti @ GMBB",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-6",
+      "name": "Tanoti @ GMBB",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-7",
+      "name": "Tanoti @ GMBB",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-8",
+      "name": "Artery",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-9",
+      "name": "Artery",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-10",
+      "name": "Artery",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-11",
+      "name": "Tea & Rice",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-12",
+      "name": "Tea & Rice",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-13",
+      "name": "Play Play Asia",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-13a",
+      "name": "GMBB Bojen Sam Art & Creativity",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-15",
+      "name": "JidKay Artworks",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-17",
+      "name": "Happy Dumpy Designs",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-18",
+      "name": "Switch Studio",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-19",
+      "name": "Magic Tarot",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-20",
+      "name": "Hikayat Fandom",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-21",
+      "name": "Hikayat Fandom",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-23",
+      "name": "Arban Gallery",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-25",
+      "name": "Downtown Bookstore",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-26",
+      "name": "The Duke Museum of Picture Book Art",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-27",
+      "name": "The Duke Museum of Picture Book Art",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-28",
+      "name": "The Duke Museum of Picture Book Art",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-29",
+      "name": "The Duke Museum of Picture Book Art",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-30",
+      "name": "Kaumpung & Kolektif",
+      "certainty": "user-confirmed",
+      "url": "https://www.facebook.com/kampungkolektif/?locale=ms_MY"
+    },
+    {
+      "unitId": "gmbb-l1-31",
+      "name": "Kaumpung & Kolektif",
+      "certainty": "user-confirmed",
+      "url": "https://www.facebook.com/kampungkolektif/?locale=ms_MY"
+    },
+    {
+      "unitId": "gmbb-l1-32",
+      "name": "Kaumpung & Kolektif",
+      "certainty": "user-confirmed",
+      "url": "https://www.facebook.com/kampungkolektif/?locale=ms_MY"
+    },
+    {
+      "unitId": "gmbb-l1-33",
+      "name": "Akari",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-35",
+      "name": "Too Yumm",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-36",
+      "name": "Too Yumm",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-37",
+      "name": "Lumi Lumi (Restaurant)",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-38",
+      "name": "Lumi Lumi (Restaurant)",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-39",
+      "name": "Lumi Lumi (Restaurant)",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-40",
+      "name": "Lumi Lumi (Restaurant)",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-41",
+      "name": "Jiak Kopi",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-42",
+      "name": "Jiak Kopi",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-43",
+      "name": "daniellelinart",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-43a",
+      "name": "film lab",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-45",
+      "name": "GMBB Bojen Sam Art & Creativity",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-46",
+      "name": "SUNSNAP Photobooth",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-47",
+      "name": "Hikayat Fandom",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-48",
+      "name": "Liwu",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-49",
+      "name": "Liwu",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-50",
+      "name": "The Reunion Collective",
+      "certainty": "user-confirmed",
+      "url": null
+    },
+    {
+      "unitId": "gmbb-l1-51",
+      "name": "Too Yumm",
+      "certainty": "user-confirmed",
+      "url": null
+    }
+  ],
+  "floors": {
+    "order": [
+      "G",
+      "1",
+      "2",
+      "3",
+      "3A",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "available": [
+      "1",
+      "2",
+      "3",
+      "3A",
+      "8",
+      "9"
+    ]
+  }
+}

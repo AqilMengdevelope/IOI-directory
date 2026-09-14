@@ -1,0 +1,933 @@
+{
+ "1": [
+  {
+   "unitId": "gmbb-l1-1",
+   "unitNumber": "GM-1-1",
+   "name": "Jiak Kopi",
+   "category": "Café & dining",
+   "description": "Coffee from a local roastery, bringing traditional preparations and contemporary flavours together.",
+   "tenantKey": "jiak-kopi",
+   "thumb": "/references/tenants/jiak-kopi/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-2",
+   "unitNumber": "GM-1-2",
+   "name": "Topcup",
+   "category": "Specialty coffee",
+   "description": "Specialty coffee and handcrafted drinks, with beans from Malaysian and international roasters.",
+   "tenantKey": "topcup",
+   "thumb": "/references/tenants/topcup/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-3",
+   "unitNumber": "GM-1-3",
+   "name": "Topcup",
+   "category": "Specialty coffee",
+   "description": "Specialty coffee and handcrafted drinks, with beans from Malaysian and international roasters.",
+   "tenantKey": "topcup",
+   "thumb": "/references/tenants/topcup/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-3a",
+   "unitNumber": "GM-1-3A",
+   "name": "Lucky Bowl",
+   "category": "Café & dining",
+   "description": "Meal bowls and drinks at GMBB.",
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-l1-5",
+   "unitNumber": "GM-1-5",
+   "name": "Tanoti @ GMBB",
+   "category": "Textiles & craft",
+   "description": "Handwoven songket and indigenous crafts made by a community of Sarawak artisans.",
+   "tenantKey": "tanoti",
+   "thumb": "/references/tenants/tanoti/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-6",
+   "unitNumber": "GM-1-6",
+   "name": "Tanoti @ GMBB",
+   "category": "Textiles & craft",
+   "description": "Handwoven songket and indigenous crafts made by a community of Sarawak artisans.",
+   "tenantKey": "tanoti",
+   "thumb": "/references/tenants/tanoti/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-7",
+   "unitNumber": "GM-1-7",
+   "name": "Tanoti @ GMBB",
+   "category": "Textiles & craft",
+   "description": "Handwoven songket and indigenous crafts made by a community of Sarawak artisans.",
+   "tenantKey": "tanoti",
+   "thumb": "/references/tenants/tanoti/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-8",
+   "unitNumber": "GM-1-8",
+   "name": "Artery",
+   "category": "Gifts & design",
+   "description": "GMBB’s curated shop for local makers, with everyday objects, decorative pieces and illustrated gifts.",
+   "tenantKey": "artery",
+   "thumb": "/references/tenants/artery/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-9",
+   "unitNumber": "GM-1-9",
+   "name": "Artery",
+   "category": "Gifts & design",
+   "description": "GMBB’s curated shop for local makers, with everyday objects, decorative pieces and illustrated gifts.",
+   "tenantKey": "artery",
+   "thumb": "/references/tenants/artery/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-10",
+   "unitNumber": "GM-1-10",
+   "name": "Artery",
+   "category": "Gifts & design",
+   "description": "GMBB’s curated shop for local makers, with everyday objects, decorative pieces and illustrated gifts.",
+   "tenantKey": "artery",
+   "thumb": "/references/tenants/artery/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-11",
+   "unitNumber": "GM-1-11",
+   "name": "Tea & Rice",
+   "category": "Clothing & accessories",
+   "description": "Clothing and streetwear shown in the supplied walkthrough.",
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-l1-12",
+   "unitNumber": "GM-1-12",
+   "name": "Tea & Rice",
+   "category": "Clothing & accessories",
+   "description": "Clothing and streetwear shown in the supplied walkthrough.",
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-l1-13",
+   "unitNumber": "GM-1-13",
+   "name": "Play Play Asia",
+   "category": "Board games",
+   "description": "A hub for Asian tabletop games, with games to discover and play together.",
+   "tenantKey": "play-play-asia",
+   "thumb": "/references/tenants/play-play-asia/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-13a",
+   "unitNumber": "GM-1-13A",
+   "name": "GMBB Bojen Sam Art & Creativity",
+   "category": "Art & workshops",
+   "description": null,
+   "tenantKey": "bojen-sam-art-creativity",
+   "thumb": "/references/tenants/bojen-sam-art-creativity/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-15",
+   "unitNumber": "GM-1-15",
+   "name": "JidKay Artworks",
+   "category": "Art & gifts",
+   "description": "Original artworks and merchandise celebrating Malaysian subjects, culture and everyday life.",
+   "tenantKey": "jidkay-artworks",
+   "thumb": "/references/tenants/jidkay-artworks/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-16",
+   "unitNumber": "GM-1-16",
+   "name": "Unit 16",
+   "category": "Art & illustration",
+   "description": null,
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-l1-17",
+   "unitNumber": "GM-1-17",
+   "name": "Happy Dumpy Designs",
+   "category": "Gifts & illustration",
+   "description": "Original gifts and souvenirs that turn familiar Malaysian food and culture into playful everyday designs.",
+   "tenantKey": "happy-dumpy-designs",
+   "thumb": "/references/tenants/happy-dumpy-designs/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-18",
+   "unitNumber": "GM-1-18",
+   "name": "Switch Studio",
+   "category": "Creative workshop",
+   "description": "A maker space recorded in the supplied walkthrough. Further business details are unconfirmed.",
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-l1-19",
+   "unitNumber": "GM-1-19",
+   "name": "Magic Tarot",
+   "category": "Tarot",
+   "description": "Personal tarot readings in a dedicated studio.",
+   "tenantKey": "magic-tarot",
+   "thumb": "/references/tenants/magic-tarot/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-20",
+   "unitNumber": "GM-1-20",
+   "name": "Hikayat Fandom",
+   "category": "Books & folklore",
+   "description": "A publisher and cultural space sharing Malaysian legends, folklore and storytelling.",
+   "tenantKey": "hikayat-fandom",
+   "thumb": "/references/tenants/hikayat-fandom/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-21",
+   "unitNumber": "GM-1-21",
+   "name": "Hikayat Fandom",
+   "category": "Books & folklore",
+   "description": "A publisher and cultural space sharing Malaysian legends, folklore and storytelling.",
+   "tenantKey": "hikayat-fandom",
+   "thumb": "/references/tenants/hikayat-fandom/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-22",
+   "unitNumber": "GM-1-22",
+   "name": "Unit 22",
+   "category": "Gifts & objects",
+   "description": null,
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-l1-23",
+   "unitNumber": "GM-1-23",
+   "name": "Arban Gallery",
+   "category": "Bags & accessories",
+   "description": "Handcrafted bags, wallets and accessories, including custom pieces inspired by local culture.",
+   "tenantKey": "arban-gallery",
+   "thumb": "/references/tenants/arban-gallery/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-23a",
+   "unitNumber": "GM-1-23A",
+   "name": "Unit 23A",
+   "category": "Details under review",
+   "description": null,
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-l1-25",
+   "unitNumber": "GM-1-25",
+   "name": "Downtown Bookstore",
+   "category": "Books",
+   "description": "An independent bookshop with local writing, fiction, poetry, philosophy and books on society.",
+   "tenantKey": "downtown-bookstore",
+   "thumb": "/references/tenants/downtown-bookstore/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-26",
+   "unitNumber": "GM-1-26",
+   "name": "The Duke Museum of Picture Book Art",
+   "category": "Picture books & art",
+   "description": "A space celebrating picture books, their illustrations and the people who create them, with a focus on Malaysian work.",
+   "tenantKey": "the-duke-museum-of-picture-book-art",
+   "thumb": "/references/tenants/the-duke-museum-of-picture-book-art/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-27",
+   "unitNumber": "GM-1-27",
+   "name": "The Duke Museum of Picture Book Art",
+   "category": "Picture books & art",
+   "description": "A space celebrating picture books, their illustrations and the people who create them, with a focus on Malaysian work.",
+   "tenantKey": "the-duke-museum-of-picture-book-art",
+   "thumb": "/references/tenants/the-duke-museum-of-picture-book-art/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-28",
+   "unitNumber": "GM-1-28",
+   "name": "The Duke Museum of Picture Book Art",
+   "category": "Picture books & art",
+   "description": "A space celebrating picture books, their illustrations and the people who create them, with a focus on Malaysian work.",
+   "tenantKey": "the-duke-museum-of-picture-book-art",
+   "thumb": "/references/tenants/the-duke-museum-of-picture-book-art/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-29",
+   "unitNumber": "GM-1-29",
+   "name": "The Duke Museum of Picture Book Art",
+   "category": "Picture books & art",
+   "description": "A space celebrating picture books, their illustrations and the people who create them, with a focus on Malaysian work.",
+   "tenantKey": "the-duke-museum-of-picture-book-art",
+   "thumb": "/references/tenants/the-duke-museum-of-picture-book-art/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-30",
+   "unitNumber": "GM-1-30",
+   "name": "Kaumpung & Kolektif",
+   "category": "Local goods & workshops",
+   "description": null,
+   "tenantKey": "kaumpung-kolektif",
+   "thumb": "/references/tenants/kaumpung-kolektif/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-31",
+   "unitNumber": "GM-1-31",
+   "name": "Kaumpung & Kolektif",
+   "category": "Local goods & workshops",
+   "description": null,
+   "tenantKey": "kaumpung-kolektif",
+   "thumb": "/references/tenants/kaumpung-kolektif/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-32",
+   "unitNumber": "GM-1-32",
+   "name": "Kaumpung & Kolektif",
+   "category": "Local goods & workshops",
+   "description": null,
+   "tenantKey": "kaumpung-kolektif",
+   "thumb": "/references/tenants/kaumpung-kolektif/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-33",
+   "unitNumber": "GM-1-33",
+   "name": "Akari",
+   "category": "Art toys & collectibles",
+   "description": "A curated selection of designer toys and unusual collectibles for art and toy enthusiasts.",
+   "tenantKey": "akari",
+   "thumb": "/references/tenants/akari/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-33a",
+   "unitNumber": "GM-1-33A",
+   "name": "COFFEE. MATCHA. FOOD.",
+   "category": "Café & dining",
+   "description": "A café recorded in the supplied walkthrough; its business name remains unresolved.",
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-l1-35",
+   "unitNumber": "GM-1-35",
+   "name": "Too Yumm",
+   "category": "Café & dining",
+   "description": "A café bringing together food and drink ideas from Eastern and Western traditions.",
+   "tenantKey": "too-yumm",
+   "thumb": "/references/tenants/too-yumm/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-36",
+   "unitNumber": "GM-1-36",
+   "name": "Too Yumm",
+   "category": "Café & dining",
+   "description": "A café bringing together food and drink ideas from Eastern and Western traditions.",
+   "tenantKey": "too-yumm",
+   "thumb": "/references/tenants/too-yumm/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-37",
+   "unitNumber": "GM-1-37",
+   "name": "Lumi Lumi (Restaurant)",
+   "category": "Café & dining",
+   "description": null,
+   "tenantKey": "lumi-lumi",
+   "thumb": "/references/tenants/lumi-lumi/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-38",
+   "unitNumber": "GM-1-38",
+   "name": "Lumi Lumi (Restaurant)",
+   "category": "Café & dining",
+   "description": null,
+   "tenantKey": "lumi-lumi",
+   "thumb": "/references/tenants/lumi-lumi/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-39",
+   "unitNumber": "GM-1-39",
+   "name": "Lumi Lumi (Restaurant)",
+   "category": "Café & dining",
+   "description": null,
+   "tenantKey": "lumi-lumi",
+   "thumb": "/references/tenants/lumi-lumi/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-40",
+   "unitNumber": "GM-1-40",
+   "name": "Lumi Lumi (Restaurant)",
+   "category": "Café & dining",
+   "description": null,
+   "tenantKey": "lumi-lumi",
+   "thumb": "/references/tenants/lumi-lumi/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-41",
+   "unitNumber": "GM-1-41",
+   "name": "Jiak Kopi",
+   "category": "Café & dining",
+   "description": "Coffee from a local roastery, bringing traditional preparations and contemporary flavours together.",
+   "tenantKey": "jiak-kopi",
+   "thumb": "/references/tenants/jiak-kopi/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-42",
+   "unitNumber": "GM-1-42",
+   "name": "Jiak Kopi",
+   "category": "Café & dining",
+   "description": "Coffee from a local roastery, bringing traditional preparations and contemporary flavours together.",
+   "tenantKey": "jiak-kopi",
+   "thumb": "/references/tenants/jiak-kopi/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-43",
+   "unitNumber": "GM-1-43",
+   "name": "daniellelinart",
+   "category": "Art & illustration",
+   "description": null,
+   "tenantKey": "danielle-lin-art",
+   "thumb": "/references/tenants/danielle-lin-art/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-43a",
+   "unitNumber": "GM-1-43A",
+   "name": "film lab",
+   "category": "Photography",
+   "description": "Photographic film and related displays recorded in the supplied walkthrough. The business identity is unconfirmed.",
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-l1-45",
+   "unitNumber": "GM-1-45",
+   "name": "GMBB Bojen Sam Art & Creativity",
+   "category": "Art & workshops",
+   "description": null,
+   "tenantKey": "bojen-sam-art-creativity",
+   "thumb": "/references/tenants/bojen-sam-art-creativity/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-46",
+   "unitNumber": "GM-1-46",
+   "name": "SUNSNAP Photobooth",
+   "category": "Photobooth",
+   "description": null,
+   "tenantKey": "sunsnap",
+   "thumb": "/references/tenants/sunsnap/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-47",
+   "unitNumber": "GM-1-47",
+   "name": "Hikayat Fandom",
+   "category": "Books & folklore",
+   "description": "A publisher and cultural space sharing Malaysian legends, folklore and storytelling.",
+   "tenantKey": "hikayat-fandom",
+   "thumb": "/references/tenants/hikayat-fandom/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-48",
+   "unitNumber": "GM-1-48",
+   "name": "Liwu",
+   "category": "Handmade gifts",
+   "description": "A curated selection of handmade goods by local artisans, with gift-wrapping services.",
+   "tenantKey": "liwu",
+   "thumb": "/references/tenants/liwu/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-49",
+   "unitNumber": "GM-1-49",
+   "name": "Liwu",
+   "category": "Handmade gifts",
+   "description": "A curated selection of handmade goods by local artisans, with gift-wrapping services.",
+   "tenantKey": "liwu",
+   "thumb": "/references/tenants/liwu/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-50",
+   "unitNumber": "GM-1-50",
+   "name": "The Reunion Collective",
+   "category": "Streetwear & lifestyle",
+   "description": "Clothing, shoes and lifestyle objects, with a mix of new and gently used streetwear.",
+   "tenantKey": "the-reunion-collective",
+   "thumb": "/references/tenants/the-reunion-collective/01.webp"
+  },
+  {
+   "unitId": "gmbb-l1-51",
+   "unitNumber": "GM-1-51",
+   "name": "Too Yumm",
+   "category": "Café & dining",
+   "description": "A café bringing together food and drink ideas from Eastern and Western traditions.",
+   "tenantKey": "too-yumm",
+   "thumb": "/references/tenants/too-yumm/01.webp"
+  }
+ ],
+ "2": [
+  {
+   "unitId": "gmbb-gm-2-1",
+   "unitNumber": "GM-2-1",
+   "name": "Yu Wagashi",
+   "category": "Japanese confectionery",
+   "description": "Handcrafted wagashi that combines traditional Japanese confectionery with local flavours and contemporary ideas.",
+   "tenantKey": "yu-wagashi",
+   "thumb": "/references/tenants/yu-wagashi/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-2",
+   "unitNumber": "GM-2-2",
+   "name": "Yu Wagashi",
+   "category": "Japanese confectionery",
+   "description": "Handcrafted wagashi that combines traditional Japanese confectionery with local flavours and contemporary ideas.",
+   "tenantKey": "yu-wagashi",
+   "thumb": "/references/tenants/yu-wagashi/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-3",
+   "unitNumber": "GM-2-3",
+   "name": "Unit 3",
+   "category": "Details under review",
+   "description": null,
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-3a",
+   "unitNumber": "GM-2-4",
+   "name": "Simply Ant Fixtures",
+   "category": "Furniture & homewares",
+   "description": "Woodworkers creating functional furniture, display fixtures and custom pieces for everyday spaces.",
+   "tenantKey": "simply-ant-fixtures",
+   "thumb": "/references/tenants/simply-ant-fixtures/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-5",
+   "unitNumber": "GM-2-5",
+   "name": "Simply Ant Fixtures",
+   "category": "Furniture & homewares",
+   "description": "Woodworkers creating functional furniture, display fixtures and custom pieces for everyday spaces.",
+   "tenantKey": "simply-ant-fixtures",
+   "thumb": "/references/tenants/simply-ant-fixtures/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-6",
+   "unitNumber": "GM-2-6",
+   "name": "LASPRECIOUS",
+   "category": "Details under review",
+   "description": null,
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-7",
+   "unitNumber": "GM-2-7",
+   "name": "LASPRECIOUS",
+   "category": "Details under review",
+   "description": null,
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-8",
+   "unitNumber": "GM-2-8",
+   "name": "LASPRECIOUS",
+   "category": "Details under review",
+   "description": null,
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-9",
+   "unitNumber": "GM-2-9",
+   "name": "LASPRECIOUS",
+   "category": "Details under review",
+   "description": null,
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-10",
+   "unitNumber": "GM-2-10",
+   "name": "Phrygian Acraft",
+   "category": "Leather & accessories",
+   "description": "Handcrafted leather bags, wallets and accessories, including custom designs and batik-painted leather.",
+   "tenantKey": "phrygian-acraft",
+   "thumb": "/references/tenants/phrygian-acraft/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-11",
+   "unitNumber": "GM-2-11",
+   "name": "Phrygian Acraft",
+   "category": "Leather & accessories",
+   "description": "Handcrafted leather bags, wallets and accessories, including custom designs and batik-painted leather.",
+   "tenantKey": "phrygian-acraft",
+   "thumb": "/references/tenants/phrygian-acraft/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-12",
+   "unitNumber": "GM-2-12",
+   "name": "Asia Ing",
+   "category": "Art & design",
+   "description": "A gallery connecting design and creative work from Shenzhen with Malaysia’s arts community.",
+   "tenantKey": "asia-ing",
+   "thumb": "/references/tenants/asia-ing/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-13",
+   "unitNumber": "GM-2-13",
+   "name": "Asia Ing",
+   "category": "Art & design",
+   "description": "A gallery connecting design and creative work from Shenzhen with Malaysia’s arts community.",
+   "tenantKey": "asia-ing",
+   "thumb": "/references/tenants/asia-ing/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-13a",
+   "unitNumber": "GM-2-14",
+   "name": "BINGIT",
+   "category": "Music & apparel",
+   "description": "Band merchandise and pop-culture clothing from an independent retailer.",
+   "tenantKey": "bingit",
+   "thumb": "/references/tenants/bingit/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-15",
+   "unitNumber": "GM-2-15",
+   "name": "BINGIT",
+   "category": "Music & apparel",
+   "description": "Band merchandise and pop-culture clothing from an independent retailer.",
+   "tenantKey": "bingit",
+   "thumb": "/references/tenants/bingit/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-16",
+   "unitNumber": "GM-2-16",
+   "name": "Temporary use",
+   "category": "Temporary space",
+   "description": "Temporary clothing and art displays recorded during the walkthrough. Current use has not been confirmed.",
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-17",
+   "unitNumber": "GM-2-17",
+   "name": "Temporary use",
+   "category": "Temporary space",
+   "description": "Temporary clothing and art displays recorded during the walkthrough. Current use has not been confirmed.",
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-18",
+   "unitNumber": "GM-2-18",
+   "name": "Play Crafts",
+   "category": "Crafts & workshops",
+   "description": "Craft displays and a workshop area recorded in the supplied walkthrough.",
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-19",
+   "unitNumber": "GM-2-19",
+   "name": "Greenroom136 Store by Gordon Greenroom Trading",
+   "category": "Details under review",
+   "description": null,
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-20",
+   "unitNumber": "GM-2-20",
+   "name": "Gembur Education",
+   "category": "Community & education",
+   "description": "A community enterprise making resources and creating opportunities around neurodiversity.",
+   "tenantKey": "gembur-education",
+   "thumb": "/references/tenants/gembur-education/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-21",
+   "unitNumber": "GM-2-21",
+   "name": "Gembur Education",
+   "category": "Community & education",
+   "description": "A community enterprise making resources and creating opportunities around neurodiversity.",
+   "tenantKey": "gembur-education",
+   "thumb": "/references/tenants/gembur-education/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-22",
+   "unitNumber": "GM-2-22",
+   "name": "Victoria Furniture",
+   "category": "Furniture & homewares",
+   "description": "Homeware displays recorded in the supplied walkthrough.",
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-23",
+   "unitNumber": "GM-2-23",
+   "name": "Bless4Happy",
+   "category": "Jewellery & accessories",
+   "description": "Handmade natural gemstone jewellery, pearls and charms.",
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-23a",
+   "unitNumber": "GM-2-24",
+   "name": "Takeaway Bedding",
+   "category": "Bedding & home",
+   "description": "A Malaysian bedding brand offering mattresses and sleep essentials.",
+   "tenantKey": "takeaway-bedding",
+   "thumb": "/references/tenants/takeaway-bedding/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-25",
+   "unitNumber": "GM-2-25",
+   "name": "Natural Signature",
+   "category": "Furniture & homewares",
+   "description": "A Malaysian furniture brand designing and making solid-wood pieces for the home.",
+   "tenantKey": "natural-signature",
+   "thumb": "/references/tenants/natural-signature/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-26",
+   "unitNumber": "GM-2-26",
+   "name": "Natural Signature",
+   "category": "Furniture & homewares",
+   "description": "A Malaysian furniture brand designing and making solid-wood pieces for the home.",
+   "tenantKey": "natural-signature",
+   "thumb": "/references/tenants/natural-signature/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-27",
+   "unitNumber": "GM-2-27",
+   "name": "Natural Signature",
+   "category": "Furniture & homewares",
+   "description": "A Malaysian furniture brand designing and making solid-wood pieces for the home.",
+   "tenantKey": "natural-signature",
+   "thumb": "/references/tenants/natural-signature/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-28",
+   "unitNumber": "GM-2-28",
+   "name": "lola",
+   "category": "Recorded space",
+   "description": "The supplied tenant label is lola. The recorded photographic displays belong to an earlier fit-out; current business details are unconfirmed.",
+   "tenantKey": "lola",
+   "thumb": "/references/tenants/lola/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-29",
+   "unitNumber": "GM-2-29",
+   "name": "lola",
+   "category": "Recorded space",
+   "description": "The supplied tenant label is lola. The recorded photographic displays belong to an earlier fit-out; current business details are unconfirmed.",
+   "tenantKey": "lola",
+   "thumb": "/references/tenants/lola/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-30",
+   "unitNumber": "GM-2-30",
+   "name": "lola",
+   "category": "Recorded space",
+   "description": "The supplied tenant label is lola. The recorded photographic displays belong to an earlier fit-out; current business details are unconfirmed.",
+   "tenantKey": "lola",
+   "thumb": "/references/tenants/lola/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-31",
+   "unitNumber": "GM-2-31",
+   "name": "The Fluid Box",
+   "category": "Art & workshops",
+   "description": "Beth Teo’s fluid-art studio and gallery, offering creative workshops and art experiences.",
+   "tenantKey": "the-fluid-box",
+   "thumb": "/references/tenants/the-fluid-box/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-32",
+   "unitNumber": "GM-2-32",
+   "name": "The Fluid Box",
+   "category": "Art & workshops",
+   "description": "Beth Teo’s fluid-art studio and gallery, offering creative workshops and art experiences.",
+   "tenantKey": "the-fluid-box",
+   "thumb": "/references/tenants/the-fluid-box/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-33",
+   "unitNumber": "GM-2-33",
+   "name": "The Fluid Box",
+   "category": "Art & workshops",
+   "description": "Beth Teo’s fluid-art studio and gallery, offering creative workshops and art experiences.",
+   "tenantKey": "the-fluid-box",
+   "thumb": "/references/tenants/the-fluid-box/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-33a",
+   "unitNumber": "GM-2-34",
+   "name": "ゆう喫茶",
+   "category": "Café & dining",
+   "description": "A café recorded in the supplied walkthrough. Current business details are unconfirmed.",
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-35",
+   "unitNumber": "GM-2-35",
+   "name": "Yu-kisuku",
+   "category": "Café & dining",
+   "description": "A café recorded in the supplied walkthrough. Current business details are unconfirmed.",
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-36",
+   "unitNumber": "GM-2-36",
+   "name": "Unit 36",
+   "category": "Details under review",
+   "description": null,
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-37",
+   "unitNumber": "GM-2-37",
+   "name": "Summer Galleries",
+   "category": "Art & workshops",
+   "description": "Creative activities including painting, sand-art candles, tufting and personalised craft projects.",
+   "tenantKey": "summer-galleries",
+   "thumb": "/references/tenants/summer-galleries/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-38",
+   "unitNumber": "GM-2-38",
+   "name": "Thirteen Bee Perfume Lab",
+   "category": "Perfume & workshops",
+   "description": "Explore scent combinations and blend a personal fragrance in a perfume-making workshop.",
+   "tenantKey": "thirteen-bee-perfume-lab",
+   "thumb": "/references/tenants/thirteen-bee-perfume-lab/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-39",
+   "unitNumber": "GM-2-39",
+   "name": "THINKING ON BOX",
+   "category": "Art & illustration",
+   "description": "An artist’s studio featuring butterfly-inspired work, original paintings and creative projects.",
+   "tenantKey": "thinking-on-box",
+   "thumb": "/references/tenants/thinking-on-box/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-40",
+   "unitNumber": "GM-2-40",
+   "name": "Bad Bad Store",
+   "category": "Lifestyle & homewares",
+   "description": "A curated mix of handmade pottery, plants and denim clothing.",
+   "tenantKey": "bad-bad-store",
+   "thumb": "/references/tenants/bad-bad-store/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-41",
+   "unitNumber": "GM-2-41",
+   "name": "Bad Bad Store",
+   "category": "Lifestyle & homewares",
+   "description": "A curated mix of handmade pottery, plants and denim clothing.",
+   "tenantKey": "bad-bad-store",
+   "thumb": "/references/tenants/bad-bad-store/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-42",
+   "unitNumber": "GM-2-42",
+   "name": "Juspriceless",
+   "category": "Resin art & workshops",
+   "description": "Handmade resin gifts, home décor and personalised keepsakes, alongside creative workshops.",
+   "tenantKey": "juspriceless",
+   "thumb": "/references/tenants/juspriceless/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-43",
+   "unitNumber": "GM-2-43",
+   "name": "Unit 43",
+   "category": "Details under review",
+   "description": null,
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-43a",
+   "unitNumber": "GM-2-43A",
+   "name": "Unit 43A",
+   "category": "Details under review",
+   "description": null,
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-45",
+   "unitNumber": "GM-2-45",
+   "name": "Shi Terrazzo Atelier",
+   "category": "Terrazzo & workshops",
+   "description": "Handcrafted terrazzo accessories and homewares, with workshops to make your own pieces.",
+   "tenantKey": "shi-terrazzo-atelier",
+   "thumb": "/references/tenants/shi-terrazzo-atelier/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-46",
+   "unitNumber": "GM-2-46",
+   "name": "Unit 46",
+   "category": "Details under review",
+   "description": null,
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-47",
+   "unitNumber": "GM-2-47",
+   "name": "Shi Terrazzo Atelier",
+   "category": "Terrazzo & workshops",
+   "description": "Handcrafted terrazzo accessories and homewares, with workshops to make your own pieces.",
+   "tenantKey": "shi-terrazzo-atelier",
+   "thumb": "/references/tenants/shi-terrazzo-atelier/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-48",
+   "unitNumber": "GM-2-48",
+   "name": "Grim Dreams Studio",
+   "category": "Art & apparel",
+   "description": "Illustration, prints and clothing exploring macabre, gothic and punk-inspired imagery.",
+   "tenantKey": "grim-dreams-studio",
+   "thumb": "/references/tenants/grim-dreams-studio/01.webp"
+  },
+  {
+   "unitId": "gmbb-gm-2-49",
+   "unitNumber": "GM-2-49",
+   "name": "PLAYTEE",
+   "category": "Details under review",
+   "description": null,
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-50",
+   "unitNumber": "GM-2-50",
+   "name": "Unit 50",
+   "category": "Details under review",
+   "description": null,
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-51",
+   "unitNumber": "GM-2-51",
+   "name": "DIY LIPSTICK",
+   "category": "Details under review",
+   "description": null,
+   "tenantKey": null,
+   "thumb": null
+  },
+  {
+   "unitId": "gmbb-gm-2-52",
+   "unitNumber": "GM-2-52",
+   "name": "Lipstick Diary",
+   "category": "Beauty & workshops",
+   "description": "A hands-on studio for creating customised lipstick shades and learning the making process.",
+   "tenantKey": "lipstick-diary",
+   "thumb": "/references/tenants/lipstick-diary/01.webp"
+  }
+ ]
+}

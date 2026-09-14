@@ -1,20 +1,28 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Cherry_Bomb_One, Nunito } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const nunito = Nunito({
+  variable: "--font-body",
   subsets: ["latin"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const cherryBombOne = Cherry_Bomb_One({
+  variable: "--font-display",
+  weight: "400",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  title: "Jalan GMBB",
+  description:
+    "Explore Levels 1 and 2 of GMBB in a detailed 3D cutaway draft, with shop interiors inspired by the supplied walking recordings.",
+  icons: {
+    icon: [{ url: "/seo/icon.png", type: "image/png", sizes: "192x192" }],
+    apple: [{ url: "/seo/apple-icon.png", type: "image/png", sizes: "180x180" }],
+  },
 };
 
 export default function RootLayout({
@@ -23,11 +31,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" className={`${nunito.variable} ${cherryBombOne.variable}`}>
+      <body>{children}</body>
     </html>
   );
 }
