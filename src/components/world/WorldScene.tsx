@@ -1,0 +1,596 @@
+"use client";
+
+import { useEffect, useMemo, useRef } from "react";
+import type { PointerEvent as ReactPointerEvent } from "react";
+import * as THREE from "three";
+import { mergeGeometries } from "three/examples/jsm/utils/BufferGeometryUtils.js";
+import type { ThreeEvent } from "@react-three/fiber";
+import { Html } from "@react-three/drei";
+import { Icon } from "@/components/icons";
+import { getDirectory, getFloorPlan, planToWorld, polygonCentre, WORLD_BACKGROUND } from "@/lib/gmbb";
+import type { FloorId, FloorPlan, FloorUnit, PlanPoint } from "@/types/gmbb";
+
+export interface WorldSceneProps {
+  floor: FloorId;
+  nearbyUnitId: string | null;
+  onSelectUnit: (id: string) => void;
+}
+
+type XZ = [number, number];
+
+const SLAB_DEPTH = 0.35;
+const RIM_OFFSET = 0.4;
+const TILE_THICKNESS = 0.02;
+const WALL_THICKNESS = 0.12;
+const WALL_HEIGHT = 2.2;
+const LIP_HEIGHT = 0.5;
+const CAP_HEIGHT = 0.04;
+const CAP_WIDTH = 0.16;
+
+const COLORS = {
+  slab: "#f5f5f2",
+  rim: "#e0dbd0",
+  tile: "#eeeeea",
+  wall: "#e8eae2",
+  cap: "#f6f1e8",
+  counter: "#d8d8d4",
+  dark: "#303038",
+  atrium: "#cfcfcc",
+  voidFloor: "#fafafa",
+  rail: "#252524",
+  tread: "#bdbcb6",
+} as const;
+
+// ---------------------------------------------------------------------------
+// Geometry helpers (world x/z)
+// ---------------------------------------------------------------------------
+
+function pointInPolygon([x, z]: XZ, poly: XZ[]): boolean {
+  let inside = false;
+  for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+    const [xi, zi] = poly[i];
+    const [xj, zj] = poly[j];
+    if (zi > z !== zj > z && x < ((xj - xi) * (z - zi)) / (zj - zi) + xi) inside = !inside;
+  }
+  return inside;
+}
+
+/** Shape x = world x, shape y = −world z, so rotating −π/2 about X lands points back on (x, z). */
+function shapeFromWorld(points: XZ[]): THREE.Shape {
+  return new THREE.Shape(points.map(([x, z]) => new THREE.Vector2(x, -z)));
+}
+
+/** Extruded flat polygon with its top face at `topY`. */
+function extrudeFlat(points: XZ[], depth: number, topY: number): THREE.BufferGeometry {
+  const geometry = new THREE.ExtrudeGeometry(shapeFromWorld(points), { depth, bevelEnabled: false });
+  geometry.rotateX(-Math.PI / 2);
+  geometry.translate(0, topY - depth, 0);
+  return geometry;
+}
+
+/** Mitred outward offset of a simple polygon. */
+function offsetPolygon(points: XZ[], distance: number): XZ[] {
+  const n = points.length;
+  const normals: XZ[] = points.map((a, i) => {
+    const b = points[(i + 1) % n];
+    const dx = b[0] - a[0];
+    const dz = b[1] - a[1];
+    const len = Math.hypot(dx, dz) || 1;
+    let nx = dz / len;
+    let nz = -dx / len;
+    const mid: XZ = [(a[0] + b[0]) / 2 + nx * 0.01, (a[1] + b[1]) / 2 + nz * 0.01];
+    if (pointInPolygon(mid, points)) {
+      nx = -nx;
+      nz = -nz;
+    }
+    return [nx, nz];
+  });
+  return points.map((p, i) => {
+    const n1 = normals[(i - 1 + n) % n];
+    const n2 = normals[i];
+    let mx = n1[0] + n2[0];
+    let mz = n1[1] + n2[1];
+    const mLen = Math.hypot(mx, mz) || 1;
+    mx /= mLen;
+    mz /= mLen;
+    const cos = Math.max(0.35, mx * n1[0] + mz * n1[1]);
+    return [p[0] + (mx * distance) / cos, p[1] + (mz * distance) / cos];
+  });
+}
+
+/** Axis box from `a` to `b` on the ground, extended past the ends by `extend`. */
+function edgeBox(a: XZ, b: XZ, thickness: number, height: number, baseY: number, extend: number): THREE.BufferGeometry {
+  const dx = b[0] - a[0];
+  const dz = b[1] - a[1];
+  const len = Math.hypot(dx, dz);
+  const geometry = new THREE.BoxGeometry(len + extend, height, thickness);
+  geometry.rotateY(Math.atan2(-dz, dx));
+  geometry.translate((a[0] + b[0]) / 2, baseY + height / 2, (a[1] + b[1]) / 2);
+  return geometry;
+}
+
+function box(w: number, h: number, d: number, x: number, y: number, z: number, rotY = 0): THREE.BufferGeometry {
+  const geometry = new THREE.BoxGeometry(w, h, d);
+  if (rotY) geometry.rotateY(rotY);
+  geometry.translate(x, y, z);
+  return geometry;
+}
+
+function mergeAndDispose(parts: THREE.BufferGeometry[]): THREE.BufferGeometry | null {
+  if (parts.length === 0) return null;
+  const merged = mergeGeometries(parts, false);
+  parts.forEach((part) => part.dispose());
+  return merged;
+}
+
+function hashString(value: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < value.length; i++) {
+    h ^= value.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+function seededRandom(seed: number): () => number {
+  let state = seed || 1;
+  return () => {
+    state = (Math.imul(state, 1664525) + 1013904223) >>> 0;
+    return state / 4294967296;
+  };
+}
+
+const FACING_VECTORS: Record<string, PlanPoint> = {
+  right: [1, 0],
+  left: [-1, 0],
+  down: [0, 1],
+  up: [0, -1],
+};
+
+/** Index of the plan-space edge whose outward normal best matches the unit's shopfront. */
+function frontEdgeIndex(unit: FloorUnit): number {
+  const facing = FACING_VECTORS[unit.frontFacing];
+  if (!facing) return -1;
+  const poly = unit.polygon;
+  const [cx, cy] = polygonCentre(poly);
+  let best = -1;
+  let bestScore = -Infinity;
+  let bestLength = 0;
+  poly.forEach((a, i) => {
+    const b = poly[(i + 1) % poly.length];
+    const dx = b[0] - a[0];
+    const dy = b[1] - a[1];
+    const len = Math.hypot(dx, dy);
+    if (len < 1e-6) return;
+    let nx = dy / len;
+    let ny = -dx / len;
+    if (((a[0] + b[0]) / 2 - cx) * nx + ((a[1] + b[1]) / 2 - cy) * ny < 0) {
+      nx = -nx;
+      ny = -ny;
+    }
+    const score = nx * facing[0] + ny * facing[1];
+    if (score > bestScore + 0.05 || (Math.abs(score - bestScore) <= 0.05 && len > bestLength)) {
+      best = i;
+      bestScore = Math.max(score, bestScore);
+      bestLength = len;
+    }
+  });
+  return best;
+}
+
+// ---------------------------------------------------------------------------
+// Scene geometry build
+// ---------------------------------------------------------------------------
+
+interface AtriumLayout {
+  blocks: { x: number; width: number }[];
+  voidX: number;
+  voidWidth: number;
+  upX: number;
+  downX: number;
+}
+
+interface WorldGeometry {
+  slab: THREE.BufferGeometry;
+  rim: THREE.BufferGeometry;
+  tiles: THREE.BufferGeometry | null;
+  /** Cumulative triangle end index per unit, aligned with `tileUnitIds`. */
+  tileTriangleEnds: number[];
+  tileUnitIds: string[];
+  walls: THREE.BufferGeometry | null;
+  caps: THREE.BufferGeometry | null;
+  counters: THREE.BufferGeometry | null;
+  darkBlocks: THREE.BufferGeometry | null;
+  atriumBlocks: THREE.BufferGeometry | null;
+  voidFloor: THREE.BufferGeometry | null;
+  treads: THREE.BufferGeometry | null;
+  rails: THREE.BufferGeometry | null;
+  atrium: AtriumLayout | null;
+}
+
+const ATRIUM_HALF_DEPTH = 4.5;
+const ATRIUM_BLOCK_WIDTH = 7;
+const ATRIUM_BLOCK_HEIGHT = 3.2;
+const ATRIUM_MARGIN = 0.6;
+const ESCALATOR_RUN = 7;
+const ESCALATOR_RISE = 2.4;
+const ESCALATOR_WIDTH = 1.1;
+
+/** Finds the clear corridor gap around the world origin and lays the atrium out inside it. */
+function layoutAtrium(plan: FloorPlan): AtriumLayout | null {
+  const footprint = plan.footprint.map(planToWorld);
+  const minX = Math.min(...footprint.map((p) => p[0]));
+  const maxX = Math.max(...footprint.map((p) => p[0]));
+
+  const intervals = plan.units
+    .map((unit) => unit.polygon.map(planToWorld))
+    .filter((poly) => {
+      const zs = poly.map((p) => p[1]);
+      return Math.max(...zs) > -ATRIUM_HALF_DEPTH && Math.min(...zs) < ATRIUM_HALF_DEPTH;
+    })
+    .map((poly): XZ => [Math.min(...poly.map((p) => p[0])), Math.max(...poly.map((p) => p[0]))])
+    .sort((a, b) => a[0] - b[0]);
+
+  const gaps: XZ[] = [];
+  let cursor = minX;
+  for (const [start, end] of intervals) {
+    if (start > cursor) gaps.push([cursor, start]);
+    cursor = Math.max(cursor, end);
+  }
+  if (maxX > cursor) gaps.push([cursor, maxX]);
+  if (gaps.length === 0) return null;
+
+  const gap =
+    gaps.find(([a, b]) => a <= 0 && b >= 0) ?? gaps.reduce((best, g) => (g[1] - g[0] > best[1] - best[0] ? g : best));
+  const available = gap[1] - gap[0] - ATRIUM_MARGIN * 2;
+  const blockWidth = Math.min(ATRIUM_BLOCK_WIDTH, (available - 5) / 2);
+  if (blockWidth < 2) return null;
+  const voidWidth = Math.min(available - blockWidth * 2, 8);
+  const centre = (gap[0] + gap[1]) / 2;
+  const half = blockWidth + voidWidth / 2;
+
+  return {
+    blocks: [
+      { x: centre - half + blockWidth / 2, width: blockWidth },
+      { x: centre + half - blockWidth / 2, width: blockWidth },
+    ],
+    voidX: centre,
+    voidWidth,
+    upX: centre + voidWidth / 4,
+    downX: centre - voidWidth / 4,
+  };
+}
+
+function buildEscalator(x: number, treads: THREE.BufferGeometry[], rails: THREE.BufferGeometry[]) {
+  const length = Math.hypot(ESCALATOR_RUN, ESCALATOR_RISE);
+  const angle = Math.atan2(ESCALATOR_RISE, ESCALATOR_RUN);
+  // Rises towards −z; low end sits at z = +RUN/2 on the floor.
+  const sloped = (w: number, h: number, dx: number, lift: number) => {
+    const geometry = new THREE.BoxGeometry(w, h, length);
+    geometry.rotateX(angle);
+    geometry.translate(x + dx, ESCALATOR_RISE / 2 + lift, 0);
+    return geometry;
+  };
+  treads.push(sloped(ESCALATOR_WIDTH, 0.14, 0, 0.07));
+  const side = ESCALATOR_WIDTH / 2 + 0.04;
+  for (const dx of [-side, side]) {
+    rails.push(sloped(0.08, 0.3, dx, 0.12));
+    rails.push(sloped(0.06, 0.06, dx, 1.0));
+    // Newel posts at both ends.
+    rails.push(box(0.06, 1.0, 0.06, x + dx, 0.5, ESCALATOR_RUN / 2));
+    rails.push(box(0.06, 1.0, 0.06, x + dx, ESCALATOR_RISE + 0.5, -ESCALATOR_RUN / 2));
+  }
+}
+
+function buildWorld(plan: FloorPlan): WorldGeometry {
+  const footprint = plan.footprint.map(planToWorld);
+  const slab = extrudeFlat(footprint, SLAB_DEPTH, 0);
+  const rim = extrudeFlat(offsetPolygon(footprint, RIM_OFFSET), SLAB_DEPTH, -0.01);
+
+  const tileParts: THREE.BufferGeometry[] = [];
+  const tileTriangleEnds: number[] = [];
+  const tileUnitIds: string[] = [];
+  let triangleCount = 0;
+
+  const wallEdges = new Map<string, { a: XZ; b: XZ; height: number }>();
+  const counterParts: THREE.BufferGeometry[] = [];
+  const darkParts: THREE.BufferGeometry[] = [];
+
+  for (const unit of plan.units) {
+    const poly = unit.polygon.map(planToWorld);
+
+    const tile = extrudeFlat(poly, TILE_THICKNESS, 0.01 + TILE_THICKNESS);
+    tileParts.push(tile);
+    triangleCount += tile.getAttribute("position").count / 3;
+    tileTriangleEnds.push(triangleCount);
+    tileUnitIds.push(unit.id);
+
+    const front = frontEdgeIndex(unit);
+    poly.forEach((a, i) => {
+      const b = poly[(i + 1) % poly.length];
+      if (Math.hypot(b[0] - a[0], b[1] - a[1]) < 0.05) return;
+      const ka = `${a[0].toFixed(1)},${a[1].toFixed(1)}`;
+      const kb = `${b[0].toFixed(1)},${b[1].toFixed(1)}`;
+      const key = ka < kb ? `${ka}|${kb}` : `${kb}|${ka}`;
+      const height = i === front ? LIP_HEIGHT : WALL_HEIGHT;
+      const existing = wallEdges.get(key);
+      if (!existing || existing.height < height) wallEdges.set(key, { a, b, height });
+    });
+
+    // Deterministic furniture.
+    const random = seededRandom(hashString(unit.id));
+    const xs = poly.map((p) => p[0]);
+    const zs = poly.map((p) => p[1]);
+    const spanX = Math.max(...xs) - Math.min(...xs);
+    const spanZ = Math.max(...zs) - Math.min(...zs);
+    const [ccx, ccz] = planToWorld(polygonCentre(unit.polygon));
+    const place = (halfW: number, halfD: number, spread: number): XZ => {
+      const candidate: XZ = [
+        ccx + (random() - 0.5) * Math.max(0, spanX - 2 * halfW - 1) * spread,
+        ccz + (random() - 0.5) * Math.max(0, spanZ - 2 * halfD - 1) * spread,
+      ];
+      const corners: XZ[] = [
+        [candidate[0] - halfW, candidate[1] - halfD],
+        [candidate[0] + halfW, candidate[1] - halfD],
+        [candidate[0] + halfW, candidate[1] + halfD],
+        [candidate[0] - halfW, candidate[1] + halfD],
+      ];
+      return corners.every((c) => pointInPolygon(c, poly)) ? candidate : [ccx, ccz];
+    };
+
+    const alongX = spanX >= spanZ;
+    const counterW = alongX ? 1.2 : 0.5;
+    const counterD = alongX ? 0.5 : 1.2;
+    const [counterX, counterZ] = place(counterW / 2, counterD / 2, 0.8);
+    counterParts.push(box(counterW, 0.9, counterD, counterX, 0.03 + 0.45, counterZ));
+
+    if (random() < 0.3) {
+      let [darkX, darkZ] = place(0.4, 0.4, 1);
+      const overlaps =
+        Math.abs(darkX - counterX) < 0.4 + counterW / 2 + 0.1 && Math.abs(darkZ - counterZ) < 0.4 + counterD / 2 + 0.1;
+      if (overlaps) {
+        // Push to the far side of the counter along the unit's long axis if that stays inside.
+        const shifted: XZ = alongX ? [darkX, counterZ + (counterZ >= ccz ? -1 : 1) * 1.0] : [counterX + (counterX >= ccx ? -1 : 1) * 1.0, darkZ];
+        const inside = [-0.4, 0.4].every((ox) => [-0.4, 0.4].every((oz) => pointInPolygon([shifted[0] + ox, shifted[1] + oz], poly)));
+        if (!inside) continue;
+        [darkX, darkZ] = shifted;
+      }
+      darkParts.push(box(0.8, 0.7, 0.8, darkX, 0.03 + 0.35, darkZ));
+    }
+  }
+
+  const wallParts: THREE.BufferGeometry[] = [];
+  const capParts: THREE.BufferGeometry[] = [];
+  for (const { a, b, height } of wallEdges.values()) {
+    wallParts.push(edgeBox(a, b, WALL_THICKNESS, height, 0, WALL_THICKNESS));
+    capParts.push(edgeBox(a, b, CAP_WIDTH, CAP_HEIGHT, height, CAP_WIDTH));
+  }
+
+  const atrium = plan.units.length > 0 ? layoutAtrium(plan) : null;
+  const atriumParts: THREE.BufferGeometry[] = [];
+  const treadParts: THREE.BufferGeometry[] = [];
+  const railParts: THREE.BufferGeometry[] = [];
+  let voidFloor: THREE.BufferGeometry | null = null;
+  if (atrium) {
+    for (const block of atrium.blocks) {
+      atriumParts.push(box(block.width, ATRIUM_BLOCK_HEIGHT, ATRIUM_HALF_DEPTH * 2, block.x, ATRIUM_BLOCK_HEIGHT / 2, 0));
+    }
+    voidFloor = box(atrium.voidWidth, 0.02, ATRIUM_HALF_DEPTH * 2, atrium.voidX, 0.02, 0);
+    buildEscalator(atrium.upX, treadParts, railParts);
+    buildEscalator(atrium.downX, treadParts, railParts);
+  }
+
+  return {
+    slab,
+    rim,
+    tiles: mergeAndDispose(tileParts),
+    tileTriangleEnds,
+    tileUnitIds,
+    walls: mergeAndDispose(wallParts),
+    caps: mergeAndDispose(capParts),
+    counters: mergeAndDispose(counterParts),
+    darkBlocks: mergeAndDispose(darkParts),
+    atriumBlocks: mergeAndDispose(atriumParts),
+    voidFloor,
+    treads: mergeAndDispose(treadParts),
+    rails: mergeAndDispose(railParts),
+    atrium,
+  };
+}
+
+function disposeWorld(world: WorldGeometry) {
+  [
+    world.slab,
+    world.rim,
+    world.tiles,
+    world.walls,
+    world.caps,
+    world.counters,
+    world.darkBlocks,
+    world.atriumBlocks,
+    world.voidFloor,
+    world.treads,
+    world.rails,
+  ].forEach((geometry) => geometry?.dispose());
+}
+
+function unitIdForFace(world: WorldGeometry, faceIndex: number | null | undefined): string | null {
+  if (faceIndex === null || faceIndex === undefined) return null;
+  const index = world.tileTriangleEnds.findIndex((end) => faceIndex < end);
+  return index === -1 ? null : world.tileUnitIds[index];
+}
+
+// ---------------------------------------------------------------------------
+// Component
+// ---------------------------------------------------------------------------
+
+const stopPointer = (event: ReactPointerEvent) => event.stopPropagation();
+
+export function WorldScene({ floor, nearbyUnitId, onSelectUnit }: WorldSceneProps) {
+  const plan = useMemo(() => getFloorPlan(floor), [floor]);
+  const world = useMemo(() => buildWorld(plan), [plan]);
+  const directory = useMemo(() => getDirectory(floor), [floor]);
+  const hoveringRef = useRef(false);
+
+  useEffect(() => () => disposeWorld(world), [world]);
+
+  useEffect(
+    () => () => {
+      if (hoveringRef.current) document.body.style.cursor = "";
+      hoveringRef.current = false;
+    },
+    [],
+  );
+
+  const hasUnits = plan.units.length > 0;
+  const nearbyUnit = nearbyUnitId ? plan.units.find((unit) => unit.id === nearbyUnitId) : undefined;
+  const nearbyName = nearbyUnit
+    ? (directory.find((space) => space.unitId === nearbyUnit.id)?.name ?? `Unit ${nearbyUnit.unitNumber}`)
+    : null;
+  const nearbyPosition = nearbyUnit ? planToWorld(nearbyUnit.labelPoint) : null;
+
+  const upLabel = floor === "2" ? "↑ Level 3" : "↑ Level 2";
+  const upAria = floor === "2" ? "Up escalator to Level 3" : "Up escalator to Level 2";
+  const downLabel = floor === "2" ? "↓ Level 1" : "↓ Level G · Coming soon";
+  const downAria = floor === "2" ? "Down escalator to Level 1" : "Down escalator to Level G coming soon";
+
+  const handleTileClick = (event: ThreeEvent<MouseEvent>) => {
+    const id = unitIdForFace(world, event.faceIndex);
+    if (!id) return;
+    event.stopPropagation();
+    onSelectUnit(id);
+  };
+
+  const handleTileOver = (event: ThreeEvent<PointerEvent>) => {
+    event.stopPropagation();
+    hoveringRef.current = true;
+    document.body.style.cursor = "pointer";
+  };
+
+  const handleTileOut = () => {
+    hoveringRef.current = false;
+    document.body.style.cursor = "";
+  };
+
+  return (
+    <group>
+      <ambientLight intensity={1.1} />
+      <hemisphereLight args={["#ffffff", "#8a8d85", 1]} />
+      <directionalLight position={[10, 24, 8]} intensity={2.1} />
+
+      <mesh rotation-x={-Math.PI / 2} position={[0, -0.02, 0]}>
+        <planeGeometry args={[600, 600]} />
+        <meshBasicMaterial color={WORLD_BACKGROUND} />
+      </mesh>
+
+      <mesh geometry={world.rim}>
+        <meshLambertMaterial color={COLORS.rim} />
+      </mesh>
+      <mesh geometry={world.slab}>
+        <meshLambertMaterial color={COLORS.slab} />
+      </mesh>
+
+      {world.tiles && (
+        <mesh geometry={world.tiles} onClick={handleTileClick} onPointerOver={handleTileOver} onPointerOut={handleTileOut}>
+          <meshLambertMaterial color={COLORS.tile} />
+        </mesh>
+      )}
+      {world.walls && (
+        <mesh geometry={world.walls}>
+          <meshLambertMaterial color={COLORS.wall} />
+        </mesh>
+      )}
+      {world.caps && (
+        <mesh geometry={world.caps}>
+          <meshLambertMaterial color={COLORS.cap} />
+        </mesh>
+      )}
+      {world.counters && (
+        <mesh geometry={world.counters}>
+          <meshLambertMaterial color={COLORS.counter} />
+        </mesh>
+      )}
+      {world.darkBlocks && (
+        <mesh geometry={world.darkBlocks}>
+          <meshLambertMaterial color={COLORS.dark} />
+        </mesh>
+      )}
+      {world.atriumBlocks && (
+        <mesh geometry={world.atriumBlocks}>
+          <meshLambertMaterial color={COLORS.atrium} />
+        </mesh>
+      )}
+      {world.voidFloor && (
+        <mesh geometry={world.voidFloor}>
+          <meshLambertMaterial color={COLORS.voidFloor} />
+        </mesh>
+      )}
+      {world.treads && (
+        <mesh geometry={world.treads}>
+          <meshLambertMaterial color={COLORS.tread} />
+        </mesh>
+      )}
+      {world.rails && (
+        <mesh geometry={world.rails}>
+          <meshLambertMaterial color={COLORS.rail} />
+        </mesh>
+      )}
+
+      {world.atrium && (
+        <>
+          <Html
+            center
+            position={[world.atrium.upX + 1.6, 0.9, ESCALATOR_RUN / 2 + 0.6]}
+            zIndexRange={[12, 10]}
+            style={{ pointerEvents: "none" }}
+          >
+            <span className="escalator-direction" aria-label={upAria}>
+              {upLabel}
+            </span>
+          </Html>
+          <Html
+            center
+            position={[world.atrium.downX - 1.6, ESCALATOR_RISE + 0.9, -ESCALATOR_RUN / 2]}
+            zIndexRange={[12, 10]}
+            style={{ pointerEvents: "none" }}
+          >
+            <span className="escalator-direction" aria-label={downAria}>
+              {downLabel}
+            </span>
+          </Html>
+        </>
+      )}
+
+      {!hasUnits && (
+        <Html center position={[0, 1, 0]}>
+          <div className="world-fallback">Explore the upper-floor illustration.</div>
+        </Html>
+      )}
+
+      {nearbyUnit && nearbyName && nearbyPosition && (
+        <Html
+          center
+          position={[nearbyPosition[0], 2.45, nearbyPosition[1]]}
+          wrapperClass="nearby-shop-pill-wrap"
+          zIndexRange={[80, 50]}
+          style={{ pointerEvents: "auto" }}
+        >
+          <button
+            type="button"
+            className="nearby-shop-pill"
+            aria-label={`Open details for ${nearbyName}`}
+            onPointerDown={stopPointer}
+            onPointerUp={stopPointer}
+            onClick={(event) => {
+              event.stopPropagation();
+              onSelectUnit(nearbyUnit.id);
+            }}
+          >
+            <span>{nearbyName}</span>
+            <Icon name="chevronRight" size={14} />
+          </button>
+        </Html>
+      )}
+    </group>
+  );
+}
