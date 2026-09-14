@@ -1,0 +1,1333 @@
+{
+  "level": "L3",
+  "cropSize": [
+    750,
+    650
+  ],
+  "footprint": [
+    [
+      128,
+      100
+    ],
+    [
+      213,
+      98
+    ],
+    [
+      223,
+      143
+    ],
+    [
+      450,
+      140
+    ],
+    [
+      450,
+      207
+    ],
+    [
+      603,
+      207
+    ],
+    [
+      715,
+      205
+    ],
+    [
+      715,
+      378
+    ],
+    [
+      598,
+      381
+    ],
+    [
+      527,
+      378
+    ],
+    [
+      470,
+      375
+    ],
+    [
+      402,
+      383
+    ],
+    [
+      340,
+      393
+    ],
+    [
+      170,
+      400
+    ],
+    [
+      155,
+      385
+    ],
+    [
+      153,
+      352
+    ],
+    [
+      155,
+      262
+    ],
+    [
+      226,
+      262
+    ],
+    [
+      226,
+      240
+    ],
+    [
+      218,
+      226
+    ],
+    [
+      128,
+      197
+    ]
+  ],
+  "landmarks": {
+    "eastCourt": [
+      373,
+      301
+    ],
+    "westCourt": null,
+    "aeon": null,
+    "parkson": null
+  },
+  "corridor": [
+    [
+      252,
+      264
+    ],
+    [
+      262,
+      275
+    ],
+    [
+      278,
+      292
+    ],
+    [
+      300,
+      298
+    ],
+    [
+      338,
+      300
+    ],
+    [
+      373,
+      302
+    ],
+    [
+      408,
+      300
+    ],
+    [
+      440,
+      296
+    ],
+    [
+      480,
+      296
+    ],
+    [
+      520,
+      293
+    ],
+    [
+      560,
+      290
+    ],
+    [
+      585,
+      287
+    ],
+    [
+      595,
+      300
+    ],
+    [
+      595,
+      330
+    ]
+  ],
+  "units": [
+    {
+      "unitNumber": "L3-232A-B",
+      "label": "232A&B",
+      "name": "MAHARAJA KARAOKE",
+      "kind": "anchor",
+      "zone": "east",
+      "polygon": [
+        [
+          128,
+          100
+        ],
+        [
+          213,
+          98
+        ],
+        [
+          239,
+          211
+        ],
+        [
+          239,
+          262
+        ],
+        [
+          226,
+          262
+        ],
+        [
+          226,
+          240
+        ],
+        [
+          218,
+          226
+        ],
+        [
+          128,
+          197
+        ]
+      ],
+      "frontFacing": "right"
+    },
+    {
+      "unitNumber": "L3-2AT-3A",
+      "label": "2AT-3A",
+      "name": "IOI GRAND",
+      "kind": "anchor",
+      "zone": "east",
+      "polygon": [
+        [
+          223,
+          143
+        ],
+        [
+          450,
+          140
+        ],
+        [
+          450,
+          207
+        ],
+        [
+          239,
+          211
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-231",
+      "label": "231",
+      "name": "ROLLERWA",
+      "kind": "anchor",
+      "zone": "east",
+      "polygon": [
+        [
+          155,
+          262
+        ],
+        [
+          250,
+          262
+        ],
+        [
+          258,
+          272
+        ],
+        [
+          258,
+          350
+        ],
+        [
+          153,
+          352
+        ]
+      ],
+      "frontFacing": "right"
+    },
+    {
+      "unitNumber": "L3-229",
+      "label": "229",
+      "name": "BELIEVE FITNESS",
+      "kind": "anchor",
+      "zone": "east",
+      "polygon": [
+        [
+          153,
+          352
+        ],
+        [
+          303,
+          349
+        ],
+        [
+          303,
+          392
+        ],
+        [
+          170,
+          400
+        ],
+        [
+          157,
+          390
+        ]
+      ],
+      "frontFacing": "up"
+    },
+    {
+      "unitNumber": "L3-223-224",
+      "label": "223&224",
+      "name": "FOOD EMPIRE",
+      "kind": "anchor",
+      "zone": "east",
+      "polygon": [
+        [
+          410,
+          328
+        ],
+        [
+          475,
+          327
+        ],
+        [
+          475,
+          343
+        ],
+        [
+          527,
+          343
+        ],
+        [
+          527,
+          378
+        ],
+        [
+          470,
+          375
+        ],
+        [
+          402,
+          383
+        ],
+        [
+          404,
+          350
+        ]
+      ],
+      "frontFacing": "up"
+    },
+    {
+      "unitNumber": "L3-213-215",
+      "label": "213-215",
+      "name": "JJ BANQUET & RESTAURANT",
+      "kind": "anchor",
+      "zone": "east",
+      "polygon": [
+        [
+          527,
+          290
+        ],
+        [
+          585,
+          290
+        ],
+        [
+          585,
+          332
+        ],
+        [
+          598,
+          332
+        ],
+        [
+          598,
+          381
+        ],
+        [
+          527,
+          378
+        ]
+      ],
+      "frontFacing": "up"
+    },
+    {
+      "unitNumber": "L3-2AT-5",
+      "label": "2AT-5",
+      "name": "GSC EAST",
+      "kind": "anchor",
+      "zone": "east",
+      "polygon": [
+        [
+          603,
+          207
+        ],
+        [
+          715,
+          205
+        ],
+        [
+          715,
+          378
+        ],
+        [
+          598,
+          381
+        ],
+        [
+          598,
+          332
+        ],
+        [
+          603,
+          332
+        ]
+      ],
+      "frontFacing": "left"
+    },
+    {
+      "unitNumber": "L3-UNK-1",
+      "label": "?",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          239,
+          212
+        ],
+        [
+          268,
+          212
+        ],
+        [
+          268,
+          242
+        ],
+        [
+          250,
+          262
+        ],
+        [
+          239,
+          262
+        ]
+      ],
+      "frontFacing": "right"
+    },
+    {
+      "unitNumber": "L3-233",
+      "label": "233",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          282,
+          215
+        ],
+        [
+          300,
+          215
+        ],
+        [
+          300,
+          249
+        ],
+        [
+          282,
+          243
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-234",
+      "label": "234",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          300,
+          235
+        ],
+        [
+          319,
+          235
+        ],
+        [
+          319,
+          249
+        ],
+        [
+          300,
+          249
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-235",
+      "label": "235",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          326,
+          215
+        ],
+        [
+          351,
+          215
+        ],
+        [
+          351,
+          251
+        ],
+        [
+          340,
+          257
+        ],
+        [
+          326,
+          250
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-201",
+      "label": "201",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          386,
+          212
+        ],
+        [
+          401,
+          212
+        ],
+        [
+          401,
+          253
+        ],
+        [
+          398,
+          253
+        ],
+        [
+          386,
+          240
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-202",
+      "label": "202",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          401,
+          212
+        ],
+        [
+          419,
+          212
+        ],
+        [
+          419,
+          253
+        ],
+        [
+          401,
+          253
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-203",
+      "label": "203",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          419,
+          212
+        ],
+        [
+          436,
+          212
+        ],
+        [
+          436,
+          253
+        ],
+        [
+          419,
+          253
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-204",
+      "label": "204",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          436,
+          212
+        ],
+        [
+          455,
+          212
+        ],
+        [
+          455,
+          252
+        ],
+        [
+          436,
+          253
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-205-206",
+      "label": "205 & 206",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          455,
+          211
+        ],
+        [
+          480,
+          211
+        ],
+        [
+          480,
+          249
+        ],
+        [
+          455,
+          252
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-207",
+      "label": "207",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          490,
+          224
+        ],
+        [
+          509,
+          223
+        ],
+        [
+          509,
+          248
+        ],
+        [
+          490,
+          247
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-208",
+      "label": "208",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          509,
+          223
+        ],
+        [
+          525,
+          222
+        ],
+        [
+          525,
+          249
+        ],
+        [
+          509,
+          248
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-209",
+      "label": "209",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          525,
+          210
+        ],
+        [
+          543,
+          210
+        ],
+        [
+          543,
+          250
+        ],
+        [
+          525,
+          250
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-210",
+      "label": "210",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          543,
+          210
+        ],
+        [
+          560,
+          210
+        ],
+        [
+          560,
+          250
+        ],
+        [
+          543,
+          250
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-211",
+      "label": "211",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          560,
+          210
+        ],
+        [
+          578,
+          210
+        ],
+        [
+          578,
+          251
+        ],
+        [
+          560,
+          250
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-230",
+      "label": "230",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          262,
+          284
+        ],
+        [
+          280,
+          284
+        ],
+        [
+          282,
+          302
+        ],
+        [
+          262,
+          302
+        ]
+      ],
+      "frontFacing": "right"
+    },
+    {
+      "unitNumber": "L3-227",
+      "label": "227",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          285,
+          300
+        ],
+        [
+          300,
+          300
+        ],
+        [
+          300,
+          316
+        ],
+        [
+          285,
+          316
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-UNK-2",
+      "label": "?",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          300,
+          300
+        ],
+        [
+          327,
+          310
+        ],
+        [
+          327,
+          317
+        ],
+        [
+          300,
+          317
+        ]
+      ],
+      "frontFacing": "right"
+    },
+    {
+      "unitNumber": "L3-228",
+      "label": "228",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          300,
+          318
+        ],
+        [
+          327,
+          318
+        ],
+        [
+          327,
+          345
+        ],
+        [
+          300,
+          345
+        ]
+      ],
+      "frontFacing": "left"
+    },
+    {
+      "unitNumber": "L3-228A",
+      "label": "228A",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          303,
+          349
+        ],
+        [
+          338,
+          348
+        ],
+        [
+          340,
+          392
+        ],
+        [
+          303,
+          392
+        ]
+      ],
+      "frontFacing": "up"
+    },
+    {
+      "unitNumber": "L3-216",
+      "label": "216",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          413,
+          303
+        ],
+        [
+          425,
+          301
+        ],
+        [
+          425,
+          329
+        ],
+        [
+          413,
+          329
+        ]
+      ],
+      "frontFacing": "up"
+    },
+    {
+      "unitNumber": "L3-217",
+      "label": "217",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          425,
+          301
+        ],
+        [
+          437,
+          299
+        ],
+        [
+          437,
+          329
+        ],
+        [
+          425,
+          329
+        ]
+      ],
+      "frontFacing": "up"
+    },
+    {
+      "unitNumber": "L3-218",
+      "label": "218",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          437,
+          299
+        ],
+        [
+          450,
+          298
+        ],
+        [
+          450,
+          329
+        ],
+        [
+          437,
+          329
+        ]
+      ],
+      "frontFacing": "up"
+    },
+    {
+      "unitNumber": "L3-219",
+      "label": "219",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          450,
+          298
+        ],
+        [
+          462,
+          296
+        ],
+        [
+          462,
+          329
+        ],
+        [
+          450,
+          329
+        ]
+      ],
+      "frontFacing": "up"
+    },
+    {
+      "unitNumber": "L3-220",
+      "label": "220",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          462,
+          296
+        ],
+        [
+          475,
+          294
+        ],
+        [
+          475,
+          329
+        ],
+        [
+          462,
+          329
+        ]
+      ],
+      "frontFacing": "up"
+    },
+    {
+      "unitNumber": "L3-225",
+      "label": "225",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          481,
+          291
+        ],
+        [
+          509,
+          291
+        ],
+        [
+          509,
+          306
+        ],
+        [
+          481,
+          306
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-226",
+      "label": "226",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          509,
+          291
+        ],
+        [
+          527,
+          291
+        ],
+        [
+          527,
+          319
+        ],
+        [
+          509,
+          319
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L3-K201",
+      "label": "K201",
+      "name": null,
+      "kind": "kiosk",
+      "zone": "east",
+      "polygon": [
+        [
+          327,
+          279
+        ],
+        [
+          335,
+          279
+        ],
+        [
+          335,
+          287
+        ],
+        [
+          327,
+          287
+        ]
+      ],
+      "frontFacing": "right"
+    },
+    {
+      "unitNumber": "L3-K202",
+      "label": "K202",
+      "name": null,
+      "kind": "kiosk",
+      "zone": "east",
+      "polygon": [
+        [
+          363,
+          342
+        ],
+        [
+          371,
+          342
+        ],
+        [
+          371,
+          350
+        ],
+        [
+          363,
+          350
+        ]
+      ],
+      "frontFacing": "up"
+    },
+    {
+      "unitNumber": "L3-K203",
+      "label": "K203",
+      "name": null,
+      "kind": "kiosk",
+      "zone": "east",
+      "polygon": [
+        [
+          375,
+          341
+        ],
+        [
+          383,
+          341
+        ],
+        [
+          383,
+          349
+        ],
+        [
+          375,
+          349
+        ]
+      ],
+      "frontFacing": "up"
+    },
+    {
+      "unitNumber": "L3-K204",
+      "label": "K204",
+      "name": null,
+      "kind": "kiosk",
+      "zone": "east",
+      "polygon": [
+        [
+          408,
+          278
+        ],
+        [
+          416,
+          278
+        ],
+        [
+          416,
+          286
+        ],
+        [
+          408,
+          286
+        ]
+      ],
+      "frontFacing": "left"
+    },
+    {
+      "unitNumber": "L3-K205",
+      "label": "K205",
+      "name": null,
+      "kind": "kiosk",
+      "zone": "east",
+      "polygon": [
+        [
+          366,
+          253
+        ],
+        [
+          374,
+          253
+        ],
+        [
+          374,
+          261
+        ],
+        [
+          366,
+          261
+        ]
+      ],
+      "frontFacing": "down"
+    }
+  ],
+  "amenities": [
+    {
+      "kind": "lift",
+      "at": [
+        310,
+        222
+      ],
+      "label": null
+    },
+    {
+      "kind": "escalator",
+      "at": [
+        310,
+        270
+      ],
+      "label": null
+    },
+    {
+      "kind": "lift",
+      "at": [
+        271,
+        320
+      ],
+      "label": null
+    },
+    {
+      "kind": "toilet",
+      "at": [
+        273,
+        337
+      ],
+      "label": null
+    },
+    {
+      "kind": "toilet",
+      "at": [
+        291,
+        337
+      ],
+      "label": "Accessible toilet"
+    },
+    {
+      "kind": "escalator",
+      "at": [
+        356,
+        366
+      ],
+      "label": null
+    },
+    {
+      "kind": "escalator",
+      "at": [
+        389,
+        366
+      ],
+      "label": null
+    },
+    {
+      "kind": "escalator",
+      "at": [
+        547,
+        265
+      ],
+      "label": null
+    },
+    {
+      "kind": "lift",
+      "at": [
+        591,
+        216
+      ],
+      "label": null
+    },
+    {
+      "kind": "escalator",
+      "at": [
+        590,
+        236
+      ],
+      "label": "Staircase icon"
+    },
+    {
+      "kind": "lift",
+      "at": [
+        595,
+        316
+      ],
+      "label": null
+    },
+    {
+      "kind": "lift",
+      "at": [
+        486,
+        331
+      ],
+      "label": null
+    },
+    {
+      "kind": "toilet",
+      "at": [
+        503,
+        331
+      ],
+      "label": null
+    },
+    {
+      "kind": "toilet",
+      "at": [
+        518,
+        331
+      ],
+      "label": "Accessible toilet"
+    }
+  ],
+  "notes": "L3 exists only in the East wing; westCourt/aeon/parkson absent. Parking Zone G (grey band x450-712, y135-207) excluded. Coordinates read from 4x-16x gridded zooms of the 750x650 crop, \u00b15-10 px. UNK-1: unlabeled red block (x239-268, y212-262) hanging below IOI Grand's SW corner, separated from it by a thin line; may actually be part of IOI Grand (2AT-3A) or of Maharaja Karaoke. Maharaja polygon includes the narrow red strip (x226-239) that links it to Rollerwa around the pale-background notch. Believe Fitness sublabel is unreadable at source resolution (3 digits at x228-240,y372-379); '229' taken from the brief. The small red box at x285-327,y300-317 prints two labels: '227' (left) and a second one that reads like '229' or '228' (right, traced as UNK-2 '?') - it conflicts with Believe Fitness '229', so one of the two is wrong. The faint divider at x300 splitting that box into two units is a judgement call. 228A: only a label tag is printed at x311-330,y363-378 on the dark Believe Fitness block; its unit boundary (x303-340) is estimated. Red block 201-206: column dividers at x401/419/436/455 approximate; '205 & 206' is the two-line label at the block's east end. Dark block 207-211: 207/208 are the shorter west part (y223-248), 209-211 the taller east part (y210-250); label-to-column mapping is by order. Red block SE of court prints five labels 216 217 218 219 220 (last two may be a single '219 & 220'); dividers approximate. Kiosks are red dots; labels K201 (west of court) and K202/K203 (south) are read from the board, while the north dot (K205) and unlabeled east dot (K204) are assigned by elimination from the K201-K205 series. GSC East / JJ Banquet share the yellow fill; the seam at x~585-598 and JJ's north boundary at y290 are read from a faint line and the lift notch. Corridor west end is a dead-end pocket at ~(252,264); the east end is the lift lobby at (595,316). Amenity kinds: 'escalator' with label 'Staircase icon' marks a stairs symbol."
+}

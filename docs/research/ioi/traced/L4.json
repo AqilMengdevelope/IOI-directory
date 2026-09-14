@@ -1,0 +1,231 @@
+{
+  "level": "L4",
+  "cropSize": [
+    750,
+    650
+  ],
+  "footprint": [
+    [
+      146,
+      94
+    ],
+    [
+      206,
+      92
+    ],
+    [
+      266,
+      90
+    ],
+    [
+      326,
+      89
+    ],
+    [
+      385,
+      87
+    ],
+    [
+      386,
+      163
+    ],
+    [
+      386,
+      238
+    ],
+    [
+      386,
+      313
+    ],
+    [
+      306,
+      313
+    ],
+    [
+      226,
+      314
+    ],
+    [
+      148,
+      314
+    ],
+    [
+      147,
+      204
+    ]
+  ],
+  "landmarks": {
+    "eastCourt": [
+      266,
+      201
+    ],
+    "westCourt": null,
+    "aeon": null,
+    "parkson": null
+  },
+  "corridor": [
+    [
+      155,
+      232
+    ],
+    [
+      180,
+      230
+    ],
+    [
+      205,
+      229
+    ],
+    [
+      230,
+      229
+    ],
+    [
+      255,
+      230
+    ],
+    [
+      280,
+      231
+    ],
+    [
+      305,
+      232
+    ],
+    [
+      330,
+      233
+    ],
+    [
+      355,
+      234
+    ],
+    [
+      380,
+      235
+    ]
+  ],
+  "units": [
+    {
+      "unitNumber": "L4-2AT-10",
+      "label": "2AT-10",
+      "name": "IOI SPORTS CENTRE",
+      "kind": "anchor",
+      "zone": "east",
+      "polygon": [
+        [
+          146,
+          94
+        ],
+        [
+          385,
+          87
+        ],
+        [
+          386,
+          152
+        ],
+        [
+          260,
+          153
+        ],
+        [
+          260,
+          168
+        ],
+        [
+          200,
+          168
+        ],
+        [
+          200,
+          152
+        ],
+        [
+          146,
+          152
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L4-201",
+      "label": "201",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          173,
+          152
+        ],
+        [
+          200,
+          152
+        ],
+        [
+          200,
+          165
+        ],
+        [
+          173,
+          165
+        ]
+      ],
+      "frontFacing": "down"
+    },
+    {
+      "unitNumber": "L4-202",
+      "label": "202",
+      "name": null,
+      "kind": "shop",
+      "zone": "east",
+      "polygon": [
+        [
+          220,
+          169
+        ],
+        [
+          253,
+          169
+        ],
+        [
+          253,
+          184
+        ],
+        [
+          220,
+          184
+        ]
+      ],
+      "frontFacing": "down"
+    }
+  ],
+  "amenities": [
+    {
+      "kind": "toilet",
+      "at": [
+        208,
+        177
+      ],
+      "label": null
+    },
+    {
+      "kind": "lift",
+      "at": [
+        272,
+        176
+      ],
+      "label": null
+    },
+    {
+      "kind": "escalator",
+      "at": [
+        272,
+        194
+      ],
+      "label": "Staircase icon"
+    }
+  ],
+  "notes": "L4 is a single small block in the East wing (x146-386, y87-314): dark IOI Sports Centre strip on top, gold open floor below. eastCourt is ESTIMATED as the centre of the level block (no court is drawn); westCourt/aeon/parkson null. The Sports Centre polygon is the dark region minus the strips holding the inset boxes 201 (x173-200,y152-165) and 202 (x220-253,y169-184) and the lift/stairs column (x260-283,y153-207), so units do not overlap; on the board those boxes are drawn inside the dark fill. The whole dark fill actually extends to y165 at x146-200, y187 at x200-283 and y207 at x260-283. Footprint is a near-rectangle padded to 12 points; corridor is a synthetic straight walkway across the gold floor at y~230 (no walkway is drawn)."
+}
