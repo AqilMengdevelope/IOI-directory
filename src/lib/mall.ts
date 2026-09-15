@@ -92,7 +92,7 @@ export function polygonCentre(points: PlanPoint[]): PlanPoint {
 
 export const ZOOM_MIN = 18;
 export const ZOOM_MAX = 140;
-export const ZOOM_DEFAULT = 30;
+export const ZOOM_DEFAULT = 46;
 export const ZOOM_STEP = 10;
 
 /** Camera offset direction taken from the original explorer's initial camera position [34, 38, 42]. */

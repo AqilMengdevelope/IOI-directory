@@ -216,9 +216,11 @@ interface WorldGeometry {
 
 const ANCHOR_HEIGHT = 3.2;
 const KIOSK_HEIGHT = 1.1;
-const ESCALATOR_RUN = 5;
-const ESCALATOR_RISE = 2.2;
-const ESCALATOR_WIDTH = 1.0;
+const ESCALATOR_RUN = 2.6;
+const ESCALATOR_RISE = 1.4;
+const ESCALATOR_WIDTH = 0.6;
+/** Only the escalator pairs nearest the East Court get ramps; the rest stay as map points. */
+const ESCALATOR_LIMIT = 4;
 
 /** Direction of the corridor centreline at its point nearest `x, z`, as an angle about Y. */
 function corridorAngleAt(corridor: XZ[], x: number, z: number): number {
@@ -365,7 +367,8 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
       const [x, z] = planToWorld(amenity.at);
       return { x, z, angle: corridorAngleAt(corridor, x, z) };
     })
-    .sort((a, b) => Math.hypot(a.x, a.z) - Math.hypot(b.x, b.z));
+    .sort((a, b) => Math.hypot(a.x, a.z) - Math.hypot(b.x, b.z))
+    .slice(0, ESCALATOR_LIMIT);
   const treadParts: THREE.BufferGeometry[] = [];
   const railParts: THREE.BufferGeometry[] = [];
   for (const place of escalators) buildEscalator(place, treadParts, railParts);
