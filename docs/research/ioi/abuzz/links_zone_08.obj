@@ -1,0 +1,42 @@
+# Alias OBJ Model File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+# File units = centimeters
+
+mtllib links_zone_08.mtl
+
+g Mesh1 Group2 Model
+
+v 89116.1 29985.1 2400
+v 91081.1 29985.1 2400
+l 1 2
+
+v 89116.1 31006.1 2400
+l 1 3
+
+v 86851 29985.1 2400
+l 4 1
+
+v 85124.1 29985.1 2400
+l 5 4
+
+v 85124.1 32792.1 2400
+l 5 6
+
+v 86851 31611.6 2400
+l 4 7
+
+v 91081.1 32017.5 2400
+l 2 8
+
+v 91829.4 32017.5 2400
+l 8 9
+
+v 91081.1 33214.1 2400
+l 8 10
+
+v 91829.4 31605.5 2400
+l 9 11
+
+v 92046.1 32017.5 2400
+l 9 12
+
