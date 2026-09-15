@@ -10,13 +10,14 @@ import { Icon } from "@/components/icons";
 import {
   adjacentFloor,
   floorTitle,
+  frontEdgeIndex,
   getDirectory,
   getFloorPlan,
   planToWorld,
   polygonCentre,
   WORLD_BACKGROUND,
 } from "@/lib/mall";
-import type { FloorId, FloorPlan, FloorUnit, PlanPoint } from "@/types/mall";
+import type { FloorId, FloorPlan } from "@/types/mall";
 
 export interface WorldSceneProps {
   floor: FloorId;
@@ -146,44 +147,6 @@ function seededRandom(seed: number): () => number {
     state = (Math.imul(state, 1664525) + 1013904223) >>> 0;
     return state / 4294967296;
   };
-}
-
-const FACING_VECTORS: Record<string, PlanPoint> = {
-  right: [1, 0],
-  left: [-1, 0],
-  down: [0, 1],
-  up: [0, -1],
-};
-
-/** Index of the plan-space edge whose outward normal best matches the unit's shopfront. */
-function frontEdgeIndex(unit: FloorUnit): number {
-  const facing = FACING_VECTORS[unit.frontFacing];
-  if (!facing) return -1;
-  const poly = unit.polygon;
-  const [cx, cy] = polygonCentre(poly);
-  let best = -1;
-  let bestScore = -Infinity;
-  let bestLength = 0;
-  poly.forEach((a, i) => {
-    const b = poly[(i + 1) % poly.length];
-    const dx = b[0] - a[0];
-    const dy = b[1] - a[1];
-    const len = Math.hypot(dx, dy);
-    if (len < 1e-6) return;
-    let nx = dy / len;
-    let ny = -dx / len;
-    if (((a[0] + b[0]) / 2 - cx) * nx + ((a[1] + b[1]) / 2 - cy) * ny < 0) {
-      nx = -nx;
-      ny = -ny;
-    }
-    const score = nx * facing[0] + ny * facing[1];
-    if (score > bestScore + 0.05 || (Math.abs(score - bestScore) <= 0.05 && len > bestLength)) {
-      best = i;
-      bestScore = Math.max(score, bestScore);
-      bestLength = len;
-    }
-  });
-  return best;
 }
 
 // ---------------------------------------------------------------------------

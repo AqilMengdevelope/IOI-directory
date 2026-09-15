@@ -6,6 +6,7 @@ import type {
   FloorId,
   FloorMeta,
   FloorPlan,
+  FloorUnit,
   PlanPoint,
   TenantReference,
 } from "@/types/mall";
@@ -88,6 +89,79 @@ export function spawnPoint(id: FloorId): [number, number] {
 export function polygonCentre(points: PlanPoint[]): PlanPoint {
   const sum = points.reduce<PlanPoint>((acc, [x, y]) => [acc[0] + x, acc[1] + y], [0, 0]);
   return [sum[0] / points.length, sum[1] / points.length];
+}
+
+const FACING_VECTORS: Record<string, PlanPoint> = {
+  right: [1, 0],
+  left: [-1, 0],
+  down: [0, 1],
+  up: [0, -1],
+};
+
+/** Index of the plan-space edge whose outward normal best matches the unit's shopfront, or -1. */
+export function frontEdgeIndex(unit: FloorUnit): number {
+  const facing = FACING_VECTORS[unit.frontFacing];
+  if (!facing) return -1;
+  const poly = unit.polygon;
+  const [cx, cy] = polygonCentre(poly);
+  let best = -1;
+  let bestScore = -Infinity;
+  let bestLength = 0;
+  poly.forEach((a, i) => {
+    const b = poly[(i + 1) % poly.length];
+    const dx = b[0] - a[0];
+    const dy = b[1] - a[1];
+    const len = Math.hypot(dx, dy);
+    if (len < 1e-6) return;
+    let nx = dy / len;
+    let ny = -dx / len;
+    if (((a[0] + b[0]) / 2 - cx) * nx + ((a[1] + b[1]) / 2 - cy) * ny < 0) {
+      nx = -nx;
+      ny = -ny;
+    }
+    const score = nx * facing[0] + ny * facing[1];
+    if (score > bestScore + 0.05 || (Math.abs(score - bestScore) <= 0.05 && len > bestLength)) {
+      best = i;
+      bestScore = Math.max(score, bestScore);
+      bestLength = len;
+    }
+  });
+  return best;
+}
+
+/** A solid wall in world space, from `a` to `b` on the ground. */
+export interface WallSegment {
+  a: [number, number];
+  b: [number, number];
+}
+
+/**
+ * Every wall the character cannot pass: all unit edges except each shop's open front, plus the floor
+ * outline. Anchors are closed on every side; kiosks are low but still solid. Shared edges appear once.
+ */
+export function getWallSegments(id: FloorId): WallSegment[] {
+  const plan = getFloorPlan(id);
+  const walls = new Map<string, WallSegment>();
+  const key = (p: [number, number]) => `${p[0].toFixed(2)},${p[1].toFixed(2)}`;
+  const add = (a: [number, number], b: [number, number], solid: boolean) => {
+    const ka = key(a);
+    const kb = key(b);
+    const k = ka < kb ? `${ka}|${kb}` : `${kb}|${ka}`;
+    // A closed wall wins over an open front on a shared edge.
+    if (solid) walls.set(k, { a, b });
+    else if (!walls.has(k)) walls.set(k, { a, b });
+  };
+  for (const unit of plan.units) {
+    const poly = unit.polygon.map(planToWorld);
+    const front = unit.kind === "shop" ? frontEdgeIndex(unit) : -1;
+    poly.forEach((a, i) => {
+      if (i === front) return;
+      add(a, poly[(i + 1) % poly.length], true);
+    });
+  }
+  const outline = plan.footprint.map(planToWorld);
+  outline.forEach((a, i) => add(a, outline[(i + 1) % outline.length], true));
+  return [...walls.values()];
 }
 
 export const ZOOM_MIN = 18;

@@ -1,0 +1,692 @@
+[
+ {
+  "name": "AEON",
+  "lot": "2AT1-2",
+  "category": "Anchor"
+ },
+ {
+  "name": "MAJUHOME CONCEPT",
+  "lot": "LG-222A",
+  "category": "Anchor"
+ },
+ {
+  "name": "PARKSON",
+  "lot": "AT-3",
+  "category": "Anchor"
+ },
+ {
+  "name": "PROTON PREMIUM OUTLET",
+  "lot": "2AT-8",
+  "category": "Anchor"
+ },
+ {
+  "name": "ADLV (Acmé de la vie)",
+  "lot": "G-229B",
+  "category": "Fashion"
+ },
+ {
+  "name": "CHAMPION",
+  "lot": "LG-21A",
+  "category": "Fashion"
+ },
+ {
+  "name": "COTTON ON",
+  "lot": "L1-241B",
+  "category": "Fashion"
+ },
+ {
+  "name": "GIORDANO",
+  "lot": "LG-102",
+  "category": "Fashion"
+ },
+ {
+  "name": "MACHINO",
+  "lot": "L1-236",
+  "category": "Fashion"
+ },
+ {
+  "name": "MLB",
+  "lot": "G239B-2",
+  "category": "Fashion"
+ },
+ {
+  "name": "MST GOLF",
+  "lot": "L1-241A",
+  "category": "Fashion"
+ },
+ {
+  "name": "NEW ERA",
+  "lot": "G-37",
+  "category": "Fashion"
+ },
+ {
+  "name": "SMART MASTER",
+  "lot": "L1-242",
+  "category": "Fashion"
+ },
+ {
+  "name": "VOIR",
+  "lot": "LG-04",
+  "category": "Fashion"
+ },
+ {
+  "name": "LOVELY LACE,LOVELY LACE BABY",
+  "lot": "L162A-2",
+  "category": "Children & Maternity"
+ },
+ {
+  "name": "MOMMY HANA",
+  "lot": "S-K19B",
+  "category": "Children & Maternity"
+ },
+ {
+  "name": "ARCH LAB",
+  "lot": "B1-3",
+  "category": "Footwear, Bags & Accessories"
+ },
+ {
+  "name": "ATTIC",
+  "lot": "L2-23",
+  "category": "Footwear, Bags & Accessories"
+ },
+ {
+  "name": "CHIC CHIC",
+  "lot": "L1-18",
+  "category": "Footwear, Bags & Accessories"
+ },
+ {
+  "name": "CONVERSE",
+  "lot": "LG-101A",
+  "category": "Footwear, Bags & Accessories"
+ },
+ {
+  "name": "JD SPORTS",
+  "lot": "G-239A",
+  "category": "Footwear, Bags & Accessories"
+ },
+ {
+  "name": "KIPLING",
+  "lot": "G-79B",
+  "category": "Footwear, Bags & Accessories"
+ },
+ {
+  "name": "LOVISA",
+  "lot": "G-53B",
+  "category": "Footwear, Bags & Accessories"
+ },
+ {
+  "name": "MELISSA CLUBE",
+  "lot": "G-226B",
+  "category": "Footwear, Bags & Accessories"
+ },
+ {
+  "name": "NEW BALANCE",
+  "lot": "LG12A-2",
+  "category": "Footwear, Bags & Accessories"
+ },
+ {
+  "name": "RUNNING LAB",
+  "lot": "L1-07",
+  "category": "Footwear, Bags & Accessories"
+ },
+ {
+  "name": "10GRAM",
+  "lot": "LG-78F",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "AWAGYU YAKINIKU",
+  "lot": "GE-216 & GE-ES-216",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "All About Chew",
+  "lot": "LG-K219",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "Ayam Gepuk Hut",
+  "lot": "LG-78E",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "BANGLO 289",
+  "lot": "LG-78G",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "BERYL'S",
+  "lot": "LG-41B",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "BING CHUN",
+  "lot": "B3-K01",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "BOAT NOODLE",
+  "lot": "L219A-2",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "BOOST JUICE BAR",
+  "lot": "S-K4",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "CHEZ CHOUX",
+  "lot": "LG-K5G",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "CHURROS+",
+  "lot": "LG-66A",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "CINNABON",
+  "lot": "LG-K215",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "Crème De La Crème - CDLC",
+  "lot": "LG-K219",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "DAVE'S DELI",
+  "lot": "LG-85",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "DIMSUSU",
+  "lot": "LG78B-2",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "DOLLY DIM SUM",
+  "lot": "LG-82B",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "FAMOUS AMOS",
+  "lot": "LG-K25",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "GIGI COFFEE",
+  "lot": "LG - K5H",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "Garrett Popcorn",
+  "lot": "LG-K26",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "ICHIBAN RAMEN",
+  "lot": "LG-80C",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "JARDIN COFFEE",
+  "lot": "G-K6",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "JOYMOM'S",
+  "lot": "LG-C19-K",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "K GARDEN KOREAN BBQ",
+  "lot": "FE205-3",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "KEE NGUYEN",
+  "lot": "LG-C30-K",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "KENNY ROGERS ROASTERS",
+  "lot": "LG-70",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "KOONG WOH TONG",
+  "lot": "LG-89B",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "Korea Cotton Candy",
+  "lot": "LG-C13-K",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "MARRYBROWN",
+  "lot": "L114C-2",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "MBG FRUITSHOP",
+  "lot": "LGK16-4",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "MELTKIES",
+  "lot": "LG-C23",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "Maison La Manne",
+  "lot": "LG-K8A",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "PENANG ROAD FAMOUS TEOCHEW CHENDUL",
+  "lot": "LG-68",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "POTATO CORNER",
+  "lot": "LG-K222",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "QCC Baked",
+  "lot": "S-K8",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "RAKUZEN",
+  "lot": "FE201-3",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "ROYCE'",
+  "lot": "LG-K29",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "SHIHLIN TAIWAN STREET SNACKS",
+  "lot": "LG-66B",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "SOPOONG",
+  "lot": "L2-D21-R2",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "SOYALAH",
+  "lot": "F-K20",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "STRUDEL BAKERY HOUSE",
+  "lot": "LGC20BK",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "TERRACE CAFE",
+  "lot": "B3-11",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "THONG CHA PLUS",
+  "lot": "S-K09",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "Talad Thai",
+  "lot": "LG-76A",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "VANILLA CAFE EXPRESS",
+  "lot": "LG-K9B",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "YOGURT FACTORY",
+  "lot": "S-K07",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "YOLE",
+  "lot": "LG-80D",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "Yonny",
+  "lot": "LG-31B",
+  "category": "Food & Beverage"
+ },
+ {
+  "name": "20dB HEARING",
+  "lot": "L2-236C",
+  "category": "Health & Beauty"
+ },
+ {
+  "name": "ASTERSPRING",
+  "lot": "L2-55",
+  "category": "Health & Beauty"
+ },
+ {
+  "name": "CHLOE",
+  "lot": "G-K3",
+  "category": "Health & Beauty"
+ },
+ {
+  "name": "DR CHONG CLINIC",
+  "lot": "L2-57",
+  "category": "Health & Beauty"
+ },
+ {
+  "name": "ESTEE LAUDER",
+  "lot": "G-K2A",
+  "category": "Health & Beauty"
+ },
+ {
+  "name": "FRESH",
+  "lot": "GF Centre",
+  "category": "Health & Beauty"
+ },
+ {
+  "name": "HUUK BARBERSHOP",
+  "lot": "L2-235",
+  "category": "Health & Beauty"
+ },
+ {
+  "name": "KIEHL'S",
+  "lot": "G52B-2",
+  "category": "Health & Beauty"
+ },
+ {
+  "name": "KLINIK DR.LO (SKIN, LASER, AESTHETIC)",
+  "lot": "L2-53",
+  "category": "Health & Beauty"
+ },
+ {
+  "name": "LANEIGE",
+  "lot": "G-09A",
+  "category": "Health & Beauty"
+ },
+ {
+  "name": "LELAS",
+  "lot": "F-K6",
+  "category": "Health & Beauty"
+ },
+ {
+  "name": "RITUALS",
+  "lot": "G-78",
+  "category": "Health & Beauty"
+ },
+ {
+  "name": "THE BODY SHOP",
+  "lot": "G-52A",
+  "category": "Health & Beauty"
+ },
+ {
+  "name": "hygr",
+  "lot": "LG-K32",
+  "category": "Health & Beauty"
+ },
+ {
+  "name": "CHOW TAI FOOK",
+  "lot": "G-223",
+  "category": "Timepiece & Jewellery"
+ },
+ {
+  "name": "DANIEL WELLINGTON",
+  "lot": "LG-K31",
+  "category": "Timepiece & Jewellery"
+ },
+ {
+  "name": "SUUNTO",
+  "lot": "LG-K34",
+  "category": "Timepiece & Jewellery"
+ },
+ {
+  "name": "TIMEKEEPER",
+  "lot": "G-74A",
+  "category": "Timepiece & Jewellery"
+ },
+ {
+  "name": "TISSOT",
+  "lot": "G-74B",
+  "category": "Timepiece & Jewellery"
+ },
+ {
+  "name": "TOMEI (KIOSK)",
+  "lot": "LG-K30",
+  "category": "Timepiece & Jewellery"
+ },
+ {
+  "name": "OPTICAL 88",
+  "lot": "LG 17B",
+  "category": "Optical & Eyewear"
+ },
+ {
+  "name": "SEEN",
+  "lot": "G-73B",
+  "category": "Optical & Eyewear"
+ },
+ {
+  "name": "INSTA 360",
+  "lot": "S-K1A",
+  "category": "Digital Lifestyle"
+ },
+ {
+  "name": "MAXIS",
+  "lot": "L2-42, LG-K9A",
+  "category": "Digital Lifestyle"
+ },
+ {
+  "name": "SAMSUNG",
+  "lot": "L2-40&41",
+  "category": "Digital Lifestyle"
+ },
+ {
+  "name": "SKINARMA",
+  "lot": "S-K18",
+  "category": "Digital Lifestyle"
+ },
+ {
+  "name": "Shokz",
+  "lot": "S-K11",
+  "category": "Digital Lifestyle"
+ },
+ {
+  "name": "TELSTAR",
+  "lot": "L261A-2",
+  "category": "Digital Lifestyle"
+ },
+ {
+  "name": "VIVO",
+  "lot": "S-K1B",
+  "category": "Digital Lifestyle"
+ },
+ {
+  "name": "YES 5G EXPERIENCE STORE",
+  "lot": "L3-222",
+  "category": "Digital Lifestyle"
+ },
+ {
+  "name": "ZTE | NUBIA",
+  "lot": "S-K17",
+  "category": "Digital Lifestyle"
+ },
+ {
+  "name": "BOXHUNT",
+  "lot": "L3-221",
+  "category": "Toys/Hobbies/Games/Pets"
+ },
+ {
+  "name": "MISSION WORLD",
+  "lot": "L2-D21-R6",
+  "category": "Toys/Hobbies/Games/Pets"
+ },
+ {
+  "name": "MR TOY",
+  "lot": "L2 - 54",
+  "category": "Toys/Hobbies/Games/Pets"
+ },
+ {
+  "name": "POP MART",
+  "lot": "L2-227A",
+  "category": "Toys/Hobbies/Games/Pets"
+ },
+ {
+  "name": "DISTRICT 21",
+  "lot": "AT-6",
+  "category": "Entertainment"
+ },
+ {
+  "name": "ICESCAPE ICE RINK",
+  "lot": "AT-4",
+  "category": "Entertainment"
+ },
+ {
+  "name": "KIDDYTOPIA",
+  "lot": "L2-235",
+  "category": "Entertainment"
+ },
+ {
+  "name": "KIDDYTOPIA KIDDYRIDE",
+  "lot": "S-K19A",
+  "category": "Entertainment"
+ },
+ {
+  "name": "MAHARAJA KARAOKE",
+  "lot": "L3- 232A & 232B",
+  "category": "Entertainment"
+ },
+ {
+  "name": "Play United",
+  "lot": "L2-22 & L2-ES-22",
+  "category": "Entertainment"
+ },
+ {
+  "name": "MOLLY FANTASY, KIDZOOONA",
+  "lot": "L114A-2",
+  "category": "Edutainment"
+ },
+ {
+  "name": "BOOKS FOR A BETTER WORLD (BFBW)",
+  "lot": "B3-8",
+  "category": "Books & Magazine"
+ },
+ {
+  "name": "AEON CREDIT SERVICE",
+  "lot": "L3-226A",
+  "category": "Services"
+ },
+ {
+  "name": "AMBANK ATM",
+  "lot": "LG (West Wing)",
+  "category": "Services"
+ },
+ {
+  "name": "BANK ISLAM ATM",
+  "lot": "G (West Wing)",
+  "category": "Services"
+ },
+ {
+  "name": "BARGAIN BASEMENT",
+  "lot": "B3-10",
+  "category": "Services"
+ },
+ {
+  "name": "BLOOD DONATION SUITE",
+  "lot": "B36-2",
+  "category": "Services"
+ },
+ {
+  "name": "CARS INTERNATIONAL",
+  "lot": "B2-1",
+  "category": "Services"
+ },
+ {
+  "name": "CELCOMDIGI (KIOSK)",
+  "lot": "S-K18",
+  "category": "Services"
+ },
+ {
+  "name": "CIMB ATM",
+  "lot": "G (West Wing) & L1 (Centre Court)",
+  "category": "Services"
+ },
+ {
+  "name": "HSBC AMANAH ATM",
+  "lot": "LG (West Wing)",
+  "category": "Services"
+ },
+ {
+  "name": "JAGS MONEY",
+  "lot": "LG-252A",
+  "category": "Services"
+ },
+ {
+  "name": "MAYBANK ATM",
+  "lot": "L1L2-2",
+  "category": "Services"
+ },
+ {
+  "name": "MEPS ATM",
+  "lot": "LG (West Wing)",
+  "category": "Services"
+ },
+ {
+  "name": "MONEY CHANGER ASIA EXCHANGE",
+  "lot": "LG-34B",
+  "category": "Services"
+ },
+ {
+  "name": "PROTON E.MAS",
+  "lot": "G-218 & 219",
+  "category": "Services"
+ },
+ {
+  "name": "PUBLIC BANK ATM",
+  "lot": "LG (West Wing)",
+  "category": "Services"
+ },
+ {
+  "name": "SMART BARBERS",
+  "lot": "B1-02",
+  "category": "Services"
+ },
+ {
+  "name": "STANDARD CHARTERED ATM",
+  "lot": "G (West Wing)",
+  "category": "Services"
+ },
+ {
+  "name": "ECO PLUS",
+  "lot": "L2-51&52",
+  "category": "Home & Living"
+ },
+ {
+  "name": "KAISON",
+  "lot": "L2-221A&B",
+  "category": "Home & Living"
+ },
+ {
+  "name": "Nateskin",
+  "lot": "S-K10",
+  "category": "Home & Living"
+ },
+ {
+  "name": "PATCHI",
+  "lot": "G-48A",
+  "category": "Gifts & Souvenirs"
+ },
+ {
+  "name": "BUNGAA BY GIFT ETC",
+  "lot": "LG-280",
+  "category": "Florist"
+ }
+]

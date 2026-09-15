@@ -4,7 +4,7 @@
    "unitId": "ioi-1-at-3",
    "unitNumber": "L1-AT-3",
    "name": "Parkson",
-   "category": "Department store",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -12,8 +12,8 @@
   {
    "unitId": "ioi-1-72",
    "unitNumber": "L1-72",
-   "name": "Unit 72",
-   "category": "Details under review",
+   "name": "Oiso",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -21,8 +21,8 @@
   {
    "unitId": "ioi-1-68-69-70",
    "unitNumber": "L1-68-69-70",
-   "name": "Unit 68,69 & 70",
-   "category": "Details under review",
+   "name": "Mr D.i.y.",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -30,8 +30,8 @@
   {
    "unitId": "ioi-1-67",
    "unitNumber": "L1-67",
-   "name": "Unit 67",
-   "category": "Details under review",
+   "name": "Milano Eyes Fashion",
+   "category": "Optical & eyewear",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -39,8 +39,8 @@
   {
    "unitId": "ioi-1-66",
    "unitNumber": "L1-66",
-   "name": "Unit 66",
-   "category": "Details under review",
+   "name": "G-Shock Casio",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -48,8 +48,8 @@
   {
    "unitId": "ioi-1-65",
    "unitNumber": "L1-65",
-   "name": "Unit 65",
-   "category": "Details under review",
+   "name": "Fipper",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -57,8 +57,8 @@
   {
    "unitId": "ioi-1-64",
    "unitNumber": "L1-64",
-   "name": "Unit 64",
-   "category": "Details under review",
+   "name": "Xixili",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -67,7 +67,7 @@
    "unitId": "ioi-1-63",
    "unitNumber": "L1-63",
    "name": "Toysrus",
-   "category": "Toys",
+   "category": "Toys, hobbies & pets",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -84,8 +84,8 @@
   {
    "unitId": "ioi-1-58",
    "unitNumber": "L1-58",
-   "name": "Unit 58",
-   "category": "Details under review",
+   "name": "30 Degrees",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -93,8 +93,8 @@
   {
    "unitId": "ioi-1-59",
    "unitNumber": "L1-59",
-   "name": "Unit 59",
-   "category": "Details under review",
+   "name": "Young Hearts",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -102,8 +102,8 @@
   {
    "unitId": "ioi-1-60",
    "unitNumber": "L1-60",
-   "name": "Unit 60",
-   "category": "Details under review",
+   "name": "Kashkha",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -111,8 +111,8 @@
   {
    "unitId": "ioi-1-61",
    "unitNumber": "L1-61",
-   "name": "Unit 61",
-   "category": "Details under review",
+   "name": "Wacoal",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -138,8 +138,8 @@
   {
    "unitId": "ioi-1-57",
    "unitNumber": "L1-57",
-   "name": "Unit 57",
-   "category": "Details under review",
+   "name": "Mamaway",
+   "category": "Children & maternity",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -148,7 +148,7 @@
    "unitId": "ioi-1-55",
    "unitNumber": "L1-55",
    "name": "Baby Shop",
-   "category": "Baby & kids",
+   "category": "Children & maternity",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -174,8 +174,8 @@
   {
    "unitId": "ioi-1-51",
    "unitNumber": "L1-51",
-   "name": "Unit 51",
-   "category": "Details under review",
+   "name": "Anakku",
+   "category": "Children & maternity",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -183,8 +183,8 @@
   {
    "unitId": "ioi-1-50",
    "unitNumber": "L1-50",
-   "name": "Unit 50",
-   "category": "Details under review",
+   "name": "Felancy",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -192,8 +192,8 @@
   {
    "unitId": "ioi-1-49",
    "unitNumber": "L1-49",
-   "name": "Unit 49",
-   "category": "Details under review",
+   "name": "Chicco",
+   "category": "Children & maternity",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -201,8 +201,8 @@
   {
    "unitId": "ioi-1-47",
    "unitNumber": "L1-47",
-   "name": "Unit 47",
-   "category": "Details under review",
+   "name": "The Nail Parlour Waxalon",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -210,8 +210,8 @@
   {
    "unitId": "ioi-1-45-46",
    "unitNumber": "L1-45-46",
-   "name": "Unit 45&46",
-   "category": "Details under review",
+   "name": "Mothercare",
+   "category": "Children & maternity",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -219,8 +219,8 @@
   {
    "unitId": "ioi-1-44",
    "unitNumber": "L1-44",
-   "name": "Unit 44",
-   "category": "Details under review",
+   "name": "9 months",
+   "category": "Children & maternity",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -228,8 +228,8 @@
   {
    "unitId": "ioi-1-43",
    "unitNumber": "L1-43",
-   "name": "Unit 43",
-   "category": "Details under review",
+   "name": "Ameera Zaini",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -237,8 +237,8 @@
   {
    "unitId": "ioi-1-42",
    "unitNumber": "L1-42",
-   "name": "Unit 42",
-   "category": "Details under review",
+   "name": "Tudungruffle",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -246,8 +246,8 @@
   {
    "unitId": "ioi-1-41",
    "unitNumber": "L1-41",
-   "name": "Unit 41",
-   "category": "Details under review",
+   "name": "Hair Equation",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -256,7 +256,7 @@
    "unitId": "ioi-1-37-40",
    "unitNumber": "L1-37-40",
    "name": "La Gaya",
-   "category": "Fashion",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -273,8 +273,8 @@
   {
    "unitId": "ioi-1-73b",
    "unitNumber": "L1-73B",
-   "name": "Unit 73B",
-   "category": "Details under review",
+   "name": "Jewel Cafe",
+   "category": "Services",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -282,8 +282,8 @@
   {
    "unitId": "ioi-1-74",
    "unitNumber": "L1-74",
-   "name": "Unit 74",
-   "category": "Details under review",
+   "name": "Zora Designers",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -291,8 +291,8 @@
   {
    "unitId": "ioi-1-75",
    "unitNumber": "L1-75",
-   "name": "Unit 75",
-   "category": "Details under review",
+   "name": "Bokitta",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -309,8 +309,8 @@
   {
    "unitId": "ioi-1-1",
    "unitNumber": "L1-1",
-   "name": "Unit 1",
-   "category": "Details under review",
+   "name": "Mog Boutique",
+   "category": "Optical & eyewear",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -336,8 +336,8 @@
   {
    "unitId": "ioi-1-4",
    "unitNumber": "L1-4",
-   "name": "Unit 4",
-   "category": "Details under review",
+   "name": "G2000",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -345,8 +345,8 @@
   {
    "unitId": "ioi-1-5",
    "unitNumber": "L1-5",
-   "name": "Unit 5",
-   "category": "Details under review",
+   "name": "A-Look Eyewear",
+   "category": "Optical & eyewear",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -354,8 +354,8 @@
   {
    "unitId": "ioi-1-6",
    "unitNumber": "L1-6",
-   "name": "Unit 6",
-   "category": "Details under review",
+   "name": "Gintell",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -372,8 +372,8 @@
   {
    "unitId": "ioi-1-8",
    "unitNumber": "L1-8",
-   "name": "Unit 8",
-   "category": "Details under review",
+   "name": "Universal Traveller",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -381,8 +381,8 @@
   {
    "unitId": "ioi-1-9",
    "unitNumber": "L1-9",
-   "name": "Unit 9",
-   "category": "Details under review",
+   "name": "Dr. Cardin",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -390,8 +390,8 @@
   {
    "unitId": "ioi-1-10a",
    "unitNumber": "L1-10A",
-   "name": "Unit 10A",
-   "category": "Details under review",
+   "name": "The Face Shop",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -399,8 +399,8 @@
   {
    "unitId": "ioi-1-10b",
    "unitNumber": "L1-10B",
-   "name": "Unit 10B",
-   "category": "Details under review",
+   "name": "Zirconia",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -408,8 +408,8 @@
   {
    "unitId": "ioi-1-11a",
    "unitNumber": "L1-11A",
-   "name": "Unit 11A",
-   "category": "Details under review",
+   "name": "Audrey",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -417,8 +417,8 @@
   {
    "unitId": "ioi-1-11b",
    "unitNumber": "L1-11B",
-   "name": "Unit 11B",
-   "category": "Details under review",
+   "name": "Lady.k",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -426,8 +426,8 @@
   {
    "unitId": "ioi-1-11c",
    "unitNumber": "L1-11C",
-   "name": "Unit 11C",
-   "category": "Details under review",
+   "name": "Poplook",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -435,8 +435,8 @@
   {
    "unitId": "ioi-1-12a",
    "unitNumber": "L1-12A",
-   "name": "Unit 12A",
-   "category": "Details under review",
+   "name": "Zok Noodle House",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -444,8 +444,8 @@
   {
    "unitId": "ioi-1-12b",
    "unitNumber": "L1-12B",
-   "name": "Unit 12B",
-   "category": "Details under review",
+   "name": "Dookki",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -453,8 +453,8 @@
   {
    "unitId": "ioi-1-13a",
    "unitNumber": "L1-13A",
-   "name": "Unit 13A",
-   "category": "Details under review",
+   "name": "Sushi King",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -462,8 +462,8 @@
   {
    "unitId": "ioi-1-13b",
    "unitNumber": "L1-13B",
-   "name": "Unit 13B",
-   "category": "Details under review",
+   "name": "4 Fingers Crispy Chicken",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -498,8 +498,8 @@
   {
    "unitId": "ioi-1-15",
    "unitNumber": "L1-15",
-   "name": "Unit 15",
-   "category": "Details under review",
+   "name": "Sepiring Uniquely Malaysia",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -507,8 +507,8 @@
   {
    "unitId": "ioi-1-16-17",
    "unitNumber": "L1-16-17",
-   "name": "Unit 16&17",
-   "category": "Details under review",
+   "name": "Jordan Hong Kong",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -517,7 +517,7 @@
    "unitId": "ioi-1-243",
    "unitNumber": "L1-243",
    "name": "Objet",
-   "category": "Lifestyle",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -525,8 +525,8 @@
   {
    "unitId": "ioi-1-33",
    "unitNumber": "L1-33",
-   "name": "Unit 33",
-   "category": "Details under review",
+   "name": "Wings",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -534,8 +534,8 @@
   {
    "unitId": "ioi-1-32",
    "unitNumber": "L1-32",
-   "name": "Unit 32",
-   "category": "Details under review",
+   "name": "Triumph",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -543,8 +543,8 @@
   {
    "unitId": "ioi-1-31",
    "unitNumber": "L1-31",
-   "name": "Unit 31",
-   "category": "Details under review",
+   "name": "Sox World",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -552,8 +552,8 @@
   {
    "unitId": "ioi-1-34-36",
    "unitNumber": "L1-34-36",
-   "name": "Unit 34-36",
-   "category": "Details under review",
+   "name": "Mix Store",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -562,7 +562,7 @@
    "unitId": "ioi-1-28-29-30",
    "unitNumber": "L1-28-29-30",
    "name": "Brands Outlet",
-   "category": "Fashion outlet",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -570,8 +570,8 @@
   {
    "unitId": "ioi-1-26b",
    "unitNumber": "L1-26B",
-   "name": "Unit 26B",
-   "category": "Details under review",
+   "name": "Alha Alfa Cosmetics",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -579,8 +579,8 @@
   {
    "unitId": "ioi-1-26a",
    "unitNumber": "L1-26A",
-   "name": "Unit 26A",
-   "category": "Details under review",
+   "name": "High Cultured",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -588,8 +588,8 @@
   {
    "unitId": "ioi-1-27",
    "unitNumber": "L1-27",
-   "name": "Unit 27",
-   "category": "Details under review",
+   "name": "Cotton On Kids",
+   "category": "Children & maternity",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -598,7 +598,7 @@
    "unitId": "ioi-1-24-25",
    "unitNumber": "L1-24-25",
    "name": "Al-ikhsan",
-   "category": "Sports",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -606,8 +606,8 @@
   {
    "unitId": "ioi-1-23",
    "unitNumber": "L1-23",
-   "name": "Unit 23",
-   "category": "Details under review",
+   "name": "Tomaz",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -615,8 +615,8 @@
   {
    "unitId": "ioi-1-22",
    "unitNumber": "L1-22",
-   "name": "Unit 22",
-   "category": "Details under review",
+   "name": "My Ballerine",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -624,8 +624,8 @@
   {
    "unitId": "ioi-1-21",
    "unitNumber": "L1-21",
-   "name": "Unit 21",
-   "category": "Details under review",
+   "name": "Top Toy",
+   "category": "Toys, hobbies & pets",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -642,8 +642,8 @@
   {
    "unitId": "ioi-1-19a",
    "unitNumber": "L1-19A",
-   "name": "Unit 19A",
-   "category": "Details under review",
+   "name": "Watsons",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -669,8 +669,8 @@
   {
    "unitId": "ioi-1-244a",
    "unitNumber": "L1-244A",
-   "name": "Unit 244A",
-   "category": "Details under review",
+   "name": "Footlink",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -678,8 +678,8 @@
   {
    "unitId": "ioi-1-244b",
    "unitNumber": "L1-244B",
-   "name": "Unit 244B",
-   "category": "Details under review",
+   "name": "Chinies",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -687,8 +687,8 @@
   {
    "unitId": "ioi-1-245",
    "unitNumber": "L1-245",
-   "name": "Unit 245",
-   "category": "Details under review",
+   "name": "A-Wow-Me",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -696,8 +696,8 @@
   {
    "unitId": "ioi-1-246",
    "unitNumber": "L1-246",
-   "name": "Unit 246",
-   "category": "Details under review",
+   "name": "La Senza",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -705,8 +705,8 @@
   {
    "unitId": "ioi-1-247",
    "unitNumber": "L1-247",
-   "name": "Unit 247",
-   "category": "Details under review",
+   "name": "Inki Optical Signature @ L1-247",
+   "category": "Optical & eyewear",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -714,8 +714,8 @@
   {
    "unitId": "ioi-1-201",
    "unitNumber": "L1-201",
-   "name": "Unit 201",
-   "category": "Details under review",
+   "name": "Christy Ng",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -723,8 +723,8 @@
   {
    "unitId": "ioi-1-202",
    "unitNumber": "L1-202",
-   "name": "Unit 202",
-   "category": "Details under review",
+   "name": "The Colorist",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -732,8 +732,8 @@
   {
    "unitId": "ioi-1-203",
    "unitNumber": "L1-203",
-   "name": "Unit 203",
-   "category": "Details under review",
+   "name": "East India Company",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -741,8 +741,8 @@
   {
    "unitId": "ioi-1-204",
    "unitNumber": "L1-204",
-   "name": "Unit 204",
-   "category": "Details under review",
+   "name": "Suitable",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -750,8 +750,8 @@
   {
    "unitId": "ioi-1-205-206",
    "unitNumber": "L1-205-206",
-   "name": "Unit 205&206",
-   "category": "Details under review",
+   "name": "Bawal Exclusive",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -759,8 +759,8 @@
   {
    "unitId": "ioi-1-207-208",
    "unitNumber": "L1-207-208",
-   "name": "Unit 207&208",
-   "category": "Details under review",
+   "name": "DC By NC",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -768,8 +768,8 @@
   {
    "unitId": "ioi-1-209",
    "unitNumber": "L1-209",
-   "name": "Unit 209",
-   "category": "Details under review",
+   "name": "Pierre Cardin",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -777,8 +777,8 @@
   {
    "unitId": "ioi-1-210",
    "unitNumber": "L1-210",
-   "name": "Unit 210",
-   "category": "Details under review",
+   "name": "Neubodi",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -786,8 +786,8 @@
   {
    "unitId": "ioi-1-211",
    "unitNumber": "L1-211",
-   "name": "Unit 211",
-   "category": "Details under review",
+   "name": "Owndays",
+   "category": "Optical & eyewear",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -795,8 +795,8 @@
   {
    "unitId": "ioi-1-212-213",
    "unitNumber": "L1-212-213",
-   "name": "Unit 212&213",
-   "category": "Details under review",
+   "name": "Hooga",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -804,8 +804,8 @@
   {
    "unitId": "ioi-1-214",
    "unitNumber": "L1-214",
-   "name": "Unit 214",
-   "category": "Details under review",
+   "name": "Mis-Claire",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -813,8 +813,8 @@
   {
    "unitId": "ioi-1-216",
    "unitNumber": "L1-216",
-   "name": "Unit 216",
-   "category": "Details under review",
+   "name": "Shavonne",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -822,8 +822,8 @@
   {
    "unitId": "ioi-1-217",
    "unitNumber": "L1-217",
-   "name": "Unit 217",
-   "category": "Details under review",
+   "name": "JannahNOE",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -840,8 +840,8 @@
   {
    "unitId": "ioi-1-219",
    "unitNumber": "L1-219",
-   "name": "Unit 219",
-   "category": "Details under review",
+   "name": "Regenx Clinic",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -849,8 +849,8 @@
   {
    "unitId": "ioi-1-e-213-214",
    "unitNumber": "L1-E-213-214",
-   "name": "Unit E-213&214",
-   "category": "Details under review",
+   "name": "Seven Seas Karaoke",
+   "category": "Entertainment",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -858,8 +858,8 @@
   {
    "unitId": "ioi-1-240",
    "unitNumber": "L1-240",
-   "name": "Unit 240",
-   "category": "Details under review",
+   "name": "XTEP",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -867,8 +867,8 @@
   {
    "unitId": "ioi-1-239",
    "unitNumber": "L1-239",
-   "name": "Unit 239",
-   "category": "Details under review",
+   "name": "Polo Haus",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -876,8 +876,8 @@
   {
    "unitId": "ioi-1-238",
    "unitNumber": "L1-238",
-   "name": "Unit 238",
-   "category": "Details under review",
+   "name": "Pierre Cardin",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -885,8 +885,8 @@
   {
    "unitId": "ioi-1-237",
    "unitNumber": "L1-237",
-   "name": "Unit 237",
-   "category": "Details under review",
+   "name": "Batik Boutique",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -894,8 +894,8 @@
   {
    "unitId": "ioi-1-235a",
    "unitNumber": "L1-235A",
-   "name": "Unit 235A",
-   "category": "Details under review",
+   "name": "Laohunan",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -903,8 +903,8 @@
   {
    "unitId": "ioi-1-235",
    "unitNumber": "L1-235",
-   "name": "Unit 235",
-   "category": "Details under review",
+   "name": "Souper Tang",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -912,8 +912,8 @@
   {
    "unitId": "ioi-1-232",
    "unitNumber": "L1-232",
-   "name": "Unit 232",
-   "category": "Details under review",
+   "name": "DYSON",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -921,8 +921,8 @@
   {
    "unitId": "ioi-1-230-231",
    "unitNumber": "L1-230-231",
-   "name": "Unit 230&231",
-   "category": "Details under review",
+   "name": "2AM",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -930,8 +930,8 @@
   {
    "unitId": "ioi-1-229",
    "unitNumber": "L1-229",
-   "name": "Unit 229",
-   "category": "Details under review",
+   "name": "Drum",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -939,8 +939,8 @@
   {
    "unitId": "ioi-1-233",
    "unitNumber": "L1-233",
-   "name": "Unit 233",
-   "category": "Details under review",
+   "name": "Megan Jewellery",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -948,8 +948,8 @@
   {
    "unitId": "ioi-1-234",
    "unitNumber": "L1-234",
-   "name": "Unit 234",
-   "category": "Details under review",
+   "name": "Geb.",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -975,8 +975,8 @@
   {
    "unitId": "ioi-1-228",
    "unitNumber": "L1-228",
-   "name": "Unit 228",
-   "category": "Details under review",
+   "name": "Hegira",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -984,8 +984,8 @@
   {
    "unitId": "ioi-1-226-227",
    "unitNumber": "L1-226-227",
-   "name": "Unit 226&227",
-   "category": "Details under review",
+   "name": "Siti Khadijah",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -993,8 +993,8 @@
   {
    "unitId": "ioi-1-225",
    "unitNumber": "L1-225",
-   "name": "Unit 225",
-   "category": "Details under review",
+   "name": "Sofearose",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1011,8 +1011,8 @@
   {
    "unitId": "ioi-1-221-222",
    "unitNumber": "L1-221-222",
-   "name": "Unit 221&222",
-   "category": "Details under review",
+   "name": "Bayu somerset",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1030,7 +1030,7 @@
    "unitId": "ioi-1-e-208-212",
    "unitNumber": "L1-E-208-212",
    "name": "Jom Amigo",
-   "category": "Café & dining",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1038,8 +1038,8 @@
   {
    "unitId": "ioi-1-f-k17",
    "unitNumber": "L1-F-K17",
-   "name": "Kiosk F-K17",
-   "category": "Kiosk",
+   "name": "Angelin Choice Kids Toys Planet",
+   "category": "Children & maternity",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1047,8 +1047,8 @@
   {
    "unitId": "ioi-1-f-k1",
    "unitNumber": "L1-F-K1",
-   "name": "Kiosk F-K1",
-   "category": "Kiosk",
+   "name": "Baskin Robbins",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1065,8 +1065,8 @@
   {
    "unitId": "ioi-1-f-k2a",
    "unitNumber": "L1-F-K2A",
-   "name": "Kiosk F-K2A",
-   "category": "Kiosk",
+   "name": "Iqos",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1074,8 +1074,8 @@
   {
    "unitId": "ioi-1-f-k2b",
    "unitNumber": "L1-F-K2B",
-   "name": "Kiosk F-K2B",
-   "category": "Kiosk",
+   "name": "Avenys",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1083,8 +1083,8 @@
   {
    "unitId": "ioi-1-f-k4",
    "unitNumber": "L1-F-K4",
-   "name": "Kiosk F-K4",
-   "category": "Kiosk",
+   "name": "Just Good Coffee",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1092,8 +1092,8 @@
   {
    "unitId": "ioi-1-f-k3",
    "unitNumber": "L1-F-K3",
-   "name": "Kiosk F-K3",
-   "category": "Kiosk",
+   "name": "Krispy Kreme Doughnuts",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1128,8 +1128,8 @@
   {
    "unitId": "ioi-1-f-k14",
    "unitNumber": "L1-F-K14",
-   "name": "Kiosk F-K14",
-   "category": "Kiosk",
+   "name": "Jom Cha",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1137,8 +1137,8 @@
   {
    "unitId": "ioi-1-f-k15",
    "unitNumber": "L1-F-K15",
-   "name": "Kiosk F-K15",
-   "category": "Kiosk",
+   "name": "Gopizza",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1146,8 +1146,8 @@
   {
    "unitId": "ioi-1-f-k16",
    "unitNumber": "L1-F-K16",
-   "name": "Kiosk F-K16",
-   "category": "Kiosk",
+   "name": "Hot & Roll",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1155,8 +1155,8 @@
   {
    "unitId": "ioi-1-f-k18",
    "unitNumber": "L1-F-K18",
-   "name": "Kiosk F-K18",
-   "category": "Kiosk",
+   "name": "Hwc Coffee",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1164,8 +1164,8 @@
   {
    "unitId": "ioi-1-f-k8b",
    "unitNumber": "L1-F-K8B",
-   "name": "Kiosk F-K8B",
-   "category": "Kiosk",
+   "name": "Gula Petite",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1182,8 +1182,8 @@
   {
    "unitId": "ioi-1-f-k8a",
    "unitNumber": "L1-F-K8A",
-   "name": "Kiosk F-K8A",
-   "category": "Kiosk",
+   "name": "The Fish Bowl",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1191,8 +1191,8 @@
   {
    "unitId": "ioi-1-f-k7",
    "unitNumber": "L1-F-K7",
-   "name": "Kiosk F-K7",
-   "category": "Kiosk",
+   "name": "Daboba",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1200,8 +1200,8 @@
   {
    "unitId": "ioi-1-k201",
    "unitNumber": "L1-K201",
-   "name": "Kiosk K201",
-   "category": "Kiosk",
+   "name": "Cold Stone Creamery",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1209,8 +1209,8 @@
   {
    "unitId": "ioi-1-k202",
    "unitNumber": "L1-K202",
-   "name": "Kiosk K202",
-   "category": "Kiosk",
+   "name": "Empire Sushi",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1218,8 +1218,8 @@
   {
    "unitId": "ioi-1-k203",
    "unitNumber": "L1-K203",
-   "name": "Kiosk K203",
-   "category": "Kiosk",
+   "name": "Nadeje",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1227,8 +1227,8 @@
   {
    "unitId": "ioi-1-k204",
    "unitNumber": "L1-K204",
-   "name": "Kiosk K204",
-   "category": "Kiosk",
+   "name": "Zus Signature",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1236,8 +1236,8 @@
   {
    "unitId": "ioi-1-k205",
    "unitNumber": "L1-K205",
-   "name": "Kiosk K205",
-   "category": "Kiosk",
+   "name": "Skechers Foamies",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1245,8 +1245,8 @@
   {
    "unitId": "ioi-1-k206",
    "unitNumber": "L1-K206",
-   "name": "Kiosk K206",
-   "category": "Kiosk",
+   "name": "Truedan",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1257,7 +1257,7 @@
    "unitId": "ioi-2-at-3",
    "unitNumber": "L2-AT-3",
    "name": "Parkson",
-   "category": "Department store",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1265,8 +1265,8 @@
   {
    "unitId": "ioi-2-69",
    "unitNumber": "L2-69",
-   "name": "Unit 69",
-   "category": "Details under review",
+   "name": "CeX Entertainment Exchange",
+   "category": "Toys, hobbies & pets",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1274,8 +1274,8 @@
   {
    "unitId": "ioi-2-67-68",
    "unitNumber": "L2-67-68",
-   "name": "Unit 67&68",
-   "category": "Details under review",
+   "name": "Tmt Megastore by Thundermatch",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1284,7 +1284,7 @@
    "unitId": "ioi-2-62",
    "unitNumber": "L2-62",
    "name": "All It Hypermarket",
-   "category": "Computers & electronics",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1292,8 +1292,8 @@
   {
    "unitId": "ioi-2-63",
    "unitNumber": "L2-63",
-   "name": "Unit 63",
-   "category": "Details under review",
+   "name": "Asus",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1301,8 +1301,8 @@
   {
    "unitId": "ioi-2-64",
    "unitNumber": "L2-64",
-   "name": "Unit 64",
-   "category": "Details under review",
+   "name": "Digi Store Express",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1310,8 +1310,8 @@
   {
    "unitId": "ioi-2-65-66",
    "unitNumber": "L2-65-66",
-   "name": "Unit 65&66",
-   "category": "Details under review",
+   "name": "Oppo Flagship Store",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1319,8 +1319,8 @@
   {
    "unitId": "ioi-2-61c",
    "unitNumber": "L2-61C",
-   "name": "Unit 61C",
-   "category": "Details under review",
+   "name": "Lenovo",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1346,8 +1346,8 @@
   {
    "unitId": "ioi-2-60",
    "unitNumber": "L2-60",
-   "name": "Unit 60",
-   "category": "Details under review",
+   "name": "A-Saloon",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1355,8 +1355,8 @@
   {
    "unitId": "ioi-2-59",
    "unitNumber": "L2-59",
-   "name": "Unit 59",
-   "category": "Details under review",
+   "name": "Dorra Slimming",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1373,8 +1373,8 @@
   {
    "unitId": "ioi-2-58",
    "unitNumber": "L2-58",
-   "name": "Unit 58",
-   "category": "Details under review",
+   "name": "Beaumedic",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1382,8 +1382,8 @@
   {
    "unitId": "ioi-2-56",
    "unitNumber": "L2-56",
-   "name": "Unit 56",
-   "category": "Details under review",
+   "name": "Medic Deno",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1392,7 +1392,7 @@
    "unitId": "ioi-2-at-5",
    "unitNumber": "L2-AT-5",
    "name": "GSC West",
-   "category": "Cinema",
+   "category": "Anchor",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1400,8 +1400,8 @@
   {
    "unitId": "ioi-2-70a",
    "unitNumber": "L2-70A",
-   "name": "Unit 70A",
-   "category": "Details under review",
+   "name": "Phone Repair Hub",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1409,8 +1409,8 @@
   {
    "unitId": "ioi-2-70b",
    "unitNumber": "L2-70B",
-   "name": "Unit 70B",
-   "category": "Details under review",
+   "name": "Oh! Gatcha",
+   "category": "Toys, hobbies & pets",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1418,8 +1418,8 @@
   {
    "unitId": "ioi-2-1a",
    "unitNumber": "L2-1A",
-   "name": "Unit 1A",
-   "category": "Details under review",
+   "name": "Huawei",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1436,8 +1436,8 @@
   {
    "unitId": "ioi-2-2",
    "unitNumber": "L2-2",
-   "name": "Unit 2",
-   "category": "Details under review",
+   "name": "Flash Gadgets",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1454,8 +1454,8 @@
   {
    "unitId": "ioi-2-4",
    "unitNumber": "L2-4",
-   "name": "Unit 4",
-   "category": "Details under review",
+   "name": "OSIM",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1472,8 +1472,8 @@
   {
    "unitId": "ioi-2-6-7",
    "unitNumber": "L2-6-7",
-   "name": "Unit 6&7",
-   "category": "Details under review",
+   "name": "Fitness Concept And Reecycle",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1481,8 +1481,8 @@
   {
    "unitId": "ioi-2-8",
    "unitNumber": "L2-8",
-   "name": "Unit 8",
-   "category": "Details under review",
+   "name": "Owl",
+   "category": "Optical & eyewear",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1490,8 +1490,8 @@
   {
    "unitId": "ioi-2-9",
    "unitNumber": "L2-9",
-   "name": "Unit 9",
-   "category": "Details under review",
+   "name": "Vans",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1499,8 +1499,8 @@
   {
    "unitId": "ioi-2-10",
    "unitNumber": "L2-10",
-   "name": "Unit 10",
-   "category": "Details under review",
+   "name": "Sony Centre",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1508,8 +1508,8 @@
   {
    "unitId": "ioi-2-11",
    "unitNumber": "L2-11",
-   "name": "Unit 11",
-   "category": "Details under review",
+   "name": "Anker",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1517,8 +1517,8 @@
   {
    "unitId": "ioi-2-12-13",
    "unitNumber": "L2-12-13",
-   "name": "Unit 12&13",
-   "category": "Details under review",
+   "name": "Texas Chicken",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1526,8 +1526,8 @@
   {
    "unitId": "ioi-2-14",
    "unitNumber": "L2-14",
-   "name": "Unit 14",
-   "category": "Details under review",
+   "name": "Go Noodle House",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1535,8 +1535,8 @@
   {
    "unitId": "ioi-2-15",
    "unitNumber": "L2-15",
-   "name": "Unit 15",
-   "category": "Details under review",
+   "name": "OH!SOME",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1553,8 +1553,8 @@
   {
    "unitId": "ioi-2-36",
    "unitNumber": "L2-36",
-   "name": "Unit 36",
-   "category": "Details under review",
+   "name": "Mi Store",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1562,8 +1562,8 @@
   {
    "unitId": "ioi-2-35",
    "unitNumber": "L2-35",
-   "name": "Unit 35",
-   "category": "Details under review",
+   "name": "Ecovacs | Tineco",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1571,8 +1571,8 @@
   {
    "unitId": "ioi-2-34",
    "unitNumber": "L2-34",
-   "name": "Unit 34",
-   "category": "Details under review",
+   "name": "Dji",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1580,8 +1580,8 @@
   {
    "unitId": "ioi-2-33",
    "unitNumber": "L2-33",
-   "name": "Unit 33",
-   "category": "Details under review",
+   "name": "Food Junction",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1589,8 +1589,8 @@
   {
    "unitId": "ioi-2-30-31",
    "unitNumber": "L2-30-31",
-   "name": "Unit 30&31",
-   "category": "Details under review",
+   "name": "Sushi Zanmai",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1607,8 +1607,8 @@
   {
    "unitId": "ioi-2-29b",
    "unitNumber": "L2-29B",
-   "name": "Unit 29B",
-   "category": "Details under review",
+   "name": "Ogawa By Ogawa",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1616,8 +1616,8 @@
   {
    "unitId": "ioi-2-29a",
    "unitNumber": "L2-29A",
-   "name": "Unit 29A",
-   "category": "Details under review",
+   "name": "Msi",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1625,8 +1625,8 @@
   {
    "unitId": "ioi-2-28",
    "unitNumber": "L2-28",
-   "name": "Unit 28",
-   "category": "Details under review",
+   "name": "Acer",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1634,8 +1634,8 @@
   {
    "unitId": "ioi-2-27",
    "unitNumber": "L2-27",
-   "name": "Unit 27",
-   "category": "Details under review",
+   "name": "Hp",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1643,8 +1643,8 @@
   {
    "unitId": "ioi-2-26a",
    "unitNumber": "L2-26A",
-   "name": "Unit 26A",
-   "category": "Details under review",
+   "name": "A&W",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1652,8 +1652,8 @@
   {
    "unitId": "ioi-2-25",
    "unitNumber": "L2-25",
-   "name": "Unit 25",
-   "category": "Details under review",
+   "name": "Pet Lovers Centre",
+   "category": "Toys, hobbies & pets",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1661,8 +1661,8 @@
   {
    "unitId": "ioi-2-24",
    "unitNumber": "L2-24",
-   "name": "Unit 24",
-   "category": "Details under review",
+   "name": "Dragon Silver",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1671,7 +1671,7 @@
    "unitId": "ioi-2-26",
    "unitNumber": "L2-26",
    "name": "Wangsa Bowl",
-   "category": "Bowling",
+   "category": "Entertainment",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1706,8 +1706,8 @@
   {
    "unitId": "ioi-2-235b",
    "unitNumber": "L2-235B",
-   "name": "Unit 235B",
-   "category": "Details under review",
+   "name": "Apt Salon",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1715,8 +1715,8 @@
   {
    "unitId": "ioi-2-17",
    "unitNumber": "L2-17",
-   "name": "Unit 17",
-   "category": "Details under review",
+   "name": "Pizza Hut",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1742,8 +1742,8 @@
   {
    "unitId": "ioi-2-20-21",
    "unitNumber": "L2-20-21",
-   "name": "Unit 20&21",
-   "category": "Details under review",
+   "name": "Christine'S Bakery",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1769,8 +1769,8 @@
   {
    "unitId": "ioi-2-237",
    "unitNumber": "L2-237",
-   "name": "Unit 237",
-   "category": "Details under review",
+   "name": "Abbie & Friends Luxe",
+   "category": "Toys, hobbies & pets",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1778,8 +1778,8 @@
   {
    "unitId": "ioi-2-238",
    "unitNumber": "L2-238",
-   "name": "Unit 238",
-   "category": "Details under review",
+   "name": "Perysmith",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1787,8 +1787,8 @@
   {
    "unitId": "ioi-2-239",
    "unitNumber": "L2-239",
-   "name": "Unit 239",
-   "category": "Details under review",
+   "name": "Ogawa",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1796,8 +1796,8 @@
   {
    "unitId": "ioi-2-240",
    "unitNumber": "L2-240",
-   "name": "Unit 240",
-   "category": "Details under review",
+   "name": "Puzzle Planet",
+   "category": "Toys, hobbies & pets",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1805,8 +1805,8 @@
   {
    "unitId": "ioi-2-241",
    "unitNumber": "L2-241",
-   "name": "Unit 241",
-   "category": "Details under review",
+   "name": "ITSU",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1814,8 +1814,8 @@
   {
    "unitId": "ioi-2-201-203",
    "unitNumber": "L2-201-203",
-   "name": "Unit 201-203",
-   "category": "Details under review",
+   "name": "Boarding Gate",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1823,8 +1823,8 @@
   {
    "unitId": "ioi-2-204",
    "unitNumber": "L2-204",
-   "name": "Unit 204",
-   "category": "Details under review",
+   "name": "The Green Party",
+   "category": "Gifts & souvenirs",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1832,8 +1832,8 @@
   {
    "unitId": "ioi-2-205-206",
    "unitNumber": "L2-205-206",
-   "name": "Unit 205&206",
-   "category": "Details under review",
+   "name": "Tiny Button",
+   "category": "Children & maternity",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1841,8 +1841,8 @@
   {
    "unitId": "ioi-2-207-208",
    "unitNumber": "L2-207-208",
-   "name": "Unit 207&208",
-   "category": "Details under review",
+   "name": "Poney",
+   "category": "Children & maternity",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1850,8 +1850,8 @@
   {
    "unitId": "ioi-2-209-210",
    "unitNumber": "L2-209-210",
-   "name": "Unit 209&210",
-   "category": "Details under review",
+   "name": "Ai home",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1859,8 +1859,8 @@
   {
    "unitId": "ioi-2-211",
    "unitNumber": "L2-211",
-   "name": "Unit 211",
-   "category": "Details under review",
+   "name": "Prism+",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1868,8 +1868,8 @@
   {
    "unitId": "ioi-2-212",
    "unitNumber": "L2-212",
-   "name": "Unit 212",
-   "category": "Details under review",
+   "name": "SERTA",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1877,8 +1877,8 @@
   {
    "unitId": "ioi-2-213-214",
    "unitNumber": "L2-213-214",
-   "name": "Unit 213&214",
-   "category": "Details under review",
+   "name": "Celcomdigi",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1886,8 +1886,8 @@
   {
    "unitId": "ioi-2-215",
    "unitNumber": "L2-215",
-   "name": "Unit 215",
-   "category": "Details under review",
+   "name": "AKEMI Sleep Studio",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1895,8 +1895,8 @@
   {
    "unitId": "ioi-2-217",
    "unitNumber": "L2-217",
-   "name": "Unit 217",
-   "category": "Details under review",
+   "name": "Dunlopillo",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1904,8 +1904,8 @@
   {
    "unitId": "ioi-2-218",
    "unitNumber": "L2-218",
-   "name": "Unit 218",
-   "category": "Details under review",
+   "name": "Yamaha",
+   "category": "Music & home entertainment",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1931,8 +1931,8 @@
   {
    "unitId": "ioi-2-234",
    "unitNumber": "L2-234",
-   "name": "Unit 234",
-   "category": "Details under review",
+   "name": "Amazing Hair Professional",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1940,8 +1940,8 @@
   {
    "unitId": "ioi-2-233",
    "unitNumber": "L2-233",
-   "name": "Unit 233",
-   "category": "Details under review",
+   "name": "Qmac",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1949,8 +1949,8 @@
   {
    "unitId": "ioi-2-232",
    "unitNumber": "L2-232",
-   "name": "Unit 232",
-   "category": "Details under review",
+   "name": "Gintell Signature",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1959,7 +1959,7 @@
    "unitId": "ioi-2-229-231",
    "unitNumber": "L2-229-231",
    "name": "Spotlight Creative",
-   "category": "Craft & fabric",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1967,8 +1967,8 @@
   {
    "unitId": "ioi-2-226-227",
    "unitNumber": "L2-226-227",
-   "name": "Unit 226&227",
-   "category": "Details under review",
+   "name": "Yl Camera",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1976,8 +1976,8 @@
   {
    "unitId": "ioi-2-225",
    "unitNumber": "L2-225",
-   "name": "Unit 225",
-   "category": "Details under review",
+   "name": "Ion",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1985,8 +1985,8 @@
   {
    "unitId": "ioi-2-224",
    "unitNumber": "L2-224",
-   "name": "Unit 224",
-   "category": "Details under review",
+   "name": "Ariani",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -1994,8 +1994,8 @@
   {
    "unitId": "ioi-2-227b",
    "unitNumber": "L2-227B",
-   "name": "Unit 227B",
-   "category": "Details under review",
+   "name": "Ergoworks",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2004,7 +2004,7 @@
    "unitId": "ioi-2-228",
    "unitNumber": "L2-228",
    "name": "Brightstar",
-   "category": "Kids' education",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2012,8 +2012,8 @@
   {
    "unitId": "ioi-2-223b",
    "unitNumber": "L2-223B",
-   "name": "Unit 223B",
-   "category": "Details under review",
+   "name": "Cutiecle",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2021,8 +2021,8 @@
   {
    "unitId": "ioi-2-223a",
    "unitNumber": "L2-223A",
-   "name": "Unit 223A",
-   "category": "Details under review",
+   "name": "Sr Aesthetic",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2030,8 +2030,8 @@
   {
    "unitId": "ioi-2-222",
    "unitNumber": "L2-222",
-   "name": "Unit 222",
-   "category": "Details under review",
+   "name": "Signature Kitchen",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2049,7 +2049,7 @@
    "unitId": "ioi-2-220b",
    "unitNumber": "L2-220B",
    "name": "More Design",
-   "category": "Home & gifts",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2057,8 +2057,8 @@
   {
    "unitId": "ioi-2-220a",
    "unitNumber": "L2-220A",
-   "name": "Unit 220A",
-   "category": "Details under review",
+   "name": "Goodnite",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2066,8 +2066,8 @@
   {
    "unitId": "ioi-2-219",
    "unitNumber": "L2-219",
-   "name": "Unit 219",
-   "category": "Details under review",
+   "name": "Siam Wellness Spa",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2084,8 +2084,8 @@
   {
    "unitId": "ioi-2-52",
    "unitNumber": "L2-52",
-   "name": "Unit 52",
-   "category": "Details under review",
+   "name": "Wawa Self Photo Booth",
+   "category": "Entertainment",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2093,8 +2093,8 @@
   {
    "unitId": "ioi-2-50",
    "unitNumber": "L2-50",
-   "name": "Unit 50",
-   "category": "Details under review",
+   "name": "Murad",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2102,8 +2102,8 @@
   {
    "unitId": "ioi-2-49",
    "unitNumber": "L2-49",
-   "name": "Unit 49",
-   "category": "Details under review",
+   "name": "Seasons Carpets",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2111,8 +2111,8 @@
   {
    "unitId": "ioi-2-48",
    "unitNumber": "L2-48",
-   "name": "Unit 48",
-   "category": "Details under review",
+   "name": "A-50 Saloon",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2120,8 +2120,8 @@
   {
    "unitId": "ioi-2-47",
    "unitNumber": "L2-47",
-   "name": "Unit 47",
-   "category": "Details under review",
+   "name": "Harvest Stationery",
+   "category": "Books & magazines",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2129,8 +2129,8 @@
   {
    "unitId": "ioi-2-46",
    "unitNumber": "L2-46",
-   "name": "Unit 46",
-   "category": "Details under review",
+   "name": "Lego®",
+   "category": "Toys, hobbies & pets",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2138,8 +2138,8 @@
   {
    "unitId": "ioi-2-45",
    "unitNumber": "L2-45",
-   "name": "Unit 45",
-   "category": "Details under review",
+   "name": "Honor",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2148,7 +2148,7 @@
    "unitId": "ioi-2-43-44",
    "unitNumber": "L2-43-44",
    "name": "Popular",
-   "category": "Books & stationery",
+   "category": "Books & magazines",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2183,8 +2183,8 @@
   {
    "unitId": "ioi-2-38-39",
    "unitNumber": "L2-38-39",
-   "name": "Unit 38&39",
-   "category": "Details under review",
+   "name": "Suki-Ya eat all you can sukiyaki & shabu shabu",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2201,8 +2201,8 @@
   {
    "unitId": "ioi-2-s-k2a",
    "unitNumber": "L2-S-K2A",
-   "name": "Kiosk S-K2A",
-   "category": "Kiosk",
+   "name": "Realme",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2210,8 +2210,8 @@
   {
    "unitId": "ioi-2-s-k2b",
    "unitNumber": "L2-S-K2B",
-   "name": "Kiosk S-K2B",
-   "category": "Kiosk",
+   "name": "Infinix",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2219,8 +2219,8 @@
   {
    "unitId": "ioi-2-s-k3",
    "unitNumber": "L2-S-K3",
-   "name": "Kiosk S-K3",
-   "category": "Kiosk",
+   "name": "Inside Scoop",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2246,8 +2246,8 @@
   {
    "unitId": "ioi-2-s-k5",
    "unitNumber": "L2-S-K5",
-   "name": "Kiosk S-K5",
-   "category": "Kiosk",
+   "name": "Yogurt Planet",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2255,8 +2255,8 @@
   {
    "unitId": "ioi-2-s-k6",
    "unitNumber": "L2-S-K6",
-   "name": "Kiosk S-K6",
-   "category": "Kiosk",
+   "name": "Gadget Hub",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2291,8 +2291,8 @@
   {
    "unitId": "ioi-2-k202",
    "unitNumber": "L2-K202",
-   "name": "Kiosk K202",
-   "category": "Kiosk",
+   "name": "Fujifilm Kiosk",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2300,8 +2300,8 @@
   {
    "unitId": "ioi-2-k203",
    "unitNumber": "L2-K203",
-   "name": "Kiosk K203",
-   "category": "Kiosk",
+   "name": "Bisou Bake Shop",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2309,8 +2309,8 @@
   {
    "unitId": "ioi-2-k204",
    "unitNumber": "L2-K204",
-   "name": "Kiosk K204",
-   "category": "Kiosk",
+   "name": "The Grass",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2318,8 +2318,8 @@
   {
    "unitId": "ioi-2-k205",
    "unitNumber": "L2-K205",
-   "name": "Kiosk K205",
-   "category": "Kiosk",
+   "name": "Montigo",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2327,8 +2327,8 @@
   {
    "unitId": "ioi-2-k206",
    "unitNumber": "L2-K206",
-   "name": "Kiosk K206",
-   "category": "Kiosk",
+   "name": "My First",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2366,7 +2366,7 @@
    "unitId": "ioi-3-229",
    "unitNumber": "L3-229",
    "name": "Believe Fitness",
-   "category": "Gym",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2375,7 +2375,7 @@
    "unitId": "ioi-3-223-224",
    "unitNumber": "L3-223-224",
    "name": "Food Empire",
-   "category": "Food court",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2384,7 +2384,7 @@
    "unitId": "ioi-3-213-215",
    "unitNumber": "L3-213-215",
    "name": "JJ Banquet & Restaurant",
-   "category": "Chinese restaurant",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2393,7 +2393,7 @@
    "unitId": "ioi-3-2at-5",
    "unitNumber": "L3-2AT-5",
    "name": "GSC East",
-   "category": "Cinema",
+   "category": "Anchor",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2401,8 +2401,8 @@
   {
    "unitId": "ioi-3-unit",
    "unitNumber": "L3-UNK-1",
-   "name": "Unit ?",
-   "category": "Details under review",
+   "name": "Mynews.com",
+   "category": "Services",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2410,8 +2410,8 @@
   {
    "unitId": "ioi-3-233",
    "unitNumber": "L3-233",
-   "name": "Unit 233",
-   "category": "Details under review",
+   "name": "Cat Cafe Puchi Marry",
+   "category": "Toys, hobbies & pets",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2428,8 +2428,8 @@
   {
    "unitId": "ioi-3-235",
    "unitNumber": "L3-235",
-   "name": "Unit 235",
-   "category": "Details under review",
+   "name": "Astro",
+   "category": "Entertainment",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2437,8 +2437,8 @@
   {
    "unitId": "ioi-3-201",
    "unitNumber": "L3-201",
-   "name": "Unit 201",
-   "category": "Details under review",
+   "name": "Unifi Store",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2446,8 +2446,8 @@
   {
    "unitId": "ioi-3-202",
    "unitNumber": "L3-202",
-   "name": "Unit 202",
-   "category": "Details under review",
+   "name": "Sheldonet Toy Store",
+   "category": "Toys, hobbies & pets",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2455,8 +2455,8 @@
   {
    "unitId": "ioi-3-203",
    "unitNumber": "L3-203",
-   "name": "Unit 203",
-   "category": "Details under review",
+   "name": "Mkb",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2464,8 +2464,8 @@
   {
    "unitId": "ioi-3-204",
    "unitNumber": "L3-204",
-   "name": "Unit 204",
-   "category": "Details under review",
+   "name": "Universal Gaming",
+   "category": "Toys, hobbies & pets",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2473,8 +2473,8 @@
   {
    "unitId": "ioi-3-205-206",
    "unitNumber": "L3-205-206",
-   "name": "Unit 205 & 206",
-   "category": "Details under review",
+   "name": "Yonex",
+   "category": "Toys, hobbies & pets",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2482,8 +2482,8 @@
   {
    "unitId": "ioi-3-207",
    "unitNumber": "L3-207",
-   "name": "Unit 207",
-   "category": "Details under review",
+   "name": "Mo-Mo Paradise",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2500,8 +2500,8 @@
   {
    "unitId": "ioi-3-209",
    "unitNumber": "L3-209",
-   "name": "Unit 209",
-   "category": "Details under review",
+   "name": "Yakiniku Kuro",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2509,8 +2509,8 @@
   {
    "unitId": "ioi-3-210",
    "unitNumber": "L3-210",
-   "name": "Unit 210",
-   "category": "Details under review",
+   "name": "Rasa Rosz",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2518,8 +2518,8 @@
   {
    "unitId": "ioi-3-211",
    "unitNumber": "L3-211",
-   "name": "Unit 211",
-   "category": "Details under review",
+   "name": "BHC Chicken",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2527,8 +2527,8 @@
   {
    "unitId": "ioi-3-230",
    "unitNumber": "L3-230",
-   "name": "Unit 230",
-   "category": "Details under review",
+   "name": "Kpix",
+   "category": "Entertainment",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2572,8 +2572,8 @@
   {
    "unitId": "ioi-3-216",
    "unitNumber": "L3-216",
-   "name": "Unit 216",
-   "category": "Details under review",
+   "name": "The Hair Tric & Lashility",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2581,8 +2581,8 @@
   {
    "unitId": "ioi-3-217",
    "unitNumber": "L3-217",
-   "name": "Unit 217",
-   "category": "Details under review",
+   "name": "Brooks",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2599,8 +2599,8 @@
   {
    "unitId": "ioi-3-219",
    "unitNumber": "L3-219",
-   "name": "Unit 219",
-   "category": "Details under review",
+   "name": "Li-Ning",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2608,8 +2608,8 @@
   {
    "unitId": "ioi-3-220",
    "unitNumber": "L3-220",
-   "name": "Unit 220",
-   "category": "Details under review",
+   "name": "Gajeto",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2617,8 +2617,8 @@
   {
    "unitId": "ioi-3-225",
    "unitNumber": "L3-225",
-   "name": "Unit 225",
-   "category": "Details under review",
+   "name": "Believe Fitness",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2626,8 +2626,8 @@
   {
    "unitId": "ioi-3-226",
    "unitNumber": "L3-226",
-   "name": "Unit 226",
-   "category": "Details under review",
+   "name": "COWAY",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2635,8 +2635,8 @@
   {
    "unitId": "ioi-3-k201",
    "unitNumber": "L3-K201",
-   "name": "Kiosk K201",
-   "category": "Kiosk",
+   "name": "LG Kiosk",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2644,8 +2644,8 @@
   {
    "unitId": "ioi-3-k202",
    "unitNumber": "L3-K202",
-   "name": "Kiosk K202",
-   "category": "Kiosk",
+   "name": "Salon Du Chocolat",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2662,8 +2662,8 @@
   {
    "unitId": "ioi-3-k204",
    "unitNumber": "L3-K204",
-   "name": "Kiosk K204",
-   "category": "Kiosk",
+   "name": "Over",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2683,7 +2683,7 @@
    "unitId": "ioi-4-2at-10",
    "unitNumber": "L4-2AT-10",
    "name": "IOI Sports Centre",
-   "category": "Sports centre",
+   "category": "Anchor",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2691,8 +2691,8 @@
   {
    "unitId": "ioi-4-201",
    "unitNumber": "L4-201",
-   "name": "Unit 201",
-   "category": "Details under review",
+   "name": "Vsmash Sports",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2712,7 +2712,7 @@
    "unitId": "ioi-lg-at-2",
    "unitNumber": "LG-AT-2",
    "name": "Homepro",
-   "category": "Home improvement",
+   "category": "Anchor",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2721,7 +2721,7 @@
    "unitId": "ioi-lg-at-1",
    "unitNumber": "LG-AT-1",
    "name": "Lotus's",
-   "category": "Hypermarket",
+   "category": "Anchor",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2730,7 +2730,7 @@
    "unitId": "ioi-lg-27",
    "unitNumber": "LG-27",
    "name": "Sports Direct",
-   "category": "Sports",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2739,7 +2739,7 @@
    "unitId": "ioi-lg-28",
    "unitNumber": "LG-28",
    "name": "MST Golf",
-   "category": "Golf",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2748,7 +2748,7 @@
    "unitId": "ioi-lg-33",
    "unitNumber": "LG-33",
    "name": "Harvey Norman",
-   "category": "Electronics & furniture",
+   "category": "Anchor",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2775,7 +2775,7 @@
    "unitId": "ioi-lg-223",
    "unitNumber": "LG-223",
    "name": "Nitori",
-   "category": "Home furnishing",
+   "category": "Anchor",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2801,8 +2801,8 @@
   {
    "unitId": "ioi-lg-101b",
    "unitNumber": "LG-101B",
-   "name": "Unit 101B",
-   "category": "Details under review",
+   "name": "Dockers",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2810,8 +2810,8 @@
   {
    "unitId": "ioi-lg-103",
    "unitNumber": "LG-103",
-   "name": "Unit 103",
-   "category": "Details under review",
+   "name": "Weng Kwong 916",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2819,8 +2819,8 @@
   {
    "unitId": "ioi-lg-105",
    "unitNumber": "LG-105",
-   "name": "Unit 105",
-   "category": "Details under review",
+   "name": "Pandora (Lower Ground)",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2828,8 +2828,8 @@
   {
    "unitId": "ioi-lg-107a",
    "unitNumber": "LG-107A",
-   "name": "Unit 107A",
-   "category": "Details under review",
+   "name": "Habib",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2837,8 +2837,8 @@
   {
    "unitId": "ioi-lg-107b",
    "unitNumber": "LG-107B",
-   "name": "Unit 107B",
-   "category": "Details under review",
+   "name": "Wah Chan",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2846,8 +2846,8 @@
   {
    "unitId": "ioi-lg-97-99",
    "unitNumber": "LG-97-99",
-   "name": "Unit 97&99",
-   "category": "Details under review",
+   "name": "PUMA",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2855,8 +2855,8 @@
   {
    "unitId": "ioi-lg-95",
    "unitNumber": "LG-95",
-   "name": "Unit 95",
-   "category": "Details under review",
+   "name": "HOKA",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2864,8 +2864,8 @@
   {
    "unitId": "ioi-lg-93",
    "unitNumber": "LG-93",
-   "name": "Unit 93",
-   "category": "Details under review",
+   "name": "Baaji'S",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2873,8 +2873,8 @@
   {
    "unitId": "ioi-lg-91",
    "unitNumber": "LG-91",
-   "name": "Unit 91",
-   "category": "Details under review",
+   "name": "Agift With Care",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2900,8 +2900,8 @@
   {
    "unitId": "ioi-lg-88",
    "unitNumber": "LG-88",
-   "name": "Unit 88",
-   "category": "Details under review",
+   "name": "Columbia",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2909,8 +2909,8 @@
   {
    "unitId": "ioi-lg-84",
    "unitNumber": "LG-84",
-   "name": "Unit 84",
-   "category": "Details under review",
+   "name": "Nanyang Cafe",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2918,8 +2918,8 @@
   {
    "unitId": "ioi-lg-83",
    "unitNumber": "LG-83",
-   "name": "Unit 83",
-   "category": "Details under review",
+   "name": "Tim Hortons",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2927,8 +2927,8 @@
   {
    "unitId": "ioi-lg-k1",
    "unitNumber": "LG-K1",
-   "name": "Kiosk K1",
-   "category": "Kiosk",
+   "name": "Bonia Timepiece",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2936,8 +2936,8 @@
   {
    "unitId": "ioi-lg-k1a",
    "unitNumber": "LG-K1A",
-   "name": "Kiosk K1A",
-   "category": "Kiosk",
+   "name": "Garmin",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2945,8 +2945,8 @@
   {
    "unitId": "ioi-lg-k2",
    "unitNumber": "LG-K2",
-   "name": "Kiosk K2",
-   "category": "Kiosk",
+   "name": "Cerruti 1881",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2954,8 +2954,8 @@
   {
    "unitId": "ioi-lg-k3",
    "unitNumber": "LG-K3",
-   "name": "Kiosk K3",
-   "category": "Kiosk",
+   "name": "Time Zone",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2963,8 +2963,8 @@
   {
    "unitId": "ioi-lg-k4",
    "unitNumber": "LG-K4",
-   "name": "Kiosk K4",
-   "category": "Kiosk",
+   "name": "Lazo Diamond",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2972,8 +2972,8 @@
   {
    "unitId": "ioi-lg-k4a",
    "unitNumber": "LG-K4A",
-   "name": "Kiosk K4A",
-   "category": "Kiosk",
+   "name": "Elianto Make Up",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2981,8 +2981,8 @@
   {
    "unitId": "ioi-lg-k5a",
    "unitNumber": "LG-K5A",
-   "name": "Kiosk K5A",
-   "category": "Kiosk",
+   "name": "IOI Properties",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2990,8 +2990,8 @@
   {
    "unitId": "ioi-lg-k6",
    "unitNumber": "LG-K6",
-   "name": "Kiosk K6",
-   "category": "Kiosk",
+   "name": "Naturh",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -2999,8 +2999,8 @@
   {
    "unitId": "ioi-lg-k8",
    "unitNumber": "LG-K8",
-   "name": "Kiosk K8",
-   "category": "Kiosk",
+   "name": "Juice Works",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3008,8 +3008,8 @@
   {
    "unitId": "ioi-lg-k9",
    "unitNumber": "LG-K9",
-   "name": "Kiosk K9",
-   "category": "Kiosk",
+   "name": "Cornery",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3017,8 +3017,8 @@
   {
    "unitId": "ioi-lg-k10a",
    "unitNumber": "LG-K10A",
-   "name": "Kiosk K10A",
-   "category": "Kiosk",
+   "name": "Llao Llao",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3026,8 +3026,8 @@
   {
    "unitId": "ioi-lg-k11",
    "unitNumber": "LG-K11",
-   "name": "Kiosk K11",
-   "category": "Kiosk",
+   "name": "Auntie Anne'S",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3035,8 +3035,8 @@
   {
    "unitId": "ioi-lg-k7",
    "unitNumber": "LG-K7",
-   "name": "Kiosk K7",
-   "category": "Kiosk",
+   "name": "Purely",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3044,8 +3044,8 @@
   {
    "unitId": "ioi-lg-k12",
    "unitNumber": "LG-K12",
-   "name": "Kiosk K12",
-   "category": "Kiosk",
+   "name": "Hokkaido Baked Cheese Tart",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3053,8 +3053,8 @@
   {
    "unitId": "ioi-lg-k13",
    "unitNumber": "LG-K13",
-   "name": "Kiosk K13",
-   "category": "Kiosk",
+   "name": "Dunkin' Donuts",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3062,8 +3062,8 @@
   {
    "unitId": "ioi-lg-k14",
    "unitNumber": "LG-K14",
-   "name": "Kiosk K14",
-   "category": "Kiosk",
+   "name": "Empire Sushi",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3071,8 +3071,8 @@
   {
    "unitId": "ioi-lg-k15",
    "unitNumber": "LG-K15",
-   "name": "Kiosk K15",
-   "category": "Kiosk",
+   "name": "Rotiboy (West)",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3089,8 +3089,8 @@
   {
    "unitId": "ioi-lg-k19",
    "unitNumber": "LG-K19",
-   "name": "Kiosk K19",
-   "category": "Kiosk",
+   "name": "Cuckoo",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3125,8 +3125,8 @@
   {
    "unitId": "ioi-lg-c57k",
    "unitNumber": "LG-C57K",
-   "name": "Kiosk C57K",
-   "category": "Kiosk",
+   "name": "Cheezuto",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3134,8 +3134,8 @@
   {
    "unitId": "ioi-lg-k28",
    "unitNumber": "LG-K28",
-   "name": "Kiosk K28",
-   "category": "Kiosk",
+   "name": "Love Maya",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3161,8 +3161,8 @@
   {
    "unitId": "ioi-lg-4-6",
    "unitNumber": "LG-4-6",
-   "name": "Unit 4 & 6",
-   "category": "Details under review",
+   "name": "Wilson",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3170,8 +3170,8 @@
   {
    "unitId": "ioi-lg-8",
    "unitNumber": "LG-8",
-   "name": "Unit 8",
-   "category": "Details under review",
+   "name": "Salomon",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3179,8 +3179,8 @@
   {
    "unitId": "ioi-lg-10",
    "unitNumber": "LG-10",
-   "name": "Unit 10",
-   "category": "Details under review",
+   "name": "ELLE",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3206,8 +3206,8 @@
   {
    "unitId": "ioi-lg-16",
    "unitNumber": "LG-16",
-   "name": "Unit 16",
-   "category": "Details under review",
+   "name": "BATA",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3215,8 +3215,8 @@
   {
    "unitId": "ioi-lg-18",
    "unitNumber": "LG-18",
-   "name": "Unit 18",
-   "category": "Details under review",
+   "name": "Caring Pharmacy",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3224,8 +3224,8 @@
   {
    "unitId": "ioi-lg-20",
    "unitNumber": "LG-20",
-   "name": "Unit 20",
-   "category": "Details under review",
+   "name": "Sembonia",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3233,8 +3233,8 @@
   {
    "unitId": "ioi-lg-22",
    "unitNumber": "LG-22",
-   "name": "Unit 22",
-   "category": "Details under review",
+   "name": "LAC Nutrition For Life",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3242,8 +3242,8 @@
   {
    "unitId": "ioi-lg-24",
    "unitNumber": "LG-24",
-   "name": "Unit 24",
-   "category": "Details under review",
+   "name": "Mynews.com",
+   "category": "Services",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3251,8 +3251,8 @@
   {
    "unitId": "ioi-lg-13-15",
    "unitNumber": "LG-13-15",
-   "name": "Unit 13&15",
-   "category": "Details under review",
+   "name": "Watsons 屈臣氏",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3260,8 +3260,8 @@
   {
    "unitId": "ioi-lg-9-11",
    "unitNumber": "LG-9-11",
-   "name": "Unit 9&11",
-   "category": "Details under review",
+   "name": "Dr. Specs",
+   "category": "Optical & eyewear",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3269,8 +3269,8 @@
   {
    "unitId": "ioi-lg-3a",
    "unitNumber": "LG-3A",
-   "name": "Unit 3A",
-   "category": "Details under review",
+   "name": "City Chain",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3278,8 +3278,8 @@
   {
    "unitId": "ioi-lg-5",
    "unitNumber": "LG-5",
-   "name": "Unit 5",
-   "category": "Details under review",
+   "name": "ANTA",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3287,8 +3287,8 @@
   {
    "unitId": "ioi-lg-7",
    "unitNumber": "LG-7",
-   "name": "Unit 7",
-   "category": "Details under review",
+   "name": "Asics",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3296,8 +3296,8 @@
   {
    "unitId": "ioi-lg-3b",
    "unitNumber": "LG-3B",
-   "name": "Unit 3B",
-   "category": "Details under review",
+   "name": "Focus Point Signature",
+   "category": "Optical & eyewear",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3305,8 +3305,8 @@
   {
    "unitId": "ioi-lg-54-56",
    "unitNumber": "LG-54-56",
-   "name": "Unit 54 & 56",
-   "category": "Details under review",
+   "name": "Nando'S",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3314,8 +3314,8 @@
   {
    "unitId": "ioi-lg-52",
    "unitNumber": "LG-52",
-   "name": "Unit 52",
-   "category": "Details under review",
+   "name": "Ah Cheng Laksa",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3323,8 +3323,8 @@
   {
    "unitId": "ioi-lg-50",
    "unitNumber": "LG-50",
-   "name": "Unit 50",
-   "category": "Details under review",
+   "name": "Teppanyaki",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3332,8 +3332,8 @@
   {
    "unitId": "ioi-lg-48a",
    "unitNumber": "LG-48A",
-   "name": "Unit 48A",
-   "category": "Details under review",
+   "name": "KOI Thé",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3341,8 +3341,8 @@
   {
    "unitId": "ioi-lg-48b",
    "unitNumber": "LG-48B",
-   "name": "Unit 48B",
-   "category": "Details under review",
+   "name": "Happy Potato",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3350,8 +3350,8 @@
   {
    "unitId": "ioi-lg-46",
    "unitNumber": "LG-46",
-   "name": "Unit 46",
-   "category": "Details under review",
+   "name": "Oppadak Oven Baked Chicken",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3368,8 +3368,8 @@
   {
    "unitId": "ioi-lg-c31-k",
    "unitNumber": "LG-C31-K",
-   "name": "Kiosk C31-K",
-   "category": "Kiosk",
+   "name": "Sisters Crispy Popiah",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3386,8 +3386,8 @@
   {
    "unitId": "ioi-lg-57-58",
    "unitNumber": "LG-57-58",
-   "name": "Unit 57&58",
-   "category": "Details under review",
+   "name": "Mcdonald'S",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3395,8 +3395,8 @@
   {
    "unitId": "ioi-lg-51",
    "unitNumber": "LG-51",
-   "name": "Unit 51",
-   "category": "Details under review",
+   "name": "Coliseum @ Lg-51",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3404,8 +3404,8 @@
   {
    "unitId": "ioi-lg-49",
    "unitNumber": "LG-49",
-   "name": "Unit 49",
-   "category": "Details under review",
+   "name": "Ali, Muthu & Ah Hock",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3413,8 +3413,8 @@
   {
    "unitId": "ioi-lg-47",
    "unitNumber": "LG-47",
-   "name": "Unit 47",
-   "category": "Details under review",
+   "name": "The Manhattan Fish Market",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3422,8 +3422,8 @@
   {
    "unitId": "ioi-lg-k11b",
    "unitNumber": "LG-K11B",
-   "name": "Kiosk K11B",
-   "category": "Kiosk",
+   "name": "Haagen Dazs",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3440,8 +3440,8 @@
   {
    "unitId": "ioi-lg-k11a",
    "unitNumber": "LG-K11A",
-   "name": "Kiosk K11A",
-   "category": "Kiosk",
+   "name": "Chizu",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3449,8 +3449,8 @@
   {
    "unitId": "ioi-lg-45",
    "unitNumber": "LG-45",
-   "name": "Unit 45",
-   "category": "Details under review",
+   "name": "Ny Steak Shack",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3458,8 +3458,8 @@
   {
    "unitId": "ioi-lg-44",
    "unitNumber": "LG-44",
-   "name": "Unit 44",
-   "category": "Details under review",
+   "name": "Dubuyo",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3467,8 +3467,8 @@
   {
    "unitId": "ioi-lg-43",
    "unitNumber": "LG-43",
-   "name": "Unit 43",
-   "category": "Details under review",
+   "name": "Myeongdong Topokki",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3476,8 +3476,8 @@
   {
    "unitId": "ioi-lg-39",
    "unitNumber": "LG-39",
-   "name": "Unit 39",
-   "category": "Details under review",
+   "name": "Bhai Jim Jum",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3485,8 +3485,8 @@
   {
    "unitId": "ioi-lg-37",
    "unitNumber": "LG-37",
-   "name": "Unit 37",
-   "category": "Details under review",
+   "name": "Secret Recipe",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3494,8 +3494,8 @@
   {
    "unitId": "ioi-lg-35",
    "unitNumber": "LG-35",
-   "name": "Unit 35",
-   "category": "Details under review",
+   "name": "Big Apple Donuts And Coffee",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3503,8 +3503,8 @@
   {
    "unitId": "ioi-lg-31c",
    "unitNumber": "LG-31C",
-   "name": "Unit 31C",
-   "category": "Details under review",
+   "name": "Mr Tuk Tuk",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3521,8 +3521,8 @@
   {
    "unitId": "ioi-lg-17",
    "unitNumber": "LG-17",
-   "name": "Unit 17",
-   "category": "Details under review",
+   "name": "Compasia",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3530,8 +3530,8 @@
   {
    "unitId": "ioi-lg-19",
    "unitNumber": "LG-19",
-   "name": "Unit 19",
-   "category": "Details under review",
+   "name": "Rhapsody",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3539,8 +3539,8 @@
   {
    "unitId": "ioi-lg-21",
    "unitNumber": "LG-21",
-   "name": "Unit 21",
-   "category": "Details under review",
+   "name": "Wow Beauty",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3548,8 +3548,8 @@
   {
    "unitId": "ioi-lg-23",
    "unitNumber": "LG-23",
-   "name": "Unit 23",
-   "category": "Details under review",
+   "name": "FILA",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3557,8 +3557,8 @@
   {
    "unitId": "ioi-lg-25",
    "unitNumber": "LG-25",
-   "name": "Unit 25",
-   "category": "Details under review",
+   "name": "Crocs",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3566,8 +3566,8 @@
   {
    "unitId": "ioi-lg-26",
    "unitNumber": "LG-26",
-   "name": "Unit 26",
-   "category": "Details under review",
+   "name": "Hogan Bakery",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3575,8 +3575,8 @@
   {
    "unitId": "ioi-lg-32b",
    "unitNumber": "LG-32B",
-   "name": "Unit 32B",
-   "category": "Details under review",
+   "name": "Kedai Kopi Suka Hati",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3584,8 +3584,8 @@
   {
    "unitId": "ioi-lg-32a",
    "unitNumber": "LG-32A",
-   "name": "Unit 32A",
-   "category": "Details under review",
+   "name": "Kamelah Tobacco House",
+   "category": "Gifts & souvenirs",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3593,8 +3593,8 @@
   {
    "unitId": "ioi-lg-34c",
    "unitNumber": "LG-34C",
-   "name": "Unit 34C",
-   "category": "Details under review",
+   "name": "Gmt Currency Exchange",
+   "category": "Services",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3602,8 +3602,8 @@
   {
    "unitId": "ioi-lg-36",
    "unitNumber": "LG-36",
-   "name": "Unit 36",
-   "category": "Details under review",
+   "name": "Pop Meals",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3620,8 +3620,8 @@
   {
    "unitId": "ioi-lg-41a-b",
    "unitNumber": "LG-41A-B",
-   "name": "Unit 41A&B",
-   "category": "Details under review",
+   "name": "Squid Boy",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3629,8 +3629,8 @@
   {
    "unitId": "ioi-lg-42",
    "unitNumber": "LG-42",
-   "name": "Unit 42",
-   "category": "Details under review",
+   "name": "BMS Organics (Vegetarian)",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3638,8 +3638,8 @@
   {
    "unitId": "ioi-lg-29c",
    "unitNumber": "LG-29C",
-   "name": "Unit 29C",
-   "category": "Details under review",
+   "name": "Lavender",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3647,8 +3647,8 @@
   {
    "unitId": "ioi-lg-29b",
    "unitNumber": "LG-29B",
-   "name": "Unit 29B",
-   "category": "Details under review",
+   "name": "Ygf Malatang",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3656,8 +3656,8 @@
   {
    "unitId": "ioi-lg-29a",
    "unitNumber": "LG-29A",
-   "name": "Unit 29A",
-   "category": "Details under review",
+   "name": "Oriental Kopi",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3665,8 +3665,8 @@
   {
    "unitId": "ioi-lg-30",
    "unitNumber": "LG-30",
-   "name": "Unit 30",
-   "category": "Details under review",
+   "name": "Kyochon 1991",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3674,8 +3674,8 @@
   {
    "unitId": "ioi-lg-268",
    "unitNumber": "LG-268",
-   "name": "Unit 268",
-   "category": "Details under review",
+   "name": "Mj Jewellery",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3683,8 +3683,8 @@
   {
    "unitId": "ioi-lg-270",
    "unitNumber": "LG-270",
-   "name": "Unit 270",
-   "category": "Details under review",
+   "name": "NOSE",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3692,8 +3692,8 @@
   {
    "unitId": "ioi-lg-272",
    "unitNumber": "LG-272",
-   "name": "Unit 272",
-   "category": "Details under review",
+   "name": "Sometime By Asian Designers",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3701,8 +3701,8 @@
   {
    "unitId": "ioi-lg-274",
    "unitNumber": "LG-274",
-   "name": "Unit 274",
-   "category": "Details under review",
+   "name": "Tsl Jewellery",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3719,8 +3719,8 @@
   {
    "unitId": "ioi-lg-277",
    "unitNumber": "LG-277",
-   "name": "Unit 277",
-   "category": "Details under review",
+   "name": "A-Look",
+   "category": "Optical & eyewear",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3728,8 +3728,8 @@
   {
    "unitId": "ioi-lg-278-279",
    "unitNumber": "LG-278-279",
-   "name": "Unit 278 & 279",
-   "category": "Details under review",
+   "name": "Marks & Spencer",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3737,8 +3737,8 @@
   {
    "unitId": "ioi-lg-201",
    "unitNumber": "LG-201",
-   "name": "Unit 201",
-   "category": "Details under review",
+   "name": "Tit Tar Man",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3746,8 +3746,8 @@
   {
    "unitId": "ioi-lg-203",
    "unitNumber": "LG-203",
-   "name": "Unit 203",
-   "category": "Details under review",
+   "name": "Focus Point Concept Store",
+   "category": "Optical & eyewear",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3755,8 +3755,8 @@
   {
    "unitId": "ioi-lg-205",
    "unitNumber": "LG-205",
-   "name": "Unit 205",
-   "category": "Details under review",
+   "name": "HYPE",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3764,8 +3764,8 @@
   {
    "unitId": "ioi-lg-207",
    "unitNumber": "LG-207",
-   "name": "Unit 207",
-   "category": "Details under review",
+   "name": "Naelofar",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3773,8 +3773,8 @@
   {
    "unitId": "ioi-lg-209",
    "unitNumber": "LG-209",
-   "name": "Unit 209",
-   "category": "Details under review",
+   "name": "Qhiam",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3782,8 +3782,8 @@
   {
    "unitId": "ioi-lg-211",
    "unitNumber": "LG-211",
-   "name": "Unit 211",
-   "category": "Details under review",
+   "name": "Machines",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3800,8 +3800,8 @@
   {
    "unitId": "ioi-lg-215",
    "unitNumber": "LG-215",
-   "name": "Unit 215",
-   "category": "Details under review",
+   "name": "Daisy",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3818,8 +3818,8 @@
   {
    "unitId": "ioi-lg-263-265",
    "unitNumber": "LG-263-265",
-   "name": "Unit 263 & 265",
-   "category": "Details under review",
+   "name": "Lc Waikiki",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3827,8 +3827,8 @@
   {
    "unitId": "ioi-lg-267",
    "unitNumber": "LG-267",
-   "name": "Unit 267",
-   "category": "Details under review",
+   "name": "SODA",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3836,8 +3836,8 @@
   {
    "unitId": "ioi-lg-269",
    "unitNumber": "LG-269",
-   "name": "Unit 269",
-   "category": "Details under review",
+   "name": "Oriental Watch & Co",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3845,8 +3845,8 @@
   {
    "unitId": "ioi-lg-261",
    "unitNumber": "LG-261",
-   "name": "Unit 261",
-   "category": "Details under review",
+   "name": "Makii Makii",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3854,8 +3854,8 @@
   {
    "unitId": "ioi-lg-257-259",
    "unitNumber": "LG-257-259",
-   "name": "Unit 257 & 259",
-   "category": "Details under review",
+   "name": "Din By Din Tai Fung",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3863,8 +3863,8 @@
   {
    "unitId": "ioi-lg-271-273-275",
    "unitNumber": "LG-271-273-275",
-   "name": "Unit 271, 273 & 275",
-   "category": "Details under review",
+   "name": "SASA",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3872,8 +3872,8 @@
   {
    "unitId": "ioi-lg-245",
    "unitNumber": "LG-245",
-   "name": "Unit 245",
-   "category": "Details under review",
+   "name": "Quiksilver & Roxy",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3881,8 +3881,8 @@
   {
    "unitId": "ioi-lg-244",
    "unitNumber": "LG-244",
-   "name": "Unit 244",
-   "category": "Details under review",
+   "name": "Rookie",
+   "category": "Children & maternity",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3890,8 +3890,8 @@
   {
    "unitId": "ioi-lg-202",
    "unitNumber": "LG-202",
-   "name": "Unit 202",
-   "category": "Details under review",
+   "name": "S.wan Jewels",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3899,8 +3899,8 @@
   {
    "unitId": "ioi-lg-204",
    "unitNumber": "LG-204",
-   "name": "Unit 204",
-   "category": "Details under review",
+   "name": "Lee Jeans Malaysia",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3908,8 +3908,8 @@
   {
    "unitId": "ioi-lg-206-208",
    "unitNumber": "LG-206-208",
-   "name": "Unit 206 & 208",
-   "category": "Details under review",
+   "name": "Rotiboy (East)",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3917,8 +3917,8 @@
   {
    "unitId": "ioi-lg-210",
    "unitNumber": "LG-210",
-   "name": "Unit 210",
-   "category": "Details under review",
+   "name": "Ooppa",
+   "category": "Optical & eyewear",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3926,8 +3926,8 @@
   {
    "unitId": "ioi-lg-212",
    "unitNumber": "LG-212",
-   "name": "Unit 212",
-   "category": "Details under review",
+   "name": "Signature By Tomei",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3935,8 +3935,8 @@
   {
    "unitId": "ioi-lg-214-216",
    "unitNumber": "LG-214-216",
-   "name": "Unit 214 & 216",
-   "category": "Details under review",
+   "name": "TudungPeople",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3944,8 +3944,8 @@
   {
    "unitId": "ioi-lg-218",
    "unitNumber": "LG-218",
-   "name": "Unit 218",
-   "category": "Details under review",
+   "name": "Family Mart",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3962,8 +3962,8 @@
   {
    "unitId": "ioi-lg-232",
    "unitNumber": "LG-232",
-   "name": "Unit 232",
-   "category": "Details under review",
+   "name": "Dodo Korea",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3971,8 +3971,8 @@
   {
    "unitId": "ioi-lg-230",
    "unitNumber": "LG-230",
-   "name": "Unit 230",
-   "category": "Details under review",
+   "name": "Sang Gerai",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3980,8 +3980,8 @@
   {
    "unitId": "ioi-lg-228",
    "unitNumber": "LG-228",
-   "name": "Unit 228",
-   "category": "Details under review",
+   "name": "D'Penyetz",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3989,8 +3989,8 @@
   {
    "unitId": "ioi-lg-226",
    "unitNumber": "LG-226",
-   "name": "Unit 226",
-   "category": "Details under review",
+   "name": "Hot Bird",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -3998,8 +3998,8 @@
   {
    "unitId": "ioi-lg-224",
    "unitNumber": "LG-224",
-   "name": "Unit 224",
-   "category": "Details under review",
+   "name": "Cheeseu Bistro & Dessert Bar",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4007,8 +4007,8 @@
   {
    "unitId": "ioi-lg-246a",
    "unitNumber": "LG-246A",
-   "name": "Unit 246A",
-   "category": "Details under review",
+   "name": "Llao Llao",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4016,8 +4016,8 @@
   {
    "unitId": "ioi-lg-255",
    "unitNumber": "LG-255",
-   "name": "Unit 255",
-   "category": "Details under review",
+   "name": "Baskin Robbins",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4025,8 +4025,8 @@
   {
    "unitId": "ioi-lg-254",
    "unitNumber": "LG-254",
-   "name": "Unit 254",
-   "category": "Details under review",
+   "name": "Le Shrimp Ramen",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4034,8 +4034,8 @@
   {
    "unitId": "ioi-lg-253",
    "unitNumber": "LG-253",
-   "name": "Unit 253",
-   "category": "Details under review",
+   "name": "Parathai",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4043,8 +4043,8 @@
   {
    "unitId": "ioi-lg-246-247",
    "unitNumber": "LG-246-247",
-   "name": "Unit 246 & 247",
-   "category": "Details under review",
+   "name": "Madam Kwan'S",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4052,8 +4052,8 @@
   {
    "unitId": "ioi-lg-242",
    "unitNumber": "LG-242",
-   "name": "Unit 242",
-   "category": "Details under review",
+   "name": "Cafe Colombo",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4061,8 +4061,8 @@
   {
    "unitId": "ioi-lg-240",
    "unitNumber": "LG-240",
-   "name": "Unit 240",
-   "category": "Details under review",
+   "name": "Asam Pedas Premier",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4070,8 +4070,8 @@
   {
    "unitId": "ioi-lg-238",
    "unitNumber": "LG-238",
-   "name": "Unit 238",
-   "category": "Details under review",
+   "name": "Mama Thai",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4079,8 +4079,8 @@
   {
    "unitId": "ioi-lg-236",
    "unitNumber": "LG-236",
-   "name": "Unit 236",
-   "category": "Details under review",
+   "name": "Jangsajang Deopbap",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4088,8 +4088,8 @@
   {
    "unitId": "ioi-lg-234",
    "unitNumber": "LG-234",
-   "name": "Unit 234",
-   "category": "Details under review",
+   "name": "The Coffee Bean & Tea Leaf",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4097,8 +4097,8 @@
   {
    "unitId": "ioi-lg-262",
    "unitNumber": "LG-262",
-   "name": "Unit 262",
-   "category": "Details under review",
+   "name": "Robata Sushi And Grill",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4115,8 +4115,8 @@
   {
    "unitId": "ioi-lg-256c",
    "unitNumber": "LG-256C",
-   "name": "Unit 256C",
-   "category": "Details under review",
+   "name": "Subway",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4124,8 +4124,8 @@
   {
    "unitId": "ioi-lg-256a",
    "unitNumber": "LG-256A",
-   "name": "Unit 256A",
-   "category": "Details under review",
+   "name": "Bungkus Kaw Kaw",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4133,8 +4133,8 @@
   {
    "unitId": "ioi-lg-256b",
    "unitNumber": "LG-256B",
-   "name": "Unit 256B",
-   "category": "Details under review",
+   "name": "Mon Chinese Beef Roti",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4142,8 +4142,8 @@
   {
    "unitId": "ioi-lg-252",
    "unitNumber": "LG-252",
-   "name": "Unit 252",
-   "category": "Details under review",
+   "name": "OldTown White Coffee",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4151,8 +4151,8 @@
   {
    "unitId": "ioi-lg-251",
    "unitNumber": "LG-251",
-   "name": "Unit 251",
-   "category": "Details under review",
+   "name": "Sushi Jiro",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4169,8 +4169,8 @@
   {
    "unitId": "ioi-lg-248-249",
    "unitNumber": "LG-248-249",
-   "name": "Unit 248 & 249",
-   "category": "Details under review",
+   "name": "Nak Nak",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4187,8 +4187,8 @@
   {
    "unitId": "ioi-lg-239",
    "unitNumber": "LG-239",
-   "name": "Unit 239",
-   "category": "Details under review",
+   "name": "Jollibee",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4196,8 +4196,8 @@
   {
    "unitId": "ioi-lg-237",
    "unitNumber": "LG-237",
-   "name": "Unit 237",
-   "category": "Details under review",
+   "name": "Ho Min San 好面善",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4205,8 +4205,8 @@
   {
    "unitId": "ioi-lg-235",
    "unitNumber": "LG-235",
-   "name": "Unit 235",
-   "category": "Details under review",
+   "name": "Ak Noodles House",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4214,8 +4214,8 @@
   {
    "unitId": "ioi-lg-233",
    "unitNumber": "LG-233",
-   "name": "Unit 233",
-   "category": "Details under review",
+   "name": "Nasi Lemak Shop",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4223,8 +4223,8 @@
   {
    "unitId": "ioi-lg-231",
    "unitNumber": "LG-231",
-   "name": "Unit 231",
-   "category": "Details under review",
+   "name": "Lausanjee",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4232,8 +4232,8 @@
   {
    "unitId": "ioi-lg-229",
    "unitNumber": "LG-229",
-   "name": "Unit 229",
-   "category": "Details under review",
+   "name": "Ramen Seirock-Ya",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4241,8 +4241,8 @@
   {
    "unitId": "ioi-lg-227",
    "unitNumber": "LG-227",
-   "name": "Unit 227",
-   "category": "Details under review",
+   "name": "Jm Bariani House",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4250,8 +4250,8 @@
   {
    "unitId": "ioi-lg-225",
    "unitNumber": "LG-225",
-   "name": "Unit 225",
-   "category": "Details under review",
+   "name": "Ombak Kitchen",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4259,8 +4259,8 @@
   {
    "unitId": "ioi-lg-k201",
    "unitNumber": "LG-K201",
-   "name": "Kiosk K201",
-   "category": "Kiosk",
+   "name": "Lumi Beauty",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4268,8 +4268,8 @@
   {
    "unitId": "ioi-lg-k202",
    "unitNumber": "LG-K202",
-   "name": "Kiosk K202",
-   "category": "Kiosk",
+   "name": "Noir",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4286,8 +4286,8 @@
   {
    "unitId": "ioi-lg-k204",
    "unitNumber": "LG-K204",
-   "name": "Kiosk K204",
-   "category": "Kiosk",
+   "name": "Top Teppanyaki",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4313,8 +4313,8 @@
   {
    "unitId": "ioi-lg-k207",
    "unitNumber": "LG-K207",
-   "name": "Kiosk K207",
-   "category": "Kiosk",
+   "name": "Charles Jourdan",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4331,8 +4331,8 @@
   {
    "unitId": "ioi-lg-k209",
    "unitNumber": "LG-K209",
-   "name": "Kiosk K209",
-   "category": "Kiosk",
+   "name": "Le Creuset",
+   "category": "Home & living",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4349,8 +4349,8 @@
   {
    "unitId": "ioi-lg-k211",
    "unitNumber": "LG-K211",
-   "name": "Kiosk K211",
-   "category": "Kiosk",
+   "name": "Kenangan Coffee",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4358,8 +4358,8 @@
   {
    "unitId": "ioi-lg-k212",
    "unitNumber": "LG-K212",
-   "name": "Kiosk K212",
-   "category": "Kiosk",
+   "name": "Dotnuts",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4367,8 +4367,8 @@
   {
    "unitId": "ioi-lg-k213",
    "unitNumber": "LG-K213",
-   "name": "Kiosk K213",
-   "category": "Kiosk",
+   "name": "Airi Berry",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4376,8 +4376,8 @@
   {
    "unitId": "ioi-lg-k214",
    "unitNumber": "LG-K214",
-   "name": "Kiosk K214",
-   "category": "Kiosk",
+   "name": "Don の Makase",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4430,8 +4430,8 @@
   {
    "unitId": "ioi-lg-k220",
    "unitNumber": "LG-K220",
-   "name": "Kiosk K220",
-   "category": "Kiosk",
+   "name": "Tealive",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4448,8 +4448,8 @@
   {
    "unitId": "ioi-lg-82",
    "unitNumber": "LG-82",
-   "name": "Unit 82",
-   "category": "Details under review",
+   "name": "Laem Charoen Thai Seafood",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4457,8 +4457,8 @@
   {
    "unitId": "ioi-lg-80",
    "unitNumber": "LG-80",
-   "name": "Unit 80",
-   "category": "Details under review",
+   "name": "Serai",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4493,8 +4493,8 @@
   {
    "unitId": "ioi-lg-90",
    "unitNumber": "LG-90",
-   "name": "Unit 90",
-   "category": "Details under review",
+   "name": "Solar Time",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4502,8 +4502,8 @@
   {
    "unitId": "ioi-lg-104",
    "unitNumber": "LG-104",
-   "name": "Unit 104",
-   "category": "Details under review",
+   "name": "Hush Puppies (Footwear)",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4511,8 +4511,8 @@
   {
    "unitId": "ioi-lg-106",
    "unitNumber": "LG-106",
-   "name": "Unit 106",
-   "category": "Details under review",
+   "name": "Tomei",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4520,8 +4520,8 @@
   {
    "unitId": "ioi-lg-63",
    "unitNumber": "LG-63",
-   "name": "Unit 63",
-   "category": "Details under review",
+   "name": "Paris Baguette",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4529,8 +4529,8 @@
   {
    "unitId": "ioi-lg-61",
    "unitNumber": "LG-61",
-   "name": "Unit 61",
-   "category": "Details under review",
+   "name": "The Chicken Rice Shop",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4538,8 +4538,8 @@
   {
    "unitId": "ioi-lg-59",
    "unitNumber": "LG-59",
-   "name": "Unit 59",
-   "category": "Details under review",
+   "name": "Fuel Shack",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4547,8 +4547,8 @@
   {
    "unitId": "ioi-lg-60-62",
    "unitNumber": "LG-60-62",
-   "name": "Unit 60&62",
-   "category": "Details under review",
+   "name": "Kyoto Katsu",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4556,8 +4556,8 @@
   {
    "unitId": "ioi-lg-64",
    "unitNumber": "LG-64",
-   "name": "Unit 64",
-   "category": "Details under review",
+   "name": "Tony Roma'S",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4691,8 +4691,8 @@
   {
    "unitId": "ioi-lg-78",
    "unitNumber": "LG-78",
-   "name": "Unit 78",
-   "category": "Details under review",
+   "name": "Nikumai",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4709,8 +4709,8 @@
   {
    "unitId": "ioi-lg-77",
    "unitNumber": "LG-77",
-   "name": "Unit 77",
-   "category": "Details under review",
+   "name": "Kakatoo.Go",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4718,8 +4718,8 @@
   {
    "unitId": "ioi-lg-75",
    "unitNumber": "LG-75",
-   "name": "Unit 75",
-   "category": "Details under review",
+   "name": "Hanbing",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4727,8 +4727,8 @@
   {
    "unitId": "ioi-lg-73",
    "unitNumber": "LG-73",
-   "name": "Unit 73",
-   "category": "Details under review",
+   "name": "Istanoodle",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4736,8 +4736,8 @@
   {
    "unitId": "ioi-lg-72",
    "unitNumber": "LG-72",
-   "name": "Unit 72",
-   "category": "Details under review",
+   "name": "Family Mart",
+   "category": "Services",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4745,8 +4745,8 @@
   {
    "unitId": "ioi-lg-71",
    "unitNumber": "LG-71",
-   "name": "Unit 71",
-   "category": "Details under review",
+   "name": "Bananabro",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4754,8 +4754,8 @@
   {
    "unitId": "ioi-lg-69",
    "unitNumber": "LG-69",
-   "name": "Unit 69",
-   "category": "Details under review",
+   "name": "Sukiya Tokyo Bowls & Noodles",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4763,8 +4763,8 @@
   {
    "unitId": "ioi-lg-67",
    "unitNumber": "LG-67",
-   "name": "Unit 67",
-   "category": "Details under review",
+   "name": "Absolute Thai",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4772,8 +4772,8 @@
   {
    "unitId": "ioi-lg-65",
    "unitNumber": "LG-65",
-   "name": "Unit 65",
-   "category": "Details under review",
+   "name": "7-Eleven",
+   "category": "Services",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4781,8 +4781,8 @@
   {
    "unitId": "ioi-lg-65a",
    "unitNumber": "LG-65A",
-   "name": "Unit 65A",
-   "category": "Details under review",
+   "name": "Ayu Borneo",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4790,8 +4790,8 @@
   {
    "unitId": "ioi-lg-74a",
    "unitNumber": "LG-74A",
-   "name": "Unit 74A",
-   "category": "Details under review",
+   "name": "Gong Cha",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4799,8 +4799,8 @@
   {
    "unitId": "ioi-lg-74b",
    "unitNumber": "LG-74B",
-   "name": "Unit 74B",
-   "category": "Details under review",
+   "name": "I Love Yoo!",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4817,8 +4817,8 @@
   {
    "unitId": "ioi-lg-79b",
    "unitNumber": "LG-79B",
-   "name": "Unit 79B",
-   "category": "Details under review",
+   "name": "Black Canyon",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4880,8 +4880,8 @@
   {
    "unitId": "ioi-lg-79d",
    "unitNumber": "LG-79D",
-   "name": "Unit 79D",
-   "category": "Details under review",
+   "name": "luckin coffee",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4889,8 +4889,8 @@
   {
    "unitId": "ioi-lg-78d",
    "unitNumber": "LG-78D",
-   "name": "Unit 78D",
-   "category": "Details under review",
+   "name": "Johnny'S Restaurants",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4918,8 +4918,8 @@
   {
    "unitId": "ioi-g-77",
    "unitNumber": "G-77",
-   "name": "Unit 77",
-   "category": "Details under review",
+   "name": "BYD",
+   "category": "Services",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4927,8 +4927,8 @@
   {
    "unitId": "ioi-g-78a-b",
    "unitNumber": "G-78A-B",
-   "name": "Unit 78A&B",
-   "category": "Details under review",
+   "name": "Jo Malone",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4936,8 +4936,8 @@
   {
    "unitId": "ioi-g-76",
    "unitNumber": "G-76",
-   "name": "Unit 76",
-   "category": "Details under review",
+   "name": "Aesop",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4945,8 +4945,8 @@
   {
    "unitId": "ioi-g-75",
    "unitNumber": "G-75",
-   "name": "Unit 75",
-   "category": "Details under review",
+   "name": "Molton Brown",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4954,8 +4954,8 @@
   {
    "unitId": "ioi-g-67",
    "unitNumber": "G-67",
-   "name": "Unit 67",
-   "category": "Details under review",
+   "name": "Amber",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4963,8 +4963,8 @@
   {
    "unitId": "ioi-g-68",
    "unitNumber": "G-68",
-   "name": "Unit 68",
-   "category": "Details under review",
+   "name": "Benjamin Barker",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4972,8 +4972,8 @@
   {
    "unitId": "ioi-g-69",
    "unitNumber": "G-69",
-   "name": "Unit 69",
-   "category": "Details under review",
+   "name": "ALDO",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4981,8 +4981,8 @@
   {
    "unitId": "ioi-g-71",
    "unitNumber": "G-71",
-   "name": "Unit 71",
-   "category": "Details under review",
+   "name": "Bath & Body Works",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -4990,8 +4990,8 @@
   {
    "unitId": "ioi-g-72",
    "unitNumber": "G-72",
-   "name": "Unit 72",
-   "category": "Details under review",
+   "name": "Clarks",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5008,8 +5008,8 @@
   {
    "unitId": "ioi-g-79",
    "unitNumber": "G-79",
-   "name": "Unit 79",
-   "category": "Details under review",
+   "name": "Wardrobe",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5017,8 +5017,8 @@
   {
    "unitId": "ioi-g-3a",
    "unitNumber": "G-3A",
-   "name": "Unit 3A",
-   "category": "Details under review",
+   "name": "Salad Atelier",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5026,8 +5026,8 @@
   {
    "unitId": "ioi-g-1",
    "unitNumber": "G-1",
-   "name": "Unit 1",
-   "category": "Details under review",
+   "name": "Khawaja Middle Eastern Restaurant",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5035,8 +5035,8 @@
   {
    "unitId": "ioi-g-2",
    "unitNumber": "G-2",
-   "name": "Unit 2",
-   "category": "Details under review",
+   "name": "Chagee (flagship)",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5044,8 +5044,8 @@
   {
    "unitId": "ioi-g-4",
    "unitNumber": "G-4",
-   "name": "Unit 4",
-   "category": "Details under review",
+   "name": "Klinik Mediviron",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5053,8 +5053,8 @@
   {
    "unitId": "ioi-g-5-6",
    "unitNumber": "G-5-6",
-   "name": "Unit 5&6",
-   "category": "Details under review",
+   "name": "Sushi Tei",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5062,8 +5062,8 @@
   {
    "unitId": "ioi-g-7",
    "unitNumber": "G-7",
-   "name": "Unit 7",
-   "category": "Details under review",
+   "name": "Chili'S",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5071,8 +5071,8 @@
   {
    "unitId": "ioi-g-8a",
    "unitNumber": "G-8A",
-   "name": "Unit 8A",
-   "category": "Details under review",
+   "name": "TYPO",
+   "category": "Gifts & souvenirs",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5080,8 +5080,8 @@
   {
    "unitId": "ioi-g-8b",
    "unitNumber": "G-8B",
-   "name": "Unit 8B",
-   "category": "Details under review",
+   "name": "Nike",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5098,8 +5098,8 @@
   {
    "unitId": "ioi-g-9b",
    "unitNumber": "G-9B",
-   "name": "Unit 9B",
-   "category": "Details under review",
+   "name": "The Ordinary",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5125,8 +5125,8 @@
   {
    "unitId": "ioi-g-13a",
    "unitNumber": "G-13A",
-   "name": "Unit 13A",
-   "category": "Details under review",
+   "name": "Hla Concept Store",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5134,8 +5134,8 @@
   {
    "unitId": "ioi-g-14",
    "unitNumber": "G-14",
-   "name": "Unit 14",
-   "category": "Details under review",
+   "name": "India Gate",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5144,7 +5144,7 @@
    "unitId": "ioi-g-15",
    "unitNumber": "G-15",
    "name": "Max Fashion",
-   "category": "Fashion",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5153,7 +5153,7 @@
    "unitId": "ioi-g-16-17",
    "unitNumber": "G-16-17",
    "name": "Muji",
-   "category": "Lifestyle",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5197,8 +5197,8 @@
   {
    "unitId": "ioi-g-38",
    "unitNumber": "G-38",
-   "name": "Unit 38",
-   "category": "Details under review",
+   "name": "Lilanz",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5215,8 +5215,8 @@
   {
    "unitId": "ioi-g-42",
    "unitNumber": "G-42",
-   "name": "Unit 42",
-   "category": "Details under review",
+   "name": "L'Occitane En Provence",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5224,8 +5224,8 @@
   {
    "unitId": "ioi-g-43",
    "unitNumber": "G-43",
-   "name": "Unit 43",
-   "category": "Details under review",
+   "name": "Kens Apothecary",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5233,8 +5233,8 @@
   {
    "unitId": "ioi-g-44",
    "unitNumber": "G-44",
-   "name": "Unit 44",
-   "category": "Details under review",
+   "name": "Bonia",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5242,8 +5242,8 @@
   {
    "unitId": "ioi-g-45",
    "unitNumber": "G-45",
-   "name": "Unit 45",
-   "category": "Details under review",
+   "name": "Dior",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5251,8 +5251,8 @@
   {
    "unitId": "ioi-g-48",
    "unitNumber": "G-48",
-   "name": "Unit 48",
-   "category": "Details under review",
+   "name": "Swarovski",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5296,8 +5296,8 @@
   {
    "unitId": "ioi-g-e-8-9-10",
    "unitNumber": "G-E-8-9-10",
-   "name": "Unit E-8,9&10",
-   "category": "Details under review",
+   "name": "H&M",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5341,8 +5341,8 @@
   {
    "unitId": "ioi-g-e-19",
    "unitNumber": "G-E-19",
-   "name": "Unit E-19",
-   "category": "Details under review",
+   "name": "Luckin Coffee",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5350,8 +5350,8 @@
   {
    "unitId": "ioi-g-28-29",
    "unitNumber": "G-28-29",
-   "name": "Unit 28&29",
-   "category": "Details under review",
+   "name": "Ole-Ole Bali",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5359,8 +5359,8 @@
   {
    "unitId": "ioi-g-27",
    "unitNumber": "G-27",
-   "name": "Unit 27",
-   "category": "Details under review",
+   "name": "The Coffee Bean & Tea Leaf",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5368,8 +5368,8 @@
   {
    "unitId": "ioi-g-33",
    "unitNumber": "G-33",
-   "name": "Unit 33",
-   "category": "Details under review",
+   "name": "Birkenstock",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5377,8 +5377,8 @@
   {
    "unitId": "ioi-g-34",
    "unitNumber": "G-34",
-   "name": "Unit 34",
-   "category": "Details under review",
+   "name": "Smiggle",
+   "category": "Gifts & souvenirs",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5413,8 +5413,8 @@
   {
    "unitId": "ioi-g-22",
    "unitNumber": "G-22",
-   "name": "Unit 22",
-   "category": "Details under review",
+   "name": "Ms.read",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5422,8 +5422,8 @@
   {
    "unitId": "ioi-g-23",
    "unitNumber": "G-23",
-   "name": "Unit 23",
-   "category": "Details under review",
+   "name": "Barry Smith",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5431,8 +5431,8 @@
   {
    "unitId": "ioi-g-24-25",
    "unitNumber": "G-24-25",
-   "name": "Unit 24&25",
-   "category": "Details under review",
+   "name": "F.O.S",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5440,8 +5440,8 @@
   {
    "unitId": "ioi-g-26",
    "unitNumber": "G-26",
-   "name": "Unit 26",
-   "category": "Details under review",
+   "name": "K-Fry Urban Korean",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5449,8 +5449,8 @@
   {
    "unitId": "ioi-g-238",
    "unitNumber": "G-238",
-   "name": "Unit 238",
-   "category": "Details under review",
+   "name": "Optometris Anggun",
+   "category": "Optical & eyewear",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5459,7 +5459,7 @@
    "unitId": "ioi-g-236-237",
    "unitNumber": "G-236-237",
    "name": "Outpozt",
-   "category": "Outdoor & lifestyle",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5476,8 +5476,8 @@
   {
    "unitId": "ioi-g-241-243",
    "unitNumber": "G-241-243",
-   "name": "Unit 241-243",
-   "category": "Details under review",
+   "name": "Swiss Watch",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5485,8 +5485,8 @@
   {
    "unitId": "ioi-g-245",
    "unitNumber": "G-245",
-   "name": "Unit 245",
-   "category": "Details under review",
+   "name": "The Cayman Tailor",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5503,8 +5503,8 @@
   {
    "unitId": "ioi-g-202",
    "unitNumber": "G-202",
-   "name": "Unit 202",
-   "category": "Details under review",
+   "name": "Lululemon",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5512,8 +5512,8 @@
   {
    "unitId": "ioi-g-203",
    "unitNumber": "G-203",
-   "name": "Unit 203",
-   "category": "Details under review",
+   "name": "Cafe Chef Wan",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5521,8 +5521,8 @@
   {
    "unitId": "ioi-g-204",
    "unitNumber": "G-204",
-   "name": "Unit 204",
-   "category": "Details under review",
+   "name": "Isabelle Restaurant & Bar",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5530,8 +5530,8 @@
   {
    "unitId": "ioi-g-205",
    "unitNumber": "G-205",
-   "name": "Unit 205",
-   "category": "Details under review",
+   "name": "Dome",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5539,8 +5539,8 @@
   {
    "unitId": "ioi-g-206",
    "unitNumber": "G-206",
-   "name": "Unit 206",
-   "category": "Details under review",
+   "name": "Ying Xian Canton Cuisine",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5548,8 +5548,8 @@
   {
    "unitId": "ioi-g-207",
    "unitNumber": "G-207",
-   "name": "Unit 207",
-   "category": "Details under review",
+   "name": "TUMI",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5557,8 +5557,8 @@
   {
    "unitId": "ioi-g-208",
    "unitNumber": "G-208",
-   "name": "Unit 208",
-   "category": "Details under review",
+   "name": "Tommy Hilfiger",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5566,8 +5566,8 @@
   {
    "unitId": "ioi-g-209",
    "unitNumber": "G-209",
-   "name": "Unit 209",
-   "category": "Details under review",
+   "name": "Fred Perry",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5575,8 +5575,8 @@
   {
    "unitId": "ioi-g-210",
    "unitNumber": "G-210",
-   "name": "Unit 210",
-   "category": "Details under review",
+   "name": "Fossil",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5584,8 +5584,8 @@
   {
    "unitId": "ioi-g-211",
    "unitNumber": "G-211",
-   "name": "Unit 211",
-   "category": "Details under review",
+   "name": "Diamond & Platinum",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5593,8 +5593,8 @@
   {
    "unitId": "ioi-g-212",
    "unitNumber": "G-212",
-   "name": "Unit 212",
-   "category": "Details under review",
+   "name": "Chj Jewellery",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5602,8 +5602,8 @@
   {
    "unitId": "ioi-g-213-214",
    "unitNumber": "G-213-214",
-   "name": "Unit 213&214",
-   "category": "Details under review",
+   "name": "IORA",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5611,8 +5611,8 @@
   {
    "unitId": "ioi-g-216-217",
    "unitNumber": "G-216-217",
-   "name": "Unit 216-217",
-   "category": "Details under review",
+   "name": "Zcova",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5638,8 +5638,8 @@
   {
    "unitId": "ioi-g-235",
    "unitNumber": "G-235",
-   "name": "Unit 235",
-   "category": "Details under review",
+   "name": "Steve Madden",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5647,8 +5647,8 @@
   {
    "unitId": "ioi-g-234",
    "unitNumber": "G-234",
-   "name": "Unit 234",
-   "category": "Details under review",
+   "name": "Piquadro",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5656,8 +5656,8 @@
   {
    "unitId": "ioi-g-233",
    "unitNumber": "G-233",
-   "name": "Unit 233",
-   "category": "Details under review",
+   "name": "Michael Kors",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5665,8 +5665,8 @@
   {
    "unitId": "ioi-g-232",
    "unitNumber": "G-232",
-   "name": "Unit 232",
-   "category": "Details under review",
+   "name": "Rado",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5674,8 +5674,8 @@
   {
    "unitId": "ioi-g-e-201",
    "unitNumber": "G-E-201",
-   "name": "Unit E-201",
-   "category": "Details under review",
+   "name": "Aigner",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5719,8 +5719,8 @@
   {
    "unitId": "ioi-g-229a",
    "unitNumber": "G-229A",
-   "name": "Unit 229A",
-   "category": "Details under review",
+   "name": "Coach",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5728,8 +5728,8 @@
   {
    "unitId": "ioi-g-228",
    "unitNumber": "G-228",
-   "name": "Unit 228",
-   "category": "Details under review",
+   "name": "Braun Buffel",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5737,8 +5737,8 @@
   {
    "unitId": "ioi-g-227",
    "unitNumber": "G-227",
-   "name": "Unit 227",
-   "category": "Details under review",
+   "name": "Kate Spade New York",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5746,8 +5746,8 @@
   {
    "unitId": "ioi-g-230-231",
    "unitNumber": "G-230-231",
-   "name": "Unit 230&231",
-   "category": "Details under review",
+   "name": "Hackett London",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5809,8 +5809,8 @@
   {
    "unitId": "ioi-g-224-225",
    "unitNumber": "G-224-225",
-   "name": "Unit 224&225",
-   "category": "Details under review",
+   "name": "Mango",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5818,8 +5818,8 @@
   {
    "unitId": "ioi-g-222",
    "unitNumber": "G-222",
-   "name": "Unit 222",
-   "category": "Details under review",
+   "name": "Valentino Rudy",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5827,8 +5827,8 @@
   {
    "unitId": "ioi-g-221",
    "unitNumber": "G-221",
-   "name": "Unit 221",
-   "category": "Details under review",
+   "name": "Levi's",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5845,8 +5845,8 @@
   {
    "unitId": "ioi-g-e-211-212",
    "unitNumber": "G-E-211-212",
-   "name": "Unit E-211&212",
-   "category": "Details under review",
+   "name": "Lavish Restaurant & Bar",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5863,8 +5863,8 @@
   {
    "unitId": "ioi-g-e-215",
    "unitNumber": "G-E-215",
-   "name": "Unit E-215",
-   "category": "Details under review",
+   "name": "Oga Tea & Dining",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5881,8 +5881,8 @@
   {
    "unitId": "ioi-g-e-217-218",
    "unitNumber": "G-E-217-218",
-   "name": "Unit E-217&218",
-   "category": "Details under review",
+   "name": "Kenny Hills Bakers",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5890,8 +5890,8 @@
   {
    "unitId": "ioi-g-56",
    "unitNumber": "G-56",
-   "name": "Unit 56",
-   "category": "Details under review",
+   "name": "Taj Muhabath Money Exchange",
+   "category": "Services",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5899,8 +5899,8 @@
   {
    "unitId": "ioi-g-57a",
    "unitNumber": "G-57A",
-   "name": "Unit 57A",
-   "category": "Details under review",
+   "name": "Timberland",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5908,8 +5908,8 @@
   {
    "unitId": "ioi-g-54-55",
    "unitNumber": "G-54-55",
-   "name": "Unit 54&55",
-   "category": "Details under review",
+   "name": "Victoria'S Secret",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5926,8 +5926,8 @@
   {
    "unitId": "ioi-g-51",
    "unitNumber": "G-51",
-   "name": "Unit 51",
-   "category": "Details under review",
+   "name": "AAPE",
+   "category": "Fashion",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5935,8 +5935,8 @@
   {
    "unitId": "ioi-g-50",
    "unitNumber": "G-50",
-   "name": "Unit 50",
-   "category": "Details under review",
+   "name": "YSL Beaute",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5944,8 +5944,8 @@
   {
    "unitId": "ioi-g-49",
    "unitNumber": "G-49",
-   "name": "Unit 49",
-   "category": "Details under review",
+   "name": "Godiva",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5953,8 +5953,8 @@
   {
    "unitId": "ioi-g-59",
    "unitNumber": "G-59",
-   "name": "Unit 59",
-   "category": "Details under review",
+   "name": "Machines",
+   "category": "Digital lifestyle",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -5980,8 +5980,8 @@
   {
    "unitId": "ioi-g-57",
    "unitNumber": "G-57",
-   "name": "Unit 57",
-   "category": "Details under review",
+   "name": "Charles & Keith",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -6007,8 +6007,8 @@
   {
    "unitId": "ioi-g-e-3b",
    "unitNumber": "G-E-3B",
-   "name": "Unit E-3B",
-   "category": "Details under review",
+   "name": "Dotty'S Pastries",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -6016,8 +6016,8 @@
   {
    "unitId": "ioi-g-46",
    "unitNumber": "G-46",
-   "name": "Unit 46",
-   "category": "Details under review",
+   "name": "Pedro",
+   "category": "Footwear, bags & accessories",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -6025,8 +6025,8 @@
   {
    "unitId": "ioi-g-60-62",
    "unitNumber": "G-60-62",
-   "name": "Unit 60-62",
-   "category": "Details under review",
+   "name": "Decathlon",
+   "category": "Anchor",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -6061,8 +6061,8 @@
   {
    "unitId": "ioi-g-e-18",
    "unitNumber": "G-E-18",
-   "name": "Kiosk E-18",
-   "category": "Kiosk",
+   "name": "Thaikor Bbq Buffet",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -6070,8 +6070,8 @@
   {
    "unitId": "ioi-g-k1d",
    "unitNumber": "G-K1D",
-   "name": "Kiosk K1D",
-   "category": "Kiosk",
+   "name": "Rabanne",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -6079,8 +6079,8 @@
   {
    "unitId": "ioi-g-k1a",
    "unitNumber": "G-K1A",
-   "name": "Kiosk K1A",
-   "category": "Kiosk",
+   "name": "Apm Monaco",
+   "category": "Timepieces & jewellery",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -6088,8 +6088,8 @@
   {
    "unitId": "ioi-g-k1b",
    "unitNumber": "G-K1B",
-   "name": "Kiosk K1B",
-   "category": "Kiosk",
+   "name": "Clinique",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -6106,8 +6106,8 @@
   {
    "unitId": "ioi-g-k3a",
    "unitNumber": "G-K3A",
-   "name": "Kiosk K3A",
-   "category": "Kiosk",
+   "name": "NARS",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -6124,8 +6124,8 @@
   {
    "unitId": "ioi-g-k3c",
    "unitNumber": "G-K3C",
-   "name": "Kiosk K3C",
-   "category": "Kiosk",
+   "name": "Shiseido",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -6133,8 +6133,8 @@
   {
    "unitId": "ioi-g-k4",
    "unitNumber": "G-K4",
-   "name": "Kiosk K4",
-   "category": "Kiosk",
+   "name": "Clarins",
+   "category": "Health & beauty",
    "description": null,
    "tenantKey": null,
    "thumb": null
@@ -6142,8 +6142,8 @@
   {
    "unitId": "ioi-g-k5",
    "unitNumber": "G-K5",
-   "name": "Kiosk K5",
-   "category": "Kiosk",
+   "name": "Chagee (kiosk)",
+   "category": "Food & beverage",
    "description": null,
    "tenantKey": null,
    "thumb": null

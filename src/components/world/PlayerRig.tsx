@@ -5,7 +5,16 @@ import { useFrame, useThree } from "@react-three/fiber";
 import gsap from "gsap";
 import { Suspense, useCallback, useEffect, useMemo, useRef } from "react";
 import { Group, MathUtils, Vector3 } from "three";
-import { CAMERA_DIRECTION, ZOOM_MAX, ZOOM_MIN, getFloorPlan, planToWorld, spawnPoint } from "@/lib/mall";
+import {
+  CAMERA_DIRECTION,
+  ZOOM_MAX,
+  ZOOM_MIN,
+  getFloorPlan,
+  getWallSegments,
+  planToWorld,
+  spawnPoint,
+} from "@/lib/mall";
+import type { WallSegment } from "@/lib/mall";
 import { FemaleCharacter } from "./character/FemaleCharacter";
 import { MaleCharacter } from "./character/MaleCharacter";
 import type { CharacterLimbs } from "./character/types";
@@ -103,6 +112,43 @@ function pointInPolygon(x: number, z: number, polygon: [number, number][]): bool
   return inside;
 }
 
+/** Half the character's footprint; a move is blocked if it passes within this of a wall. */
+const BODY_RADIUS = 0.22;
+
+function segmentsIntersect(ax: number, az: number, bx: number, bz: number, cx: number, cz: number, dx: number, dz: number): boolean {
+  const orient = (px: number, pz: number, qx: number, qz: number, rx: number, rz: number) =>
+    Math.sign((qx - px) * (rz - pz) - (qz - pz) * (rx - px));
+  return (
+    orient(ax, az, bx, bz, cx, cz) !== orient(ax, az, bx, bz, dx, dz) &&
+    orient(cx, cz, dx, dz, ax, az) !== orient(cx, cz, dx, dz, bx, bz)
+  );
+}
+
+function distanceToSegment(px: number, pz: number, ax: number, az: number, bx: number, bz: number): number {
+  const vx = bx - ax;
+  const vz = bz - az;
+  const lengthSq = vx * vx + vz * vz || 1e-9;
+  const t = MathUtils.clamp(((px - ax) * vx + (pz - az) * vz) / lengthSq, 0, 1);
+  return Math.hypot(px - (ax + vx * t), pz - (az + vz * t));
+}
+
+/** True if moving from (x0,z0) to (x1,z1) would cross a wall or end up inside its thickness. */
+function crossesWall(x0: number, z0: number, x1: number, z1: number, walls: WallSegment[]): boolean {
+  for (const { a, b } of walls) {
+    // Cheap reject: bounding box of the wall, padded by the body radius.
+    const minX = Math.min(a[0], b[0]) - BODY_RADIUS;
+    const maxX = Math.max(a[0], b[0]) + BODY_RADIUS;
+    const minZ = Math.min(a[1], b[1]) - BODY_RADIUS;
+    const maxZ = Math.max(a[1], b[1]) + BODY_RADIUS;
+    if (Math.max(x0, x1) < minX || Math.min(x0, x1) > maxX || Math.max(z0, z1) < minZ || Math.min(z0, z1) > maxZ) continue;
+    if (segmentsIntersect(x0, z0, x1, z1, a[0], a[1], b[0], b[1])) return true;
+    // Allow moving away from a wall we are already touching; only block moves that get closer.
+    const after = distanceToSegment(x1, z1, a[0], a[1], b[0], b[1]);
+    if (after < BODY_RADIUS && after < distanceToSegment(x0, z0, a[0], a[1], b[0], b[1])) return true;
+  }
+  return false;
+}
+
 /** Shortest signed angle from `from` to `to`, in (-PI, PI]. */
 function angleDelta(from: number, to: number): number {
   return MathUtils.euclideanModulo(to - from + Math.PI, Math.PI * 2) - Math.PI;
@@ -129,6 +175,7 @@ export function PlayerRig(props: PlayerRigProps) {
       spawn: { x: spawnX, z: spawnZ },
       pad: { x: spawnX, z: spawnZ + PAD_OFFSET_Z },
       footprint: plan.footprint.map((point) => planToWorld(point)),
+      walls: getWallSegments(floor),
       units: plan.units.map((unit) => {
         const [x, z] = planToWorld(unit.labelPoint);
         return { id: unit.id, x, z };
@@ -350,16 +397,21 @@ export function PlayerRig(props: PlayerRigProps) {
         if (Math.hypot(dirX, dirZ) > 0.01) s.targetHeading = Math.atan2(dirX, dirZ);
       }
 
-      const nextX = s.x + dirX * WALK_SPEED * dt;
-      const nextZ = s.z + dirZ * WALK_SPEED * dt;
-      const footprint = floorDataRef.current.footprint;
-      if (pointInPolygon(nextX, nextZ, footprint)) {
-        s.x = nextX;
-        s.z = nextZ;
-      } else if (pointInPolygon(nextX, s.z, footprint)) {
-        s.x = nextX;
-      } else if (pointInPolygon(s.x, nextZ, footprint)) {
-        s.z = nextZ;
+      const stepX = dirX * WALK_SPEED * dt;
+      const stepZ = dirZ * WALK_SPEED * dt;
+      const { footprint, walls } = floorDataRef.current;
+      // Try the full step, then each axis alone so the character slides along walls.
+      const candidates: [number, number][] = [
+        [s.x + stepX, s.z + stepZ],
+        [s.x + stepX, s.z],
+        [s.x, s.z + stepZ],
+      ];
+      for (const [nx, nz] of candidates) {
+        if (pointInPolygon(nx, nz, footprint) && !crossesWall(s.x, s.z, nx, nz, walls)) {
+          s.x = nx;
+          s.z = nz;
+          break;
+        }
       }
     }
 
