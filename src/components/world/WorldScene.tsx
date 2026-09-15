@@ -14,7 +14,6 @@ import {
   getDirectory,
   getFloorPlan,
   planToWorld,
-  polygonCentre,
   WORLD_BACKGROUND,
 } from "@/lib/mall";
 import type { FloorId, FloorPlan } from "@/types/mall";
@@ -31,21 +30,23 @@ const SLAB_DEPTH = 0.35;
 const RIM_OFFSET = 0.4;
 const TILE_THICKNESS = 0.02;
 const WALL_THICKNESS = 0.12;
-const WALL_HEIGHT = 2.2;
-const LIP_HEIGHT = 0.5;
+// Architectural-model look: walls low enough to see over, so the floor plan stays readable.
+const WALL_HEIGHT = 0.9;
+const LIP_HEIGHT = 0.18;
 const CAP_HEIGHT = 0.04;
 const CAP_WIDTH = 0.16;
+const CORRIDOR_WIDTH = 2.6;
 
 const COLORS = {
   slab: "#f5f5f2",
   rim: "#e0dbd0",
-  tile: "#eeeeea",
-  wall: "#e8eae2",
+  tileWest: "#e4e9f2",
+  tileEast: "#f2e4e4",
+  tileKiosk: "#dcdcd6",
+  wall: "#ffffff",
   cap: "#f6f1e8",
-  counter: "#d8d8d4",
-  dark: "#303038",
-  atrium: "#cfcfcc",
-  voidFloor: "#fafafa",
+  corridor: "#e9dcbf",
+  anchor: "#cfcfcc",
   rail: "#252524",
   tread: "#bdbcb6",
 } as const;
@@ -132,23 +133,6 @@ function mergeAndDispose(parts: THREE.BufferGeometry[]): THREE.BufferGeometry | 
   return merged;
 }
 
-function hashString(value: string): number {
-  let h = 2166136261;
-  for (let i = 0; i < value.length; i++) {
-    h ^= value.charCodeAt(i);
-    h = Math.imul(h, 16777619);
-  }
-  return h >>> 0;
-}
-
-function seededRandom(seed: number): () => number {
-  let state = seed || 1;
-  return () => {
-    state = (Math.imul(state, 1664525) + 1013904223) >>> 0;
-    return state / 4294967296;
-  };
-}
-
 // ---------------------------------------------------------------------------
 // Scene geometry build
 // ---------------------------------------------------------------------------
@@ -169,16 +153,18 @@ interface WorldGeometry {
   tileUnitIds: string[];
   walls: THREE.BufferGeometry | null;
   caps: THREE.BufferGeometry | null;
-  counters: THREE.BufferGeometry | null;
-  darkBlocks: THREE.BufferGeometry | null;
+  westTiles: THREE.BufferGeometry | null;
+  eastTiles: THREE.BufferGeometry | null;
+  kioskTiles: THREE.BufferGeometry | null;
+  corridor: THREE.BufferGeometry | null;
   anchors: THREE.BufferGeometry | null;
   treads: THREE.BufferGeometry | null;
   rails: THREE.BufferGeometry | null;
   escalators: EscalatorPlacement[];
 }
 
-const ANCHOR_HEIGHT = 3.2;
-const KIOSK_HEIGHT = 1.1;
+const ANCHOR_HEIGHT = 1.6;
+const KIOSK_HEIGHT = 0.5;
 const ESCALATOR_RUN = 2.6;
 const ESCALATOR_RISE = 1.4;
 const ESCALATOR_WIDTH = 0.6;
@@ -240,26 +226,30 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
   let triangleCount = 0;
 
   const wallEdges = new Map<string, { a: XZ; b: XZ; height: number }>();
-  const counterParts: THREE.BufferGeometry[] = [];
-  const darkParts: THREE.BufferGeometry[] = [];
   const anchorParts: THREE.BufferGeometry[] = [];
+  const westTiles: THREE.BufferGeometry[] = [];
+  const eastTiles: THREE.BufferGeometry[] = [];
+  const kioskTiles: THREE.BufferGeometry[] = [];
 
   for (const unit of plan.units) {
     const poly = unit.polygon.map(planToWorld);
 
+    // Invisible-ish pick tile (kept for click-to-select), plus a tinted visible tile by zone/kind.
     const tile = extrudeFlat(poly, TILE_THICKNESS, 0.01 + TILE_THICKNESS);
     tileParts.push(tile);
     triangleCount += tile.getAttribute("position").count / 3;
     tileTriangleEnds.push(triangleCount);
     tileUnitIds.push(unit.id);
 
-    // Anchors read as solid department-store blocks rather than open-top shop boxes.
     if (unit.kind === "anchor") {
       anchorParts.push(extrudeFlat(poly, ANCHOR_HEIGHT, ANCHOR_HEIGHT));
       continue;
     }
 
     const isKiosk = unit.kind === "kiosk";
+    const tinted = extrudeFlat(poly, TILE_THICKNESS, 0.035 + TILE_THICKNESS);
+    (isKiosk ? kioskTiles : unit.zone === "East wing" ? eastTiles : westTiles).push(tinted);
+
     const front = isKiosk ? -1 : frontEdgeIndex(unit);
     poly.forEach((a, i) => {
       const b = poly[(i + 1) % poly.length];
@@ -271,48 +261,6 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
       const existing = wallEdges.get(key);
       if (!existing || existing.height < height) wallEdges.set(key, { a, b, height });
     });
-    if (isKiosk) continue;
-
-    // Deterministic furniture.
-    const random = seededRandom(hashString(unit.id));
-    const xs = poly.map((p) => p[0]);
-    const zs = poly.map((p) => p[1]);
-    const spanX = Math.max(...xs) - Math.min(...xs);
-    const spanZ = Math.max(...zs) - Math.min(...zs);
-    const [ccx, ccz] = planToWorld(polygonCentre(unit.polygon));
-    const place = (halfW: number, halfD: number, spread: number): XZ => {
-      const candidate: XZ = [
-        ccx + (random() - 0.5) * Math.max(0, spanX - 2 * halfW - 1) * spread,
-        ccz + (random() - 0.5) * Math.max(0, spanZ - 2 * halfD - 1) * spread,
-      ];
-      const corners: XZ[] = [
-        [candidate[0] - halfW, candidate[1] - halfD],
-        [candidate[0] + halfW, candidate[1] - halfD],
-        [candidate[0] + halfW, candidate[1] + halfD],
-        [candidate[0] - halfW, candidate[1] + halfD],
-      ];
-      return corners.every((c) => pointInPolygon(c, poly)) ? candidate : [ccx, ccz];
-    };
-
-    const alongX = spanX >= spanZ;
-    const counterW = alongX ? 1.2 : 0.5;
-    const counterD = alongX ? 0.5 : 1.2;
-    const [counterX, counterZ] = place(counterW / 2, counterD / 2, 0.8);
-    counterParts.push(box(counterW, 0.9, counterD, counterX, 0.03 + 0.45, counterZ));
-
-    if (random() < 0.3) {
-      let [darkX, darkZ] = place(0.4, 0.4, 1);
-      const overlaps =
-        Math.abs(darkX - counterX) < 0.4 + counterW / 2 + 0.1 && Math.abs(darkZ - counterZ) < 0.4 + counterD / 2 + 0.1;
-      if (overlaps) {
-        // Push to the far side of the counter along the unit's long axis if that stays inside.
-        const shifted: XZ = alongX ? [darkX, counterZ + (counterZ >= ccz ? -1 : 1) * 1.0] : [counterX + (counterX >= ccx ? -1 : 1) * 1.0, darkZ];
-        const inside = [-0.4, 0.4].every((ox) => [-0.4, 0.4].every((oz) => pointInPolygon([shifted[0] + ox, shifted[1] + oz], poly)));
-        if (!inside) continue;
-        [darkX, darkZ] = shifted;
-      }
-      darkParts.push(box(0.8, 0.7, 0.8, darkX, 0.03 + 0.35, darkZ));
-    }
   }
 
   const wallParts: THREE.BufferGeometry[] = [];
@@ -320,6 +268,13 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
   for (const { a, b, height } of wallEdges.values()) {
     wallParts.push(edgeBox(a, b, WALL_THICKNESS, height, 0, WALL_THICKNESS));
     capParts.push(edgeBox(a, b, CAP_WIDTH, CAP_HEIGHT, height, CAP_WIDTH));
+  }
+
+  // The main walkway, drawn as a flat ribbon along the traced corridor centreline.
+  const corridorWorld = plan.corridor.map(planToWorld);
+  const corridorParts: THREE.BufferGeometry[] = [];
+  for (let i = 0; i + 1 < corridorWorld.length; i++) {
+    corridorParts.push(edgeBox(corridorWorld[i], corridorWorld[i + 1], CORRIDOR_WIDTH, 0.015, 0.02, CORRIDOR_WIDTH * 0.4));
   }
 
   // Escalators come from the traced amenities, aligned to the corridor and sorted nearest the East Court.
@@ -344,8 +299,10 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
     tileUnitIds,
     walls: mergeAndDispose(wallParts),
     caps: mergeAndDispose(capParts),
-    counters: mergeAndDispose(counterParts),
-    darkBlocks: mergeAndDispose(darkParts),
+    westTiles: mergeAndDispose(westTiles),
+    eastTiles: mergeAndDispose(eastTiles),
+    kioskTiles: mergeAndDispose(kioskTiles),
+    corridor: mergeAndDispose(corridorParts),
     anchors: mergeAndDispose(anchorParts),
     treads: mergeAndDispose(treadParts),
     rails: mergeAndDispose(railParts),
@@ -360,8 +317,10 @@ function disposeWorld(world: WorldGeometry) {
     world.tiles,
     world.walls,
     world.caps,
-    world.counters,
-    world.darkBlocks,
+    world.westTiles,
+    world.eastTiles,
+    world.kioskTiles,
+    world.corridor,
     world.anchors,
     world.treads,
     world.rails,
@@ -448,7 +407,7 @@ export function WorldScene({ floor, nearbyUnitId, onSelectUnit }: WorldSceneProp
 
       {world.tiles && (
         <mesh geometry={world.tiles} onClick={handleTileClick} onPointerOver={handleTileOver} onPointerOut={handleTileOut}>
-          <meshLambertMaterial color={COLORS.tile} />
+          <meshLambertMaterial color={COLORS.slab} />
         </mesh>
       )}
       {world.walls && (
@@ -461,19 +420,29 @@ export function WorldScene({ floor, nearbyUnitId, onSelectUnit }: WorldSceneProp
           <meshLambertMaterial color={COLORS.cap} />
         </mesh>
       )}
-      {world.counters && (
-        <mesh geometry={world.counters}>
-          <meshLambertMaterial color={COLORS.counter} />
+      {world.westTiles && (
+        <mesh geometry={world.westTiles}>
+          <meshLambertMaterial color={COLORS.tileWest} />
         </mesh>
       )}
-      {world.darkBlocks && (
-        <mesh geometry={world.darkBlocks}>
-          <meshLambertMaterial color={COLORS.dark} />
+      {world.eastTiles && (
+        <mesh geometry={world.eastTiles}>
+          <meshLambertMaterial color={COLORS.tileEast} />
+        </mesh>
+      )}
+      {world.kioskTiles && (
+        <mesh geometry={world.kioskTiles}>
+          <meshLambertMaterial color={COLORS.tileKiosk} />
+        </mesh>
+      )}
+      {world.corridor && (
+        <mesh geometry={world.corridor}>
+          <meshLambertMaterial color={COLORS.corridor} />
         </mesh>
       )}
       {world.anchors && (
         <mesh geometry={world.anchors}>
-          <meshLambertMaterial color={COLORS.atrium} />
+          <meshLambertMaterial color={COLORS.anchor} />
         </mesh>
       )}
       {world.treads && (
