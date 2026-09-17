@@ -20,6 +20,8 @@ import { MaleCharacter } from "./character/MaleCharacter";
 import type { CharacterLimbs } from "./character/types";
 import type { PlayerRigProps } from "./types";
 
+/** How close (world units; 1 = 2 m) the character must be to a lift for the up/down prompt. */
+const LIFT_RADIUS = 4.5;
 /** The level-picker pad sits this far from the spawn point, off the corridor. */
 const PAD_OFFSET_Z = -2.4;
 const PAD_RADIUS = 0.55;
@@ -64,6 +66,8 @@ interface RigState {
   stepDistance: number;
   nearbyTimer: number;
   nearbyId: string | null;
+  /** Index into the level's lifts of the one the character is beside, or -1. */
+  nearLift: number;
   padTimer: number;
   padTriggered: boolean;
   jumpQueued: boolean;
@@ -86,6 +90,7 @@ function createRigState(): RigState {
     stepDistance: 0,
     nearbyTimer: 0,
     nearbyId: null,
+    nearLift: -1,
     padTimer: 0,
     padTriggered: false,
     jumpQueued: false,
@@ -176,6 +181,8 @@ export function PlayerRig(props: PlayerRigProps) {
       pad: { x: spawnX, z: spawnZ + PAD_OFFSET_Z },
       footprint: plan.footprint.map((point) => planToWorld(point)),
       walls: getWallSegments(floor),
+      lifts: plan.amenities.filter((amenity) => amenity.kind === "lift").map((amenity) => planToWorld(amenity.at)),
+      corridor: plan.corridor.map((point) => planToWorld(point)),
       units: plan.units.map((unit) => {
         const [x, z] = planToWorld(unit.labelPoint);
         return { id: unit.id, x, z };
@@ -201,8 +208,24 @@ export function PlayerRig(props: PlayerRigProps) {
     const s = rig.current;
     s.tween?.kill();
     s.tween = null;
-    s.x = floorData.spawn.x;
-    s.z = floorData.spawn.z;
+    // After a lift ride, step out at the walkway point nearest that lift instead of the level spawn.
+    const arriveAt = latest.current.arriveAt;
+    let spawnX = floorData.spawn.x;
+    let spawnZ = floorData.spawn.z;
+    if (arriveAt && floorData.corridor.length > 0) {
+      let best = Infinity;
+      for (const [cx, cz] of floorData.corridor) {
+        const distance = Math.hypot(cx - arriveAt[0], cz - arriveAt[1]);
+        if (distance < best) {
+          best = distance;
+          spawnX = cx;
+          spawnZ = cz;
+        }
+      }
+    }
+    s.x = spawnX;
+    s.z = spawnZ;
+    s.nearLift = -1;
     s.y = 0;
     s.vy = 0;
     s.heading = 0;
@@ -466,6 +489,21 @@ export function PlayerRig(props: PlayerRigProps) {
       if (closestId !== s.nearbyId) {
         s.nearbyId = closestId;
         p.onNearby(closestId);
+      }
+
+      // Nearest lift within reach, reported only when it changes.
+      let liftIndex = -1;
+      let liftDistance = LIFT_RADIUS;
+      floorDataRef.current.lifts.forEach(([lx, lz], index) => {
+        const distance = Math.hypot(lx - s.x, lz - s.z);
+        if (distance <= liftDistance) {
+          liftDistance = distance;
+          liftIndex = index;
+        }
+      });
+      if (liftIndex !== s.nearLift) {
+        s.nearLift = liftIndex;
+        p.onNearLift(liftIndex === -1 ? null : floorDataRef.current.lifts[liftIndex]);
       }
     }
 

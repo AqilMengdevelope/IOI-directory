@@ -160,11 +160,14 @@ interface WorldGeometry {
   anchors: THREE.BufferGeometry | null;
   treads: THREE.BufferGeometry | null;
   rails: THREE.BufferGeometry | null;
+  liftShafts: THREE.BufferGeometry | null;
+  liftCaps: THREE.BufferGeometry | null;
   escalators: EscalatorPlacement[];
 }
 
 const ANCHOR_HEIGHT = 1.6;
 const KIOSK_HEIGHT = 0.5;
+const LIFT_HEIGHT = 1.9;
 const ESCALATOR_RUN = 2.6;
 const ESCALATOR_RISE = 1.4;
 const ESCALATOR_WIDTH = 0.6;
@@ -299,6 +302,16 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
   const railParts: THREE.BufferGeometry[] = [];
   for (const place of escalators) buildEscalator(place, treadParts, railParts);
 
+  // Lifts: a small shaft with a brand-red cap, so they are easy to spot and walk up to.
+  const liftShaftParts: THREE.BufferGeometry[] = [];
+  const liftCapParts: THREE.BufferGeometry[] = [];
+  for (const amenity of plan.amenities) {
+    if (amenity.kind !== "lift") continue;
+    const [x, z] = planToWorld(amenity.at);
+    liftShaftParts.push(box(1.1, LIFT_HEIGHT, 1.1, x, LIFT_HEIGHT / 2, z));
+    liftCapParts.push(box(1.3, 0.14, 1.3, x, LIFT_HEIGHT + 0.07, z));
+  }
+
   return {
     slab,
     rim,
@@ -314,6 +327,8 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
     anchors: mergeAndDispose(anchorParts),
     treads: mergeAndDispose(treadParts),
     rails: mergeAndDispose(railParts),
+    liftShafts: mergeAndDispose(liftShaftParts),
+    liftCaps: mergeAndDispose(liftCapParts),
     escalators,
   };
 }
@@ -332,6 +347,8 @@ function disposeWorld(world: WorldGeometry) {
     world.anchors,
     world.treads,
     world.rails,
+    world.liftShafts,
+    world.liftCaps,
   ].forEach((geometry) => geometry?.dispose());
 }
 
@@ -461,6 +478,17 @@ export function WorldScene({ floor, nearbyUnitId, onSelectUnit }: WorldSceneProp
       {world.rails && (
         <mesh geometry={world.rails}>
           <meshLambertMaterial color={COLORS.rail} />
+        </mesh>
+      )}
+
+      {world.liftShafts && (
+        <mesh geometry={world.liftShafts}>
+          <meshLambertMaterial color="#8a8f99" />
+        </mesh>
+      )}
+      {world.liftCaps && (
+        <mesh geometry={world.liftCaps}>
+          <meshLambertMaterial color="#ec1d25" />
         </mesh>
       )}
 

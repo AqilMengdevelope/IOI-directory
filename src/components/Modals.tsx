@@ -143,7 +143,7 @@ export function MessageModal({ onClose }: MessageModalProps) {
       onClose={onClose}
     >
       <p className="modal-body">
-        Jalan IOI is still an experiment. Most of the information here is gathered from public sources and
+        This IOI City Mall walkthrough is a fan-made experiment, not an official IOI product. Most of the information here is gathered from public sources and
         hasn’t been manually verified, so some things may be inaccurate or outdated.
       </p>
       <p className="modal-body">

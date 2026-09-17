@@ -26,6 +26,10 @@ export interface PlayerRigProps {
   inputRef: RefObject<WorldInput>;
   onSteps: (steps: number) => void;
   onNearby: (unitId: string | null) => void;
+  /** World [x, z] of the lift the character is standing beside, or null when not near one. */
+  onNearLift: (lift: [number, number] | null) => void;
+  /** World [x, z] to arrive near after a floor change (the lift just used); null uses the level spawn. */
+  arriveAt: [number, number] | null;
   onZoomChange: (zoom: number) => void;
   onOpenLevelPicker: () => void;
 }

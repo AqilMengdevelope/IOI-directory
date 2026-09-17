@@ -73,7 +73,8 @@ export function AppHeader({
           aria-label="What’s IOI City Mall?"
           onClick={onOpenAbout}
         >
-          <i>Jalan</i>IOI
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img className="brand-logo" src="/ioi/brand/ioicitymall.png" alt="IOI City Mall" width={222} height={108} />
         </button>
         <span className="cutaway-draft">3D DRAFT</span>
       </div>

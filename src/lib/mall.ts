@@ -77,6 +77,15 @@ export function planToWorld([px, py]: PlanPoint): [number, number] {
   return [(px - PLAN_ORIGIN[0]) * PLAN_SCALE, (py - PLAN_ORIGIN[1]) * PLAN_SCALE];
 }
 
+/** True when `floor` has a lift within `tolerance` world units of `at` — i.e. the same lift shaft. */
+export function hasLiftNear(floor: FloorId, at: [number, number], tolerance = 8): boolean {
+  return getFloorPlan(floor).amenities.some((amenity) => {
+    if (amenity.kind !== "lift") return false;
+    const [x, z] = planToWorld(amenity.at);
+    return Math.hypot(x - at[0], z - at[1]) <= tolerance;
+  });
+}
+
 /**
  * Where the character appears on a level: the corridor point nearest the East Court (world origin),
  * so every level spawns in the same spot of the building. Falls back to the origin.

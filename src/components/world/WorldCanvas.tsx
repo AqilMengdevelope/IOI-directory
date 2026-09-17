@@ -52,6 +52,8 @@ export default function WorldCanvas(props: WorldCanvasProps) {
           inputRef={props.inputRef}
           onSteps={props.onSteps}
           onNearby={props.onNearby}
+          onNearLift={props.onNearLift}
+          arriveAt={props.arriveAt}
           onZoomChange={props.onZoomChange}
           onOpenLevelPicker={props.onOpenLevelPicker}
         />

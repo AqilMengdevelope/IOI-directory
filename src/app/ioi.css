@@ -50,3 +50,168 @@
   display: flex;
   flex-direction: column;
 }
+
+/* ---------------------------------------------------------------------------
+   IOI City Mall brand header: the mall's red bar with its white logo tab centred,
+   steps on the left, controls on the right (white on red).
+   --------------------------------------------------------------------------- */
+:root {
+  --ioi-red: #ec1d25;
+}
+.cutaway-explorer .app-header {
+  height: 64px;
+  min-height: 64px;
+  background: var(--ioi-red);
+  border-bottom: 0;
+  box-shadow: 0 6px 22px #ec1d2533;
+}
+.cutaway-explorer .identity {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 0;
+  gap: 0;
+}
+.cutaway-explorer .wordmark {
+  height: 100%;
+  padding: 0;
+  gap: 0;
+  border-radius: 0;
+  line-height: 0;
+}
+.cutaway-explorer .wordmark:active {
+  transform: none;
+}
+.brand-logo {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+.cutaway-explorer .step-counter {
+  order: -1;
+  position: static;
+  transform: none;
+  height: 36px;
+  color: #fff;
+}
+.about-toggle,
+.audio-toggle,
+.cutaway-explorer .menu-button.header-icon,
+.header-icon,
+.cutaway-explorer .menu-button {
+  color: #fff;
+}
+.cutaway-explorer .about-toggle:hover,
+.cutaway-explorer .header-icon:hover,
+.cutaway-explorer .menu-button:hover {
+  color: #fff;
+  background: #ffffff2e;
+}
+.cutaway-explorer .menu-button.open {
+  color: var(--ioi-red);
+  background: #fff;
+}
+.cutaway-explorer .app-header[data-step-stage="burning"] .step-counter span,
+.cutaway-explorer .app-header[data-step-stage="red"] .step-counter span {
+  color: #ffe08a;
+}
+@media (max-width: 600px) {
+  .cutaway-explorer .app-header {
+    height: 56px;
+    min-height: 56px;
+  }
+  .cutaway-explorer .step-counter {
+    order: 4;
+  }
+  .cutaway-explorer .menu-button.open {
+    color: var(--ioi-red);
+    background: #fff;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Lift prompt: "Want to go up or down?" beside a lift.
+   --------------------------------------------------------------------------- */
+.lift-prompt {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 96px;
+  z-index: 44;
+  width: max-content;
+  max-width: calc(100% - 24px);
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px 10px 18px;
+  border-radius: 999px;
+  background: var(--paper);
+  box-shadow: var(--shadow-lift);
+  animation: pop-in 0.2s both;
+}
+.lift-prompt-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  margin-right: 4px;
+}
+.lift-prompt-text strong {
+  font-size: 13px;
+  font-weight: 700;
+}
+.lift-prompt-text small {
+  color: var(--muted);
+  font-size: 11px;
+}
+.lift-prompt-choice {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 14px;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--ioi-red);
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.lift-prompt-choice:hover:not(:disabled) {
+  background: #c9141b;
+}
+.lift-prompt-choice:disabled {
+  color: #9a9a9a;
+  background: #ececec;
+  cursor: default;
+}
+.lift-prompt-choice kbd {
+  padding: 1px 5px;
+  border-radius: 5px;
+  color: var(--ioi-red);
+  background: #fff;
+  font: 700 10px/15px ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+@media (max-width: 780px) {
+  .lift-prompt {
+    bottom: 250px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 22px;
+    padding: 12px 14px;
+  }
+  .lift-prompt-text {
+    flex-basis: 100%;
+    align-items: center;
+    margin: 0 0 2px;
+  }
+  .lift-prompt-choice kbd {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lift-prompt {
+    animation: none;
+  }
+}

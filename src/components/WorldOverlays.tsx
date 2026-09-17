@@ -30,7 +30,7 @@ export function WorldBottom({ onOpenNote }: WorldBottomProps) {
   return (
     <div className="world-bottom">
       <button type="button" className="cutaway-note" onClick={onOpenNote}>
-        Jalan IOI is still experimental.
+        This 3D mall map is still experimental.
         <span className="cutaway-note-rest">{" Map details and information might be inaccurate."}</span>
       </button>
       <div className="controls-help">

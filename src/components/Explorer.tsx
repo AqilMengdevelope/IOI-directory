@@ -19,8 +19,10 @@ import {
   ZOOM_MAX,
   ZOOM_MIN,
   ZOOM_STEP,
+  adjacentFloor,
   floorTitle,
   getDirectory,
+  hasLiftNear,
 } from "@/lib/mall";
 import type { CameraMode, CharacterGender, FloorId, MusicMood } from "@/types/mall";
 
@@ -51,6 +53,8 @@ export function Explorer() {
   const [modal, setModal] = useState<ModalKind>(null);
   const [nearbyUnitId, setNearbyUnitId] = useState<string | null>(null);
   const [selectedUnitId, setSelectedUnitId] = useState<string | null>(null);
+  const [nearLift, setNearLift] = useState<[number, number] | null>(null);
+  const [arriveAt, setArriveAt] = useState<[number, number] | null>(null);
   const [walkTarget, setWalkTarget] = useState<WalkTarget | null>(null);
   const [padPromptSteps, setPadPromptSteps] = useState<number | null>(null);
   const [status, setStatus] = useState(`${floorTitle(DEFAULT_FLOOR)} ready.`);
@@ -115,9 +119,12 @@ export function Explorer() {
     setStatus(`${floorTitle(next)} ready.`);
   }, []);
 
+  // `arrive` is the lift being ridden (world x, z); rail and picker changes arrive at the level spawn.
   const changeFloor = useCallback(
-    (next: FloorId) => {
+    (next: FloorId, arrive: [number, number] | null = null) => {
       if (next === floor || !FLOORS[next].available || phase !== "idle") return;
+      setArriveAt(arrive);
+      setNearLift(null);
       setModal(null);
       setDirectoryOpen(false);
       setSettingsOpen(false);
@@ -167,6 +174,13 @@ export function Explorer() {
     setPadPromptSteps(stepsRef.current);
   }, []);
 
+  // Lift prompt: only offer a direction when the level above / below has the same lift shaft.
+  const liftUp = nearLift ? adjacentFloor(floor, "up") : null;
+  const liftDown = nearLift ? adjacentFloor(floor, "down") : null;
+  const liftUpFloor = nearLift && liftUp && hasLiftNear(liftUp, nearLift) ? liftUp : null;
+  const liftDownFloor = nearLift && liftDown && hasLiftNear(liftDown, nearLift) ? liftDown : null;
+  const liftPromptVisible = nearLift !== null && modal === null && phase === "idle";
+
   // Hide the "Explore another floor?" prompt once the character walks away from the pad.
   const padPromptVisible = padPromptSteps !== null && steps - padPromptSteps < 3 && modal === null;
 
@@ -178,8 +192,14 @@ export function Explorer() {
     const onKey = (event: KeyboardEvent) => {
       const target = event.target as HTMLElement | null;
       if (target && (target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.isContentEditable)) return;
-      if (event.key.toLowerCase() === "e" && padPromptVisible) {
+      const key = event.key.toLowerCase();
+      if (key === "e" && padPromptVisible) {
         setModal("lift");
+      }
+      // Beside a lift: R rides up, F rides down.
+      if (liftPromptVisible && nearLift) {
+        if (key === "r" && liftUpFloor) changeFloor(liftUpFloor, nearLift);
+        if (key === "f" && liftDownFloor) changeFloor(liftDownFloor, nearLift);
       }
     };
     window.addEventListener("mall:open-nearby", openNearby);
@@ -188,7 +208,7 @@ export function Explorer() {
       window.removeEventListener("mall:open-nearby", openNearby);
       window.removeEventListener("keydown", onKey);
     };
-  }, [padPromptVisible, nearbyUnitId]);
+  }, [padPromptVisible, nearbyUnitId, liftPromptVisible, nearLift, liftUpFloor, liftDownFloor, changeFloor]);
 
   useEffect(
     () => () => {
@@ -250,6 +270,8 @@ export function Explorer() {
             nearbyUnitId={nearbyUnitId}
             onSteps={handleSteps}
             onNearby={setNearbyUnitId}
+            onNearLift={setNearLift}
+            arriveAt={arriveAt}
             onZoomChange={handleZoomChange}
             onOpenLevelPicker={handleOpenLevelPicker}
             onSelectUnit={handleSelectUnit}
@@ -268,6 +290,34 @@ export function Explorer() {
               </span>
               <kbd>E</kbd>
             </button>
+          )}
+          {liftPromptVisible && nearLift && (
+            <div className="lift-prompt" role="group" aria-label="Lift">
+              <span className="lift-prompt-text">
+                <strong>Want to go up or down?</strong>
+                <small>Lift · you’re on {floorTitle(floor)}</small>
+              </span>
+              <button
+                type="button"
+                className="lift-prompt-choice"
+                disabled={!liftUpFloor}
+                onClick={() => liftUpFloor && changeFloor(liftUpFloor, nearLift)}
+              >
+                <span aria-hidden="true">↑</span>
+                {liftUpFloor ? floorTitle(liftUpFloor) : "Top floor"}
+                {liftUpFloor && <kbd>R</kbd>}
+              </button>
+              <button
+                type="button"
+                className="lift-prompt-choice"
+                disabled={!liftDownFloor}
+                onClick={() => liftDownFloor && changeFloor(liftDownFloor, nearLift)}
+              >
+                <span aria-hidden="true">↓</span>
+                {liftDownFloor ? floorTitle(liftDownFloor) : "Lowest floor"}
+                {liftDownFloor && <kbd>F</kbd>}
+              </button>
+            </div>
           )}
           <WorldBottom onOpenNote={() => setModal("message")} />
           <TouchSticks inputRef={inputRef} />
