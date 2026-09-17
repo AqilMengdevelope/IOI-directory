@@ -35,7 +35,6 @@ const WALL_HEIGHT = 0.9;
 const LIP_HEIGHT = 0.18;
 const CAP_HEIGHT = 0.04;
 const CAP_WIDTH = 0.16;
-const CORRIDOR_WIDTH = 2.6;
 
 const COLORS = {
   slab: "#f5f5f2",
@@ -218,7 +217,8 @@ function buildEscalator(place: EscalatorPlacement, treads: THREE.BufferGeometry[
 function buildWorld(plan: FloorPlan): WorldGeometry {
   const footprint = plan.footprint.map(planToWorld);
   const slab = extrudeFlat(footprint, SLAB_DEPTH, 0);
-  const rim = extrudeFlat(offsetPolygon(footprint, RIM_OFFSET), SLAB_DEPTH, -0.01);
+  // Layers are spaced well apart: at this mall's size, centimetre gaps depth-fight when zoomed out.
+  const rim = extrudeFlat(offsetPolygon(footprint, RIM_OFFSET), SLAB_DEPTH, -0.08);
 
   const tileParts: THREE.BufferGeometry[] = [];
   const tileTriangleEnds: number[] = [];
@@ -248,6 +248,17 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
 
     const isKiosk = unit.kind === "kiosk";
     const tinted = extrudeFlat(poly, TILE_THICKNESS, 0.035 + TILE_THICKNESS);
+    // Paint each tile with the mall map's own fill colour (softened), falling back to the zone tint.
+    const fill = new THREE.Color(unit.color ?? (isKiosk ? COLORS.tileKiosk : unit.zone === "East wing" ? COLORS.tileEast : COLORS.tileWest));
+    if (unit.color) fill.lerp(new THREE.Color("#ffffff"), 0.45);
+    const count = tinted.getAttribute("position").count;
+    const colors = new Float32Array(count * 3);
+    for (let i = 0; i < count; i++) {
+      colors[i * 3] = fill.r;
+      colors[i * 3 + 1] = fill.g;
+      colors[i * 3 + 2] = fill.b;
+    }
+    tinted.setAttribute("color", new THREE.BufferAttribute(colors, 3));
     (isKiosk ? kioskTiles : unit.zone === "East wing" ? eastTiles : westTiles).push(tinted);
 
     const front = isKiosk ? -1 : frontEdgeIndex(unit);
@@ -270,12 +281,8 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
     capParts.push(edgeBox(a, b, CAP_WIDTH, CAP_HEIGHT, height, CAP_WIDTH));
   }
 
-  // The main walkway, drawn as a flat ribbon along the traced corridor centreline.
-  const corridorWorld = plan.corridor.map(planToWorld);
+  // The corridor is the slab itself: the walk graph is pathfinding data, not something to draw.
   const corridorParts: THREE.BufferGeometry[] = [];
-  for (let i = 0; i + 1 < corridorWorld.length; i++) {
-    corridorParts.push(edgeBox(corridorWorld[i], corridorWorld[i + 1], CORRIDOR_WIDTH, 0.015, 0.02, CORRIDOR_WIDTH * 0.4));
-  }
 
   // Escalators come from the traced amenities, aligned to the corridor and sorted nearest the East Court.
   const corridor = plan.corridor.map(planToWorld);
@@ -393,7 +400,7 @@ export function WorldScene({ floor, nearbyUnitId, onSelectUnit }: WorldSceneProp
       <hemisphereLight args={["#ffffff", "#8a8d85", 1]} />
       <directionalLight position={[10, 24, 8]} intensity={2.1} />
 
-      <mesh rotation-x={-Math.PI / 2} position={[0, -0.02, 0]}>
+      <mesh rotation-x={-Math.PI / 2} position={[0, -0.6, 0]}>
         <planeGeometry args={[600, 600]} />
         <meshBasicMaterial color={WORLD_BACKGROUND} />
       </mesh>
@@ -422,17 +429,17 @@ export function WorldScene({ floor, nearbyUnitId, onSelectUnit }: WorldSceneProp
       )}
       {world.westTiles && (
         <mesh geometry={world.westTiles}>
-          <meshLambertMaterial color={COLORS.tileWest} />
+          <meshLambertMaterial vertexColors />
         </mesh>
       )}
       {world.eastTiles && (
         <mesh geometry={world.eastTiles}>
-          <meshLambertMaterial color={COLORS.tileEast} />
+          <meshLambertMaterial vertexColors />
         </mesh>
       )}
       {world.kioskTiles && (
         <mesh geometry={world.kioskTiles}>
-          <meshLambertMaterial color={COLORS.tileKiosk} />
+          <meshLambertMaterial vertexColors />
         </mesh>
       )}
       {world.corridor && (

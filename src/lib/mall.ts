@@ -67,8 +67,9 @@ export function getDirectory(id: FloorId): DirectorySpace[] {
   return directory[id] ?? [];
 }
 
-// Floorplan pixels → world units. Plans are pre-aligned so the East Court sits at the origin on every level.
-export const PLAN_SCALE = 0.055;
+// Plan units are decimetres (from the Abuzz dataset); 1 world unit = 2 m. Every level is pre-aligned so the
+// East Court sits at the origin and floors stack.
+export const PLAN_SCALE = 0.05;
 export const PLAN_ORIGIN: PlanPoint = [0, 0];
 
 /** Plan x runs west → east along world x; plan y runs down the board along world z. */
@@ -165,9 +166,9 @@ export function getWallSegments(id: FloorId): WallSegment[] {
 }
 
 export const ZOOM_MIN = 18;
-export const ZOOM_MAX = 140;
-export const ZOOM_DEFAULT = 46;
-export const ZOOM_STEP = 10;
+export const ZOOM_MAX = 320;
+export const ZOOM_DEFAULT = 110;
+export const ZOOM_STEP = 16;
 
 /** Camera offset direction taken from the original explorer's initial camera position [34, 38, 42]. */
 export const CAMERA_DIRECTION: [number, number, number] = [34 / 67.2, 38 / 67.2, 42 / 67.2];

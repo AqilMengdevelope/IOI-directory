@@ -21,6 +21,8 @@ export interface FloorUnit {
   kind: UnitKind;
   /** Name printed on the mall's floor map (anchors only); shops come from the directory. */
   name: string | null;
+  /** Fill colour from the mall's own map (CSS hex), when known. */
+  color?: string;
 }
 
 export type AmenityKind = "escalator" | "lift" | "toilet" | "info" | "entrance";

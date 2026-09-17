@@ -27,7 +27,7 @@ function ReadySignal({ onReady }: { onReady: () => void }) {
 export default function WorldCanvas(props: WorldCanvasProps) {
   return (
     <Canvas
-      camera={{ position: [34, 38, 42], fov: 45, near: 0.1, far: 400 }}
+      camera={{ position: [34, 38, 42], fov: 45, near: 1, far: 1600 }}
       dpr={[1, 2]}
       flat
       gl={{ antialias: true }}
