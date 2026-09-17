@@ -17,6 +17,7 @@ import {
   WORLD_BACKGROUND,
 } from "@/lib/mall";
 import type { FloorId, FloorPlan } from "@/types/mall";
+import { UnitLogos } from "./UnitLogos";
 
 export interface WorldSceneProps {
   floor: FloorId;
@@ -493,6 +494,8 @@ export function WorldScene({ floor, nearbyUnitId, onSelectUnit }: WorldSceneProp
           <div className="world-fallback">Explore the upper-floor illustration.</div>
         </Html>
       )}
+
+      <UnitLogos plan={plan} />
 
       {nearbyUnit && nearbyName && nearbyPosition && (
         <Html

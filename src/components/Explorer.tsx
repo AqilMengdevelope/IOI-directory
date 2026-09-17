@@ -7,6 +7,7 @@ import { DirectoryPanel } from "@/components/DirectoryPanel";
 import { FloorSelector } from "@/components/FloorSelector";
 import { AboutModal, MessageModal, Modal } from "@/components/Modals";
 import { SettingsMenu } from "@/components/SettingsMenu";
+import { TenantPanel } from "@/components/TenantPanel";
 import { FollowZoom, TouchSticks, WorldBottom } from "@/components/WorldOverlays";
 import type { WalkTarget, WorldInput } from "@/components/world/types";
 import {
@@ -49,6 +50,7 @@ export function Explorer() {
   const [directoryOpen, setDirectoryOpen] = useState(false);
   const [modal, setModal] = useState<ModalKind>(null);
   const [nearbyUnitId, setNearbyUnitId] = useState<string | null>(null);
+  const [selectedUnitId, setSelectedUnitId] = useState<string | null>(null);
   const [walkTarget, setWalkTarget] = useState<WalkTarget | null>(null);
   const [padPromptSteps, setPadPromptSteps] = useState<number | null>(null);
   const [status, setStatus] = useState(`${floorTitle(DEFAULT_FLOOR)} ready.`);
@@ -60,6 +62,7 @@ export function Explorer() {
   const stepsRef = useRef(0);
 
   const spaces = getDirectory(floor);
+  const selectedSpace = selectedUnitId ? (spaces.find((space) => space.unitId === selectedUnitId) ?? null) : null;
 
   // Background music: one looping element per mood, started after the first user gesture.
   useEffect(() => {
@@ -119,6 +122,7 @@ export function Explorer() {
       setDirectoryOpen(false);
       setSettingsOpen(false);
       setNearbyUnitId(null);
+      setSelectedUnitId(null);
       setWalkTarget(null);
       setPadPromptSteps(null);
       setPendingFloor(next);
@@ -140,13 +144,12 @@ export function Explorer() {
     setWalkTarget({ unitId, nonce: Date.now() });
   }, []);
 
+  // Picking a shop (3D tile, nearby pill or directory row) opens its profile; far shops also get a walk.
   const handleSelectUnit = useCallback(
     (unitId: string) => {
-      if (unitId === nearbyUnitId) {
-        setDirectoryOpen(true);
-      } else {
-        walkTo(unitId);
-      }
+      setDirectoryOpen(false);
+      setSelectedUnitId(unitId);
+      if (unitId !== nearbyUnitId) walkTo(unitId);
     },
     [nearbyUnitId, walkTo],
   );
@@ -169,7 +172,9 @@ export function Explorer() {
 
   // E opens the nearby shop (dispatched by the rig) or the lift picker when standing on the pad.
   useEffect(() => {
-    const openNearby = () => setDirectoryOpen(true);
+    const openNearby = () => {
+      if (nearbyUnitId) setSelectedUnitId(nearbyUnitId);
+    };
     const onKey = (event: KeyboardEvent) => {
       const target = event.target as HTMLElement | null;
       if (target && (target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.isContentEditable)) return;
@@ -183,7 +188,7 @@ export function Explorer() {
       window.removeEventListener("mall:open-nearby", openNearby);
       window.removeEventListener("keydown", onKey);
     };
-  }, [padPromptVisible]);
+  }, [padPromptVisible, nearbyUnitId]);
 
   useEffect(
     () => () => {
@@ -214,7 +219,7 @@ export function Explorer() {
       className="explorer cutaway-explorer"
       data-zone="interior"
       data-camera-mode={cameraMode}
-      data-selected-space={nearbyUnitId ?? ""}
+      data-selected-space={selectedUnitId ?? ""}
       data-floor={floor}
       data-character={gender}
       data-sound={soundOn ? "on" : "off"}
@@ -274,8 +279,16 @@ export function Explorer() {
           <DirectoryPanel
             floor={floor}
             spaces={spaces}
-            onSelect={walkTo}
+            onSelect={handleSelectUnit}
             onClose={() => setDirectoryOpen(false)}
+          />
+        )}
+        {selectedSpace && (
+          <TenantPanel
+            key={selectedSpace.unitId}
+            space={selectedSpace}
+            onClose={() => setSelectedUnitId(null)}
+            onWalkTo={walkTo}
           />
         )}
       </div>

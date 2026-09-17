@@ -76,7 +76,7 @@ export function SpaceArt({ space, className, slide = 0 }: SpaceArtProps) {
     return (
       // eslint-disable-next-line @next/next/no-img-element
       <img
-        className={"space-art " + (className ?? "")}
+        className={"space-art " + (className ?? "") + (space.thumb.includes("/ioi/logos/") ? " is-logo" : "")}
         src={space.thumb}
         alt={space.name}
         loading="lazy"

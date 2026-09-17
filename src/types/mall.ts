@@ -23,6 +23,14 @@ export interface FloorUnit {
   name: string | null;
   /** Fill colour from the mall's own map (CSS hex), when known. */
   color?: string;
+  /** Shop logo shown above the unit in 3D. */
+  logo?: MediaImage;
+}
+
+export interface MediaImage {
+  src: string;
+  w: number;
+  h: number;
 }
 
 export type AmenityKind = "escalator" | "lift" | "toilet" | "info" | "entrance";
@@ -77,6 +85,14 @@ export interface DirectorySpace {
   tenantKey: string | null;
   /** First reference photo, or null to render generated placeholder art. */
   thumb: string | null;
+  logo: MediaImage | null;
+  /** Storefront photo from the mall's directory. */
+  photo: MediaImage | null;
+  hours: string | null;
+  phone: string | null;
+  website: string | null;
+  /** Floor the unit is on, e.g. "Ground". */
+  floorLabel: string;
 }
 
 export interface TenantStory {

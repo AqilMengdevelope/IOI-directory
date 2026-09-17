@@ -35,6 +35,40 @@ const CATEGORY_LABEL = Object.fromEntries(
   data.categories.map((c) => [c.code, c.title?.find((t) => t.lang === "EN")?.value ?? c.code]),
 );
 const poiByGeo = new Map(data.pois.map((p) => [p.geoId, p]));
+
+// Logos and storefront photos fetched by scripts/ioi-fetch-media.py (optional).
+let media = {};
+try {
+  media = JSON.parse(await readFile(join(ROOT, "docs/research/ioi/media-manifest.json"), "utf8"));
+} catch {
+  console.log("no media manifest yet: run python3 scripts/ioi-fetch-media.py for logos and photos");
+}
+
+const ENTITIES = { "&amp;": "&", "&nbsp;": " ", "&lt;": "<", "&gt;": ">", "&quot;": '"', "&#39;": "'", "&rsquo;": "’", "&lsquo;": "‘", "&ndash;": "–", "&mdash;": "—" };
+
+/** Splits a POI's HTML description into plain text plus the phone / website lines the mall embeds in it. */
+function parseDescription(poi) {
+  const html = poi?.description?.find((d) => d.lang === "EN")?.value ?? poi?.description?.[0]?.value ?? "";
+  const text = html
+    .replace(/<br\s*\/?>|<\/div>|<\/p>|<\/li>/gi, "\n")
+    .replace(/<[^>]+>/g, "")
+    .replace(/&[a-z#0-9]+;/gi, (m) => ENTITIES[m.toLowerCase()] ?? " ");
+  let phone = null;
+  let website = null;
+  const body = [];
+  for (const raw of text.split("\n")) {
+    const line = raw.replace(/\s+/g, " ").trim();
+    if (!line) continue;
+    const p = line.match(/^(?:phone|tel|contact)\s*(?:no\.?)?\s*:\s*(.+)$/i);
+    const w = line.match(/^website\s*:\s*(.+)$/i);
+    if (p) phone = phone ?? p[1].trim();
+    else if (w) website = website ?? w[1].trim();
+    else if (!/^(email|facebook|instagram|fb|ig)\s*:/i.test(line)) body.push(line);
+  }
+  if (website && !/^https?:\/\//i.test(website)) website = /^[\w-]+(\.[\w-]+)+/.test(website) ? `https://${website}` : null;
+  if (phone && !/\d{5,}/.test(phone.replace(/\D/g, ""))) phone = null;
+  return { description: body.join("\n\n") || null, phone, website };
+}
 const title = (p) => p?.title?.find((t) => t.lang === "EN")?.value ?? p?.title?.[0]?.value ?? null;
 
 // Categories that are buildings/areas around the mall rather than walkable shops.
@@ -149,7 +183,10 @@ for (const [shortName, id, label] of LEVELS) {
       kind: isKiosk ? "kiosk" : isAnchor ? "anchor" : "shop",
       name,
       color: "#" + e.col.map((c) => Math.round(c * 255).toString(16).padStart(2, "0")).join(""),
+      ...(media[e.geoId]?.logo ? { logo: media[e.geoId].logo } : {}),
       _cats: cats,
+      _poi: poi,
+      _geoId: e.geoId,
     });
   }
 
@@ -173,7 +210,8 @@ for (const [shortName, id, label] of LEVELS) {
     floorLabel: label,
     revision: "abuzz-2025-02",
     footprint,
-    units: units.map(({ _cats, ...u }) => u),
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    units: units.map(({ _cats, _poi, _geoId, ...u }) => u),
     corridor,
     amenities,
   });
@@ -185,9 +223,14 @@ for (const [shortName, id, label] of LEVELS) {
       unitNumber: u.unitNumber,
       name: u.name ?? (u.kind === "kiosk" ? `Kiosk ${u.shortNumber}` : `Unit ${u.shortNumber}`),
       category: primary ? (CATEGORY_LABEL[primary] ?? primary) : u.kind === "kiosk" ? "Kiosk" : "Details under review",
-      description: null,
+      ...parseDescription(u._poi),
       tenantKey: null,
-      thumb: null,
+      // The directory list shows the logo: it is more recognisable at 52 px than a storefront photo.
+      thumb: media[u._geoId]?.logo?.src ?? media[u._geoId]?.card?.src ?? null,
+      logo: media[u._geoId]?.logo ?? null,
+      photo: media[u._geoId]?.card ?? null,
+      hours: u._poi?.contact?.hours?.trim() || null,
+      floorLabel: label,
     };
   });
 
