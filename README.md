@@ -1,171 +1,106 @@
-# AI Website Cloner Template
+# IOI City Mall · 3D Directory
 
-<a href="https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a> <a href="https://github.com/JCodesMore/ai-website-cloner-template/stargazers"><img src="https://img.shields.io/github/stars/JCodesMore/ai-website-cloner-template?style=flat" alt="Stars" /></a> <a href="https://discord.gg/hrTSX5yTpB"><img src="https://img.shields.io/discord/1400896964597383279?label=discord" alt="Discord" /></a>
+Walk around IOI City Mall, Putrajaya, in 3D. Find any shop, follow a route to it across all six levels, and see what's new, what's on offer and what's opening soon. The shop data refreshes itself from the mall's own directory every morning.
 
-A reusable template for reverse-engineering any website into a clean, modern Next.js codebase using AI coding agents. 
+**Live:** [ioi-directory.vercel.app](https://ioi-directory.vercel.app)
 
-**Recommended: [Claude Code](https://docs.anthropic.com/en/docs/claude-code) with Opus 4.8 for best results** — but works with a variety of AI coding agents.
+![The IOI 3D directory: the Ground floor with shop logos above every unit](docs/design-references/ioi-brand-header.png)
 
-Point it at a URL, run `/clone-website`, and your AI agent will inspect the site, extract design tokens and assets, write component specs, and dispatch parallel builders to reconstruct every section.
+> **Unofficial fan project.** Not affiliated with, endorsed by or connected to IOI City Mall, IOI Properties Group or any retailer shown. Trademarks and logos belong to their owners and are used for identification only. Shop details may be out of date, so check with the mall before you visit.
 
-## Demo
+## What you can do
 
-[![Watch the demo](docs/design-references/comparison.png)](https://youtu.be/O669pVZ_qr0)
+- **Walk the mall.** Every level from Lower Ground to Level 4, built from the mall's official wayfinding geometry, with shop logos floating above each unit and furnished interiors in each brand's colours.
+- **Find a shop.** Search about 700 shops by name, unit or category, on this floor or the whole mall. Pick one and your character walks there along a red route line, riding escalators between levels when the shop is on another floor.
+- **Ride escalators and lifts.** Walk up to an escalator bank or lift and choose up or down.
+- **Open a shop's profile.** See its storefront photo, description, opening hours, phone, website and any current CLUB IOI offers.
+- **See what's on.** The ✨ panel shows:
+  - whether the mall is open right now (on Malaysia time)
+  - shops that opened in the last 30 days
+  - running offers
+  - units that are coming soon
+  - attractions such as District 21 and Icescape
+  - shops that recently closed
+- **Spot what's coming.** Units being fitted out stand behind hoarding with a "COMING SOON" sign in 3D, and are badged in the directory.
 
-> Click the image above to watch the full demo on YouTube.
+### Controls
 
-## Quick Start
+| Key | Action |
+| --- | --- |
+| `W` `A` `S` `D` | Walk |
+| `Shift` | Run |
+| `Space` | Jump |
+| Drag | Turn the camera |
+| `E` | Open the shop you're standing at |
+| `/` | Find a shop |
+| `R` / `F` | Go up / down at an escalator or lift |
 
-> **Important:** Start by making your own copy with GitHub's **Use this template** button. Do not clone this template repository directly for your website project, and do not open pull requests here with your generated website.
+On phones, use the on-screen joystick and tap shops directly.
 
-1. **Create your own repository from this template**
+## How the data stays fresh
 
-   On the GitHub page for this project, click **Use this template**, then click **Create a new repository**.
+The mall publishes its directory through Abuzz, the wayfinding system behind its own map. Every day at 06:00 Malaysia time, the **Sync IOI directory** GitHub Action:
 
-   Give your new repository a name, choose whether it should be public or private, then click **Create repository**. If GitHub shows an **Include all branches** option, you can leave it off.
+1. Checks the mall's release number and stops if nothing changed.
+2. Downloads the new directory and map geometry, then rebuilds:
+   - shop logos and storefront photos (removing those of shops that left)
+   - the floor plans
+   - the directory
+   - offers and opening hours
+   - brand colours
+3. Records what changed (new, opened, coming soon, moved, renamed and closed shops) for the What's on panel.
+4. Runs lint, type check and a production build, then opens a PR listing the changes.
+5. Merges it automatically, which redeploys the site on Vercel.
 
-   This gives you your own separate project to work in, so your website changes stay in your account instead of coming back to the main template.
+   Releases that look wrong stay open as `needs-review` PRs instead of merging. That covers three cases: many shops vanishing, the directory shrinking sharply, or levels going missing.
 
-2. **Open your new repository on your computer**
+To run it by hand:
 
-   After GitHub creates your copy, open that new repository. Click **Code** and open or clone your new repository with your preferred coding tool.
+```bash
+npm run ioi:sync            # does nothing if the mall hasn't published a new release
+npm run ioi:sync -- --force # rebuild anyway
+```
 
-   If you use the terminal, the command will look like this:
+The sync needs Python 3 with Pillow (`pip install pillow`) for the image steps.
 
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/YOUR-NEW-REPOSITORY.git
-   cd YOUR-NEW-REPOSITORY
-   ```
+## Running it locally
 
-3. **Install dependencies**
-   ```bash
-   npm install
-   ```
-4. **Start your AI agent** — Claude Code recommended:
-   ```bash
-   claude --chrome
-   ```
-5. **Run the skill**:
-   ```
-   /clone-website <target-url1> [<target-url2> ...]
-   ```
-6. **Customize** (optional) — after the base clone is built, modify as needed
+Requires Node.js 24 or newer.
 
-> Using a different agent? Open `AGENTS.md` for project instructions — most agents pick it up automatically.
+```bash
+npm install
+npm run dev        # http://localhost:3000
+```
 
-## Supported Platforms
+| Command | What it does |
+| --- | --- |
+| `npm run dev` | Start the dev server |
+| `npm run build` | Production build |
+| `npm run check` | Lint, type check and build: what CI runs |
+| `npm run ioi:sync` | Pull the mall's latest directory |
 
-| Agent                                                         | Status                     |
-| ------------------------------------------------------------- | -------------------------- |
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | **Recommended** — Opus 4.8 |
-| [Codex CLI](https://github.com/openai/codex)                  | Supported                  |
-| [OpenCode](https://opencode.ai/)                              | Supported                  |
-| [GitHub Copilot](https://github.com/features/copilot)         | Supported                  |
-| [Cursor](https://cursor.com/)                                 | Supported                  |
-| [Windsurf](https://codeium.com/windsurf)                      | Supported                  |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli)     | Supported                  |
-| [Cline](https://github.com/cline/cline)                       | Supported                  |
-| [Roo Code](https://github.com/RooCodeInc/Roo-Code)            | Supported                  |
-| [Continue](https://continue.dev/)                             | Supported                  |
-| [Amazon Q](https://aws.amazon.com/q/developer/)               | Supported                  |
-| [Augment Code](https://www.augmentcode.com/)                  | Supported                  |
-| [Aider](https://aider.chat/)                                  | Supported                  |
+## How it's built
 
-## Prerequisites
-
-- [Node.js](https://nodejs.org/) 24+
-- An AI coding agent (see [Supported Platforms](#supported-platforms))
-
-## Tech Stack
-
-- **Next.js 16** — App Router, React 19, TypeScript strict
-- **shadcn/ui** — Radix primitives + Tailwind CSS v4
-- **Tailwind CSS v4** — oklch design tokens
-- **Lucide React** — default icons (replaced by extracted SVGs during cloning)
-
-## How It Works
-
-The `/clone-website` skill runs a multi-phase pipeline:
-
-1. **Reconnaissance** — screenshots, design token extraction, interaction sweep (scroll, click, hover, responsive)
-2. **Foundation** — updates fonts, colors, globals, downloads all assets
-3. **Component Specs** — writes detailed spec files (`docs/research/components/`) with exact computed CSS values, states, behaviors, and content
-4. **Parallel Build** — dispatches builder agents in git worktrees, one per section/component
-5. **Assembly & QA** — merges worktrees, wires up the page, runs visual diff against the original
-
-Each builder agent receives the full component specification inline — exact `getComputedStyle()` values, interaction models, multi-state content, responsive breakpoints, and asset paths. No guessing.
-
-## Use Cases
-
-- **Platform migration** — rebuild a site you own from WordPress/Webflow/Squarespace into a modern Next.js codebase
-- **Lost source code** — your site is live but the repo is gone, the developer left, or the stack is legacy. Get the code back in a modern format
-- **Learning** — deconstruct how production sites achieve specific layouts, animations, and responsive behavior by working with real code
-
-## Not Intended For
-
-- **Phishing or impersonation** — this project must not be used for deceptive purposes, impersonation, or any activity that breaks the law.
-- **Passing off someone's design as your own** — logos, brand assets, and original copy belong to their owners.
-- **Violating terms of service** — some sites explicitly prohibit scraping or reproduction. Check first.
-
-## Project Structure
+- **Next.js 16** (App Router, React 19, TypeScript strict) and **Tailwind CSS v4**
+- **React Three Fiber** + **drei** for the 3D world: floors, walls, escalators, logos, interiors and the walking character
+- **Vercel** for hosting, with **GitHub Actions** for CI and the daily directory sync
 
 ```
 src/
-  app/              # Next.js routes
-  components/       # React components
-    ui/             # shadcn/ui primitives
-    icons.tsx       # Extracted SVG icons
-  lib/utils.ts      # cn() utility
-  types/            # TypeScript interfaces
-  hooks/            # Custom React hooks
-public/
-  images/           # Downloaded images from target
-  videos/           # Downloaded videos from target
-  seo/              # Favicons, OG images
-docs/
-  research/         # Extraction output & component specs
-  design-references/ # Screenshots
+  app/                  # The page, manifest and styles
+  components/           # Header, directory, What's on, shop profile, overlays
+    world/              # 3D scene: floors, escalators, player, logos, interiors, route line
+  data/                 # Generated by the sync: floor plans, directory, offers, update history
+  lib/                  # Mall geometry, pathfinding, opening hours and offers
 scripts/
-  sync-agent-rules.sh  # Regenerate agent instruction files
-  sync-skills.mjs      # Regenerate /clone-website for all platforms
-AGENTS.md           # Agent instructions (single source of truth)
-CLAUDE.md           # Claude Code config (imports AGENTS.md)
-GEMINI.md           # Gemini CLI config (imports AGENTS.md)
+  ioi-sync-abuzz.mjs    # Daily sync entry point
+  ioi-build-from-abuzz.mjs, ioi-fetch-media.py, ioi-brand-colors.py
+docs/research/ioi/      # Source data and research notes
+.github/workflows/      # CI and the daily sync
 ```
 
-## Commands
+## Credits
 
-```bash
-npm run dev    # Start dev server
-npm run build  # Production build
-npm run lint   # ESLint check
-npm run typecheck # TypeScript check
-npm run check  # Run lint + typecheck + build
-```
-
-### If using docker
-
-```bash
-docker compose up app --build # build and run the app
-docker compose up dev --build # run the app in dev mode on port 3001
-```
-
-## Updating for Other Platforms
-
-Two source-of-truth files power all platform support. Edit the source, then run the sync script:
-
-| What                   | Source of truth                         | Sync command                       |
-| ---------------------- | --------------------------------------- | ---------------------------------- |
-| Project instructions   | `AGENTS.md`                             | `bash scripts/sync-agent-rules.sh` |
-| `/clone-website` skill | `.claude/skills/clone-website/SKILL.md` | `node scripts/sync-skills.mjs`     |
-
-Each script regenerates the platform-specific copies automatically. Agents that read the source files natively need no regeneration.
-
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=JCodesMore/ai-website-cloner-template&type=Date)](https://star-history.com/#JCodesMore/ai-website-cloner-template&Date)
-
-## License
-
-MIT
+- Shop directory, map geometry, logos and offers: IOI City Mall's public directory (Abuzz).
+- Music: "Bossa Antigua" by Kevin MacLeod ([incompetech.com](https://incompetech.com)), licensed under [Creative Commons: By Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
+- Started from [JCodesMore's AI Website Cloner Template](https://github.com/JCodesMore/ai-website-cloner-template) (MIT, see [LICENSE](LICENSE)).
