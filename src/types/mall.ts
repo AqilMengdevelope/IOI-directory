@@ -25,6 +25,8 @@ export interface FloorUnit {
   color?: string;
   /** Shop logo shown above the unit in 3D. */
   logo?: MediaImage;
+  /** Being fitted out: drawn behind hoarding, closed to walk-ins. */
+  comingSoon?: boolean;
 }
 
 export interface MediaImage {
@@ -77,6 +79,8 @@ export interface TenantReference {
 /** One entry in the "Around this floor" directory. */
 export interface DirectorySpace {
   unitId: string;
+  /** The mall directory's id for this shop, which offers and the update history refer to. */
+  poiId: string | null;
   unitNumber: string;
   name: string;
   category: string;
@@ -93,6 +97,8 @@ export interface DirectorySpace {
   website: string | null;
   /** Floor the unit is on, e.g. "Ground". */
   floorLabel: string;
+  /** Announced by the mall but not open yet. */
+  comingSoon?: boolean;
 }
 
 export interface TenantStory {

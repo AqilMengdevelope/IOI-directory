@@ -1,0 +1,124 @@
+{
+ "updates": [
+  {
+   "version": 1209,
+   "previousVersion": 1185,
+   "releaseDate": "2026-10-14T14:51:00+08:00",
+   "detectedAt": "2026-10-15T07:29:06.924Z",
+   "changes": [
+    {
+     "type": "new",
+     "name": "Cabbeen",
+     "unitNumber": "G-67",
+     "floor": "G",
+     "unitId": "ioi-g-g-67"
+    },
+    {
+     "type": "new",
+     "name": "RASA by Grandmama's",
+     "unitNumber": "LG-235",
+     "floor": "LG",
+     "unitId": "ioi-lg-lg-235"
+    },
+    {
+     "type": "opened",
+     "name": "Chonky Cookies",
+     "unitNumber": "L2-K201",
+     "floor": "2",
+     "unitId": "ioi-2-l2-k201"
+    },
+    {
+     "type": "opened",
+     "name": "Lao Miao",
+     "unitNumber": "LG-276",
+     "floor": "LG",
+     "unitId": "ioi-lg-lg-276"
+    },
+    {
+     "type": "coming-soon",
+     "name": "KFC",
+     "unitNumber": "L2-57922_34269",
+     "floor": "2",
+     "unitId": "ioi-2-kfc"
+    },
+    {
+     "type": "coming-soon",
+     "name": "Seven Seas Fish & Chip",
+     "unitNumber": "L2-18",
+     "floor": "2",
+     "unitId": "ioi-2-l2-18"
+    },
+    {
+     "type": "coming-soon",
+     "name": "Tofu G Gelato",
+     "unitNumber": "LG-31C",
+     "floor": "LG",
+     "unitId": "ioi-lg-lg-31c"
+    },
+    {
+     "type": "closed",
+     "name": "ADLV",
+     "unitNumber": "G-230",
+     "floor": "G",
+     "unitId": null
+    },
+    {
+     "type": "closed",
+     "name": "AK Noodle House",
+     "unitNumber": null,
+     "floor": null,
+     "unitId": null
+    },
+    {
+     "type": "closed",
+     "name": "Amber",
+     "unitNumber": "G-67",
+     "floor": "G",
+     "unitId": null
+    },
+    {
+     "type": "closed",
+     "name": "Christine's Bakery",
+     "unitNumber": "L2-20&21",
+     "floor": "2",
+     "unitId": null
+    },
+    {
+     "type": "closed",
+     "name": "Eichitoo",
+     "unitNumber": "G-13A",
+     "floor": "G",
+     "unitId": null
+    },
+    {
+     "type": "closed",
+     "name": "Ippudo",
+     "unitNumber": "GE-207",
+     "floor": "G",
+     "unitId": null
+    },
+    {
+     "type": "closed",
+     "name": "Mango",
+     "unitNumber": "G-224 & 225",
+     "floor": "G",
+     "unitId": null
+    },
+    {
+     "type": "closed",
+     "name": "Mr. Tuk Tuk",
+     "unitNumber": null,
+     "floor": null,
+     "unitId": null
+    },
+    {
+     "type": "closed",
+     "name": "Salad Atelier",
+     "unitNumber": null,
+     "floor": null,
+     "unitId": null
+    }
+   ]
+  }
+ ]
+}

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import type { PointerEvent as ReactPointerEvent, RefObject } from "react";
+import { Icon } from "@/components/icons";
 import type { WorldInput } from "@/components/world/types";
 
 interface FollowZoomProps {
@@ -22,6 +23,64 @@ export function FollowZoom({ onZoomOut, onZoomIn }: FollowZoomProps) {
   );
 }
 
+interface UpDownPromptProps {
+  /** Accessible name of the group, e.g. "Lift". */
+  label: string;
+  title: string;
+  subtitle: string;
+  /** Title of the level each way, or null when there's none that way. */
+  upTo: string | null;
+  downTo: string | null;
+  onUp: () => void;
+  onDown: () => void;
+}
+
+/** "Go up or down?" chooser shown beside a lift or an escalator bank; R and F are handled by the caller. */
+export function UpDownPrompt({ label, title, subtitle, upTo, downTo, onUp, onDown }: UpDownPromptProps) {
+  return (
+    <div className="lift-prompt" role="group" aria-label={label}>
+      <span className="lift-prompt-text">
+        <strong>{title}</strong>
+        <small>{subtitle}</small>
+      </span>
+      <button type="button" className="lift-prompt-choice" disabled={!upTo} onClick={onUp}>
+        <span aria-hidden="true">↑</span>
+        {upTo ?? "Top floor"}
+        {upTo && <kbd>R</kbd>}
+      </button>
+      <button type="button" className="lift-prompt-choice" disabled={!downTo} onClick={onDown}>
+        <span aria-hidden="true">↓</span>
+        {downTo ?? "Lowest floor"}
+        {downTo && <kbd>F</kbd>}
+      </button>
+    </div>
+  );
+}
+
+interface RouteBannerProps {
+  title: string;
+  subtitle: string;
+  onCancel: () => void;
+}
+
+/** "Heading to …" strip shown while the character follows a directory route; × stops the trip. */
+export function RouteBanner({ title, subtitle, onCancel }: RouteBannerProps) {
+  return (
+    <div className="route-banner" role="status" aria-live="polite">
+      <span className="route-banner-icon" aria-hidden="true">
+        <Icon name="walk" size={16} />
+      </span>
+      <span className="route-banner-text">
+        <strong>{title}</strong>
+        <small>{subtitle}</small>
+      </span>
+      <button type="button" className="route-banner-stop" aria-label="Stop the route" onClick={onCancel}>
+        <Icon name="close" size={14} />
+      </button>
+    </div>
+  );
+}
+
 interface WorldBottomProps {
   onOpenNote: () => void;
 }
@@ -30,7 +89,7 @@ export function WorldBottom({ onOpenNote }: WorldBottomProps) {
   return (
     <div className="world-bottom">
       <button type="button" className="cutaway-note" onClick={onOpenNote}>
-        This 3D mall map is still experimental.
+        Unofficial hobby project, not affiliated with IOI City Mall.
         <span className="cutaway-note-rest">{" Map details and information might be inaccurate."}</span>
       </button>
       <div className="controls-help">
@@ -38,13 +97,13 @@ export function WorldBottom({ onOpenNote }: WorldBottomProps) {
           <kbd>W</kbd>
           <kbd>A</kbd>
           <kbd>S</kbd>
-          <kbd>D</kbd> walk <span className="separator">·</span>{" "}
-          <kbd>Space</kbd> jump
+          <kbd>D</kbd> walk <span className="separator">·</span> <kbd>Shift</kbd> run{" "}
+          <span className="separator">·</span> <kbd>Space</kbd> jump
         </span>
         <span className="separator">·</span>
         <span>Drag to turn</span>
         <span className="desktop-controls">
-          <span className="separator">·</span> <kbd>E</kbd> open
+          <span className="separator">·</span> <kbd>E</kbd> open <span className="separator">·</span> <kbd>/</kbd> find
         </span>
       </div>
     </div>

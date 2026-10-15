@@ -1,6 +1,8 @@
 import type { ReactNode } from "react";
 
 import { Icon } from "@/components/icons";
+import { useNow } from "@/hooks/useNow";
+import { liveOffers, mallOpenStatus, recentChanges } from "@/lib/whats-on";
 
 interface AppHeaderProps {
   steps: number;
@@ -12,6 +14,12 @@ interface AppHeaderProps {
   onOpenMessage: () => void;
   /** Opens the "What’s IOI City Mall?" modal. */
   onOpenAbout: () => void;
+  /** Toggles the "Find a shop" directory. */
+  onOpenDirectory: () => void;
+  directoryOpen: boolean;
+  /** Toggles the "What's on" panel. */
+  onOpenWhatsOn: () => void;
+  whatsOnOpen: boolean;
   /** Rendered inside `.main-menu` after the Settings button while open. */
   settingsMenu: ReactNode;
 }
@@ -24,8 +32,18 @@ export function AppHeader({
   onToggleSettings,
   onOpenMessage,
   onOpenAbout,
+  onOpenDirectory,
+  directoryOpen,
+  onOpenWhatsOn,
+  whatsOnOpen,
   settingsMenu,
 }: AppHeaderProps) {
+  const now = useNow();
+  const status = now === null ? null : mallOpenStatus(now);
+  // A dot on "What's on" while something changed this week.
+  const hasNews = now !== null && recentChanges(now, 7).some((change) => change.type !== "closed");
+  const offerCount = now === null ? 0 : liveOffers(now).length;
+
   return (
     <header className="app-header">
       <div className="header-cluster">
@@ -40,8 +58,41 @@ export function AppHeader({
           >
             <Icon name={soundOn ? "speaker" : "speakerOff"} size={20} />
           </button>
+          {status && (
+            <button
+              type="button"
+              className="open-status"
+              data-open={status.open}
+              title={status.usual ? `Mall hours: ${status.usual} daily` : "Mall hours"}
+              onClick={onOpenWhatsOn}
+            >
+              <span aria-hidden />
+              {status.label}
+            </button>
+          )}
         </div>
         <div className="header-tools">
+          <button
+            type="button"
+            className="whats-on-toggle header-icon"
+            aria-label={`What’s on${hasNews ? ", new shops this week" : ""}${offerCount ? `, ${offerCount} offers` : ""}`}
+            aria-expanded={whatsOnOpen}
+            title="What’s on: new shops, offers and coming soon"
+            onClick={onOpenWhatsOn}
+          >
+            <Icon name="sparkle" size={20} />
+            {hasNews && <span className="header-dot" aria-hidden />}
+          </button>
+          <button
+            type="button"
+            className="directory-toggle header-icon"
+            aria-label="Find a shop"
+            aria-expanded={directoryOpen}
+            title="Find a shop ( / )"
+            onClick={onOpenDirectory}
+          >
+            <Icon name="search" size={20} />
+          </button>
           <div className="main-menu">
             <button
               className={`menu-button header-icon${settingsOpen ? " open" : ""}`}

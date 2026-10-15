@@ -9,9 +9,15 @@ export interface WorldInput {
   jump: boolean;
 }
 
-/** Request to walk to a unit; `nonce` changes on every request so repeats retrigger. */
+/** Request to ride an escalator (an index into getEscalators); `nonce` changes on every request. */
+export interface EscalatorRide {
+  index: number;
+  nonce: number;
+}
+
+/** Request to walk to a unit (or, with a null unit, to stop); `nonce` changes on every request. */
 export interface WalkTarget {
-  unitId: string;
+  unitId: string | null;
   nonce: number;
 }
 
@@ -32,6 +38,15 @@ export interface PlayerRigProps {
   arriveAt: [number, number] | null;
   onZoomChange: (zoom: number) => void;
   onOpenLevelPicker: () => void;
+  /** Bank id of the escalators the character is standing beside, or null when not near any. */
+  onNearEscalator: (bank: number | null) => void;
+  ride: EscalatorRide | null;
+  /** The character has stepped off the end of the escalator in `ride`. */
+  onRideEnd: (index: number) => void;
+  /** An auto-walk to a shop reached its entrance, or was cancelled by the player taking control. */
+  onWalkEnd: (reason: "arrived" | "cancelled") => void;
+  /** Written every frame with the character's position, for callers that plan routes. */
+  playerRef: RefObject<{ x: number; z: number }>;
 }
 
 export interface WorldCanvasProps extends PlayerRigProps {

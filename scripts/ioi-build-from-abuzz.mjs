@@ -1,5 +1,5 @@
-// Builds src/data/floorplans.json and src/data/directory.json from IOI City Mall's official Abuzz
-// wayfinding dataset (docs/research/ioi/abuzz/geometry.json + data.json).
+// Builds src/data/floorplans.json, src/data/directory.json and src/data/mall-info.json from IOI City
+// Mall's official Abuzz wayfinding dataset (docs/research/ioi/abuzz/geometry.json + data.json).
 // Usage: node scripts/ioi-build-from-abuzz.mjs
 //
 // Abuzz units are centimetres (unitsPerMeter = 100); we emit "plan pixels" in whole metres × 10 so
@@ -70,6 +70,15 @@ function parseDescription(poi) {
   return { description: body.join("\n\n") || null, phone, website };
 }
 const title = (p) => p?.title?.find((t) => t.lang === "EN")?.value ?? p?.title?.[0]?.value ?? null;
+
+// The mall marks units being fitted out in the shop's title: "Lao Miao (Coming Soon)", or just "Opening Soon".
+const COMING_SOON = /\s*\(?\b(?:coming|opening)\s+soon\b\)?\s*/i;
+/** A POI's shop name without the "(Coming Soon)" tag, and whether it had one. */
+function shopName(poi) {
+  const raw = title(poi);
+  if (!raw || !COMING_SOON.test(raw)) return { name: raw, comingSoon: false };
+  return { name: raw.replace(COMING_SOON, " ").trim() || null, comingSoon: true };
+}
 
 // Categories that are buildings/areas around the mall rather than walkable shops.
 const NOT_A_SHOP = new Set(["hotel", "hidden_poi"]);
@@ -160,7 +169,7 @@ for (const [shortName, id, label] of LEVELS) {
     if (cats.some((c) => NOT_A_SHOP.has(c))) continue;
     const polygon = polygonOf(e);
     if (polygon.length < 3 || Math.abs(signedArea(polygon)) < 1) continue;
-    const name = title(poi);
+    const { name, comingSoon } = shopName(poi);
     const lot = poi?.cellId?.trim() || null;
     const area = Math.abs(signedArea(polygon));
     const isKiosk = cats.includes("kiosk") || area < KIOSK_MAX_AREA;
@@ -184,6 +193,7 @@ for (const [shortName, id, label] of LEVELS) {
       name,
       color: "#" + e.col.map((c) => Math.round(c * 255).toString(16).padStart(2, "0")).join(""),
       ...(media[e.geoId]?.logo ? { logo: media[e.geoId].logo } : {}),
+      ...(comingSoon ? { comingSoon: true } : {}),
       _cats: cats,
       _poi: poi,
       _geoId: e.geoId,
@@ -208,7 +218,7 @@ for (const [shortName, id, label] of LEVELS) {
   floorplans.push({
     level: id,
     floorLabel: label,
-    revision: "abuzz-2025-02",
+    revision: `abuzz-v${data.version}`,
     footprint,
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     units: units.map(({ _cats, _poi, _geoId, ...u }) => u),
@@ -220,9 +230,17 @@ for (const [shortName, id, label] of LEVELS) {
     const primary = (u._cats ?? []).find((c) => !["anchor", "clubioi", "level1", "1st_avenue", "2nd_avenue"].includes(c));
     return {
       unitId: u.id,
+      poiId: u._poi?.id ?? null,
       unitNumber: u.unitNumber,
-      name: u.name ?? (u.kind === "kiosk" ? `Kiosk ${u.shortNumber}` : `Unit ${u.shortNumber}`),
-      category: primary ? (CATEGORY_LABEL[primary] ?? primary) : u.kind === "kiosk" ? "Kiosk" : "Details under review",
+      name: u.name ?? (u.comingSoon ? "New shop" : u.kind === "kiosk" ? `Kiosk ${u.shortNumber}` : `Unit ${u.shortNumber}`),
+      category: primary
+        ? (CATEGORY_LABEL[primary] ?? primary)
+        : u.comingSoon
+          ? "Opening soon"
+          : u.kind === "kiosk"
+            ? "Kiosk"
+            : "Details under review",
+      ...(u.comingSoon ? { comingSoon: true } : {}),
       ...parseDescription(u._poi),
       tenantKey: null,
       // The directory list shows the logo: it is more recognisable at 52 px than a storefront photo.
@@ -240,6 +258,49 @@ for (const [shortName, id, label] of LEVELS) {
   );
 }
 
+// Offers, announcements and opening hours for the "What's on" panel. Offers point at POIs; resolve
+// them to the units the app can walk to. Dates are the mall's local time (UTC+8) without an offset.
+const unitByPoi = new Map();
+for (const [floor, spaces] of Object.entries(directory)) {
+  for (const space of spaces) if (space.poiId && !unitByPoi.has(space.poiId)) unitByPoi.set(space.poiId, { floor, unitId: space.unitId });
+}
+const malaysiaTime = (value) => (value ? `${value.slice(0, 19)}+08:00` : null);
+const imageOf = (key) => media[key]?.image ?? null;
+const offers = (data.offers ?? [])
+  .filter((offer) => offer.active !== false)
+  .map((offer) => ({
+    id: offer.id,
+    title: title(offer),
+    // Offer descriptions often repeat the title as their first line.
+    description:
+      parseDescription(offer)
+        .description?.split("\n\n")
+        .filter((line, i) => i > 0 || line.toLowerCase() !== title(offer)?.toLowerCase())
+        .join("\n\n") || null,
+    startsAt: malaysiaTime(offer.startDate),
+    endsAt: malaysiaTime(offer.endDate),
+    image: imageOf(`offer:${offer.id}`),
+    shops: (offer.pOIs ?? []).map((id) => unitByPoi.get(id)).filter(Boolean),
+  }))
+  .filter((offer) => offer.title);
+const announcements = (data.announcements ?? [])
+  .filter((item) => item.active !== false)
+  .sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
+  .map((item) => {
+    const { description, website } = parseDescription(item);
+    const link = website ?? description?.match(/https?:\/\/[^\s<]+/)?.[0] ?? null;
+    return { id: item.id, title: title(item), description, link, image: imageOf(`announcement:${item.id}`) };
+  })
+  .filter((item) => item.title);
+const mallInfo = {
+  version: data.version,
+  releaseDate: malaysiaTime(data.releaseDate),
+  hours: data.contact?.structuredHours ?? null,
+  offers,
+  announcements,
+};
+
 await writeFile(join(ROOT, "src/data/floorplans.json"), JSON.stringify(floorplans));
 await writeFile(join(ROOT, "src/data/directory.json"), JSON.stringify(directory, null, 1));
-console.log("wrote src/data/floorplans.json and src/data/directory.json");
+await writeFile(join(ROOT, "src/data/mall-info.json"), JSON.stringify(mallInfo, null, 1));
+console.log(`wrote floorplans, directory and mall-info (${offers.length} offers, ${announcements.length} announcements)`);

@@ -33,6 +33,7 @@ const paths = {
     </>
   ),
   list: <path d="M8 6h13M8 12h13M8 18h13M3 6h.1M3 12h.1M3 18h.1" />,
+  search: <path d="m21 21-4.35-4.35M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14Z" />,
   external: <path d="M14 3h7v7m0-7L10 14M10 3H3v18h18v-7" />,
   clock: (
     <>

@@ -2,7 +2,9 @@
 
 import { useEffect, useState } from "react";
 import { Icon } from "@/components/icons";
+import { useNow } from "@/hooks/useNow";
 import { MALL_NAME } from "@/lib/mall";
+import { mallOpenStatus, newUnitIds, offerEnds, offersForUnit } from "@/lib/whats-on";
 import type { DirectorySpace } from "@/types/mall";
 
 interface TenantPanelProps {
@@ -27,6 +29,11 @@ function displayHost(url: string): string {
 
 export function TenantPanel({ space, onClose, onWalkTo }: TenantPanelProps) {
   const [photoFailed, setPhotoFailed] = useState(false);
+  const now = useNow();
+  const offers = now === null ? [] : offersForUnit(space.unitId, now);
+  const isNew = now !== null && !space.comingSoon && newUnitIds(now).has(space.unitId);
+  // Shops keep the mall's hours unless the directory says otherwise.
+  const mallStatus = now === null || space.comingSoon ? null : mallOpenStatus(now);
 
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
@@ -63,11 +70,35 @@ export function TenantPanel({ space, onClose, onWalkTo }: TenantPanelProps) {
 
           <div className="tenant-profile-heading">
             <span className="unit-badge">{space.unitNumber}</span>
+            {space.comingSoon && <span className="status-badge" data-kind="soon">Coming soon</span>}
+            {isNew && <span className="status-badge" data-kind="new">New</span>}
             <h1>{space.name}</h1>
             <p className="tenant-profile-category">
               {space.category} · {space.floorLabel}
             </p>
           </div>
+
+          {space.comingSoon && (
+            <section className="tenant-profile-section">
+              <p className="tenant-profile-soon">
+                This unit is being fitted out behind hoarding. The mall lists it as opening soon. Check back
+                here, the directory refreshes every morning.
+              </p>
+            </section>
+          )}
+
+          {offers.length > 0 && now !== null && (
+            <section className="tenant-profile-section">
+              <h2>Offers</h2>
+              {offers.map((offer) => (
+                <div className="tenant-profile-offer" key={offer.id}>
+                  <strong>{offer.title}</strong>
+                  {offer.description && <p>{offer.description}</p>}
+                  {offerEnds(offer, now) && <small>{offerEnds(offer, now)} · CLUB IOI members</small>}
+                </div>
+              ))}
+            </section>
+          )}
 
           {space.description && (
             <section className="tenant-profile-section">
@@ -78,10 +109,16 @@ export function TenantPanel({ space, onClose, onWalkTo }: TenantPanelProps) {
             </section>
           )}
 
-          {space.hours && (
+          {(space.hours || mallStatus) && (
             <section className="tenant-profile-section">
               <h2>Opening hours</h2>
-              <p>{space.hours}</p>
+              {mallStatus && (
+                <p className="whats-on-status" data-open={mallStatus.open}>
+                  <span aria-hidden />
+                  {mallStatus.label}
+                </p>
+              )}
+              {space.hours && <p>{space.hours}</p>}
             </section>
           )}
 

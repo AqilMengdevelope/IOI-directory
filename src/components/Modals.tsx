@@ -105,6 +105,13 @@ export function AboutModal({ onClose }: AboutModalProps) {
         Lotus’s and HomePro, GSC cinemas with an IMAX hall, the Icescape ice rink, District 21 and the IOI
         Sports Centre.
       </p>
+      <p className="modal-body quiet about-disclaimer">
+        <strong>Unofficial fan project.</strong> This is an independent hobby project and is not affiliated
+        with, endorsed by, or connected to IOI City Mall, IOI Properties Group, or any of the retailers
+        shown. All trademarks, logos and brand names belong to their respective owners and are used for
+        identification only. Floor plans, shop details and opening hours may be out of date or inaccurate,
+        so check with the mall or the shop before you visit.
+      </p>
       <div className="modal-actions gmbb-actions">
         <a
           className="primary-button"

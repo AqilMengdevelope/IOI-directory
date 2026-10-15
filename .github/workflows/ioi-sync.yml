@@ -1,0 +1,93 @@
+name: Sync IOI directory
+
+# Every morning, check IOI City Mall's live Abuzz directory. When the mall has published a new release,
+# rebuild the shop data, open a PR that lists what changed and, if the site still builds and nothing
+# looks off, merge it, which redeploys the site. Suspicious releases stay open for review.
+on:
+  schedule:
+    - cron: "0 22 * * *" # 06:00 Malaysia time
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Rebuild even if the mall's version hasn't changed
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: ioi-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          pip install pillow
+
+      - name: Check the mall's directory
+        id: sync
+        run: node scripts/ioi-sync-abuzz.mjs ${{ inputs.force && '--force' || '' }} --summary "$RUNNER_TEMP/summary.md"
+
+      - name: Lint, type check and build
+        if: steps.sync.outputs.changed == 'true'
+        run: npm run check
+
+      - name: Open the PR
+        if: steps.sync.outputs.changed == 'true'
+        id: pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.sync.outputs.version }}
+          REVIEW: ${{ steps.sync.outputs.review }}
+        run: |
+          if git diff --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
+            echo "Nothing changed on disk."
+            exit 0
+          fi
+          branch="ioi-sync/v$VERSION"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C "$branch"
+          git add -A
+          git commit -m "Sync IOI City Mall directory to version $VERSION"
+          git push --force origin "$branch"
+          labels=""
+          if [ "$REVIEW" = "true" ]; then labels="--label needs-review"; gh label create needs-review --color d93f0b --force >/dev/null; fi
+          url=$(gh pr view "$branch" --json url --jq .url 2>/dev/null || true)
+          if [ -z "$url" ]; then
+            url=$(gh pr create --base "${{ github.event.repository.default_branch }}" --head "$branch" \
+              --title "IOI directory: version $VERSION" --body-file "$RUNNER_TEMP/summary.md" \
+              --assignee "${{ github.repository_owner }}" $labels)
+          fi
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+          cat "$RUNNER_TEMP/summary.md" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "PR: $url" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Merge (redeploys the site)
+        if: steps.pr.outputs.url != '' && steps.sync.outputs.review != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh pr merge "${{ steps.pr.outputs.url }}" --squash --delete-branch

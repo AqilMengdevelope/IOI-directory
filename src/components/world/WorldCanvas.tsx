@@ -56,6 +56,11 @@ export default function WorldCanvas(props: WorldCanvasProps) {
           arriveAt={props.arriveAt}
           onZoomChange={props.onZoomChange}
           onOpenLevelPicker={props.onOpenLevelPicker}
+          onNearEscalator={props.onNearEscalator}
+          ride={props.ride}
+          onRideEnd={props.onRideEnd}
+          onWalkEnd={props.onWalkEnd}
+          playerRef={props.playerRef}
         />
       </Suspense>
       <ReadySignal onReady={props.onReady} />

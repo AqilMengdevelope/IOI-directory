@@ -2,6 +2,7 @@
  "1": [
   {
    "unitId": "ioi-1-f-k17",
+   "poiId": "69fbf2705351054b1d2006dc",
    "unitNumber": "F-K17",
    "name": "Jovi",
    "category": "Fashion",
@@ -21,6 +22,7 @@
   },
   {
    "unitId": "ioi-1-f-k20",
+   "poiId": "698597d553510502c6da32c1",
    "unitNumber": "F-K20",
    "name": "SoyaLah",
    "category": "Food & Beverages",
@@ -40,6 +42,7 @@
   },
   {
    "unitId": "ioi-1-56479-32041-600",
+   "poiId": null,
    "unitNumber": "L1-56479_32041",
    "name": "Unit ?",
    "category": "Details under review",
@@ -55,6 +58,7 @@
   },
   {
    "unitId": "ioi-1-f-k8b",
+   "poiId": "672b2d1d5351051c3ee4d8fc",
    "unitNumber": "F-K8B",
    "name": "Gula Petite By Gula Cakery",
    "category": "Café & Restaurant",
@@ -78,6 +82,7 @@
   },
   {
    "unitId": "ioi-1-f-k8a",
+   "poiId": "672b31525351051c3ee4dd72",
    "unitNumber": "F-K8A",
    "name": "The Fish Bowl",
    "category": "Café & Restaurant",
@@ -101,6 +106,7 @@
   },
   {
    "unitId": "ioi-1-f-k14",
+   "poiId": "672b31555351051c3ee4dd79",
    "unitNumber": "F-K14",
    "name": "Jom Cha By Farm Fresh",
    "category": "Details under review",
@@ -124,6 +130,7 @@
   },
   {
    "unitId": "ioi-1-f-k7",
+   "poiId": "672b3def5351052ffe16db39",
    "unitNumber": "F-K7",
    "name": "Daboba Go",
    "category": "Details under review",
@@ -147,6 +154,7 @@
   },
   {
    "unitId": "ioi-1-l1-k201",
+   "poiId": "672b31505351051c3ee4dd6e",
    "unitNumber": "L1-K201",
    "name": "Cold Stone Creamery",
    "category": "Details under review",
@@ -170,6 +178,7 @@
   },
   {
    "unitId": "ioi-1-f-k1",
+   "poiId": "672b3d2b5351052ffe16d95d",
    "unitNumber": "F-K1",
    "name": "Baskin Robbins",
    "category": "Food & Beverages",
@@ -193,6 +202,7 @@
   },
   {
    "unitId": "ioi-1-l1-k202",
+   "poiId": "672b30b85351051c3ee4dbfa",
    "unitNumber": "L1-K202",
    "name": "Empire Sushi",
    "category": "Details under review",
@@ -216,6 +226,7 @@
   },
   {
    "unitId": "ioi-1-f-k3",
+   "poiId": "680867e053510528fc423971",
    "unitNumber": "F-K3",
    "name": "Krispy Kreme Doughnuts",
    "category": "Desserts",
@@ -239,6 +250,7 @@
   },
   {
    "unitId": "ioi-1-just-good-coffee",
+   "poiId": "680998be53510528fc423979",
    "unitNumber": "L1-32837_21365",
    "name": "Just Good Coffee",
    "category": "Food & Beverages",
@@ -258,6 +270,7 @@
   },
   {
    "unitId": "ioi-1-the-founders-bakery",
+   "poiId": "6808680f53510528fc423972",
    "unitNumber": "L1-33902_21794",
    "name": "The Founders Bakery",
    "category": "Food & Beverages",
@@ -277,6 +290,7 @@
   },
   {
    "unitId": "ioi-1-f-k11",
+   "poiId": "672b2d3d5351051c3ee4d94a",
    "unitNumber": "F-K11",
    "name": "Bing's Cafe",
    "category": "Details under review",
@@ -296,6 +310,7 @@
   },
   {
    "unitId": "ioi-1-avenys",
+   "poiId": "672b2ff05351051c3ee4da19",
    "unitNumber": "L1-34455_25760",
    "name": "Avenys",
    "category": "Beauty, Skincare & Perfumery",
@@ -319,6 +334,7 @@
   },
   {
    "unitId": "ioi-1-l1-k205",
+   "poiId": "672b3d8e5351052ffe16da47",
    "unitNumber": "L1-K205",
    "name": "Skechers Foamies",
    "category": "Footwear",
@@ -342,6 +358,7 @@
   },
   {
    "unitId": "ioi-1-f-k6",
+   "poiId": "672b2d675351051c3ee4d9ae",
    "unitNumber": "F-K6",
    "name": "Lelas",
    "category": "Beauty, Skincare & Perfumery",
@@ -365,6 +382,7 @@
   },
   {
    "unitId": "ioi-1-f-k5",
+   "poiId": "672b311a5351051c3ee4dce5",
    "unitNumber": "F-K5",
    "name": "Natural Looks",
    "category": "Beauty, Skincare & Perfumery",
@@ -388,6 +406,7 @@
   },
   {
    "unitId": "ioi-1-f-k2a",
+   "poiId": "672b35a95351051c3ee4de9a",
    "unitNumber": "F-K2A",
    "name": "IQOS",
    "category": "Gifts & Souvenirs",
@@ -411,6 +430,7 @@
   },
   {
    "unitId": "ioi-1-rest-n-go",
+   "poiId": "69dc63505351054b1d1ff9be",
    "unitNumber": "L1-51073_39426",
    "name": "Rest N Go",
    "category": "Health & Fitness",
@@ -430,6 +450,7 @@
   },
   {
    "unitId": "ioi-1-f-k18",
+   "poiId": "672b30055351051c3ee4da50",
    "unitNumber": "F-K18",
    "name": "HWC Coffee",
    "category": "Café & Restaurant",
@@ -453,6 +474,7 @@
   },
   {
    "unitId": "ioi-1-l1-k204",
+   "poiId": "672b306f5351051c3ee4db4f",
    "unitNumber": "L1-K204",
    "name": "ZUS Signature Coffee",
    "category": "Food & Beverages",
@@ -472,6 +494,7 @@
   },
   {
    "unitId": "ioi-1-f-k16",
+   "poiId": "672b30195351051c3ee4da86",
    "unitNumber": "F-K16",
    "name": "Hot & Roll",
    "category": "Details under review",
@@ -495,6 +518,7 @@
   },
   {
    "unitId": "ioi-1-f-k15",
+   "poiId": "6a4bde89535105480489b54c",
    "unitNumber": "F-K15",
    "name": "Go Pizza",
    "category": "Food & Beverages",
@@ -514,6 +538,7 @@
   },
   {
    "unitId": "ioi-1-l1-k203",
+   "poiId": "672b3d715351052ffe16da05",
    "unitNumber": "L1-K203",
    "name": "Nadeje",
    "category": "Details under review",
@@ -537,6 +562,7 @@
   },
   {
    "unitId": "ioi-1-l1-45-46",
+   "poiId": "672b30325351051c3ee4dabd",
    "unitNumber": "L1-45&46",
    "name": "Mother Care, Early Learning Centre",
    "category": "Kids & Maternity",
@@ -560,6 +586,7 @@
   },
   {
    "unitId": "ioi-1-l1-47",
+   "poiId": "672b31345351051c3ee4dd2b",
    "unitNumber": "L1-47",
    "name": "The Nail Parlour Waxalon",
    "category": "Beauty Salon",
@@ -583,6 +610,7 @@
   },
   {
    "unitId": "ioi-1-l1-48-49",
+   "poiId": "672b31635351051c3ee4dda2",
    "unitNumber": "L1-48&49",
    "name": "Chicco & Recaro",
    "category": "Kids & Maternity",
@@ -606,6 +634,7 @@
   },
   {
    "unitId": "ioi-1-l1-50",
+   "poiId": "672b357d5351051c3ee4de31",
    "unitNumber": "L1-50",
    "name": "Felancy",
    "category": "Undergarments",
@@ -629,6 +658,7 @@
   },
   {
    "unitId": "ioi-1-l1-51",
+   "poiId": "672b3d995351052ffe16da63",
    "unitNumber": "L1-51",
    "name": "Anakku",
    "category": "Kids & Maternity",
@@ -652,6 +682,7 @@
   },
   {
    "unitId": "ioi-1-l1-52",
+   "poiId": "672b3d065351052ffe16d907",
    "unitNumber": "L1-52",
    "name": "Love Trisha",
    "category": "Ladies Fashion",
@@ -671,9 +702,11 @@
   },
   {
    "unitId": "ioi-1-l1-73a",
+   "poiId": "672b2d6d5351051c3ee4d9b9",
    "unitNumber": "L1-73A",
-   "name": "Opening Soon",
+   "name": "New shop",
    "category": "No Category",
+   "comingSoon": true,
    "description": null,
    "phone": null,
    "website": null,
@@ -686,6 +719,7 @@
   },
   {
    "unitId": "ioi-1-l1-73b",
+   "poiId": "672b3cc35351052ffe16d86a",
    "unitNumber": "L1-73B",
    "name": "Jewel Cafe",
    "category": "Services",
@@ -709,6 +743,7 @@
   },
   {
    "unitId": "ioi-1-l1-76",
+   "poiId": "6a98ccd753510529d62eb3ef",
    "unitNumber": "L1-76",
    "name": "Young Curves",
    "category": "Fashion",
@@ -724,6 +759,7 @@
   },
   {
    "unitId": "ioi-1-l1-75",
+   "poiId": "672b31405351051c3ee4dd49",
    "unitNumber": "L1-75",
    "name": "Bokitta",
    "category": "Footwear",
@@ -747,6 +783,7 @@
   },
   {
    "unitId": "ioi-1-l1-74",
+   "poiId": "6a4bdd54535105480489b549",
    "unitNumber": "L1-74",
    "name": "Zora Designer",
    "category": "Fashion",
@@ -766,6 +803,7 @@
   },
   {
    "unitId": "ioi-1-l1-14a-14b",
+   "poiId": "672b3da85351052ffe16da8b",
    "unitNumber": "L1-14A&14B",
    "name": "MOLLY FANTASY or KIDZOONA",
    "category": "Edutainment",
@@ -789,6 +827,7 @@
   },
   {
    "unitId": "ioi-1-l1-13b",
+   "poiId": "672b35955351051c3ee4de67",
    "unitNumber": "L1-13B",
    "name": "4Fingers Crispy Chicken",
    "category": "Fast Food",
@@ -812,6 +851,7 @@
   },
   {
    "unitId": "ioi-1-l1-13a",
+   "poiId": "672b304a5351051c3ee4daf2",
    "unitNumber": "L1-13A",
    "name": "Sushi King",
    "category": "Details under review",
@@ -835,6 +875,7 @@
   },
   {
    "unitId": "ioi-1-l1-12b",
+   "poiId": "672b35935351051c3ee4de63",
    "unitNumber": "L1-12B",
    "name": "Dookki Topokki Buffet Restaurant",
    "category": "Café & Restaurant",
@@ -858,6 +899,7 @@
   },
   {
    "unitId": "ioi-1-l1-10a",
+   "poiId": "672b30e45351051c3ee4dc5f",
    "unitNumber": "L1-10A",
    "name": "The Face Shop",
    "category": "Beauty, Skincare & Perfumery",
@@ -881,6 +923,7 @@
   },
   {
    "unitId": "ioi-1-l1-10b",
+   "poiId": "672b3d245351052ffe16d94e",
    "unitNumber": "L1-10B",
    "name": "Zirconia",
    "category": "Jewellery",
@@ -904,6 +947,7 @@
   },
   {
    "unitId": "ioi-1-l1-11a",
+   "poiId": "672b3d885351052ffe16da39",
    "unitNumber": "L1-11A",
    "name": "Audrey",
    "category": "Undergarments",
@@ -927,6 +971,7 @@
   },
   {
    "unitId": "ioi-1-lady-k",
+   "poiId": "6771fcb553510545ec954cf8",
    "unitNumber": "L1-45874_33105",
    "name": "Lady.K",
    "category": "Footwear",
@@ -946,6 +991,7 @@
   },
   {
    "unitId": "ioi-1-l1-11c",
+   "poiId": "672b30935351051c3ee4dba3",
    "unitNumber": "L1-11C",
    "name": "Poplook",
    "category": "Ladies Fashion",
@@ -969,6 +1015,7 @@
   },
   {
    "unitId": "ioi-1-l1-12a",
+   "poiId": "672b30a05351051c3ee4dbc4",
    "unitNumber": "L1-12A",
    "name": "Zok Noodle House",
    "category": "Café & Restaurant",
@@ -988,6 +1035,7 @@
   },
   {
    "unitId": "ioi-1-l1-43",
+   "poiId": "672b2d415351051c3ee4d956",
    "unitNumber": "L1-43",
    "name": "Ameera Zaini",
    "category": "Footwear",
@@ -1011,6 +1059,7 @@
   },
   {
    "unitId": "ioi-1-l1-42",
+   "poiId": "672b3d005351052ffe16d8f8",
    "unitNumber": "L1-42",
    "name": "Tudung Ruffle",
    "category": "Accessories",
@@ -1034,6 +1083,7 @@
   },
   {
    "unitId": "ioi-1-l1-41",
+   "poiId": "672b2d455351051c3ee4d95e",
    "unitNumber": "L1-41",
    "name": "Hair Equation",
    "category": "Haircare & Salon",
@@ -1057,6 +1107,7 @@
   },
   {
    "unitId": "ioi-1-l1-37-40",
+   "poiId": "672b35bc5351051c3ee4dec5",
    "unitNumber": "L1-37-40",
    "name": "La Gaya",
    "category": "Details under review",
@@ -1080,6 +1131,7 @@
   },
   {
    "unitId": "ioi-1-l1-44",
+   "poiId": "672b3cf35351052ffe16d8db",
    "unitNumber": "L1-44",
    "name": "9Months",
    "category": "Kids & Maternity",
@@ -1103,6 +1155,7 @@
   },
   {
    "unitId": "ioi-1-l1-67",
+   "poiId": "672b2fd85351051c3ee4d9e0",
    "unitNumber": "L1-67",
    "name": "Milano Eyes Fashion",
    "category": "Optical & Eyewear",
@@ -1126,6 +1179,7 @@
   },
   {
    "unitId": "ioi-1-l1-66",
+   "poiId": "672b316c5351051c3ee4ddbd",
    "unitNumber": "L1-66",
    "name": "G-SHOCK Casio",
    "category": "Timepiece",
@@ -1149,6 +1203,7 @@
   },
   {
    "unitId": "ioi-1-l1-62a-62b",
+   "poiId": "672b3cc15351052ffe16d867",
    "unitNumber": "L1-62A&62B",
    "name": "Lovely Lace And Lovely Lace Baby",
    "category": "Kids & Maternity",
@@ -1172,6 +1227,7 @@
   },
   {
    "unitId": "ioi-1-l1-72",
+   "poiId": "672b3dd65351052ffe16dafd",
    "unitNumber": "L1-72",
    "name": "Oiso",
    "category": "Details under review",
@@ -1195,6 +1251,7 @@
   },
   {
    "unitId": "ioi-1-l1-61",
+   "poiId": "672b3de55351052ffe16db23",
    "unitNumber": "L1-61",
    "name": "Wacoal",
    "category": "Fashion",
@@ -1214,6 +1271,7 @@
   },
   {
    "unitId": "ioi-1-l1-60",
+   "poiId": "672b2d705351051c3ee4d9c0",
    "unitNumber": "L1-60",
    "name": "Kashkha",
    "category": "Ladies Fashion",
@@ -1237,6 +1295,7 @@
   },
   {
    "unitId": "ioi-1-l1-59",
+   "poiId": "672b307b5351051c3ee4db6c",
    "unitNumber": "L1-59",
    "name": "Young Hearts",
    "category": "Undergarments",
@@ -1260,6 +1319,7 @@
   },
   {
    "unitId": "ioi-1-l1-58",
+   "poiId": "672b2fe15351051c3ee4d9f5",
    "unitNumber": "L1-58",
    "name": "30 Degrees",
    "category": "Undergarments",
@@ -1283,6 +1343,7 @@
   },
   {
    "unitId": "ioi-1-l1-56a-b",
+   "poiId": "672b30e25351051c3ee4dc5b",
    "unitNumber": "L1-56A&B",
    "name": "Mamaway",
    "category": "Kids & Maternity",
@@ -1306,6 +1367,7 @@
   },
   {
    "unitId": "ioi-1-l1-57",
+   "poiId": "672b3de75351052ffe16db26",
    "unitNumber": "L1-57",
    "name": "Medplus Pharmacy & Baby",
    "category": "Personal Care & Pharmacy",
@@ -1325,6 +1387,7 @@
   },
   {
    "unitId": "ioi-1-l1-55",
+   "poiId": "6985980053510502c6da32c2",
    "unitNumber": "L1-55",
    "name": "BabyShop",
    "category": "Kids & Maternity",
@@ -1344,6 +1407,7 @@
   },
   {
    "unitId": "ioi-1-at-3",
+   "poiId": "672b2d0a5351051c3ee4d8c7",
    "unitNumber": "AT-3",
    "name": "Parkson",
    "category": "Departmental Stores",
@@ -1367,6 +1431,7 @@
   },
   {
    "unitId": "ioi-1-l1-63",
+   "poiId": "672b35715351051c3ee4de1a",
    "unitNumber": "L1-63",
    "name": "Toys\"R\"Us",
    "category": "Hobbies/Games/Pets",
@@ -1390,6 +1455,7 @@
   },
   {
    "unitId": "ioi-1-l1-68-69-70",
+   "poiId": "672b2d3b5351051c3ee4d946",
    "unitNumber": "L1-68,69&70",
    "name": "Mr. D.I.Y.",
    "category": "Home & Living",
@@ -1413,6 +1479,7 @@
   },
   {
    "unitId": "ioi-1-l1-65",
+   "poiId": "672b3dde5351052ffe16db0c",
    "unitNumber": "L1-65",
    "name": "Fipper",
    "category": "Footwear",
@@ -1436,6 +1503,7 @@
   },
   {
    "unitId": "ioi-1-l1-64",
+   "poiId": "672b314a5351051c3ee4dd62",
    "unitNumber": "L1-64",
    "name": "Xixili",
    "category": "Undergarments",
@@ -1459,6 +1527,7 @@
   },
   {
    "unitId": "ioi-1-l1-1-2",
+   "poiId": "672b3de35351052ffe16db19",
    "unitNumber": "L1-1&2",
    "name": "MOG Boutique",
    "category": "Details under review",
@@ -1482,6 +1551,7 @@
   },
   {
    "unitId": "ioi-1-l1-3",
+   "poiId": "672b3d345351052ffe16d979",
    "unitNumber": "L1-3",
    "name": "Kickers",
    "category": "Footwear",
@@ -1505,6 +1575,7 @@
   },
   {
    "unitId": "ioi-1-l1-4",
+   "poiId": "672b30105351051c3ee4da70",
    "unitNumber": "L1-4",
    "name": "G2000",
    "category": "Ladies & Men Fashion",
@@ -1524,6 +1595,7 @@
   },
   {
    "unitId": "ioi-1-l1-5",
+   "poiId": "672b3d565351052ffe16d9ce",
    "unitNumber": "L1-5",
    "name": "A-Look Eyewear",
    "category": "Optical & Eyewear",
@@ -1547,6 +1619,7 @@
   },
   {
    "unitId": "ioi-1-l1-6",
+   "poiId": "672b3d645351052ffe16d9e6",
    "unitNumber": "L1-6",
    "name": "Gintell",
    "category": "Health & Fitness",
@@ -1570,6 +1643,7 @@
   },
   {
    "unitId": "ioi-1-l1-7",
+   "poiId": "672b3cf15351052ffe16d8d4",
    "unitNumber": "L1-7",
    "name": "Running Lab",
    "category": "Footwear",
@@ -1593,6 +1667,7 @@
   },
   {
    "unitId": "ioi-1-l1-8",
+   "poiId": "672b2d275351051c3ee4d918",
    "unitNumber": "L1-8",
    "name": "Universal Traveller",
    "category": "Ladies & Men Fashion",
@@ -1616,6 +1691,7 @@
   },
   {
    "unitId": "ioi-1-l1-9",
+   "poiId": "672b30695351051c3ee4db40",
    "unitNumber": "L1-9",
    "name": "Dr Cardin Signature",
    "category": "Footwear",
@@ -1639,6 +1715,7 @@
   },
   {
    "unitId": "ioi-1-at-4",
+   "poiId": "672b30725351051c3ee4db54",
    "unitNumber": "AT-4",
    "name": "Icescape Ice Rink",
    "category": "Entertainment",
@@ -1662,6 +1739,7 @@
   },
   {
    "unitId": "ioi-1-l1e-204",
+   "poiId": "672b2fe95351051c3ee4da0a",
    "unitNumber": "L1E-204",
    "name": "The Spice Alley",
    "category": "Café & Restaurant",
@@ -1685,6 +1763,7 @@
   },
   {
    "unitId": "ioi-1-l1e-201-202-203",
+   "poiId": "672b30765351051c3ee4db5c",
    "unitNumber": "L1E-201,202&203",
    "name": "Rakuzen",
    "category": "Café & Restaurant",
@@ -1708,6 +1787,7 @@
   },
   {
    "unitId": "ioi-1-l1-234",
+   "poiId": "672b3d165351052ffe16d934",
    "unitNumber": "L1-234",
    "name": "Geb.",
    "category": "Ladies Fashion",
@@ -1731,6 +1811,7 @@
   },
   {
    "unitId": "ioi-1-l1-232",
+   "poiId": "672b30d95351051c3ee4dc41",
    "unitNumber": "L1-232",
    "name": "Dyson",
    "category": "Home & Living",
@@ -1754,6 +1835,7 @@
   },
   {
    "unitId": "ioi-1-megan",
+   "poiId": "672b3cd75351052ffe16d89f",
    "unitNumber": "L1-80423_24224",
    "name": "Megan",
    "category": "Jewellery",
@@ -1777,6 +1859,7 @@
   },
   {
    "unitId": "ioi-1-l1-231",
+   "poiId": "6a4c7034535105480489b568",
    "unitNumber": "L1-231",
    "name": "2AM",
    "category": "Fashion",
@@ -1796,6 +1879,7 @@
   },
   {
    "unitId": "ioi-1-6ixty8ight",
+   "poiId": "6a4c7042535105480489b569",
    "unitNumber": "L1-81420_26094",
    "name": "6ixty8ight",
    "category": "Fashion",
@@ -1815,6 +1899,7 @@
   },
   {
    "unitId": "ioi-1-l1-229",
+   "poiId": "672b2d125351051c3ee4d8dc",
    "unitNumber": "L1-229",
    "name": "Drum",
    "category": "Ladies & Men Fashion",
@@ -1838,6 +1923,7 @@
   },
   {
    "unitId": "ioi-1-l1-247",
+   "poiId": "672b30815351051c3ee4db7a",
    "unitNumber": "L1-247",
    "name": "Inki Optical Signature",
    "category": "Optical & Eyewear",
@@ -1861,6 +1947,7 @@
   },
   {
    "unitId": "ioi-1-l1-246",
+   "poiId": "672b3dbe5351052ffe16dac3",
    "unitNumber": "L1-246",
    "name": "La Senza",
    "category": "Undergarments",
@@ -1880,6 +1967,7 @@
   },
   {
    "unitId": "ioi-1-l1-245",
+   "poiId": "672b30be5351051c3ee4dc05",
    "unitNumber": "L1-245",
    "name": "A Wow Me",
    "category": "Haircare & Salon",
@@ -1903,6 +1991,7 @@
   },
   {
    "unitId": "ioi-1-l1-244b",
+   "poiId": "672b355d5351051c3ee4dde8",
    "unitNumber": "L1-244B",
    "name": "Chinie's",
    "category": "Beauty, Skincare & Perfumery",
@@ -1926,6 +2015,7 @@
   },
   {
    "unitId": "ioi-1-l1-244a",
+   "poiId": "672b30ab5351051c3ee4dbe2",
    "unitNumber": "L1-244A",
    "name": "Footlink By Shoepyarash",
    "category": "Footwear",
@@ -1949,6 +2039,7 @@
   },
   {
    "unitId": "ioi-1-l1-243",
+   "poiId": "672b31045351051c3ee4dcb2",
    "unitNumber": "L1-243",
    "name": "Objet",
    "category": "Home & Living",
@@ -1972,6 +2063,7 @@
   },
   {
    "unitId": "ioi-1-icescape-ice-rink-resting-area",
+   "poiId": "6753cd9553510545ec9546b6",
    "unitNumber": "L1-59584_39247",
    "name": "Icescape Ice Rink (Resting Area)",
    "category": "No Category",
@@ -1987,6 +2079,7 @@
   },
   {
    "unitId": "ioi-1-l1-14c-14d",
+   "poiId": "672b3d025351052ffe16d8fc",
    "unitNumber": "L1-14C&14D",
    "name": "Marrybrown",
    "category": "Fast Food",
@@ -2010,6 +2103,7 @@
   },
   {
    "unitId": "ioi-1-l1-15",
+   "poiId": "672b3dc65351052ffe16dad8",
    "unitNumber": "L1-15",
    "name": "Sepiring Uniquely Malaysian",
    "category": "Café & Restaurant",
@@ -2033,6 +2127,7 @@
   },
   {
    "unitId": "ioi-1-l1-16-17",
+   "poiId": "672b2d435351051c3ee4d95a",
    "unitNumber": "L1-16&17",
    "name": "Jordan Hong Kong Restaurant",
    "category": "Café & Restaurant",
@@ -2056,6 +2151,7 @@
   },
   {
    "unitId": "ioi-1-l1-221",
+   "poiId": "678f6d1a53510545ec95523c",
    "unitNumber": "L1-221",
    "name": "Calaqisya & Asal",
    "category": "Accessories",
@@ -2075,6 +2171,7 @@
   },
   {
    "unitId": "ioi-1-l1-222",
+   "poiId": "678f6d3c53510545ec95523d",
    "unitNumber": "L1-222",
    "name": "Bayu Somerset",
    "category": "Ladies Fashion",
@@ -2094,6 +2191,7 @@
   },
   {
    "unitId": "ioi-1-l2-223-2",
+   "poiId": "68b69240535105b285e23884",
    "unitNumber": "L2-223-2",
    "name": "Galeri Ariani",
    "category": "Fashion",
@@ -2113,6 +2211,7 @@
   },
   {
    "unitId": "ioi-1-l1-225",
+   "poiId": "672b30575351051c3ee4db15",
    "unitNumber": "L1-225",
    "name": "Sofearose",
    "category": "Ladies Fashion",
@@ -2136,6 +2235,7 @@
   },
   {
    "unitId": "ioi-1-l1-228",
+   "poiId": "672b35a25351051c3ee4de87",
    "unitNumber": "L1-228",
    "name": "Hegira",
    "category": "Footwear",
@@ -2159,6 +2259,7 @@
   },
   {
    "unitId": "ioi-1-l1-226-227",
+   "poiId": "672b35925351051c3ee4de5f",
    "unitNumber": "L1-226&227",
    "name": "Siti Khadijah",
    "category": "Ladies Fashion",
@@ -2182,6 +2283,7 @@
   },
   {
    "unitId": "ioi-1-l1e205-207",
+   "poiId": "672b31575351051c3ee4dd7d",
    "unitNumber": "L1E205-207",
    "name": "K Garden",
    "category": "Café & Restaurant",
@@ -2205,6 +2307,7 @@
   },
   {
    "unitId": "ioi-1-l1e208-212",
+   "poiId": "672b3d5b5351052ffe16d9d7",
    "unitNumber": "L1E208-212",
    "name": "Jom Amigo Steamboat",
    "category": "Details under review",
@@ -2228,6 +2331,7 @@
   },
   {
    "unitId": "ioi-1-l1-214",
+   "poiId": "672b3d815351052ffe16da2a",
    "unitNumber": "L1-214",
    "name": "Mis Claire",
    "category": "Ladies Fashion",
@@ -2251,6 +2355,7 @@
   },
   {
    "unitId": "ioi-1-l1-212-213",
+   "poiId": "672b358a5351051c3ee4de4f",
    "unitNumber": "L1-212&213",
    "name": "HOOGA",
    "category": "Home & Living",
@@ -2274,6 +2379,7 @@
   },
   {
    "unitId": "ioi-1-l1-211",
+   "poiId": "672b357a5351051c3ee4de2a",
    "unitNumber": "L1-211",
    "name": "Owndays",
    "category": "Optical & Eyewear",
@@ -2297,6 +2403,7 @@
   },
   {
    "unitId": "ioi-1-l1-210",
+   "poiId": "672b30b35351051c3ee4dbf1",
    "unitNumber": "L1-210",
    "name": "Neubodi",
    "category": "Ladies Fashion",
@@ -2320,6 +2427,7 @@
   },
   {
    "unitId": "ioi-1-l1-209",
+   "poiId": "672b3d525351052ffe16d9c5",
    "unitNumber": "L1-209",
    "name": "Pierre Cardin Lingerie",
    "category": "Undergarments",
@@ -2343,6 +2451,7 @@
   },
   {
    "unitId": "ioi-1-l1-201",
+   "poiId": "672b309d5351051c3ee4dbbd",
    "unitNumber": "L1-201",
    "name": "Christy Ng",
    "category": "Footwear",
@@ -2366,6 +2475,7 @@
   },
   {
    "unitId": "ioi-1-l1-202",
+   "poiId": "672b3dbf5351052ffe16dac7",
    "unitNumber": "L1-202",
    "name": "The Colorist",
    "category": "Beauty",
@@ -2385,6 +2495,7 @@
   },
   {
    "unitId": "ioi-1-east-india-company",
+   "poiId": "672b2d5f5351051c3ee4d996",
    "unitNumber": "L1-76060_31468",
    "name": "East India Company",
    "category": "Ladies & Men Fashion",
@@ -2408,6 +2519,7 @@
   },
   {
    "unitId": "ioi-1-l1-204",
+   "poiId": "672b31155351051c3ee4dcda",
    "unitNumber": "L1-204",
    "name": "Suitable",
    "category": "Ladies Fashion",
@@ -2431,6 +2543,7 @@
   },
   {
    "unitId": "ioi-1-l1-205",
+   "poiId": "68c23b7e535105b285e23eef",
    "unitNumber": "L1-205",
    "name": "Bawal Exclusive",
    "category": "Ladies Fashion",
@@ -2450,6 +2563,7 @@
   },
   {
    "unitId": "ioi-1-l1-206",
+   "poiId": "68c23b66535105b285e23eee",
    "unitNumber": "L1-206",
    "name": "Nichii",
    "category": "Fashion",
@@ -2469,6 +2583,7 @@
   },
   {
    "unitId": "ioi-1-dc-by-nc-dcnc",
+   "poiId": "68ecd04e5351056559c52b11",
    "unitNumber": "L1-81333_31583",
    "name": "DC BY NC (DCNC)",
    "category": "Fashion",
@@ -2488,6 +2603,7 @@
   },
   {
    "unitId": "ioi-1-panda-eyes",
+   "poiId": "68ecd07e5351056559c52b12",
    "unitNumber": "L1-82626_31662",
    "name": "Panda Eyes",
    "category": "Fashion",
@@ -2507,6 +2623,7 @@
   },
   {
    "unitId": "ioi-1-l1-23",
+   "poiId": "672b3ce05351052ffe16d8ad",
    "unitNumber": "L1-23",
    "name": "Tomaz",
    "category": "Footwear",
@@ -2530,6 +2647,7 @@
   },
   {
    "unitId": "ioi-1-my-ballerine",
+   "poiId": "672b313a5351051c3ee4dd3c",
    "unitNumber": "L1-51548_29485",
    "name": "My Ballerine",
    "category": "Footwear",
@@ -2553,6 +2671,7 @@
   },
   {
    "unitId": "ioi-1-l120-2",
+   "poiId": "696e01f7535105ba8b80540e",
    "unitNumber": "L120-2",
    "name": "Top Toy",
    "category": "Toys & Hobbies",
@@ -2572,6 +2691,7 @@
   },
   {
    "unitId": "ioi-1-l1-240",
+   "poiId": "672b2fce5351051c3ee4d9c8",
    "unitNumber": "L1-240",
    "name": "XTEP",
    "category": "Sports Wear",
@@ -2591,6 +2711,7 @@
   },
   {
    "unitId": "ioi-1-l1-239",
+   "poiId": "672b356e5351051c3ee4de12",
    "unitNumber": "L1-239",
    "name": "Polo Haus",
    "category": "Ladies & Men Fashion",
@@ -2614,6 +2735,7 @@
   },
   {
    "unitId": "ioi-1-l1-238",
+   "poiId": "672b304f5351051c3ee4dafe",
    "unitNumber": "L1-238",
    "name": "Pierre Cardin Paris",
    "category": "Footwear",
@@ -2637,6 +2759,7 @@
   },
   {
    "unitId": "ioi-1-l1-237",
+   "poiId": "6753cdfd53510545ec9546b7",
    "unitNumber": "L1-237",
    "name": "Batik Boutique",
    "category": "Ladies & Men Fashion",
@@ -2656,6 +2779,7 @@
   },
   {
    "unitId": "ioi-1-l1-236",
+   "poiId": "672b3d905351052ffe16da4d",
    "unitNumber": "L1-236",
    "name": "Machino",
    "category": "Footwear",
@@ -2675,6 +2799,7 @@
   },
   {
    "unitId": "ioi-1-l1-235a",
+   "poiId": "672b315b5351051c3ee4dd8f",
    "unitNumber": "L1-235A",
    "name": "Lao Hu Nan",
    "category": "Café & Restaurant",
@@ -2694,6 +2819,7 @@
   },
   {
    "unitId": "ioi-1-l1-k206",
+   "poiId": "672b307d5351051c3ee4db70",
    "unitNumber": "L1-K206",
    "name": "Truedan",
    "category": "Food & Beverages",
@@ -2713,6 +2839,7 @@
   },
   {
    "unitId": "ioi-1-l1-235",
+   "poiId": "672b3dba5351052ffe16dab8",
    "unitNumber": "L1-235",
    "name": "Souper Tang",
    "category": "Café & Restaurant",
@@ -2736,6 +2863,7 @@
   },
   {
    "unitId": "ioi-1-l1-19a",
+   "poiId": "672b2feb5351051c3ee4da0c",
    "unitNumber": "L1-19A",
    "name": "Watsons",
    "category": "Personal Care & Pharmacy",
@@ -2759,6 +2887,7 @@
   },
   {
    "unitId": "ioi-1-l1-18",
+   "poiId": "672b3d1e5351052ffe16d944",
    "unitNumber": "L1-18",
    "name": "Chic Chic",
    "category": "Footwear",
@@ -2782,6 +2911,7 @@
   },
   {
    "unitId": "ioi-1-smart-master",
+   "poiId": "672b31175351051c3ee4dcde",
    "unitNumber": "L1-62164_29017",
    "name": "Smart Master",
    "category": "Men Fashion",
@@ -2805,6 +2935,7 @@
   },
   {
    "unitId": "ioi-1-cotton-on",
+   "poiId": "67f7751f53510528fc423841",
    "unitNumber": "L1-63057_28999",
    "name": "Cotton On",
    "category": "Ladies & Men Fashion",
@@ -2824,6 +2955,7 @@
   },
   {
    "unitId": "ioi-1-l1-241a-l1-241c",
+   "poiId": "6753cb0953510545ec9546b1",
    "unitNumber": "L1-241A & L1-241C",
    "name": "MST GOLF",
    "category": "Sports Wear",
@@ -2843,6 +2975,7 @@
   },
   {
    "unitId": "ioi-1-at-6",
+   "poiId": "672b30ff5351051c3ee4dca3",
    "unitNumber": "AT-6",
    "name": "District 21",
    "category": "Entertainment",
@@ -2866,6 +2999,7 @@
   },
   {
    "unitId": "ioi-1-l1-27",
+   "poiId": "672b35735351051c3ee4de1c",
    "unitNumber": "L1-27",
    "name": "Cotton On Kids",
    "category": "Kids & Maternity",
@@ -2889,6 +3023,7 @@
   },
   {
    "unitId": "ioi-1-l1-26b",
+   "poiId": "672b3d105351052ffe16d922",
    "unitNumber": "L1-26B",
    "name": "Alha Alfa Cosmetics",
    "category": "Beauty, Skincare & Perfumery",
@@ -2912,6 +3047,7 @@
   },
   {
    "unitId": "ioi-1-l1-26a",
+   "poiId": "672b3dcf5351052ffe16daeb",
    "unitNumber": "L1-26A",
    "name": "High Cultured",
    "category": "Ladies & Men Fashion",
@@ -2935,6 +3071,7 @@
   },
   {
    "unitId": "ioi-1-l1-24-25",
+   "poiId": "672b3cde5351052ffe16d8ab",
    "unitNumber": "L1-24&25",
    "name": "Al-Ikhsan Sports",
    "category": "Details under review",
@@ -2958,6 +3095,7 @@
   },
   {
    "unitId": "ioi-1-l1-34-35-36",
+   "poiId": "672b3cf85351052ffe16d8e9",
    "unitNumber": "L1-34,35&36",
    "name": "Mix.Store",
    "category": "Details under review",
@@ -2981,6 +3119,7 @@
   },
   {
    "unitId": "ioi-1-l1-33",
+   "poiId": "672b306b5351051c3ee4db44",
    "unitNumber": "L1-33",
    "name": "Wings",
    "category": "Footwear",
@@ -3004,6 +3143,7 @@
   },
   {
    "unitId": "ioi-1-l1-32",
+   "poiId": "672b3cfa5351052ffe16d8eb",
    "unitNumber": "L1-32",
    "name": "Triumph",
    "category": "Fashion",
@@ -3023,6 +3163,7 @@
   },
   {
    "unitId": "ioi-1-l1-31",
+   "poiId": "672b30275351051c3ee4daa6",
    "unitNumber": "L1-31",
    "name": "Sox World",
    "category": "Footwear",
@@ -3046,6 +3187,7 @@
   },
   {
    "unitId": "ioi-1-l1-28-29-30",
+   "poiId": "672b35775351051c3ee4de23",
    "unitNumber": "L1-28,29&30",
    "name": "Brands Outlet",
    "category": "Ladies & Men Fashion",
@@ -3069,6 +3211,7 @@
   },
   {
    "unitId": "ioi-1-l1-219",
+   "poiId": "672b3cbb5351052ffe16d858",
    "unitNumber": "L1-219",
    "name": "Regenx Clinic",
    "category": "Clinic, Medical & Dental",
@@ -3092,6 +3235,7 @@
   },
   {
    "unitId": "ioi-1-l1-216",
+   "poiId": "672b2d105351051c3ee4d8d8",
    "unitNumber": "L1-216",
    "name": "Shavonne",
    "category": "Footwear",
@@ -3115,6 +3259,7 @@
   },
   {
    "unitId": "ioi-1-l1-217",
+   "poiId": "672b310f5351051c3ee4dccc",
    "unitNumber": "L1-217",
    "name": "JannahNoe",
    "category": "Fashion",
@@ -3134,6 +3279,7 @@
   },
   {
    "unitId": "ioi-1-l1-2at-2",
+   "poiId": "672b30af5351051c3ee4dbe6",
    "unitNumber": "L1-2AT-2",
    "name": "Aeon",
    "category": "Departmental Stores",
@@ -3157,6 +3303,7 @@
   },
   {
    "unitId": "ioi-1-l1e213-214",
+   "poiId": "672b3d0e5351052ffe16d91e",
    "unitNumber": "L1E213&214",
    "name": "SEVENSEAS KARAOKE",
    "category": "Entertainment",
@@ -3182,6 +3329,7 @@
  "2": [
   {
    "unitId": "ioi-2-s-k10",
+   "poiId": "6a2938c65351054b1d20150b",
    "unitNumber": "S-K10",
    "name": "Nateskin",
    "category": "Wellness",
@@ -3201,6 +3349,7 @@
   },
   {
    "unitId": "ioi-2-s-k11",
+   "poiId": "69fbf0ff5351054b1d2006d9",
    "unitNumber": "S-K11",
    "name": "Shokz",
    "category": "Technology",
@@ -3220,6 +3369,7 @@
   },
   {
    "unitId": "ioi-2-s-k09",
+   "poiId": "6971960f535105ba8b805519",
    "unitNumber": "S-K09",
    "name": "Thong Cha Plus",
    "category": "Food & Beverages",
@@ -3239,6 +3389,7 @@
   },
   {
    "unitId": "ioi-2-s-k07",
+   "poiId": "6a9e61b853510529d62eb5c7",
    "unitNumber": "S-K07",
    "name": "MOSS XPERIENCE",
    "category": "Technology",
@@ -3257,10 +3408,12 @@
    "floorLabel": "Level 2"
   },
   {
-   "unitId": "ioi-2-60152-38811-1200",
-   "unitNumber": "L2-60152_38811",
-   "name": "Unit ?",
-   "category": "Details under review",
+   "unitId": "ioi-2-l2-18",
+   "poiId": "6ad0778f53510529d62ed37e",
+   "unitNumber": "L2-18",
+   "name": "Seven Seas Fish & Chip",
+   "category": "Fast Food",
+   "comingSoon": true,
    "description": null,
    "phone": null,
    "website": null,
@@ -3273,6 +3426,7 @@
   },
   {
    "unitId": "ioi-2-l2-17",
+   "poiId": "672b31265351051c3ee4dd08",
    "unitNumber": "L2-17",
    "name": "Pizza Hut",
    "category": "Food & Beverages",
@@ -3292,6 +3446,7 @@
   },
   {
    "unitId": "ioi-2-l2-241",
+   "poiId": "672b2d645351051c3ee4d9a7",
    "unitNumber": "L2-241",
    "name": "ITSU",
    "category": "Health & Fitness",
@@ -3315,6 +3470,7 @@
   },
   {
    "unitId": "ioi-2-l2-240",
+   "poiId": "672b3ce55351052ffe16d8b7",
    "unitNumber": "L2-240",
    "name": "Puzzle Planet",
    "category": "Hobbies/Games/Pets",
@@ -3338,6 +3494,7 @@
   },
   {
    "unitId": "ioi-2-l2-239",
+   "poiId": "672b3cef5351052ffe16d8d0",
    "unitNumber": "L2-239",
    "name": "Ogawa",
    "category": "Health & Fitness",
@@ -3361,6 +3518,7 @@
   },
   {
    "unitId": "ioi-2-l2-238",
+   "poiId": "672b2fd95351051c3ee4d9e4",
    "unitNumber": "L2-238",
    "name": "Perysmith",
    "category": "Home & Living",
@@ -3384,6 +3542,7 @@
   },
   {
    "unitId": "ioi-2-l2-237",
+   "poiId": "672b2fdb5351051c3ee4d9e8",
    "unitNumber": "L2-237",
    "name": "Abbie & Friends Luxe",
    "category": "Hobbies/Games/Pets",
@@ -3407,6 +3566,7 @@
   },
   {
    "unitId": "ioi-2-l2-19a-19b",
+   "poiId": "672b3d975351052ffe16da5f",
    "unitNumber": "L2-19A&19B",
    "name": "Boat Noodle",
    "category": "Details under review",
@@ -3429,30 +3589,29 @@
    "floorLabel": "Level 2"
   },
   {
-   "unitId": "ioi-2-l2-20-21",
-   "unitNumber": "L2-20&21",
-   "name": "Christine's Bakery",
-   "category": "Café & Restaurant",
-   "description": "Hand-Rolled Bagel • Sourdough Pizza • Pastry • Cake • Coffee\n\nIndulge in Christine’s fresh hand-rolled bagels with a variety of exciting filling specially curated with the freshest and finest ingredients!",
-   "phone": "03-89578829",
-   "website": "https://christinebakery.my/",
+   "unitId": "ioi-2-kfc",
+   "poiId": "6acf37fe53510529d62ed2a9",
+   "unitNumber": "L2-57922_34269",
+   "name": "KFC",
+   "category": "Food & Beverages",
+   "comingSoon": true,
+   "description": "KFC is the largest chicken restaurant brand in the world. Everyday KFC serves nearly 8 million customers in its 15,000 outlets located in over 100 countries worldwide.",
+   "phone": null,
+   "website": null,
    "tenantKey": null,
-   "thumb": "/ioi/logos/40e0b2d9-b76b-40b4-80de-ff4467ddbf31.jpg",
+   "thumb": "/ioi/logos/5ae8a642-e4fe-4991-9e86-b60d0f8f3ff7.png",
    "logo": {
-    "src": "/ioi/logos/40e0b2d9-b76b-40b4-80de-ff4467ddbf31.jpg",
+    "src": "/ioi/logos/5ae8a642-e4fe-4991-9e86-b60d0f8f3ff7.png",
     "w": 256,
     "h": 256
    },
-   "photo": {
-    "src": "/ioi/cards/30d542d6-9b8e-4c71-95ec-96fe3e16a6f5.jpg",
-    "w": 720,
-    "h": 186
-   },
+   "photo": null,
    "hours": null,
    "floorLabel": "Level 2"
   },
   {
    "unitId": "ioi-2-l2-22",
+   "poiId": "672b2d215351051c3ee4d907",
    "unitNumber": "L2-22",
    "name": "Play United",
    "category": "Entertainment",
@@ -3476,6 +3635,7 @@
   },
   {
    "unitId": "ioi-2-l2-236a-b",
+   "poiId": "672b31135351051c3ee4dcd6",
    "unitNumber": "L2-236A&B",
    "name": "BEST DENKI",
    "category": "Home & Living",
@@ -3499,6 +3659,7 @@
   },
   {
    "unitId": "ioi-2-l2-236c",
+   "poiId": "672b314d5351051c3ee4dd68",
    "unitNumber": "L2-236C",
    "name": "20dB Hearing",
    "category": "Health Centre",
@@ -3522,6 +3683,7 @@
   },
   {
    "unitId": "ioi-2-l2-k204",
+   "poiId": "672b3ce85351052ffe16d8bc",
    "unitNumber": "L2-K204",
    "name": "The Grass",
    "category": "Details under review",
@@ -3545,6 +3707,7 @@
   },
   {
    "unitId": "ioi-2-mommy-hana",
+   "poiId": "672b2d5e5351051c3ee4d993",
    "unitNumber": "L2-9165_15835_",
    "name": "Mommy Hana",
    "category": "Kids & Maternity",
@@ -3568,6 +3731,7 @@
   },
   {
    "unitId": "ioi-2-kiddytopia-kiddyride",
+   "poiId": "672b3cd45351052ffe16d898",
    "unitNumber": "L2-9401_15247_",
    "name": "Kiddytopia Kiddyride",
    "category": "Edutainment",
@@ -3591,6 +3755,7 @@
   },
   {
    "unitId": "ioi-2-s-k18",
+   "poiId": "672b2fde5351051c3ee4d9ee",
    "unitNumber": "S-K18",
    "name": "SKINARMA",
    "category": "Technology",
@@ -3610,6 +3775,7 @@
   },
   {
    "unitId": "ioi-2-l2-k203",
+   "poiId": "672b3cd95351052ffe16d8a3",
    "unitNumber": "L2-K203",
    "name": "Bisou Bake Shop",
    "category": "Café & Restaurant",
@@ -3633,6 +3799,7 @@
   },
   {
    "unitId": "ioi-2-fujifilm",
+   "poiId": "672b302f5351051c3ee4dab8",
    "unitNumber": "L2-72275_28267",
    "name": "Fujifilm",
    "category": "Digital Lifestyle",
@@ -3656,21 +3823,27 @@
   },
   {
    "unitId": "ioi-2-l2-k201",
+   "poiId": "672b30db5351051c3ee4dc45",
    "unitNumber": "L2-K201",
-   "name": "Opening Soon",
-   "category": "No Category",
-   "description": null,
+   "name": "Chonky Cookies",
+   "category": "Bakery",
+   "description": "Life's too short for tiny treats, and Chonky Cookies is here to break the mould. Our menu unfolds tales of travel, discovery, and tireless dedication to create various flavours. From Miso Chocolate to Banana Chocolate, Cranberry Chocolate, Cranberry Oats, and more - each cookie is a masterpiece, crafted with the finest ingredients. We serve only what we'd proudly share with our own family and friends.",
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": null,
-   "logo": null,
+   "thumb": "/ioi/logos/acad3dc0-95a2-4592-9b9f-5f08ae2d9ada.jpg",
+   "logo": {
+    "src": "/ioi/logos/acad3dc0-95a2-4592-9b9f-5f08ae2d9ada.jpg",
+    "w": 256,
+    "h": 256
+   },
    "photo": null,
    "hours": null,
    "floorLabel": "Level 2"
   },
   {
    "unitId": "ioi-2-l2-k206",
+   "poiId": "672b2d065351051c3ee4d8bd",
    "unitNumber": "L2-K206",
    "name": "MyFirst",
    "category": "Digital Lifestyle",
@@ -3690,6 +3863,7 @@
   },
   {
    "unitId": "ioi-2-boat-noodle-sitting-area",
+   "poiId": "6753ccf953510545ec9546b5",
    "unitNumber": "L2-55437_35837",
    "name": "Boat Noodle (Sitting Area)",
    "category": "No Category",
@@ -3705,6 +3879,7 @@
   },
   {
    "unitId": "ioi-2-s-k8",
+   "poiId": "67fe1cac53510528fc423893",
    "unitNumber": "S-K8",
    "name": "QCC Baked",
    "category": "Food & Beverages",
@@ -3724,6 +3899,7 @@
   },
   {
    "unitId": "ioi-2-yogurt-planet",
+   "poiId": "672b3d955351052ffe16da5b",
    "unitNumber": "L2-42074_28698",
    "name": "Yogurt Planet",
    "category": "Details under review",
@@ -3747,6 +3923,7 @@
   },
   {
    "unitId": "ioi-2-s-k6",
+   "poiId": "672b30f15351051c3ee4dc7f",
    "unitNumber": "S-K6",
    "name": "Gadget Hub",
    "category": "Digital Lifestyle",
@@ -3770,6 +3947,7 @@
   },
   {
    "unitId": "ioi-2-s-k1a",
+   "poiId": "672b30a55351051c3ee4dbd1",
    "unitNumber": "S-K1A",
    "name": "Insta360",
    "category": "Digital Lifestyle",
@@ -3789,6 +3967,7 @@
   },
   {
    "unitId": "ioi-2-l2-k1b",
+   "poiId": "672b30b65351051c3ee4dbf8",
    "unitNumber": "L2-K1B",
    "name": "vivo",
    "category": "Digital Lifestyle",
@@ -3808,6 +3987,7 @@
   },
   {
    "unitId": "ioi-2-s-k2a",
+   "poiId": "672b31605351051c3ee4dd9b",
    "unitNumber": "S-K2A",
    "name": "Realme",
    "category": "Digital Lifestyle",
@@ -3827,6 +4007,7 @@
   },
   {
    "unitId": "ioi-2-s-k2b",
+   "poiId": "672b30ee5351051c3ee4dc77",
    "unitNumber": "S-K2B",
    "name": "Infinix",
    "category": "Mobiles",
@@ -3846,6 +4027,7 @@
   },
   {
    "unitId": "ioi-2-s-k3",
+   "poiId": "672b3cec5351052ffe16d8ca",
    "unitNumber": "S-K3",
    "name": "Inside Scoop",
    "category": "Details under review",
@@ -3869,6 +4051,7 @@
   },
   {
    "unitId": "ioi-2-zte-nubia",
+   "poiId": "672b3ccc5351052ffe16d885",
    "unitNumber": "L2-30086_28125",
    "name": "ZTE Nubia",
    "category": "Digital Lifestyle",
@@ -3892,6 +4075,7 @@
   },
   {
    "unitId": "ioi-2-s-k4",
+   "poiId": "672b31435351051c3ee4dd4d",
    "unitNumber": "S-K4",
    "name": "Boost Juice Bar",
    "category": "Details under review",
@@ -3915,6 +4099,7 @@
   },
   {
    "unitId": "ioi-2-l2-52",
+   "poiId": "672b3d295351052ffe16d95b",
    "unitNumber": "L2-52",
    "name": "Wawa Self Photo Booth",
    "category": "Entertainment",
@@ -3938,6 +4123,7 @@
   },
   {
    "unitId": "ioi-2-l2-50",
+   "poiId": "672b308e5351051c3ee4db95",
    "unitNumber": "L2-50",
    "name": "Murad",
    "category": "Beauty, Skincare & Perfumery",
@@ -3961,6 +4147,7 @@
   },
   {
    "unitId": "ioi-2-l2-46",
+   "poiId": "672b307f5351051c3ee4db74",
    "unitNumber": "L2-46",
    "name": "LEGO",
    "category": "Hobbies/Games/Pets",
@@ -3984,6 +4171,7 @@
   },
   {
    "unitId": "ioi-2-l2-47",
+   "poiId": "672b2d135351051c3ee4d8e0",
    "unitNumber": "L2-47",
    "name": "Harvest Stationery",
    "category": "Books, Magazines & Stationaries",
@@ -4007,6 +4195,7 @@
   },
   {
    "unitId": "ioi-2-l2-48",
+   "poiId": "672b3cdb5351052ffe16d8a7",
    "unitNumber": "L2-48",
    "name": "A-50 Saloon",
    "category": "Haircare & Salon",
@@ -4030,6 +4219,7 @@
   },
   {
    "unitId": "ioi-2-l2-49",
+   "poiId": "672b3d405351052ffe16d99a",
    "unitNumber": "L2-49",
    "name": "Seasons Carpets",
    "category": "Home & Living",
@@ -4053,6 +4243,7 @@
   },
   {
    "unitId": "ioi-2-l2-51",
+   "poiId": "672b35855351051c3ee4de42",
    "unitNumber": "L2-51",
    "name": "ECO-Plus",
    "category": "Home & Living",
@@ -4076,6 +4267,7 @@
   },
   {
    "unitId": "ioi-2-l2-53",
+   "poiId": "672b30775351051c3ee4db60",
    "unitNumber": "L2-53",
    "name": "Klinik Dr Lo",
    "category": "Clinic, Medical & Dental",
@@ -4099,6 +4291,7 @@
   },
   {
    "unitId": "ioi-2-montigo-cosmic-cookware",
+   "poiId": "672b2d6a5351051c3ee4d9b3",
    "unitNumber": "L2-78556_28182",
    "name": "Montigo - Cosmic Cookware",
    "category": "Home & Living",
@@ -4122,6 +4315,7 @@
   },
   {
    "unitId": "ioi-2-l2-220a",
+   "poiId": "672b311f5351051c3ee4dcf1",
    "unitNumber": "L2-220A",
    "name": "Goodnite",
    "category": "Home & Living",
@@ -4141,6 +4335,7 @@
   },
   {
    "unitId": "ioi-2-l2-217",
+   "poiId": "672b35625351051c3ee4ddf3",
    "unitNumber": "L2-217",
    "name": "Dunlopillo",
    "category": "Home & Living",
@@ -4164,6 +4359,7 @@
   },
   {
    "unitId": "ioi-2-l2-218",
+   "poiId": "672b355f5351051c3ee4ddec",
    "unitNumber": "L2-218",
    "name": "Yamaha",
    "category": "Edutainment",
@@ -4187,6 +4383,7 @@
   },
   {
    "unitId": "ioi-2-l2-219",
+   "poiId": "672b313f5351051c3ee4dd45",
    "unitNumber": "L2-219",
    "name": "Siam Wellness Spa",
    "category": "Health Centre",
@@ -4210,6 +4407,7 @@
   },
   {
    "unitId": "ioi-2-l2-2at-2",
+   "poiId": "672b30985351051c3ee4dbaf",
    "unitNumber": "L2-2AT-2",
    "name": "Aeon",
    "category": "Departmental Stores",
@@ -4233,6 +4431,7 @@
   },
   {
    "unitId": "ioi-2-l2-227b",
+   "poiId": "672b2d095351051c3ee4d8c4",
    "unitNumber": "L2-227B",
    "name": "Ergoworks",
    "category": "Home & Living",
@@ -4256,6 +4455,7 @@
   },
   {
    "unitId": "ioi-2-pop-mart",
+   "poiId": "672b30f55351051c3ee4dc8c",
    "unitNumber": "L2-78985_25744",
    "name": "POP MART",
    "category": "Hobbies/Games/Pets",
@@ -4279,6 +4479,7 @@
   },
   {
    "unitId": "ioi-2-yl-camera",
+   "poiId": "672b302c5351051c3ee4dab3",
    "unitNumber": "L2-80075_25895",
    "name": "YL Camera",
    "category": "Digital Lifestyle",
@@ -4302,6 +4503,7 @@
   },
   {
    "unitId": "ioi-2-l2-225",
+   "poiId": "672b3dcc5351052ffe16dae5",
    "unitNumber": "L2-225",
    "name": "ION",
    "category": "Digital Lifestyle",
@@ -4325,6 +4527,7 @@
   },
   {
    "unitId": "ioi-2-l2-224",
+   "poiId": "672b3d125351052ffe16d927",
    "unitNumber": "L2-224",
    "name": "Epitex",
    "category": "Home & Living",
@@ -4348,6 +4551,7 @@
   },
   {
    "unitId": "ioi-2-l2-228",
+   "poiId": "672b310b5351051c3ee4dcc2",
    "unitNumber": "L2-228",
    "name": "Brightstar",
    "category": "Digital Lifestyle",
@@ -4371,6 +4575,7 @@
   },
   {
    "unitId": "ioi-2-l2-223b",
+   "poiId": "672b31705351051c3ee4ddc7",
    "unitNumber": "L2-223B",
    "name": "Cutiecle The Nail Experts",
    "category": "Beauty Salon",
@@ -4394,6 +4599,7 @@
   },
   {
    "unitId": "ioi-2-l2-223a",
+   "poiId": "672b355a5351051c3ee4dde1",
    "unitNumber": "L2-223A",
    "name": "SR Aesthetic",
    "category": "Beauty, Skincare & Perfumery",
@@ -4417,6 +4623,7 @@
   },
   {
    "unitId": "ioi-2-l2-222",
+   "poiId": "672b30cc5351051c3ee4dc20",
    "unitNumber": "L2-222",
    "name": "Signature Kitchen",
    "category": "Home & Living",
@@ -4440,6 +4647,7 @@
   },
   {
    "unitId": "ioi-2-l2-221a-b",
+   "poiId": "672b3d5d5351052ffe16d9da",
    "unitNumber": "L2-221A&B",
    "name": "Kaison",
    "category": "Home & Living",
@@ -4463,6 +4671,7 @@
   },
   {
    "unitId": "ioi-2-l2-220b",
+   "poiId": "672b30bc5351051c3ee4dbfe",
    "unitNumber": "L2-220B",
    "name": "Impulse Gaming Flagship Store",
    "category": "Details under review",
@@ -4482,6 +4691,7 @@
   },
   {
    "unitId": "ioi-2-l2-215",
+   "poiId": "672b3ccb5351052ffe16d881",
    "unitNumber": "L2-215",
    "name": "Akemi Sleep Studio",
    "category": "Home & Living",
@@ -4505,6 +4715,7 @@
   },
   {
    "unitId": "ioi-2-celcomdigi",
+   "poiId": "6a742c9a535105480489c2d1",
    "unitNumber": "L2-89135_31429",
    "name": "CelcomDigi",
    "category": "Digital Lifestyle",
@@ -4524,6 +4735,7 @@
   },
   {
    "unitId": "ioi-2-umobile",
+   "poiId": "6a742c8b535105480489c2d0",
    "unitNumber": "L2-87766_31518",
    "name": "Umobile",
    "category": "Digital Lifestyle",
@@ -4543,6 +4755,7 @@
   },
   {
    "unitId": "ioi-2-l2-213",
+   "poiId": "672b3dea5351052ffe16db2c",
    "unitNumber": "L2-213",
    "name": "Serta",
    "category": "Home & Living",
@@ -4562,6 +4775,7 @@
   },
   {
    "unitId": "ioi-2-l2-211",
+   "poiId": "672b3d605351052ffe16d9e1",
    "unitNumber": "L2-211",
    "name": "Prism+",
    "category": "Digital Lifestyle",
@@ -4585,6 +4799,7 @@
   },
   {
    "unitId": "ioi-2-dreame",
+   "poiId": "68ecd1855351056559c52b18",
    "unitNumber": "L2-83898_31721",
    "name": "DREAME",
    "category": "Home & Living",
@@ -4604,6 +4819,7 @@
   },
   {
    "unitId": "ioi-2-l2-209",
+   "poiId": "68ecd0cc5351056559c52b15",
    "unitNumber": "L2-209",
    "name": "Aihome",
    "category": "No Category",
@@ -4619,6 +4835,7 @@
   },
   {
    "unitId": "ioi-2-l2-201-203",
+   "poiId": "672b30f75351051c3ee4dc92",
    "unitNumber": "L2-201-203",
    "name": "The Wallet Shop & Boarding Gate",
    "category": "Footwear",
@@ -4642,6 +4859,7 @@
   },
   {
    "unitId": "ioi-2-l2-204",
+   "poiId": "672b30485351051c3ee4daf0",
    "unitNumber": "L2-204",
    "name": "The Green Party",
    "category": "Gifts & Souvenirs",
@@ -4665,6 +4883,7 @@
   },
   {
    "unitId": "ioi-2-l2-205-206",
+   "poiId": "672b3d6b5351052ffe16d9f6",
    "unitNumber": "L2-205&206",
    "name": "Tiny Button London",
    "category": "Kids & Maternity",
@@ -4688,6 +4907,7 @@
   },
   {
    "unitId": "ioi-2-poney",
+   "poiId": "68ecd09c5351056559c52b13",
    "unitNumber": "L2-79999_31501",
    "name": "Poney",
    "category": "Kids & Maternity",
@@ -4707,6 +4927,7 @@
   },
   {
    "unitId": "ioi-2-l2-208",
+   "poiId": "68ecd0ae5351056559c52b14",
    "unitNumber": "L2-208",
    "name": "vivo Image Art Space",
    "category": "Digital Lifestyle",
@@ -4726,6 +4947,7 @@
   },
   {
    "unitId": "ioi-2-texas-chicken-sitting-area",
+   "poiId": "6753ccd453510545ec9546b4",
    "unitNumber": "L2-49715_36202",
    "name": "Texas Chicken (Sitting Area)",
    "category": "No Category",
@@ -4741,6 +4963,7 @@
   },
   {
    "unitId": "ioi-2-l2-42",
+   "poiId": "672b31605351051c3ee4dd99",
    "unitNumber": "L2-42",
    "name": "Maxis",
    "category": "Digital Lifestyle",
@@ -4764,6 +4987,7 @@
   },
   {
    "unitId": "ioi-2-l2-40-41",
+   "poiId": "672b30c85351051c3ee4dc1a",
    "unitNumber": "L2-40&41",
    "name": "Samsung",
    "category": "Digital Lifestyle",
@@ -4787,6 +5011,7 @@
   },
   {
    "unitId": "ioi-2-l2-38-39",
+   "poiId": "672b30835351051c3ee4db80",
    "unitNumber": "L2-38&39",
    "name": "Suki-Ya Eat All You Can Sukiyaki And Shabu Shabu",
    "category": "Details under review",
@@ -4810,6 +5035,7 @@
   },
   {
    "unitId": "ioi-2-l2-43-44",
+   "poiId": "672b3cfe5351052ffe16d8f4",
    "unitNumber": "L2-43&44",
    "name": "Popular Bookstore",
    "category": "Books, Magazines & Stationaries",
@@ -4833,6 +5059,7 @@
   },
   {
    "unitId": "ioi-2-honor",
+   "poiId": "6882fe56535105b285e2164d",
    "unitNumber": "L2-22953_17869",
    "name": "Honor",
    "category": "Digital Lifestyle",
@@ -4852,6 +5079,7 @@
   },
   {
    "unitId": "ioi-2-l2-54",
+   "poiId": "672b35ab5351051c3ee4de9e",
    "unitNumber": "L2-54",
    "name": "MR. TOY",
    "category": "Hobbies/Games/Pets",
@@ -4875,6 +5103,7 @@
   },
   {
    "unitId": "ioi-2-l2-69",
+   "poiId": "672b30235351051c3ee4da99",
    "unitNumber": "L2-69",
    "name": "CeX Entertainment Exchange",
    "category": "Hobbies/Games/Pets",
@@ -4898,6 +5127,7 @@
   },
   {
    "unitId": "ioi-2-l2-61a-b",
+   "poiId": "672b35885351051c3ee4de4b",
    "unitNumber": "L2-61A&B",
    "name": "Telstar",
    "category": "Digital Lifestyle",
@@ -4921,6 +5151,7 @@
   },
   {
    "unitId": "ioi-2-l2-61c",
+   "poiId": "672b305f5351051c3ee4db2a",
    "unitNumber": "L2-61C",
    "name": "Lenovo",
    "category": "Digital Lifestyle",
@@ -4944,6 +5175,7 @@
   },
   {
    "unitId": "ioi-2-l2-63",
+   "poiId": "672b2d355351051c3ee4d936",
    "unitNumber": "L2-63",
    "name": "ASUS",
    "category": "Digital Lifestyle",
@@ -4967,6 +5199,7 @@
   },
   {
    "unitId": "ioi-2-l2-65-66",
+   "poiId": "672b30455351051c3ee4dae8",
    "unitNumber": "L2-65&66",
    "name": "Oppo",
    "category": "Digital Lifestyle",
@@ -4990,6 +5223,7 @@
   },
   {
    "unitId": "ioi-2-l2-64",
+   "poiId": "672b30395351051c3ee4dace",
    "unitNumber": "L2-64",
    "name": "Celcomdigi",
    "category": "Digital Lifestyle",
@@ -5013,6 +5247,7 @@
   },
   {
    "unitId": "ioi-2-l2-67-68",
+   "poiId": "672b2fe45351051c3ee4d9fa",
    "unitNumber": "L2-67&68",
    "name": "TMT Megastore By Thundermatch",
    "category": "Digital Lifestyle",
@@ -5036,6 +5271,7 @@
   },
   {
    "unitId": "ioi-2-l2-62",
+   "poiId": "672b2d565351051c3ee4d982",
    "unitNumber": "L2-62",
    "name": "ALL IT HYPERMARKET",
    "category": "Digital Lifestyle",
@@ -5059,6 +5295,7 @@
   },
   {
    "unitId": "ioi-2-l2-58",
+   "poiId": "672b35a65351051c3ee4de92",
    "unitNumber": "L2-58",
    "name": "BeauMedic",
    "category": "Beauty Salon",
@@ -5082,6 +5319,7 @@
   },
   {
    "unitId": "ioi-2-l2-57",
+   "poiId": "672b3d315351052ffe16d96f",
    "unitNumber": "L2-57",
    "name": "Dr Chong Clinic",
    "category": "Clinic, Medical & Dental",
@@ -5105,6 +5343,7 @@
   },
   {
    "unitId": "ioi-2-l2-56",
+   "poiId": "672b2d295351051c3ee4d91c",
    "unitNumber": "L2-56",
    "name": "Medic Deno",
    "category": "Beauty Salon",
@@ -5128,6 +5367,7 @@
   },
   {
    "unitId": "ioi-2-l2-55",
+   "poiId": "672b2d015351051c3ee4d8b5",
    "unitNumber": "L2-55",
    "name": "AsterSpring",
    "category": "Beauty Salon",
@@ -5147,6 +5387,7 @@
   },
   {
    "unitId": "ioi-2-l2-at-3",
+   "poiId": "672b30cb5351051c3ee4dc1c",
    "unitNumber": "L2-AT-3",
    "name": "Parkson",
    "category": "Departmental Stores",
@@ -5170,6 +5411,7 @@
   },
   {
    "unitId": "ioi-2-l2-59",
+   "poiId": "672b359b5351051c3ee4de77",
    "unitNumber": "L2-59",
    "name": "Dorra",
    "category": "Beauty, Skincare & Perfumery",
@@ -5193,6 +5435,7 @@
   },
   {
    "unitId": "ioi-2-l2-60",
+   "poiId": "672b35a35351051c3ee4de8b",
    "unitNumber": "L2-60",
    "name": "A-Saloon",
    "category": "Haircare & Salon",
@@ -5216,6 +5459,7 @@
   },
   {
    "unitId": "ioi-2-l2-30-31",
+   "poiId": "672b31455351051c3ee4dd51",
    "unitNumber": "L2-30&31",
    "name": "Sushi Zanmai",
    "category": "Café & Restaurant",
@@ -5239,6 +5483,7 @@
   },
   {
    "unitId": "ioi-2-l2-29b",
+   "poiId": "672b3d2d5351052ffe16d961",
    "unitNumber": "L2-29B",
    "name": "Ogawa By Ogawa",
    "category": "Health & Fitness",
@@ -5262,6 +5507,7 @@
   },
   {
    "unitId": "ioi-2-l2-29a",
+   "poiId": "672b3d575351052ffe16d9d2",
    "unitNumber": "L2-29A",
    "name": "MSI",
    "category": "Digital Lifestyle",
@@ -5285,6 +5531,7 @@
   },
   {
    "unitId": "ioi-2-l2-28",
+   "poiId": "672b313c5351051c3ee4dd40",
    "unitNumber": "L2-28",
    "name": "Acer",
    "category": "Digital Lifestyle",
@@ -5308,6 +5555,7 @@
   },
   {
    "unitId": "ioi-2-l2-27",
+   "poiId": "672b30ef5351051c3ee4dc7b",
    "unitNumber": "L2-27",
    "name": "HP",
    "category": "Digital Lifestyle",
@@ -5331,6 +5579,7 @@
   },
   {
    "unitId": "ioi-2-l2-26a",
+   "poiId": "672b3d365351052ffe16d97b",
    "unitNumber": "L2-26A",
    "name": "A&W",
    "category": "Fast Food",
@@ -5354,6 +5603,7 @@
   },
   {
    "unitId": "ioi-2-l2-25",
+   "poiId": "672b30fb5351051c3ee4dc9a",
    "unitNumber": "L2-25",
    "name": "Pet Lovers Centre",
    "category": "Hobbies/Games/Pets",
@@ -5377,6 +5627,7 @@
   },
   {
    "unitId": "ioi-2-l2-234",
+   "poiId": "672b304d5351051c3ee4dafa",
    "unitNumber": "L2-234",
    "name": "Amazing Hair",
    "category": "Haircare & Salon",
@@ -5400,6 +5651,7 @@
   },
   {
    "unitId": "ioi-2-l2-233",
+   "poiId": "672b30d15351051c3ee4dc2e",
    "unitNumber": "L2-233",
    "name": "Qmac Mobile Accessories",
    "category": "Digital Lifestyle",
@@ -5423,6 +5675,7 @@
   },
   {
    "unitId": "ioi-2-l2-232",
+   "poiId": "672b3d755351052ffe16da14",
    "unitNumber": "L2-232",
    "name": "Gintell Signature",
    "category": "Health & Fitness",
@@ -5446,6 +5699,7 @@
   },
   {
    "unitId": "ioi-2-colegacy",
+   "poiId": "6753cb5a53510545ec9546b2",
    "unitNumber": "L2-70134_22433",
    "name": "Colegacy",
    "category": "Ladies & Men Fashion",
@@ -5465,6 +5719,7 @@
   },
   {
    "unitId": "ioi-2-kiddytopia",
+   "poiId": "68c23eb6535105b285e23ef6",
    "unitNumber": "L2-65424_25305",
    "name": "Kiddytopia",
    "category": "Edutainment",
@@ -5484,6 +5739,7 @@
   },
   {
    "unitId": "ioi-2-huuk-barbershop",
+   "poiId": "68c23f60535105b285e23ef7",
    "unitNumber": "L2-64198_28177",
    "name": "Huuk Barbershop",
    "category": "Wellness",
@@ -5503,6 +5759,7 @@
   },
   {
    "unitId": "ioi-2-l2-235b",
+   "poiId": "672b30435351051c3ee4dae6",
    "unitNumber": "L2-235B",
    "name": "APT Salon",
    "category": "Haircare & Salon",
@@ -5526,6 +5783,7 @@
   },
   {
    "unitId": "ioi-2-d21-r1",
+   "poiId": "672b2ff85351051c3ee4da2f",
    "unitNumber": "D21-R1",
    "name": "Sopoong",
    "category": "Details under review",
@@ -5549,6 +5807,7 @@
   },
   {
    "unitId": "ioi-2-d21-r6",
+   "poiId": "672b35a85351051c3ee4de96",
    "unitNumber": "D21-R6",
    "name": "Mission World",
    "category": "Hobbies/Games/Pets",
@@ -5572,6 +5831,7 @@
   },
   {
    "unitId": "ioi-2-attic",
+   "poiId": "672b30ce5351051c3ee4dc24",
    "unitNumber": "L2-61294_28213",
    "name": "Attic",
    "category": "Jewellery",
@@ -5595,6 +5855,7 @@
   },
   {
    "unitId": "ioi-2-l2-24",
+   "poiId": "672b312e5351051c3ee4dd18",
    "unitNumber": "L2-24",
    "name": "Dragon Silver",
    "category": "Jewellery",
@@ -5618,6 +5879,7 @@
   },
   {
    "unitId": "ioi-2-at-6s",
+   "poiId": "672b30135351051c3ee4da7a",
    "unitNumber": "AT-6S",
    "name": "IOI City Farm",
    "category": "Edutainment",
@@ -5637,6 +5899,7 @@
   },
   {
    "unitId": "ioi-2-l2-26",
+   "poiId": "672b2ff55351051c3ee4da27",
    "unitNumber": "L2-26",
    "name": "Wangsa Bowl",
    "category": "Entertainment",
@@ -5660,6 +5923,7 @@
   },
   {
    "unitId": "ioi-2-l2-33",
+   "poiId": "672b2d325351051c3ee4d92f",
    "unitNumber": "L2-33",
    "name": "100 Vision",
    "category": "Optical & Eyewear",
@@ -5683,6 +5947,7 @@
   },
   {
    "unitId": "ioi-2-l2-34",
+   "poiId": "672b314e5351051c3ee4dd6c",
    "unitNumber": "L2-34",
    "name": "DJI",
    "category": "Digital Lifestyle",
@@ -5706,6 +5971,7 @@
   },
   {
    "unitId": "ioi-2-l2-35",
+   "poiId": "672b3d935351052ffe16da57",
    "unitNumber": "L2-35",
    "name": "Tineco | Ecovacs",
    "category": "Digital Lifestyle",
@@ -5725,6 +5991,7 @@
   },
   {
    "unitId": "ioi-2-l2-32-37",
+   "poiId": "672b30c45351051c3ee4dc11",
    "unitNumber": "L2-32&37",
    "name": "Food Junction",
    "category": "Food Court",
@@ -5748,6 +6015,7 @@
   },
   {
    "unitId": "ioi-2-l2-36",
+   "poiId": "672b3d285351052ffe16d959",
    "unitNumber": "L2-36",
    "name": "MI Store",
    "category": "Digital Lifestyle",
@@ -5771,6 +6039,7 @@
   },
   {
    "unitId": "ioi-2-l2-8",
+   "poiId": "672b31595351051c3ee4dd81",
    "unitNumber": "L2-8",
    "name": "O.W.L",
    "category": "Optical & Eyewear",
@@ -5794,6 +6063,7 @@
   },
   {
    "unitId": "ioi-2-l2-6-7",
+   "poiId": "672b30095351051c3ee4da5d",
    "unitNumber": "L2-6&7",
    "name": "Fitness Concept And Reecycle",
    "category": "Health & Fitness",
@@ -5817,6 +6087,7 @@
   },
   {
    "unitId": "ioi-2-l2-5",
+   "poiId": "672b2ff75351051c3ee4da2b",
    "unitNumber": "L2-5",
    "name": "Medifeet",
    "category": "Footwear",
@@ -5840,6 +6111,7 @@
   },
   {
    "unitId": "ioi-2-l2-4",
+   "poiId": "672b303c5351051c3ee4dad6",
    "unitNumber": "L2-4",
    "name": "OSIM",
    "category": "Health & Fitness",
@@ -5863,6 +6135,7 @@
   },
   {
    "unitId": "ioi-2-l2-3",
+   "poiId": "672b301f5351051c3ee4da90",
    "unitNumber": "L2-3",
    "name": "Scholl",
    "category": "Footwear",
@@ -5886,6 +6159,7 @@
   },
   {
    "unitId": "ioi-2-l2-1",
+   "poiId": "672b2d1a5351051c3ee4d8ee",
    "unitNumber": "L2-1",
    "name": "Huawei Concept Store",
    "category": "Digital Lifestyle",
@@ -5909,6 +6183,7 @@
   },
   {
    "unitId": "ioi-2-l2-70b",
+   "poiId": "672b35b05351051c3ee4deac",
    "unitNumber": "L2-70B",
    "name": "Oh! Gatcha",
    "category": "Hobbies/Games/Pets",
@@ -5932,6 +6207,7 @@
   },
   {
    "unitId": "ioi-2-l2-70a",
+   "poiId": "672b357c5351051c3ee4de2e",
    "unitNumber": "L2-70A",
    "name": "Phone Repair Hub",
    "category": "Digital Lifestyle",
@@ -5955,6 +6231,7 @@
   },
   {
    "unitId": "ioi-2-l2-9",
+   "poiId": "672b2ffb5351051c3ee4da37",
    "unitNumber": "L2-9",
    "name": "VANS",
    "category": "Footwear",
@@ -5978,6 +6255,7 @@
   },
   {
    "unitId": "ioi-2-l2-10",
+   "poiId": "672b30c25351051c3ee4dc0c",
    "unitNumber": "L2-10",
    "name": "Sony Centre",
    "category": "Digital Lifestyle",
@@ -6001,6 +6279,7 @@
   },
   {
    "unitId": "ioi-2-l2-11",
+   "poiId": "672b30355351051c3ee4dac3",
    "unitNumber": "L2-11",
    "name": "Anker",
    "category": "Digital Lifestyle",
@@ -6020,6 +6299,7 @@
   },
   {
    "unitId": "ioi-2-l2-12-13",
+   "poiId": "672b3cc55351052ffe16d86e",
    "unitNumber": "L2-12&13",
    "name": "Texas Chicken",
    "category": "Fast Food",
@@ -6043,6 +6323,7 @@
   },
   {
    "unitId": "ioi-2-48043-40778-1200",
+   "poiId": "6833d87e53510535d6f06b4f",
    "unitNumber": "L2-48043_40778",
    "name": "Unit ?",
    "category": "No Category",
@@ -6058,6 +6339,7 @@
   },
   {
    "unitId": "ioi-2-oh-some",
+   "poiId": "6833d8ac53510535d6f06b50",
    "unitNumber": "L2-47104_39161",
    "name": "Oh!Some",
    "category": "Entertainment",
@@ -6077,6 +6359,7 @@
   },
   {
    "unitId": "ioi-2-l2-14",
+   "poiId": "672b35ad5351051c3ee4dea2",
    "unitNumber": "L2-14",
    "name": "Go Noodle House",
    "category": "Café & Restaurant",
@@ -6100,6 +6383,7 @@
   },
   {
    "unitId": "ioi-2-at-5",
+   "poiId": "672b3d4c5351052ffe16d9b0",
    "unitNumber": "AT-5",
    "name": "Golden Screen Cinemas (GSC) - West Wing",
    "category": "Entertainment",
@@ -6123,6 +6407,7 @@
   },
   {
    "unitId": "ioi-2-l2-2",
+   "poiId": "672b3ced5351052ffe16d8ce",
    "unitNumber": "L2-2",
    "name": "Flash Gadgets",
    "category": "Digital Lifestyle",
@@ -6147,10 +6432,12 @@
  ],
  "3": [
   {
-   "unitId": "ioi-3-opening-soon",
+   "unitId": "ioi-3-85252-29048-1800",
+   "poiId": "672b3cb85351052ffe16d850",
    "unitNumber": "L3-85252_29048",
-   "name": "Opening Soon",
+   "name": "New shop",
    "category": "No Category",
+   "comingSoon": true,
    "description": null,
    "phone": null,
    "website": null,
@@ -6163,6 +6450,7 @@
   },
   {
    "unitId": "ioi-3-l3-211",
+   "poiId": "672b30e65351051c3ee4dc66",
    "unitNumber": "L3-211",
    "name": "BHC Chicken",
    "category": "Details under review",
@@ -6186,6 +6474,7 @@
   },
   {
    "unitId": "ioi-3-l3207-2",
+   "poiId": "69e1d93c5351054b1d1ffd11",
    "unitNumber": "L3207-2",
    "name": "Mo Mo Paradise",
    "category": "Food & Beverages",
@@ -6205,6 +6494,7 @@
   },
   {
    "unitId": "ioi-3-l3-209",
+   "poiId": "672b35985351051c3ee4de6d",
    "unitNumber": "L3-209",
    "name": "Yakiniku Kuro",
    "category": "Café & Restaurant",
@@ -6228,6 +6518,7 @@
   },
   {
    "unitId": "ioi-3-l3-210",
+   "poiId": "672b35595351051c3ee4dddd",
    "unitNumber": "L3-210",
    "name": "Rasa Rosz Resto",
    "category": "Café & Restaurant",
@@ -6247,6 +6538,7 @@
   },
   {
    "unitId": "ioi-3-l3-k204",
+   "poiId": "68834c0b535105b285e2166f",
    "unitNumber": "L3-K204",
    "name": "OVER",
    "category": "Home & Living",
@@ -6266,6 +6558,7 @@
   },
   {
    "unitId": "ioi-3-l3-k201",
+   "poiId": "68994d57535105b285e22414",
    "unitNumber": "L3-K201",
    "name": "LG",
    "category": "No Category",
@@ -6285,6 +6578,7 @@
   },
   {
    "unitId": "ioi-3-aeon-credit-service",
+   "poiId": "672b30035351051c3ee4da4d",
    "unitNumber": "L3-72434_21151",
    "name": "Aeon Credit Service",
    "category": "Banks and Financial Services",
@@ -6308,6 +6602,7 @@
   },
   {
    "unitId": "ioi-3-l3-205-206",
+   "poiId": "672b30795351051c3ee4db69",
    "unitNumber": "L3-205&206",
    "name": "Yonex",
    "category": "Hobbies/Games/Pets",
@@ -6331,6 +6626,7 @@
   },
   {
    "unitId": "ioi-3-l3-204",
+   "poiId": "672b358c5351051c3ee4de53",
    "unitNumber": "L3-204",
    "name": "Universal Gaming",
    "category": "Digital Lifestyle",
@@ -6354,6 +6650,7 @@
   },
   {
    "unitId": "ioi-3-l3-203",
+   "poiId": "672b3dc85351052ffe16dadc",
    "unitNumber": "L3-203",
    "name": "MKB Keyboard",
    "category": "Digital Lifestyle",
@@ -6373,6 +6670,7 @@
   },
   {
    "unitId": "ioi-3-l3-202",
+   "poiId": "672b3dec5351052ffe16db32",
    "unitNumber": "L3-202",
    "name": "Sheldonet Toy Store",
    "category": "Hobbies/Games/Pets",
@@ -6396,6 +6694,7 @@
   },
   {
    "unitId": "ioi-3-l3-201",
+   "poiId": "672b2d2d5351051c3ee4d924",
    "unitNumber": "L3-201",
    "name": "Unifi",
    "category": "Digital Lifestyle",
@@ -6419,6 +6718,7 @@
   },
   {
    "unitId": "ioi-3-l3-235",
+   "poiId": "672b357f5351051c3ee4de37",
    "unitNumber": "L3-235",
    "name": "Astro",
    "category": "Entertainment",
@@ -6442,6 +6742,7 @@
   },
   {
    "unitId": "ioi-3-l3-233-234",
+   "poiId": "672b3db05351052ffe16daa3",
    "unitNumber": "L3-233&234",
    "name": "Cat Café Puchi Marry",
    "category": "Hobbies/Games/Pets",
@@ -6465,6 +6766,7 @@
   },
   {
    "unitId": "ioi-3-2at-3a",
+   "poiId": "672b2fe75351051c3ee4da04",
    "unitNumber": "2AT-3A",
    "name": "IOI Grand Exibition & Convention Centre",
    "category": "Details under review",
@@ -6484,6 +6786,7 @@
   },
   {
    "unitId": "ioi-3-l3-232a-b",
+   "poiId": "672b302a5351051c3ee4daab",
    "unitNumber": "L3-232A&B",
    "name": "Maharaja Karaoke",
    "category": "Entertainment",
@@ -6507,6 +6810,7 @@
   },
   {
    "unitId": "ioi-3-maharani-karaoke",
+   "poiId": "6a45bcad535105480489ad67",
    "unitNumber": "L3-63972_27122",
    "name": "Maharani Karaoke",
    "category": "Entertainment",
@@ -6522,6 +6826,7 @@
   },
   {
    "unitId": "ioi-3-l3-225",
+   "poiId": "672b3d1c5351052ffe16d940",
    "unitNumber": "L3-225",
    "name": "Believe Fitness",
    "category": "Health & Fitness",
@@ -6545,6 +6850,7 @@
   },
   {
    "unitId": "ioi-3-l3-226",
+   "poiId": "67dce28a53510528fc42363c",
    "unitNumber": "L3-226",
    "name": "Coway",
    "category": "Services",
@@ -6564,6 +6870,7 @@
   },
   {
    "unitId": "ioi-3-l3-230",
+   "poiId": "672b3dd85351052ffe16db01",
    "unitNumber": "L3-230",
    "name": "KPIX",
    "category": "Entertainment",
@@ -6587,6 +6894,7 @@
   },
   {
    "unitId": "ioi-3-l3-227-229",
+   "poiId": "672b3dd25351052ffe16daf3",
    "unitNumber": "L3-227-229",
    "name": "Urban Republic By Switch",
    "category": "Digital Lifestyle",
@@ -6610,6 +6918,7 @@
   },
   {
    "unitId": "ioi-3-76722-24162-1800",
+   "poiId": null,
    "unitNumber": "L3-76722_24162",
    "name": "Unit ?",
    "category": "Details under review",
@@ -6625,6 +6934,7 @@
   },
   {
    "unitId": "ioi-3-l3-k202",
+   "poiId": "672b2d045351051c3ee4d8b9",
    "unitNumber": "L3-K202",
    "name": "Salon Du Chocolat",
    "category": "Café & Restaurant",
@@ -6648,6 +6958,7 @@
   },
   {
    "unitId": "ioi-3-l3-222",
+   "poiId": "672b3d835351052ffe16da2e",
    "unitNumber": "L3-222",
    "name": "YES.5G",
    "category": "Digital Lifestyle",
@@ -6671,6 +6982,7 @@
   },
   {
    "unitId": "ioi-3-l3-221",
+   "poiId": "672b3d155351052ffe16d930",
    "unitNumber": "L3-221",
    "name": "Box Hunt",
    "category": "Hobbies/Games/Pets",
@@ -6694,6 +7006,7 @@
   },
   {
    "unitId": "ioi-3-l3-220",
+   "poiId": "672b2d525351051c3ee4d97c",
    "unitNumber": "L3-220",
    "name": "Gajeto",
    "category": "Digital Lifestyle",
@@ -6717,6 +7030,7 @@
   },
   {
    "unitId": "ioi-3-l3-219",
+   "poiId": "672b2d4f5351051c3ee4d972",
    "unitNumber": "L3-219",
    "name": "Li-Ning",
    "category": "Footwear",
@@ -6740,6 +7054,7 @@
   },
   {
    "unitId": "ioi-3-2at-5",
+   "poiId": "672b3d865351052ffe16da32",
    "unitNumber": "2AT-5",
    "name": "Golden Screen Cinemas (GSC) - East Wing",
    "category": "Entertainment",
@@ -6763,6 +7078,7 @@
   },
   {
    "unitId": "ioi-3-l3-213-215",
+   "poiId": "672b308a5351051c3ee4db8b",
    "unitNumber": "L3-213-215",
    "name": "Ju Banquet & Restaurant 聚苑酒家",
    "category": "Details under review",
@@ -6786,6 +7102,7 @@
   },
   {
    "unitId": "ioi-3-l3-223-224",
+   "poiId": "672b301d5351051c3ee4da8c",
    "unitNumber": "L3-223&224",
    "name": "Food Empire",
    "category": "Food Court",
@@ -6809,6 +7126,7 @@
   },
   {
    "unitId": "ioi-3-l3-216",
+   "poiId": "672b358d5351051c3ee4de57",
    "unitNumber": "L3-216",
    "name": "The Hair TRIC & Lashility",
    "category": "Haircare & Salon",
@@ -6832,6 +7150,7 @@
   },
   {
    "unitId": "ioi-3-l3217-2",
+   "poiId": "69e1d76e5351054b1d1ffd0e",
    "unitNumber": "L3217-2",
    "name": "Brooks",
    "category": "Sports Wear",
@@ -6849,6 +7168,7 @@
  "4": [
   {
    "unitId": "ioi-4-l4-202",
+   "poiId": "672b30375351051c3ee4dac9",
    "unitNumber": "L4-202",
    "name": "Wonderfuel",
    "category": "Café & Restaurant",
@@ -6868,6 +7188,7 @@
   },
   {
    "unitId": "ioi-4-2at-10",
+   "poiId": "672b3dc45351052ffe16dad3",
    "unitNumber": "2AT-10",
    "name": "IOI Sports Centre",
    "category": "Entertainment",
@@ -6891,6 +7212,7 @@
   },
   {
    "unitId": "ioi-4-l4-201",
+   "poiId": "672b3dad5351052ffe16da98",
    "unitNumber": "L4-201",
    "name": "Vsmash Sports",
    "category": "Footwear",
@@ -6916,6 +7238,7 @@
  "LG": [
   {
    "unitId": "ioi-lg-lg-k5b",
+   "poiId": "69fc0ad75351054b1d2006eb",
    "unitNumber": "LG-K5B",
    "name": "Stryv",
    "category": "Beauty",
@@ -6935,6 +7258,7 @@
   },
   {
    "unitId": "ioi-lg-montigo",
+   "poiId": "6a434221535105480489aa0d",
    "unitNumber": "LG-16811_18877",
    "name": "MONTIGO",
    "category": "Home & Living",
@@ -6954,6 +7278,7 @@
   },
   {
    "unitId": "ioi-lg-love-maya",
+   "poiId": "6a43422a535105480489aa0e",
    "unitNumber": "LG-18132_19469",
    "name": "Love Maya",
    "category": "Beauty",
@@ -6973,6 +7298,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k20",
+   "poiId": "69fbf2a55351054b1d2006dd",
    "unitNumber": "LG-K20",
    "name": "AGift with Care",
    "category": "Beauty",
@@ -6992,6 +7318,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k32",
+   "poiId": "69e1d6825351054b1d1ffd0b",
    "unitNumber": "LG-K32",
    "name": "hygr",
    "category": "Beauty",
@@ -7011,6 +7338,7 @@
   },
   {
    "unitId": "ioi-lg-29568-12202-600",
+   "poiId": null,
    "unitNumber": "LG-29568_12202",
    "name": "Unit ?",
    "category": "Details under review",
@@ -7026,6 +7354,7 @@
   },
   {
    "unitId": "ioi-lg-44411-23277-600",
+   "poiId": null,
    "unitNumber": "LG-44411_23277",
    "name": "Unit ?",
    "category": "Details under review",
@@ -7041,6 +7370,7 @@
   },
   {
    "unitId": "ioi-lg-lg-c57-k",
+   "poiId": "672b3d335351052ffe16d975",
    "unitNumber": "LG-C57-K",
    "name": "Cheezuto",
    "category": "Kiosk",
@@ -7060,6 +7390,7 @@
   },
   {
    "unitId": "ioi-lg-skintific",
+   "poiId": "678f6dfc53510545ec95523f",
    "unitNumber": "LG-45395_29975",
    "name": "Skintific",
    "category": "Beauty, Skincare & Perfumery",
@@ -7079,6 +7410,7 @@
   },
   {
    "unitId": "ioi-lg-lg-c43-k",
+   "poiId": "672b3dc55351052ffe16dad4",
    "unitNumber": "LG-C43-K",
    "name": "Vanzo",
    "category": "Beauty",
@@ -7098,6 +7430,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k30",
+   "poiId": "672b31415351051c3ee4dd4a",
    "unitNumber": "LG-K30",
    "name": "Tomei",
    "category": "Jewellery",
@@ -7117,6 +7450,7 @@
   },
   {
    "unitId": "ioi-lg-60200-32268-600",
+   "poiId": null,
    "unitNumber": "LG-60200_32268",
    "name": "Kiosk ?",
    "category": "Kiosk",
@@ -7132,6 +7466,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k10a",
+   "poiId": "672b2fd65351051c3ee4d9dc",
    "unitNumber": "LG-K10A",
    "name": "LLAO LLAO",
    "category": "Details under review",
@@ -7151,6 +7486,7 @@
   },
   {
    "unitId": "ioi-lg-maison-la-manne",
+   "poiId": "6a714e83535105480489c211",
    "unitNumber": "LG-32409_21376",
    "name": "Maison La Manne",
    "category": "Food & Beverages",
@@ -7170,6 +7506,7 @@
   },
   {
    "unitId": "ioi-lg-dotnuts",
+   "poiId": "6888922e535105b285e218a7",
    "unitNumber": "LG-89654_20188",
    "name": "Dotnuts",
    "category": "Desserts",
@@ -7189,6 +7526,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k222",
+   "poiId": "685a20f653510535d6f073d3",
    "unitNumber": "LG-K222",
    "name": "Potato Corner",
    "category": "Kiosks",
@@ -7208,6 +7546,7 @@
   },
   {
    "unitId": "ioi-lg-daniel-wellington",
+   "poiId": "68872ffe535105b285e21788",
    "unitNumber": "LG-43259_29341",
    "name": "Daniel Wellington",
    "category": "Jewellery",
@@ -7227,6 +7566,7 @@
   },
   {
    "unitId": "ioi-lg-lg-c20b",
+   "poiId": "672b31375351051c3ee4dd32",
    "unitNumber": "LG-C20B",
    "name": "Strudel Bakery House",
    "category": "Food & Beverages",
@@ -7246,6 +7586,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k11b",
+   "poiId": "672b3d3b5351052ffe16d988",
    "unitNumber": "LG-K11B",
    "name": "Haagen-Dazs",
    "category": "Details under review",
@@ -7265,6 +7606,7 @@
   },
   {
    "unitId": "ioi-lg-decathlon-display-kiosk",
+   "poiId": "6753ceaa53510545ec9546b9",
    "unitNumber": "LG-8909_15503_",
    "name": "Decathlon (Display Kiosk)",
    "category": "No Category",
@@ -7280,6 +7622,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k211",
+   "poiId": "672b31695351051c3ee4ddb5",
    "unitNumber": "LG-K211",
    "name": "Kenangan Coffee",
    "category": "Details under review",
@@ -7299,6 +7642,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k9b",
+   "poiId": "672b3ce15351052ffe16d8b0",
    "unitNumber": "LG-K9B",
    "name": "Vanilla Café Express",
    "category": "Details under review",
@@ -7318,6 +7662,7 @@
   },
   {
    "unitId": "ioi-lg-s-wan-jewels",
+   "poiId": "68873021535105b285e2178b",
    "unitNumber": "LG-41871_28851",
    "name": "S.Wan Jewels",
    "category": "Jewellery",
@@ -7337,6 +7682,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k4",
+   "poiId": "672b312c5351051c3ee4dd14",
    "unitNumber": "LG-K4",
    "name": "Lazo Diamond",
    "category": "Jewellery",
@@ -7356,6 +7702,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k9",
+   "poiId": "672b3cf35351052ffe16d8da",
    "unitNumber": "LG-K9",
    "name": "Cornery - The Popcorn Gallery",
    "category": "Details under review",
@@ -7375,6 +7722,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k11",
+   "poiId": "672b3dc05351052ffe16daca",
    "unitNumber": "LG-K11",
    "name": "Auntie Anne's",
    "category": "Details under review",
@@ -7394,6 +7742,7 @@
   },
   {
    "unitId": "ioi-lg-airi-berry",
+   "poiId": "6a608d27535105480489bc0a",
    "unitNumber": "LG-84712_20726",
    "name": "Airi Berry",
    "category": "Food & Beverages",
@@ -7413,6 +7762,7 @@
   },
   {
    "unitId": "ioi-lg-don-makase",
+   "poiId": "6a261f1d5351054b1d20146d",
    "unitNumber": "LG-82878_20682",
    "name": "Don の Makase",
    "category": "Food & Beverages",
@@ -7432,6 +7782,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k219",
+   "poiId": "676e084c53510545ec954c60",
    "unitNumber": "LG-K219",
    "name": "All About Chew",
    "category": "Details under review",
@@ -7451,6 +7802,7 @@
   },
   {
    "unitId": "ioi-lg-18148-14207-600",
+   "poiId": null,
    "unitNumber": "LG-18148_14207",
    "name": "Kiosk ?",
    "category": "Kiosk",
@@ -7466,6 +7818,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k221",
+   "poiId": "6a8fb0d053510529d62e9b89",
    "unitNumber": "LG-K221",
    "name": "Chunk & Dunk",
    "category": "Food & Beverages",
@@ -7481,6 +7834,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k215",
+   "poiId": "677f2c6e53510545ec9550d6",
    "unitNumber": "LG-K215",
    "name": "Cinnabon",
    "category": "Details under review",
@@ -7500,6 +7854,7 @@
   },
   {
    "unitId": "ioi-lg-famous-amos",
+   "poiId": "672b359c5351051c3ee4de7a",
    "unitNumber": "LG-52688_26542",
    "name": "Famous Amos",
    "category": "Details under review",
@@ -7519,9 +7874,11 @@
   },
   {
    "unitId": "ioi-lg-lg-c20-k",
+   "poiId": "672b30055351051c3ee4da53",
    "unitNumber": "LG-C20-K",
-   "name": "Opening Soon",
+   "name": "New shop",
    "category": "No Category",
+   "comingSoon": true,
    "description": null,
    "phone": null,
    "website": null,
@@ -7534,6 +7891,7 @@
   },
   {
    "unitId": "ioi-lg-c-19k",
+   "poiId": "672b2d1a5351051c3ee4d8f2",
    "unitNumber": "C-19K",
    "name": "Joymom's",
    "category": "Bakery",
@@ -7553,6 +7911,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k4a",
+   "poiId": "672b3d515351052ffe16d9c1",
    "unitNumber": "LG-K4A",
    "name": "Elianto",
    "category": "Beauty",
@@ -7572,6 +7931,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k202",
+   "poiId": "672b309a5351051c3ee4dbb5",
    "unitNumber": "LG-K202",
    "name": "Noir",
    "category": "Beauty",
@@ -7591,6 +7951,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k11a",
+   "poiId": "672b3d9f5351052ffe16da71",
    "unitNumber": "LG-K11A",
    "name": "Chizu",
    "category": "Café & Restaurant",
@@ -7610,6 +7971,7 @@
   },
   {
    "unitId": "ioi-lg-le-creuset",
+   "poiId": "672b2d3f5351051c3ee4d952",
    "unitNumber": "LG-83734_29149",
    "name": "Le Creuset",
    "category": "Home & Living",
@@ -7629,6 +7991,7 @@
   },
   {
    "unitId": "ioi-lg-66834-30629-600",
+   "poiId": null,
    "unitNumber": "LG-66834_30629",
    "name": "Unit ?",
    "category": "Details under review",
@@ -7644,6 +8007,7 @@
   },
   {
    "unitId": "ioi-lg-lg-223",
+   "poiId": "672b3d095351052ffe16d90e",
    "unitNumber": "LG-223",
    "name": "Nitori",
    "category": "Home & Living",
@@ -7663,6 +8027,7 @@
   },
   {
    "unitId": "ioi-lg-lg-222a",
+   "poiId": "672b3d6d5351052ffe16d9fb",
    "unitNumber": "LG-222A",
    "name": "Maju Home Concept",
    "category": "Home & Living",
@@ -7686,6 +8051,7 @@
   },
   {
    "unitId": "ioi-lg-lg-2at-1",
+   "poiId": "672b3d785351052ffe16da16",
    "unitNumber": "LG-2AT-1",
    "name": "Aeon",
    "category": "Grocery / Supemarket",
@@ -7709,6 +8075,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k217",
+   "poiId": "672b3ce65351052ffe16d8b8",
    "unitNumber": "LG-K217",
    "name": "Cha Tra Mue",
    "category": "Details under review",
@@ -7728,6 +8095,7 @@
   },
   {
    "unitId": "ioi-lg-75416-22329-600",
+   "poiId": null,
    "unitNumber": "LG-75416_22329",
    "name": "Unit ?",
    "category": "Details under review",
@@ -7743,6 +8111,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k20-k23",
+   "poiId": "672b35b55351051c3ee4deb3",
    "unitNumber": "LG-K20-K23",
    "name": "Top Teppanyaki",
    "category": "Café & Restaurant",
@@ -7762,6 +8131,7 @@
   },
   {
    "unitId": "ioi-lg-lg-80",
+   "poiId": "672b3d195351052ffe16d93b",
    "unitNumber": "LG-80",
    "name": "Serai",
    "category": "Details under review",
@@ -7781,6 +8151,7 @@
   },
   {
    "unitId": "ioi-lg-lumi",
+   "poiId": "67da7e3f53510528fc4235fc",
    "unitNumber": "LG-63146_31447",
    "name": "Lumi",
    "category": "Beauty, Skincare & Perfumery",
@@ -7800,6 +8171,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k16-k19",
+   "poiId": "672b3dd45351052ffe16daf8",
    "unitNumber": "LG-K16-K19",
    "name": "MBG Fruitshop",
    "category": "Details under review",
@@ -7819,6 +8191,7 @@
   },
   {
    "unitId": "ioi-lg-lg-30",
+   "poiId": "69aa482953510502c6da498e",
    "unitNumber": "LG - 30",
    "name": "Empire Sushi",
    "category": "Food & Beverages",
@@ -7838,6 +8211,7 @@
   },
   {
    "unitId": "ioi-lg-lg-263-265",
+   "poiId": "672b3db35351052ffe16daac",
    "unitNumber": "LG-263&265",
    "name": "Guardian",
    "category": "Personal Care & Pharmacy",
@@ -7857,6 +8231,7 @@
   },
   {
    "unitId": "ioi-lg-lg-267",
+   "poiId": "672b30a95351051c3ee4dbdb",
    "unitNumber": "LG-267",
    "name": "SODA",
    "category": "Ladies & Men Fashion",
@@ -7876,6 +8251,7 @@
   },
   {
    "unitId": "ioi-lg-lg-257-259",
+   "poiId": "672b2d6e5351051c3ee4d9bc",
    "unitNumber": "LG-257&259",
    "name": "Din By Din Tai Fung",
    "category": "Details under review",
@@ -7895,6 +8271,7 @@
   },
   {
    "unitId": "ioi-lg-lg-29c",
+   "poiId": "672b3cc85351052ffe16d879",
    "unitNumber": "LG-29C",
    "name": "Lavender",
    "category": "Details under review",
@@ -7914,6 +8291,7 @@
   },
   {
    "unitId": "ioi-lg-lg-261",
+   "poiId": "672b30aa5351051c3ee4dbde",
    "unitNumber": "LG-261",
    "name": "Makii Makii",
    "category": "Café & Restaurant",
@@ -7933,6 +8311,7 @@
   },
   {
    "unitId": "ioi-lg-lg-30a",
+   "poiId": "69aa48af53510502c6da498f",
    "unitNumber": "LG - 30A",
    "name": "Kyochon 1991",
    "category": "Food & Beverages",
@@ -7952,6 +8331,7 @@
   },
   {
    "unitId": "ioi-lg-ygf-malatang",
+   "poiId": "672b2d505351051c3ee4d975",
    "unitNumber": "LG-58428_28398",
    "name": "YGF Malatang",
    "category": "Café & Restaurant",
@@ -7971,6 +8351,7 @@
   },
   {
    "unitId": "ioi-lg-lg-29b",
+   "poiId": "672b3cce5351052ffe16d889",
    "unitNumber": "LG-29B",
    "name": "Oriental Kopi",
    "category": "Café & Restaurant",
@@ -7990,6 +8371,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k5h",
+   "poiId": "672b3d9a5351052ffe16da65",
    "unitNumber": "LG-K5H",
    "name": "Gigi Coffee",
    "category": "Details under review",
@@ -8009,6 +8391,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k5g",
+   "poiId": "672b3cbf5351052ffe16d863",
    "unitNumber": "LG-K5G",
    "name": "ChezChoux",
    "category": "Details under review",
@@ -8028,6 +8411,7 @@
   },
   {
    "unitId": "ioi-lg-lg-24",
+   "poiId": "672b30fc5351051c3ee4dc9f",
    "unitNumber": "LG-24",
    "name": "myNEWS",
    "category": "Convenience Store",
@@ -8047,6 +8431,7 @@
   },
   {
    "unitId": "ioi-lg-lg-22",
+   "poiId": "672b3cfa5351052ffe16d8ee",
    "unitNumber": "LG-22",
    "name": "LAC Malaysia",
    "category": "Health & Fitness",
@@ -8066,6 +8451,7 @@
   },
   {
    "unitId": "ioi-lg-lg-264-266",
+   "poiId": "672b2d325351051c3ee4d930",
    "unitNumber": "LG-264&266",
    "name": "LC Waikiki",
    "category": "Ladies & Men Fashion",
@@ -8085,6 +8471,7 @@
   },
   {
    "unitId": "ioi-lg-lg-28",
+   "poiId": "672b31245351051c3ee4dd04",
    "unitNumber": "LG-28",
    "name": "Max Fashion",
    "category": "Ladies & Men Fashion",
@@ -8104,6 +8491,7 @@
   },
   {
    "unitId": "ioi-lg-lg-27",
+   "poiId": "672b3d9b5351052ffe16da68",
    "unitNumber": "LG-27",
    "name": "Sports Direct Flagship Store",
    "category": "Sports Wear",
@@ -8123,6 +8511,7 @@
   },
   {
    "unitId": "ioi-lg-lg-at-1",
+   "poiId": "672b35b45351051c3ee4deb0",
    "unitNumber": "LG-AT-1",
    "name": "Lotus's",
    "category": "Grocery / Supemarket",
@@ -8146,6 +8535,7 @@
   },
   {
    "unitId": "ioi-lg-lg-20",
+   "poiId": "672b3d135351052ffe16d92d",
    "unitNumber": "LG-20",
    "name": "Sembonia",
    "category": "Footwear",
@@ -8165,6 +8555,7 @@
   },
   {
    "unitId": "ioi-lg-lg-18",
+   "poiId": "672b310f5351051c3ee4dcce",
    "unitNumber": "LG-18",
    "name": "Caring Pharmacy",
    "category": "Personal Care & Pharmacy",
@@ -8184,6 +8575,7 @@
   },
   {
    "unitId": "ioi-lg-suunto",
+   "poiId": "68a2faaf535105b285e22924",
    "unitNumber": "LG-47116_30557",
    "name": "Suunto",
    "category": "Details under review",
@@ -8199,6 +8591,7 @@
   },
   {
    "unitId": "ioi-lg-garrett-popcorn",
+   "poiId": "672b30db5351051c3ee4dc48",
    "unitNumber": "LG-61409_31451",
    "name": "Garrett Popcorn",
    "category": "Details under review",
@@ -8218,6 +8611,7 @@
   },
   {
    "unitId": "ioi-lg-lg-269",
+   "poiId": "672b30a45351051c3ee4dbce",
    "unitNumber": "LG-269",
    "name": "Oriental Watch & Co",
    "category": "Timepiece",
@@ -8237,6 +8631,7 @@
   },
   {
    "unitId": "ioi-lg-lg-246a",
+   "poiId": "672b3dce5351052ffe16dae9",
    "unitNumber": "LG-246A",
    "name": "LLAO LLAO",
    "category": "Details under review",
@@ -8256,6 +8651,7 @@
   },
   {
    "unitId": "ioi-lg-lg-246-247",
+   "poiId": "672b3d0a5351052ffe16d911",
    "unitNumber": "LG-246&247",
    "name": "Madam Kwan's",
    "category": "Café & Restaurant",
@@ -8275,6 +8671,7 @@
   },
   {
    "unitId": "ioi-lg-lg-275",
+   "poiId": "672b30e55351051c3ee4dc62",
    "unitNumber": "LG-275",
    "name": "SK Jewellery",
    "category": "Jewellery",
@@ -8294,6 +8691,7 @@
   },
   {
    "unitId": "ioi-lg-lg-245",
+   "poiId": "672b2d585351051c3ee4d989",
    "unitNumber": "LG-245",
    "name": "Quiksilver & Roxy",
    "category": "Ladies & Men Fashion",
@@ -8313,6 +8711,7 @@
   },
   {
    "unitId": "ioi-lg-lg-273",
+   "poiId": "672b2ffc5351051c3ee4da38",
    "unitNumber": "LG-273",
    "name": "Sasa",
    "category": "Beauty, Skincare & Perfumery",
@@ -8332,6 +8731,7 @@
   },
   {
    "unitId": "ioi-lg-lg-255",
+   "poiId": "672b3cf25351052ffe16d8d7",
    "unitNumber": "LG-255",
    "name": "Baskin-Robbins",
    "category": "Details under review",
@@ -8351,6 +8751,7 @@
   },
   {
    "unitId": "ioi-lg-lg-254",
+   "poiId": "672b30915351051c3ee4db9f",
    "unitNumber": "LG-254",
    "name": "Le Shrimp Noodle Bar",
    "category": "Details under review",
@@ -8370,6 +8771,7 @@
   },
   {
    "unitId": "ioi-lg-lg-271",
+   "poiId": "672b3de15351052ffe16db13",
    "unitNumber": "LG-271",
    "name": "Jac's Optometry",
    "category": "Optical & Eyewear",
@@ -8389,6 +8791,7 @@
   },
   {
    "unitId": "ioi-lg-lg-253",
+   "poiId": "672b3d365351052ffe16d97e",
    "unitNumber": "LG-253",
    "name": "Para Thai",
    "category": "Details under review",
@@ -8408,6 +8811,7 @@
   },
   {
    "unitId": "ioi-lg-lg-210",
+   "poiId": "672b3d135351052ffe16d92a",
    "unitNumber": "LG-210",
    "name": "OOPPA",
    "category": "Optical & Eyewear",
@@ -8427,6 +8831,7 @@
   },
   {
    "unitId": "ioi-lg-lg-212",
+   "poiId": "672b2d1b5351051c3ee4d8f5",
    "unitNumber": "LG-212",
    "name": "Signature By Tomei",
    "category": "Jewellery",
@@ -8446,6 +8851,7 @@
   },
   {
    "unitId": "ioi-lg-daisy-by-voir-gallery",
+   "poiId": "6a27bfa45351054b1d2014b0",
    "unitNumber": "LG-86422_26551",
    "name": "Daisy by VOIR Gallery",
    "category": "Fashion",
@@ -8465,6 +8871,7 @@
   },
   {
    "unitId": "ioi-lg-tudung-people",
+   "poiId": "6a27bfc05351054b1d2014b1",
    "unitNumber": "LG-87731_26506",
    "name": "Tudung People",
    "category": "Fashion",
@@ -8480,6 +8887,7 @@
   },
   {
    "unitId": "ioi-lg-lg-218",
+   "poiId": "67ef8e0853510528fc4237c8",
    "unitNumber": "LG-218",
    "name": "Family Mart",
    "category": "Convenience Store",
@@ -8499,6 +8907,7 @@
   },
   {
    "unitId": "ioi-lg-lg-220",
+   "poiId": "672b30d35351051c3ee4dc32",
    "unitNumber": "LG-220",
    "name": "Aeon Wine & Liquor Section",
    "category": "Snacks & Confectionery",
@@ -8518,6 +8927,7 @@
   },
   {
    "unitId": "ioi-lg-lg-224",
+   "poiId": "672b31015351051c3ee4dca9",
    "unitNumber": "LG-224",
    "name": "Cheese U",
    "category": "Café & Restaurant",
@@ -8537,6 +8947,7 @@
   },
   {
    "unitId": "ioi-lg-lg-226",
+   "poiId": "672b31105351051c3ee4dcd1",
    "unitNumber": "LG-226",
    "name": "Hot Bird",
    "category": "Restaurant",
@@ -8556,6 +8967,7 @@
   },
   {
    "unitId": "ioi-lg-lg-228",
+   "poiId": "672b30245351051c3ee4da9c",
    "unitNumber": "LG-228",
    "name": "D'Penyetz Signature",
    "category": "Food & Beverages",
@@ -8575,6 +8987,7 @@
   },
   {
    "unitId": "ioi-lg-lg-230",
+   "poiId": "6753cbbe53510545ec9546b3",
    "unitNumber": "LG-230",
    "name": "Sang Gerai",
    "category": "Café & Restaurant",
@@ -8594,6 +9007,7 @@
   },
   {
    "unitId": "ioi-lg-lg-232",
+   "poiId": "672b30e05351051c3ee4dc57",
    "unitNumber": "LG-232",
    "name": "Dodo Korea",
    "category": "Food & Beverages",
@@ -8613,6 +9027,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k220",
+   "poiId": "672b31465351051c3ee4dd56",
    "unitNumber": "LG-K220",
    "name": "Tealive Plus",
    "category": "Details under review",
@@ -8632,6 +9047,7 @@
   },
   {
    "unitId": "ioi-lg-lg-234",
+   "poiId": "672b31275351051c3ee4dd09",
    "unitNumber": "LG-234",
    "name": "The Coffee Bean & Tea Leaf",
    "category": "Details under review",
@@ -8651,6 +9067,7 @@
   },
   {
    "unitId": "ioi-lg-lg-206-208",
+   "poiId": "672b2d535351051c3ee4d97d",
    "unitNumber": "LG-206&208",
    "name": "Miniso",
    "category": "Home & Living",
@@ -8670,6 +9087,7 @@
   },
   {
    "unitId": "ioi-lg-lg-236",
+   "poiId": "672b3dca5351052ffe16dae0",
    "unitNumber": "LG-236",
    "name": "Jangsajang Deopbap",
    "category": "Food & Beverages",
@@ -8689,6 +9107,7 @@
   },
   {
    "unitId": "ioi-lg-lg-242",
+   "poiId": "672b30e75351051c3ee4dc69",
    "unitNumber": "LG-242",
    "name": "Café Colombo",
    "category": "Details under review",
@@ -8708,6 +9127,7 @@
   },
   {
    "unitId": "ioi-lg-lg-240",
+   "poiId": "672b3cfb5351052ffe16d8f1",
    "unitNumber": "LG-240",
    "name": "Asam Pedas Premier",
    "category": "Café & Restaurant",
@@ -8727,6 +9147,7 @@
   },
   {
    "unitId": "ioi-lg-lg-238",
+   "poiId": "672b35635351051c3ee4ddf6",
    "unitNumber": "LG-238",
    "name": "Mama Thai",
    "category": "Café & Restaurant",
@@ -8746,6 +9167,7 @@
   },
   {
    "unitId": "ioi-lg-lg-244",
+   "poiId": "672b2d255351051c3ee4d913",
    "unitNumber": "LG-244",
    "name": "Rookie",
    "category": "Sports Wear",
@@ -8765,6 +9187,7 @@
   },
   {
    "unitId": "ioi-lg-lg-202",
+   "poiId": "672b3dae5351052ffe16da9e",
    "unitNumber": "LG-202",
    "name": "S.Wan Jewels",
    "category": "Jewellery",
@@ -8784,6 +9207,7 @@
   },
   {
    "unitId": "ioi-lg-lg-204",
+   "poiId": "672b3cc75351052ffe16d875",
    "unitNumber": "LG-204",
    "name": "Lee Jeans",
    "category": "Ladies & Men Fashion",
@@ -8803,6 +9227,7 @@
   },
   {
    "unitId": "ioi-lg-lg-268",
+   "poiId": "672b30e95351051c3ee4dc6b",
    "unitNumber": "LG-268",
    "name": "MJ Jewellery",
    "category": "Jewellery",
@@ -8822,6 +9247,7 @@
   },
   {
    "unitId": "ioi-lg-lg-270",
+   "poiId": "672b2d625351051c3ee4d9a0",
    "unitNumber": "LG-270",
    "name": "Nose",
    "category": "Footwear",
@@ -8841,6 +9267,7 @@
   },
   {
    "unitId": "ioi-lg-lg-274",
+   "poiId": "672b306d5351051c3ee4db4d",
    "unitNumber": "LG-274",
    "name": "TSL Jewellery 谢瑞麟",
    "category": "Jewellery",
@@ -8860,6 +9287,7 @@
   },
   {
    "unitId": "ioi-lg-lg-272",
+   "poiId": "672b30ac5351051c3ee4dbe5",
    "unitNumber": "LG-272",
    "name": "Sometime",
    "category": "Footwear",
@@ -8879,6 +9307,7 @@
   },
   {
    "unitId": "ioi-lg-lg-16",
+   "poiId": "672b3daf5351052ffe16da9f",
    "unitNumber": "LG-16",
    "name": "Bata",
    "category": "Footwear",
@@ -8898,6 +9327,7 @@
   },
   {
    "unitId": "ioi-lg-lg-12-14",
+   "poiId": "672b3d665351052ffe16d9ed",
    "unitNumber": "LG-12&14",
    "name": "New Balance",
    "category": "Footwear",
@@ -8917,6 +9347,7 @@
   },
   {
    "unitId": "ioi-lg-lg-10",
+   "poiId": "672b2d3e5351051c3ee4d94d",
    "unitNumber": "LG-10",
    "name": "Elle",
    "category": "Ladies Fashion",
@@ -8936,6 +9367,7 @@
   },
   {
    "unitId": "ioi-lg-lg-1",
+   "poiId": "672b2d3f5351051c3ee4d950",
    "unitNumber": "LG-1",
    "name": "Samsonite",
    "category": "Footwear",
@@ -8955,6 +9387,7 @@
   },
   {
    "unitId": "ioi-lg-lg-2",
+   "poiId": "672b3d915351052ffe16da50",
    "unitNumber": "LG-2",
    "name": "Carlo Rino",
    "category": "Footwear",
@@ -8974,6 +9407,7 @@
   },
   {
    "unitId": "ioi-lg-voir",
+   "poiId": "6916f98f5351054fb1c0bb37",
    "unitNumber": "LG-34083_28761",
    "name": "VOIR",
    "category": "Fashion",
@@ -8993,6 +9427,7 @@
   },
   {
    "unitId": "ioi-lg-lg-6",
+   "poiId": "6916f99e5351054fb1c0bb38",
    "unitNumber": "LG-6",
    "name": "Wilson",
    "category": "Sports Wear",
@@ -9012,6 +9447,7 @@
   },
   {
    "unitId": "ioi-lg-lg-8",
+   "poiId": "67da80b953510528fc423600",
    "unitNumber": "LG-8",
    "name": "Salomon",
    "category": "Sports Wear",
@@ -9031,6 +9467,7 @@
   },
   {
    "unitId": "ioi-lg-lg-97-99",
+   "poiId": "672b2d5a5351051c3ee4d98b",
    "unitNumber": "LG-97&99",
    "name": "Puma",
    "category": "Sports Wear",
@@ -9054,6 +9491,7 @@
   },
   {
    "unitId": "ioi-lg-g-101",
+   "poiId": "672b2fd55351051c3ee4d9da",
    "unitNumber": "G-101",
    "name": "Hoka",
    "category": "Footwear",
@@ -9077,6 +9515,7 @@
   },
   {
    "unitId": "ioi-lg-lg-85",
+   "poiId": "672b30425351051c3ee4dae2",
    "unitNumber": "LG-85",
    "name": "Dave's Deli",
    "category": "Café & Restaurant",
@@ -9100,6 +9539,7 @@
   },
   {
    "unitId": "ioi-lg-lg-83",
+   "poiId": "69859aa253510502c6da32d5",
    "unitNumber": "LG-83",
    "name": "Tim Hortons",
    "category": "Food & Beverages",
@@ -9119,6 +9559,7 @@
   },
   {
    "unitId": "ioi-lg-lg-84",
+   "poiId": "698599bb53510502c6da32d3",
    "unitNumber": "LG-84",
    "name": "Nanyang Café",
    "category": "Café & Restaurant",
@@ -9138,6 +9579,7 @@
   },
   {
    "unitId": "ioi-lg-ipg-tower-1",
+   "poiId": "672b30405351051c3ee4dadd",
    "unitNumber": "IPG-Tower 1",
    "name": "IOI City Tower 1",
    "category": "Details under review",
@@ -9157,6 +9599,7 @@
   },
   {
    "unitId": "ioi-lg-at-2",
+   "poiId": "672b3ce35351052ffe16d8b3",
    "unitNumber": "AT-2",
    "name": "HomePro",
    "category": "Home & Living",
@@ -9180,6 +9623,7 @@
   },
   {
    "unitId": "ioi-lg-lg-93",
+   "poiId": "672b2d0e5351051c3ee4d8d1",
    "unitNumber": "LG-93",
    "name": "Baaji's",
    "category": "Details under review",
@@ -9203,6 +9647,7 @@
   },
   {
    "unitId": "ioi-lg-lg-91",
+   "poiId": "672b3d045351052ffe16d900",
    "unitNumber": "LG-91",
    "name": "Casebang",
    "category": "Digital Lifestyle",
@@ -9222,6 +9667,7 @@
   },
   {
    "unitId": "ioi-lg-lg-89b",
+   "poiId": "672b3d445351052ffe16d9a2",
    "unitNumber": "LG-89B",
    "name": "Koong Woh Tong",
    "category": "Details under review",
@@ -9245,6 +9691,7 @@
   },
   {
    "unitId": "ioi-lg-lg-89a",
+   "poiId": "672b2d725351051c3ee4d9c3",
    "unitNumber": "LG-89A",
    "name": "Care Bears",
    "category": "Gifts & Souvenirs",
@@ -9264,6 +9711,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k5a",
+   "poiId": "672b2ff15351051c3ee4da1e",
    "unitNumber": "LG-K5A",
    "name": "IOI Properties",
    "category": "Home & Living",
@@ -9283,6 +9731,7 @@
   },
   {
    "unitId": "ioi-lg-lg-217-219",
+   "poiId": "672b315c5351051c3ee4dd92",
    "unitNumber": "LG-217&219",
    "name": "La Boheme by Aeon",
    "category": "Snacks & Confectionery",
@@ -9302,6 +9751,7 @@
   },
   {
    "unitId": "ioi-lg-lg-215",
+   "poiId": "672b3cf55351052ffe16d8e3",
    "unitNumber": "LG-215",
    "name": "Signature Market",
    "category": "Details under review",
@@ -9321,6 +9771,7 @@
   },
   {
    "unitId": "ioi-lg-khatam",
+   "poiId": "6a608dbc535105480489bc0d",
    "unitNumber": "LG-86439_31478",
    "name": "Khatam",
    "category": "Fashion",
@@ -9340,6 +9791,7 @@
   },
   {
    "unitId": "ioi-lg-lg-211",
+   "poiId": "672b2d3a5351051c3ee4d944",
    "unitNumber": "LG-211",
    "name": "Machines",
    "category": "Digital Lifestyle",
@@ -9359,6 +9811,7 @@
   },
   {
    "unitId": "ioi-lg-lg-209",
+   "poiId": "672b30365351051c3ee4dac6",
    "unitNumber": "LG-209",
    "name": "Qhiam",
    "category": "Fashion",
@@ -9378,6 +9831,7 @@
   },
   {
    "unitId": "ioi-lg-lg-207",
+   "poiId": "672b3df05351052ffe16db3e",
    "unitNumber": "LG-207",
    "name": "Naelofar",
    "category": "Ladies Fashion",
@@ -9397,6 +9851,7 @@
   },
   {
    "unitId": "ioi-lg-lg-201",
+   "poiId": "672b31075351051c3ee4dcba",
    "unitNumber": "LG-201",
    "name": "Poh Kong",
    "category": "Jewellery",
@@ -9416,6 +9871,7 @@
   },
   {
    "unitId": "ioi-lg-lg-203",
+   "poiId": "672b3d415351052ffe16d99d",
    "unitNumber": "LG-203",
    "name": "Focus Point Concept Store",
    "category": "Optical & Eyewear",
@@ -9435,6 +9891,7 @@
   },
   {
    "unitId": "ioi-lg-lg-205",
+   "poiId": "672b35695351051c3ee4de06",
    "unitNumber": "LG-205",
    "name": "Hype",
    "category": "Ladies & Men Fashion",
@@ -9454,6 +9911,7 @@
   },
   {
    "unitId": "ioi-lg-lg-256",
+   "poiId": "672b3d0c5351052ffe16d917",
    "unitNumber": "LG-256",
    "name": "Bungkus Kaw Kaw",
    "category": "Café & Restaurant",
@@ -9473,6 +9931,7 @@
   },
   {
    "unitId": "ioi-lg-lg-256b",
+   "poiId": "672b316f5351051c3ee4ddc3",
    "unitNumber": "LG-256B",
    "name": "Mon Chinese Beef Roti",
    "category": "Food & Beverages",
@@ -9492,6 +9951,7 @@
   },
   {
    "unitId": "ioi-lg-lg-256c",
+   "poiId": "672b2d5f5351051c3ee4d997",
    "unitNumber": "LG-256C",
    "name": "Subway",
    "category": "Fast Food",
@@ -9511,6 +9971,7 @@
   },
   {
    "unitId": "ioi-lg-lg-47",
+   "poiId": "672b312b5351051c3ee4dd11",
    "unitNumber": "LG-47",
    "name": "The Manhattan Fish Market",
    "category": "Café & Restaurant",
@@ -9530,6 +9991,7 @@
   },
   {
    "unitId": "ioi-lg-lg-45",
+   "poiId": "672b3d7b5351052ffe16da1d",
    "unitNumber": "LG-45",
    "name": "NY Steak Shack",
    "category": "Details under review",
@@ -9549,6 +10011,7 @@
   },
   {
    "unitId": "ioi-lg-lg-44",
+   "poiId": "672b3d7f5351052ffe16da26",
    "unitNumber": "LG-44",
    "name": "Dubuyo",
    "category": "Café & Restaurant",
@@ -9568,6 +10031,7 @@
   },
   {
    "unitId": "ioi-lg-lg-43",
+   "poiId": "672b358e5351051c3ee4de58",
    "unitNumber": "LG-43",
    "name": "Myeongdong Topokki",
    "category": "Details under review",
@@ -9587,6 +10051,7 @@
   },
   {
    "unitId": "ioi-lg-lg-39",
+   "poiId": "672b30bd5351051c3ee4dc01",
    "unitNumber": "LG-39",
    "name": "Bhai Jim Jum",
    "category": "Details under review",
@@ -9606,6 +10071,7 @@
   },
   {
    "unitId": "ioi-lg-lg-37",
+   "poiId": "672b3cd55351052ffe16d89b",
    "unitNumber": "LG-37",
    "name": "Secret Recipe",
    "category": "Café & Restaurant",
@@ -9625,6 +10091,7 @@
   },
   {
    "unitId": "ioi-lg-lg-35",
+   "poiId": "672b31385351051c3ee4dd35",
    "unitNumber": "LG-35",
    "name": "Big Apple Donuts And Coffee",
    "category": "Details under review",
@@ -9643,26 +10110,25 @@
    "floorLabel": "Lower Ground"
   },
   {
-   "unitId": "ioi-lg-mr-tuk-tuk",
-   "unitNumber": "LG-57863_23985",
-   "name": "Mr. Tuk Tuk",
+   "unitId": "ioi-lg-lg-31c",
+   "poiId": "6ad0336553510529d62ed36e",
+   "unitNumber": "LG-31C",
+   "name": "Tofu G Gelato",
    "category": "Food & Beverages",
+   "comingSoon": true,
    "description": null,
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": "/ioi/logos/ad02a1fe-4fd4-482e-ab85-ec3564e252fe.png",
-   "logo": {
-    "src": "/ioi/logos/ad02a1fe-4fd4-482e-ab85-ec3564e252fe.png",
-    "w": 256,
-    "h": 109
-   },
+   "thumb": null,
+   "logo": null,
    "photo": null,
    "hours": null,
    "floorLabel": "Lower Ground"
   },
   {
    "unitId": "ioi-lg-yonny",
+   "poiId": "6a107d855351054b1d200a85",
    "unitNumber": "LG-59062_23985",
    "name": "Yonny",
    "category": "No Category",
@@ -9678,6 +10144,7 @@
   },
   {
    "unitId": "ioi-lg-zus-coffee",
+   "poiId": "6a107db25351054b1d200a86",
    "unitNumber": "LG-60318_23985",
    "name": "Zus Coffee",
    "category": "Food & Beverages",
@@ -9697,6 +10164,7 @@
   },
   {
    "unitId": "ioi-lg-lg-33",
+   "poiId": "672b2d4c5351051c3ee4d96b",
    "unitNumber": "LG-33",
    "name": "Harvey Norman",
    "category": "Home & Living",
@@ -9720,6 +10188,7 @@
   },
   {
    "unitId": "ioi-lg-lg-262",
+   "poiId": "672b304b5351051c3ee4daf5",
    "unitNumber": "LG-262",
    "name": "Robata Sushi & Grill",
    "category": "Food & Beverages",
@@ -9739,6 +10208,7 @@
   },
   {
    "unitId": "ioi-lg-lg-258-260",
+   "poiId": "672b3da25351052ffe16da7d",
    "unitNumber": "LG-258&260",
    "name": "Seoul Garden",
    "category": "Café & Restaurant",
@@ -9758,6 +10228,7 @@
   },
   {
    "unitId": "ioi-lg-converse",
+   "poiId": "672b3d395351052ffe16d982",
    "unitNumber": "LG-24784_24447",
    "name": "Converse",
    "category": "Footwear",
@@ -9781,6 +10252,7 @@
   },
   {
    "unitId": "ioi-lg-lg-101b",
+   "poiId": "672b2d575351051c3ee4d986",
    "unitNumber": "LG-101B",
    "name": "Dockers",
    "category": "Men Fashion",
@@ -9804,6 +10276,7 @@
   },
   {
    "unitId": "ioi-lg-lg-107b",
+   "poiId": "672b2d165351051c3ee4d8e6",
    "unitNumber": "LG-107B",
    "name": "Wah Chan",
    "category": "Jewellery",
@@ -9827,6 +10300,7 @@
   },
   {
    "unitId": "ioi-lg-lg-107a",
+   "poiId": "672b30c75351051c3ee4dc18",
    "unitNumber": "LG-107A",
    "name": "HABIB",
    "category": "Jewellery",
@@ -9850,6 +10324,7 @@
   },
   {
    "unitId": "ioi-lg-lg-105",
+   "poiId": "672b3ddc5351052ffe16db0a",
    "unitNumber": "LG-105",
    "name": "Pandora",
    "category": "Jewellery",
@@ -9869,6 +10344,7 @@
   },
   {
    "unitId": "ioi-lg-lg-103",
+   "poiId": "672b30865351051c3ee4db84",
    "unitNumber": "LG-103",
    "name": "Weng Kwong 916",
    "category": "Jewellery",
@@ -9892,6 +10368,7 @@
   },
   {
    "unitId": "ioi-lg-ombak-kitchen",
+   "poiId": "67da7cd153510528fc4235f8",
    "unitNumber": "LG-90399_18104",
    "name": "Ombak Kitchen",
    "category": "Café & Restaurant",
@@ -9911,6 +10388,7 @@
   },
   {
    "unitId": "ioi-lg-lg-227",
+   "poiId": "672b30c55351051c3ee4dc14",
    "unitNumber": "LG-227",
    "name": "JM Bariani House",
    "category": "Café & Restaurant",
@@ -9930,6 +10408,7 @@
   },
   {
    "unitId": "ioi-lg-lg-229",
+   "poiId": "672b3d545351052ffe16d9cb",
    "unitNumber": "LG-229",
    "name": "Ramen Seirock-Ya",
    "category": "Café & Restaurant",
@@ -9949,6 +10428,7 @@
   },
   {
    "unitId": "ioi-lg-lg-231",
+   "poiId": "672b3d0b5351052ffe16d914",
    "unitNumber": "LG-231",
    "name": "LauSanJee",
    "category": "Food & Beverages",
@@ -9968,6 +10448,7 @@
   },
   {
    "unitId": "ioi-lg-lg-233",
+   "poiId": "68b6949d535105b285e23888",
    "unitNumber": "LG-233",
    "name": "Nasi Lemak Shop",
    "category": "Restaurant",
@@ -9986,17 +10467,18 @@
    "floorLabel": "Lower Ground"
   },
   {
-   "unitId": "ioi-lg-ak-noodle-house",
-   "unitNumber": "LG-83851_18369",
-   "name": "AK Noodle House",
+   "unitId": "ioi-lg-lg-235",
+   "poiId": "6aab550153510529d62ebe0e",
+   "unitNumber": "LG-235",
+   "name": "RASA by Grandmama's",
    "category": "Food & Beverages",
-   "description": null,
+   "description": "RASA by Grandmama’s was created for the way Malaysians love to eat—familiar flavours, satisfying favourites and the kind of food you’ll crave again and again. Inspired by the much-loved flavours of Malaysia, RASA brings local comfort food into a younger, more casual setting made for everyday dining. From hearty rice and noodle dishes to familiar local favourites, our menu celebrates the flavours we know and love. Because RASA is more than what’s on the plate. It’s about everything we love about Malaysian food—and the good moments shared around it.",
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": "/ioi/logos/f07960b5-ea3e-4e07-849d-97181c5d3c1c.jpg",
+   "thumb": "/ioi/logos/1439c3a3-4801-453b-a048-a0cf01585d57.png",
    "logo": {
-    "src": "/ioi/logos/f07960b5-ea3e-4e07-849d-97181c5d3c1c.jpg",
+    "src": "/ioi/logos/1439c3a3-4801-453b-a048-a0cf01585d57.png",
     "w": 256,
     "h": 256
    },
@@ -10006,6 +10488,7 @@
   },
   {
    "unitId": "ioi-lg-lg-237",
+   "poiId": "672b30a85351051c3ee4dbd8",
    "unitNumber": "LG-237",
    "name": "Ho Min San",
    "category": "Details under review",
@@ -10029,6 +10512,7 @@
   },
   {
    "unitId": "ioi-lg-lg-239",
+   "poiId": "672b31645351051c3ee4dda5",
    "unitNumber": "LG-239",
    "name": "Jollibee",
    "category": "Fast Food",
@@ -10048,6 +10532,7 @@
   },
   {
    "unitId": "ioi-lg-lg-241-2",
+   "poiId": "672b300a5351051c3ee4da60",
    "unitNumber": "LG-241-2",
    "name": "Silk Road Kitchen",
    "category": "Food & Beverages",
@@ -10063,6 +10548,7 @@
   },
   {
    "unitId": "ioi-lg-lg-248-249",
+   "poiId": "672b35785351051c3ee4de26",
    "unitNumber": "LG-248&249",
    "name": "Nak Nak",
    "category": "Café & Restaurant",
@@ -10082,6 +10568,7 @@
   },
   {
    "unitId": "ioi-lg-lg-250",
+   "poiId": "672b35c25351051c3ee4decf",
    "unitNumber": "LG-250",
    "name": "Mee Hiris China Muslim",
    "category": "Details under review",
@@ -10101,6 +10588,7 @@
   },
   {
    "unitId": "ioi-lg-lg-251",
+   "poiId": "672b35b65351051c3ee4deb6",
    "unitNumber": "LG-251",
    "name": "Sushi Jiro",
    "category": "Café & Restaurant",
@@ -10120,6 +10608,7 @@
   },
   {
    "unitId": "ioi-lg-lg-252",
+   "poiId": "672b3de25351052ffe16db16",
    "unitNumber": "LG-252",
    "name": "OldTown White Coffee",
    "category": "Details under review",
@@ -10139,6 +10628,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k1",
+   "poiId": "672b315b5351051c3ee4dd8b",
    "unitNumber": "LG-K1",
    "name": "BONIA TIMEPIECE",
    "category": "Timepiece",
@@ -10158,6 +10648,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k205",
+   "poiId": "672b304c5351051c3ee4daf6",
    "unitNumber": "LG-K205",
    "name": "IOI Properties",
    "category": "Home & Living",
@@ -10177,6 +10668,7 @@
   },
   {
    "unitId": "ioi-lg-lg-252a",
+   "poiId": "672b30a85351051c3ee4dbd7",
    "unitNumber": "LG-252A",
    "name": "JAGS Money",
    "category": "Money Changer",
@@ -10200,6 +10692,7 @@
   },
   {
    "unitId": "ioi-lg-sisters-crispy-popiah",
+   "poiId": "672b35905351051c3ee4de5b",
    "unitNumber": "LG-35649_19768",
    "name": "Sisters Crispy Popiah",
    "category": "Kiosk",
@@ -10219,6 +10712,7 @@
   },
   {
    "unitId": "ioi-lg-lg-c42a-k",
+   "poiId": "672b30615351051c3ee4db2f",
    "unitNumber": "LG-C42A-K",
    "name": "Cuckoo",
    "category": "Services",
@@ -10238,18 +10732,19 @@
   },
   {
    "unitId": "ioi-lg-lg-82b",
+   "poiId": "672b31025351051c3ee4dcad",
    "unitNumber": "LG-82B",
    "name": "Dolly Dim Sum",
-   "category": "Details under review",
+   "category": "Food & Beverages",
    "description": "Dolly Dim Sum is our modern interpretation of a traditional Chinese teahouse. It is a contemporised dim sum house that offers an all-day grazing experience, specialising in authentic dim sum. To us, making dim sum is an art form – each piece is delicate and exquisite, much like a porcelain “dolly”.",
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": "/ioi/logos/a7cc7bb4-391b-4867-b954-a62a3693472d.jpg",
+   "thumb": "/ioi/logos/d5c816d1-fe8e-409d-a9b8-40969b31e0e5.png",
    "logo": {
-    "src": "/ioi/logos/a7cc7bb4-391b-4867-b954-a62a3693472d.jpg",
+    "src": "/ioi/logos/d5c816d1-fe8e-409d-a9b8-40969b31e0e5.png",
     "w": 256,
-    "h": 256
+    "h": 121
    },
    "photo": null,
    "hours": null,
@@ -10257,6 +10752,7 @@
   },
   {
    "unitId": "ioi-lg-lg-81-82a",
+   "poiId": "67da7f8253510528fc4235fe",
    "unitNumber": "LG-81&82A",
    "name": "Laem Charoen Thai Seafood",
    "category": "Food & Beverages",
@@ -10276,6 +10772,7 @@
   },
   {
    "unitId": "ioi-lg-lg-79d",
+   "poiId": "6a4c6eee535105480489b564",
    "unitNumber": "LG-79D",
    "name": "luckin coffee",
    "category": "Food & Beverages",
@@ -10294,10 +10791,12 @@
    "floorLabel": "Lower Ground"
   },
   {
-   "unitId": "ioi-lg-opening-soon",
+   "unitId": "ioi-lg-11179-11067-600",
+   "poiId": "6a4c6f1b535105480489b565",
    "unitNumber": "LG-11179_11067",
-   "name": "Opening Soon",
+   "name": "New shop",
    "category": "No Category",
+   "comingSoon": true,
    "description": null,
    "phone": null,
    "website": null,
@@ -10310,6 +10809,7 @@
   },
   {
    "unitId": "ioi-lg-lg-79b",
+   "poiId": "672b3d685351052ffe16d9f1",
    "unitNumber": "LG-79B",
    "name": "Black Canyon",
    "category": "Café & Restaurant",
@@ -10333,6 +10833,7 @@
   },
   {
    "unitId": "ioi-lg-12288-8605-600",
+   "poiId": null,
    "unitNumber": "LG-12288_8605_",
    "name": "Unit ?",
    "category": "Details under review",
@@ -10348,6 +10849,7 @@
   },
   {
    "unitId": "ioi-lg-ipg-tower-2",
+   "poiId": "672b2d185351051c3ee4d8ea",
    "unitNumber": "IPG-Tower 2",
    "name": "IOI City Tower 2",
    "category": "Details under review",
@@ -10367,6 +10869,7 @@
   },
   {
    "unitId": "ioi-lg-dimsusu",
+   "poiId": "672b35b75351051c3ee4deb9",
    "unitNumber": "LG-18598_10012",
    "name": "DIMSUSU",
    "category": "Details under review",
@@ -10386,6 +10889,7 @@
   },
   {
    "unitId": "ioi-lg-nikumai",
+   "poiId": "68b690e9535105b285e2387f",
    "unitNumber": "LG-18493_12279",
    "name": "Nikumai",
    "category": "Café & Restaurant",
@@ -10405,6 +10909,7 @@
   },
   {
    "unitId": "ioi-lg-lg-76a",
+   "poiId": "672b316a5351051c3ee4ddb8",
    "unitNumber": "LG-76A",
    "name": "Talad Thai Banana",
    "category": "Food & Beverages",
@@ -10424,6 +10929,7 @@
   },
   {
    "unitId": "ioi-lg-lg-74b",
+   "poiId": "672b3da05351052ffe16da74",
    "unitNumber": "LG-74B",
    "name": "I Love Yoo !",
    "category": "Café & Restaurant",
@@ -10443,6 +10949,7 @@
   },
   {
    "unitId": "ioi-lg-lg-74a",
+   "poiId": "672b31015351051c3ee4dcaa",
    "unitNumber": "LG-74A",
    "name": "Gong Cha",
    "category": "Details under review",
@@ -10462,6 +10969,7 @@
   },
   {
    "unitId": "ioi-lg-lg-72",
+   "poiId": "67ef793d53510528fc4237b0",
    "unitNumber": "LG-72",
    "name": "Family Mart",
    "category": "Convenience Store",
@@ -10481,6 +10989,7 @@
   },
   {
    "unitId": "ioi-lg-bananabro",
+   "poiId": "687dbd96535105b285e2121d",
    "unitNumber": "LG-24825_13549",
    "name": "Bananabro",
    "category": "Food & Beverages",
@@ -10500,6 +11009,7 @@
   },
   {
    "unitId": "ioi-lg-lg-69",
+   "poiId": "672b30fb5351051c3ee4dc9d",
    "unitNumber": "LG-69",
    "name": "Sukiya Tokyo Bowls & Noodles",
    "category": "Café & Restaurant",
@@ -10519,6 +11029,7 @@
   },
   {
    "unitId": "ioi-lg-lg-67",
+   "poiId": "672b2d0f5351051c3ee4d8d4",
    "unitNumber": "LG-67",
    "name": "Absolute Thai",
    "category": "Café & Restaurant",
@@ -10538,6 +11049,7 @@
   },
   {
    "unitId": "ioi-lg-lg-65",
+   "poiId": "672b31315351051c3ee4dd24",
    "unitNumber": "LG-65",
    "name": "7-Eleven",
    "category": "Convenience Store",
@@ -10557,6 +11069,7 @@
   },
   {
    "unitId": "ioi-lg-lg-65a",
+   "poiId": "672b30d55351051c3ee4dc35",
    "unitNumber": "LG-65A",
    "name": "Ayu Borneo",
    "category": "Health Centre",
@@ -10576,6 +11089,7 @@
   },
   {
    "unitId": "ioi-lg-22115-8644-600",
+   "poiId": null,
    "unitNumber": "LG-22115_8644_",
    "name": "Unit ?",
    "category": "Details under review",
@@ -10591,6 +11105,7 @@
   },
   {
    "unitId": "ioi-lg-lg-78d",
+   "poiId": "672b359f5351051c3ee4de81",
    "unitNumber": "LG-78D",
    "name": "Johnny'S Restaurants",
    "category": "Café & Restaurant",
@@ -10610,6 +11125,7 @@
   },
   {
    "unitId": "ioi-lg-lg-78e",
+   "poiId": "672b30065351051c3ee4da56",
    "unitNumber": "LG-78E",
    "name": "Ayam Gepuk Hut",
    "category": "Food & Beverages",
@@ -10629,6 +11145,7 @@
   },
   {
    "unitId": "ioi-lg-banglo-289",
+   "poiId": "67da7d3953510528fc4235fa",
    "unitNumber": "LG-12360_5795_",
    "name": "BANGLO 289",
    "category": "Food & Beverages",
@@ -10648,6 +11165,7 @@
   },
   {
    "unitId": "ioi-lg-lg-79a",
+   "poiId": "672b2d245351051c3ee4d910",
    "unitNumber": "LG-79A",
    "name": "10gram",
    "category": "Café & Restaurant",
@@ -10667,6 +11185,7 @@
   },
   {
    "unitId": "ioi-lg-39878-21472-600",
+   "poiId": null,
    "unitNumber": "LG-39878_21472",
    "name": "Kiosk ?",
    "category": "Kiosk",
@@ -10682,8 +11201,9 @@
   },
   {
    "unitId": "ioi-lg-lg-276",
+   "poiId": "6a4be22c535105480489b552",
    "unitNumber": "LG-276",
-   "name": "Lao Miao (Coming Soon)",
+   "name": "Lao Miao",
    "category": "Jewellery",
    "description": null,
    "phone": null,
@@ -10701,6 +11221,7 @@
   },
   {
    "unitId": "ioi-lg-lg-277",
+   "poiId": "672b30a15351051c3ee4dbc7",
    "unitNumber": "LG-277",
    "name": "A-Look Eyewear",
    "category": "Optical & Eyewear",
@@ -10720,6 +11241,7 @@
   },
   {
    "unitId": "ioi-lg-lg-280",
+   "poiId": "691183e55351054fb1c0b96b",
    "unitNumber": "LG-280",
    "name": "Bungaa by Gift Etc",
    "category": "Gifts & Souvenirs",
@@ -10739,6 +11261,7 @@
   },
   {
    "unitId": "ioi-lg-lg-278-279",
+   "poiId": "672b309b5351051c3ee4dbb8",
    "unitNumber": "LG-278&279",
    "name": "Marks & Spencer",
    "category": "Ladies & Men Fashion",
@@ -10758,6 +11281,7 @@
   },
   {
    "unitId": "ioi-lg-lg-c30-k",
+   "poiId": "672b30ea5351051c3ee4dc6e",
    "unitNumber": "LG-C30-K",
    "name": "Kee Nguyen",
    "category": "Kiosk",
@@ -10777,6 +11301,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k210",
+   "poiId": "672b2fe25351051c3ee4d9f6",
    "unitNumber": "LG-K210",
    "name": "Maxis",
    "category": "Digital Lifestyle",
@@ -10796,6 +11321,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k9a",
+   "poiId": "672b3dc95351052ffe16dadd",
    "unitNumber": "LG-K9A",
    "name": "Maxis",
    "category": "Digital Lifestyle",
@@ -10815,6 +11341,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k3",
+   "poiId": "672b3d6f5351052ffe16da01",
    "unitNumber": "LG-K3",
    "name": "Time Zone",
    "category": "Timepiece",
@@ -10834,6 +11361,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k208",
+   "poiId": "69d8ce3f5351054b1d1ff974",
    "unitNumber": "LG-K208",
    "name": "AEON Credit",
    "category": "Banks and Financial Services",
@@ -10853,6 +11381,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k2",
+   "poiId": "672b3d3d5351052ffe16d98e",
    "unitNumber": "LG-K2",
    "name": "Cerruti 1881",
    "category": "Jewellery",
@@ -10872,6 +11401,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k1a",
+   "poiId": "672b30d65351051c3ee4dc3a",
    "unitNumber": "LG-K1A",
    "name": "Garmin",
    "category": "Timepiece",
@@ -10891,6 +11421,7 @@
   },
   {
    "unitId": "ioi-lg-lg-68",
+   "poiId": "672b314b5351051c3ee4dd64",
    "unitNumber": "LG-68",
    "name": "Penang Road Famous Teochew Chendul",
    "category": "Café & Restaurant",
@@ -10910,6 +11441,7 @@
   },
   {
    "unitId": "ioi-lg-lg-70",
+   "poiId": "672b3db15351052ffe16daa6",
    "unitNumber": "LG-70",
    "name": "Kenny Rogers Roasters",
    "category": "Details under review",
@@ -10929,6 +11461,7 @@
   },
   {
    "unitId": "ioi-lg-lg-94-96",
+   "poiId": "672b30f35351051c3ee4dc85",
    "unitNumber": "LG-94&96",
    "name": "Dragon-i",
    "category": "Food & Beverages",
@@ -10947,10 +11480,12 @@
    "floorLabel": "Lower Ground"
   },
   {
-   "unitId": "ioi-lg-xtep-opening-soon",
+   "unitId": "ioi-lg-xtep",
+   "poiId": "6a608bcf535105480489bc06",
    "unitNumber": "LG-25613_20634",
-   "name": "XTEP (Opening Soon)",
+   "name": "XTEP",
    "category": "No Category",
+   "comingSoon": true,
    "description": null,
    "phone": null,
    "website": null,
@@ -10963,6 +11498,7 @@
   },
   {
    "unitId": "ioi-lg-lg-102",
+   "poiId": "672b3d265351052ffe16d952",
    "unitNumber": "LG-102",
    "name": "Giordano",
    "category": "Ladies & Men Fashion",
@@ -10982,6 +11518,7 @@
   },
   {
    "unitId": "ioi-lg-lg-104",
+   "poiId": "672b3d7a5351052ffe16da1a",
    "unitNumber": "LG-104",
    "name": "Hush Puppies",
    "category": "Footwear",
@@ -11001,6 +11538,7 @@
   },
   {
    "unitId": "ioi-lg-lg-106",
+   "poiId": "672b305c5351051c3ee4db23",
    "unitNumber": "LG-106",
    "name": "Tomei",
    "category": "Jewellery",
@@ -11020,6 +11558,7 @@
   },
   {
    "unitId": "ioi-lg-lg-61",
+   "poiId": "672b2d5c5351051c3ee4d98f",
    "unitNumber": "LG-61",
    "name": "The Chicken Rice Shop",
    "category": "Café & Restaurant",
@@ -11039,6 +11578,7 @@
   },
   {
    "unitId": "ioi-lg-lg-63",
+   "poiId": "672b3d535351052ffe16d9c8",
    "unitNumber": "LG-63",
    "name": "Paris Baguette",
    "category": "Details under review",
@@ -11058,6 +11598,7 @@
   },
   {
    "unitId": "ioi-lg-lg-66a",
+   "poiId": "672b3ce95351052ffe16d8bf",
    "unitNumber": "LG-66A",
    "name": "Churros+",
    "category": "Food & Beverages",
@@ -11077,6 +11618,7 @@
   },
   {
    "unitId": "ioi-lg-lg-66b",
+   "poiId": "672b3db75351052ffe16dab3",
    "unitNumber": "LG-66B",
    "name": "Shihlin Taiwan Street Snacks",
    "category": "Details under review",
@@ -11096,6 +11638,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k207",
+   "poiId": "672b300b5351051c3ee4da64",
    "unitNumber": "LG-K207",
    "name": "Charles Jourdan",
    "category": "Jewellery",
@@ -11115,6 +11658,7 @@
   },
   {
    "unitId": "ioi-lg-lg-80d",
+   "poiId": "672b30375351051c3ee4dacc",
    "unitNumber": "LG-80D",
    "name": "Yole",
    "category": "Details under review",
@@ -11134,6 +11678,7 @@
   },
   {
    "unitId": "ioi-lg-lg-80c",
+   "poiId": "672b3d3f5351052ffe16d996",
    "unitNumber": "LG-80C",
    "name": "Ichiban Ramen",
    "category": "Café & Restaurant",
@@ -11153,6 +11698,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k204",
+   "poiId": "672b308f5351051c3ee4db9b",
    "unitNumber": "LG-K204",
    "name": "Clef",
    "category": "Beauty",
@@ -11172,6 +11718,7 @@
   },
   {
    "unitId": "ioi-lg-beard-papa",
+   "poiId": "67da7f5553510528fc4235fd",
    "unitNumber": "LG-33501_20779",
    "name": "Beard Papa",
    "category": "Food & Beverages",
@@ -11191,6 +11738,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k8",
+   "poiId": "672b3d895351052ffe16da3c",
    "unitNumber": "LG-K8",
    "name": "Juice Works",
    "category": "Details under review",
@@ -11210,6 +11758,7 @@
   },
   {
    "unitId": "ioi-lg-78385-28357-600",
+   "poiId": null,
    "unitNumber": "LG-78385_28357",
    "name": "Unit ?",
    "category": "Details under review",
@@ -11225,6 +11774,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k6",
+   "poiId": "672b3de35351052ffe16db1c",
    "unitNumber": "LG-K6",
    "name": "Naturh",
    "category": "Beauty, Skincare & Perfumery",
@@ -11244,6 +11794,7 @@
   },
   {
    "unitId": "ioi-lg-lg-13-15",
+   "poiId": "672b30e85351051c3ee4dc6a",
    "unitNumber": "LG-13&15",
    "name": "Watsons",
    "category": "Personal Care & Pharmacy",
@@ -11263,6 +11814,7 @@
   },
   {
    "unitId": "ioi-lg-lg-46",
+   "poiId": "672b3d425351052ffe16d9a0",
    "unitNumber": "LG-46",
    "name": "Oppadak Oven Baked Chicken",
    "category": "Café & Restaurant",
@@ -11282,6 +11834,7 @@
   },
   {
    "unitId": "ioi-lg-lg-50",
+   "poiId": "672b30785351051c3ee4db65",
    "unitNumber": "LG-50",
    "name": "Teppanyaki",
    "category": "Café & Restaurant",
@@ -11297,6 +11850,7 @@
   },
   {
    "unitId": "ioi-lg-lg-48b",
+   "poiId": "672b30165351051c3ee4da80",
    "unitNumber": "LG-48B",
    "name": "Happy Potato",
    "category": "Details under review",
@@ -11316,6 +11870,7 @@
   },
   {
    "unitId": "ioi-lg-lg-48a",
+   "poiId": "672b30465351051c3ee4dae9",
    "unitNumber": "LG-48A",
    "name": "KOI Thé",
    "category": "Details under review",
@@ -11335,6 +11890,7 @@
   },
   {
    "unitId": "ioi-lg-lg9-2",
+   "poiId": "672b30875351051c3ee4db86",
    "unitNumber": "LG9-2",
    "name": "Skechers",
    "category": "Footwear",
@@ -11354,6 +11910,7 @@
   },
   {
    "unitId": "ioi-lg-lg-7",
+   "poiId": "672b3d2f5351052ffe16d96b",
    "unitNumber": "LG-7",
    "name": "ASICS",
    "category": "Footwear",
@@ -11373,6 +11930,7 @@
   },
   {
    "unitId": "ioi-lg-lg-52",
+   "poiId": "672b30745351051c3ee4db58",
    "unitNumber": "LG-52",
    "name": "Ah Cheng Laksa",
    "category": "Café & Restaurant",
@@ -11392,6 +11950,7 @@
   },
   {
    "unitId": "ioi-lg-lg-54-56",
+   "poiId": "672b3d3a5351052ffe16d985",
    "unitNumber": "LG-54&56",
    "name": "YAYOI",
    "category": "Café & Restaurant",
@@ -11411,6 +11970,7 @@
   },
   {
    "unitId": "ioi-lg-lg-5",
+   "poiId": "672b31285351051c3ee4dd0a",
    "unitNumber": "LG-5",
    "name": "ANTA",
    "category": "Footwear",
@@ -11430,6 +11990,7 @@
   },
   {
    "unitId": "ioi-lg-lg-3b",
+   "poiId": "672b3ddb5351052ffe16db06",
    "unitNumber": "LG-3B",
    "name": "Focus Point",
    "category": "Optical & Eyewear",
@@ -11449,6 +12010,7 @@
   },
   {
    "unitId": "ioi-lg-lg-3a",
+   "poiId": "672b2d475351051c3ee4d963",
    "unitNumber": "LG-3A",
    "name": "City Chain",
    "category": "Timepiece",
@@ -11468,6 +12030,7 @@
   },
   {
    "unitId": "ioi-lg-lg-42",
+   "poiId": "672b30995351051c3ee4dbb2",
    "unitNumber": "LG-42",
    "name": "BMS Organics",
    "category": "Details under review",
@@ -11487,6 +12050,7 @@
   },
   {
    "unitId": "ioi-lg-lg-17b",
+   "poiId": "672b30115351051c3ee4da76",
    "unitNumber": "LG-17B",
    "name": "Optical 88",
    "category": "Optical & Eyewear",
@@ -11506,6 +12070,7 @@
   },
   {
    "unitId": "ioi-lg-rhapsody",
+   "poiId": "672b35c35351051c3ee4ded2",
    "unitNumber": "LG-44683_28081",
    "name": "Rhapsody",
    "category": "Timepiece",
@@ -11525,6 +12090,7 @@
   },
   {
    "unitId": "ioi-lg-lg-41a",
+   "poiId": "672b3d5e5351052ffe16d9db",
    "unitNumber": "LG-41A",
    "name": "Squid Boy",
    "category": "Details under review",
@@ -11544,6 +12110,7 @@
   },
   {
    "unitId": "ioi-lg-lg-41b",
+   "poiId": "672b3cbd5351052ffe16d85e",
    "unitNumber": "LG-41B",
    "name": "Beryl’s",
    "category": "Details under review",
@@ -11559,6 +12126,7 @@
   },
   {
    "unitId": "ioi-lg-wow-beauty",
+   "poiId": "68897a0e535105b285e21905",
    "unitNumber": "LG-46220_28558",
    "name": "WOW Beauty",
    "category": "Beauty",
@@ -11578,6 +12146,7 @@
   },
   {
    "unitId": "ioi-lg-lg-34b",
+   "poiId": "672b3d9c5351052ffe16da6b",
    "unitNumber": "LG-34B",
    "name": "Money Changer Asia Exchange",
    "category": "Money Changer",
@@ -11593,6 +12162,7 @@
   },
   {
    "unitId": "ioi-lg-lg-34c",
+   "poiId": "672b31325351051c3ee4dd27",
    "unitNumber": "LG-34C",
    "name": "SM Currency Exchange & Transfer",
    "category": "Services",
@@ -11612,6 +12182,7 @@
   },
   {
    "unitId": "ioi-lg-lg-36",
+   "poiId": "672b312e5351051c3ee4dd1b",
    "unitNumber": "LG-36",
    "name": "Pop Meals",
    "category": "Details under review",
@@ -11631,6 +12202,7 @@
   },
   {
    "unitId": "ioi-lg-lg-38-40",
+   "poiId": "672b3cd25351052ffe16d891",
    "unitNumber": "LG-38&40",
    "name": "IndoAsli",
    "category": "Café & Restaurant",
@@ -11650,6 +12222,7 @@
   },
   {
    "unitId": "ioi-lg-lg-23",
+   "poiId": "672b31235351051c3ee4dd00",
    "unitNumber": "LG-23",
    "name": "Fila",
    "category": "Ladies Fashion",
@@ -11669,6 +12242,7 @@
   },
   {
    "unitId": "ioi-lg-lg-25",
+   "poiId": "672b31475351051c3ee4dd59",
    "unitNumber": "LG-25",
    "name": "Crocs",
    "category": "Footwear",
@@ -11688,6 +12262,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k7",
+   "poiId": "672b31685351051c3ee4ddb2",
    "unitNumber": "LG-K7",
    "name": "Purely",
    "category": "Beauty, Skincare & Perfumery",
@@ -11707,6 +12282,7 @@
   },
   {
    "unitId": "ioi-lg-lg-26",
+   "poiId": "672b31055351051c3ee4dcb5",
    "unitNumber": "LG-26",
    "name": "Hogan Bakery",
    "category": "Details under review",
@@ -11726,6 +12302,7 @@
   },
   {
    "unitId": "ioi-lg-lg-32b",
+   "poiId": "672b312f5351051c3ee4dd1f",
    "unitNumber": "LG-32B",
    "name": "Kedai Kopi Suka Hati",
    "category": "Details under review",
@@ -11745,6 +12322,7 @@
   },
   {
    "unitId": "ioi-lg-lg-32a",
+   "poiId": "672b31715351051c3ee4ddc8",
    "unitNumber": "LG-32A",
    "name": "Kamelah Tobacco House",
    "category": "Gifts & Souvenirs",
@@ -11764,6 +12342,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k24",
+   "poiId": "672b310b5351051c3ee4dcc5",
    "unitNumber": "LG-K24",
    "name": "Royce'",
    "category": "Details under review",
@@ -11783,6 +12362,7 @@
   },
   {
    "unitId": "ioi-lg-lg-73",
+   "poiId": "672b3db85351052ffe16dab6",
    "unitNumber": "LG-73",
    "name": "Istanoodle",
    "category": "Food & Beverages",
@@ -11802,6 +12382,7 @@
   },
   {
    "unitId": "ioi-lg-lg-92",
+   "poiId": "672b30f95351051c3ee4dc98",
    "unitNumber": "LG-92",
    "name": "Verrona Hills",
    "category": "Food & Beverages",
@@ -11821,6 +12402,7 @@
   },
   {
    "unitId": "ioi-lg-kakatoogo",
+   "poiId": "672b3db45351052ffe16daaf",
    "unitNumber": "LG-18181_15724",
    "name": "KakatooGo",
    "category": "Café & Restaurant",
@@ -11840,6 +12422,7 @@
   },
   {
    "unitId": "ioi-lg-columbia",
+   "poiId": "672b35745351051c3ee4de1e",
    "unitNumber": "LG-17538_17260",
    "name": "Columbia",
    "category": "Ladies & Men Fashion",
@@ -11859,6 +12442,7 @@
   },
   {
    "unitId": "ioi-lg-lg-90",
+   "poiId": "672b2d635351051c3ee4d9a3",
    "unitNumber": "LG-90",
    "name": "Solar Time",
    "category": "Timepiece",
@@ -11878,6 +12462,7 @@
   },
   {
    "unitId": "ioi-lg-lg-75",
+   "poiId": "672b3d4e5351052ffe16d9b9",
    "unitNumber": "LG-75",
    "name": "Hanbing Korean Dessert Café",
    "category": "Food & Beverages",
@@ -11897,6 +12482,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k12",
+   "poiId": "672b305b5351051c3ee4db1f",
    "unitNumber": "LG-K12",
    "name": "Hokkaido Baked Cheese Tart",
    "category": "Details under review",
@@ -11916,6 +12502,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k14",
+   "poiId": "672b30875351051c3ee4db85",
    "unitNumber": "LG-K14",
    "name": "Empire Sushi",
    "category": "Details under review",
@@ -11935,6 +12522,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k15",
+   "poiId": "672b306d5351051c3ee4db4a",
    "unitNumber": "LG-K15",
    "name": "Rotiboy",
    "category": "Details under review",
@@ -11954,6 +12542,7 @@
   },
   {
    "unitId": "ioi-lg-lg-k13",
+   "poiId": "672b3dad5351052ffe16da9b",
    "unitNumber": "LG-K13",
    "name": "Dunkin' Donuts",
    "category": "Desserts",
@@ -11973,6 +12562,7 @@
   },
   {
    "unitId": "ioi-lg-lg-64",
+   "poiId": "672b2d225351051c3ee4d90a",
    "unitNumber": "LG-64",
    "name": "Tony Roma's",
    "category": "Café & Restaurant",
@@ -11992,6 +12582,7 @@
   },
   {
    "unitId": "ioi-lg-kyoto-katsu",
+   "poiId": "6a0539875351054b1d2007b8",
    "unitNumber": "LG-31207_15067",
    "name": "KYOTO KATSU",
    "category": "Food & Beverages",
@@ -12011,6 +12602,7 @@
   },
   {
    "unitId": "ioi-lg-tous-les-jours",
+   "poiId": "6a33af6a5351054b1d2016d5",
    "unitNumber": "LG-32421_15560",
    "name": "Tous Les Jours",
    "category": "Café & Restaurant",
@@ -12030,6 +12622,7 @@
   },
   {
    "unitId": "ioi-lg-lg-59",
+   "poiId": "672b3d045351052ffe16d903",
    "unitNumber": "LG-59",
    "name": "Fuel Shack",
    "category": "Fast Food",
@@ -12049,6 +12642,7 @@
   },
   {
    "unitId": "ioi-lg-lg-57-58",
+   "poiId": "672b3da35351052ffe16da7f",
    "unitNumber": "LG-57&58",
    "name": "McDonald's",
    "category": "Fast Food",
@@ -12068,6 +12662,7 @@
   },
   {
    "unitId": "ioi-lg-lg-53-55",
+   "poiId": "672b3d615351052ffe16d9e3",
    "unitNumber": "LG-53&55",
    "name": "Nando's",
    "category": "Café & Restaurant",
@@ -12087,6 +12682,7 @@
   },
   {
    "unitId": "ioi-lg-lg-49",
+   "poiId": "672b30b05351051c3ee4dbe9",
    "unitNumber": "LG-49",
    "name": "Ali, Muthu & Ah Hock",
    "category": "Details under review",
@@ -12106,6 +12702,7 @@
   },
   {
    "unitId": "ioi-lg-lg-51",
+   "poiId": "672b305e5351051c3ee4db26",
    "unitNumber": "LG-51",
    "name": "Coliseum",
    "category": "Details under review",
@@ -12127,6 +12724,7 @@
  "G": [
   {
    "unitId": "ioi-g-68789-41975-0",
+   "poiId": null,
    "unitNumber": "G-68789_41975",
    "name": "Unit ?",
    "category": "Details under review",
@@ -12142,6 +12740,7 @@
   },
   {
    "unitId": "ioi-g-66884-41975-0",
+   "poiId": null,
    "unitNumber": "G-66884_41975",
    "name": "Unit ?",
    "category": "Details under review",
@@ -12157,6 +12756,7 @@
   },
   {
    "unitId": "ioi-g-65491-42166-0",
+   "poiId": null,
    "unitNumber": "G-65491_42166",
    "name": "Unit ?",
    "category": "Details under review",
@@ -12172,6 +12772,7 @@
   },
   {
    "unitId": "ioi-g-g-k3",
+   "poiId": "672b3db25351052ffe16daa9",
    "unitNumber": "G-K3",
    "name": "Chloe",
    "category": "Beauty, Skincare & Perfumery",
@@ -12191,6 +12792,7 @@
   },
   {
    "unitId": "ioi-g-valet-parking-symphony-east",
+   "poiId": "672b3d2e5351052ffe16d969",
    "unitNumber": "G-96453_15153",
    "name": "Valet Parking - Symphony East",
    "category": "No Category",
@@ -12206,6 +12808,7 @@
   },
   {
    "unitId": "ioi-g-2at-8",
+   "poiId": "672b35be5351051c3ee4dec9",
    "unitNumber": "2AT-8",
    "name": "Proton Premium Outlet",
    "category": "Automotive",
@@ -12225,6 +12828,7 @@
   },
   {
    "unitId": "ioi-g-98569-37227-0",
+   "poiId": "672b31595351051c3ee4dd82",
    "unitNumber": "G-98569_37227",
    "name": "Unit ?",
    "category": "No Category",
@@ -12240,6 +12844,7 @@
   },
   {
    "unitId": "ioi-g-chagee",
+   "poiId": "672b2d615351051c3ee4d99a",
    "unitNumber": "G-55505_31194",
    "name": "CHAGEE",
    "category": "Details under review",
@@ -12259,6 +12864,7 @@
   },
   {
    "unitId": "ioi-g-shiseido",
+   "poiId": "672b3ce95351052ffe16d8c4",
    "unitNumber": "G-44343_29663",
    "name": "Shiseido",
    "category": "Beauty, Skincare & Perfumery",
@@ -12278,6 +12884,7 @@
   },
   {
    "unitId": "ioi-g-50679-29908-0",
+   "poiId": null,
    "unitNumber": "G-50679_29908",
    "name": "Kiosk ?",
    "category": "Kiosk",
@@ -12293,6 +12900,7 @@
   },
   {
    "unitId": "ioi-g-21695-20418-0",
+   "poiId": null,
    "unitNumber": "G-21695_20418",
    "name": "Unit ?",
    "category": "Details under review",
@@ -12308,6 +12916,7 @@
   },
   {
    "unitId": "ioi-g-g-k6",
+   "poiId": "672b35c35351051c3ee4ded5",
    "unitNumber": "G-K6",
    "name": "Jardin Coffee & Tea",
    "category": "Café & Restaurant",
@@ -12327,6 +12936,7 @@
   },
   {
    "unitId": "ioi-g-62194-31415-0",
+   "poiId": null,
    "unitNumber": "G-62194_31415",
    "name": "Unit ?",
    "category": "Details under review",
@@ -12342,6 +12952,7 @@
   },
   {
    "unitId": "ioi-g-ge-17",
+   "poiId": "672b2d1f5351051c3ee4d900",
    "unitNumber": "GE-17",
    "name": "Haidilao Hot Pot",
    "category": "Details under review",
@@ -12361,6 +12972,7 @@
   },
   {
    "unitId": "ioi-g-93605-28714-0",
+   "poiId": null,
    "unitNumber": "G-93605_28714",
    "name": "Unit ?",
    "category": "Details under review",
@@ -12376,6 +12988,7 @@
   },
   {
    "unitId": "ioi-g-75370-21478-0",
+   "poiId": null,
    "unitNumber": "G-75370_21478",
    "name": "Unit ?",
    "category": "Details under review",
@@ -12391,6 +13004,7 @@
   },
   {
    "unitId": "ioi-g-72236-28429-0",
+   "poiId": "672b3dca5351052ffe16dae1",
    "unitNumber": "G-72236_28429",
    "name": "Unit ?",
    "category": "No Category",
@@ -12406,6 +13020,7 @@
   },
   {
    "unitId": "ioi-g-fresh",
+   "poiId": "672b31215351051c3ee4dcfa",
    "unitNumber": "G-51949_31233",
    "name": "Fresh",
    "category": "Beauty, Skincare & Perfumery",
@@ -12425,6 +13040,7 @@
   },
   {
    "unitId": "ioi-g-84834-11914-0",
+   "poiId": null,
    "unitNumber": "G-84834_11914",
    "name": "Unit ?",
    "category": "Details under review",
@@ -12440,6 +13056,7 @@
   },
   {
    "unitId": "ioi-g-nars",
+   "poiId": "672b30eb5351051c3ee4dc72",
    "unitNumber": "G-42702_29002",
    "name": "Nars",
    "category": "Beauty, Skincare & Perfumery",
@@ -12459,6 +13076,7 @@
   },
   {
    "unitId": "ioi-g-g-k3b",
+   "poiId": "672b3cb95351052ffe16d854",
    "unitNumber": "G-K3B",
    "name": "Clinique",
    "category": "Beauty",
@@ -12478,6 +13096,7 @@
   },
   {
    "unitId": "ioi-g-tom-ford",
+   "poiId": "689bff7e535105b285e22586",
    "unitNumber": "G-35769_26148",
    "name": "Tom Ford",
    "category": "Beauty",
@@ -12497,6 +13116,7 @@
   },
   {
    "unitId": "ioi-g-estee-lauder",
+   "poiId": "689bff8b535105b285e22587",
    "unitNumber": "G-35346_26854",
    "name": "Estee Lauder",
    "category": "Beauty",
@@ -12516,6 +13136,7 @@
   },
   {
    "unitId": "ioi-g-g-k1a",
+   "poiId": "68a835bf535105b285e22e8f",
    "unitNumber": "G-K1A",
    "name": "APM Monaco",
    "category": "Jewellery",
@@ -12535,6 +13156,7 @@
   },
   {
    "unitId": "ioi-g-sk-ii",
+   "poiId": "68b6948a535105b285e23887",
    "unitNumber": "G-27349_22716",
    "name": "SK-II",
    "category": "Beauty",
@@ -12554,6 +13176,7 @@
   },
   {
    "unitId": "ioi-g-g-k4",
+   "poiId": "672b30205351051c3ee4da93",
    "unitNumber": "G-K4",
    "name": "Clarins",
    "category": "Beauty, Skincare & Perfumery",
@@ -12573,6 +13196,7 @@
   },
   {
    "unitId": "ioi-g-g-42",
+   "poiId": "672b2d0c5351051c3ee4d8cd",
    "unitNumber": "G-42",
    "name": "L'Occitane En Provence",
    "category": "Beauty, Skincare & Perfumery",
@@ -12592,6 +13216,7 @@
   },
   {
    "unitId": "ioi-g-ge-6",
+   "poiId": "67a96b8053510528fc42304a",
    "unitNumber": "GE-6",
    "name": "Sushi Tei",
    "category": "Café & Restaurant",
@@ -12611,6 +13236,7 @@
   },
   {
    "unitId": "ioi-g-ge-5",
+   "poiId": "672b3d6e5351052ffe16d9fe",
    "unitNumber": "GE-5",
    "name": "The Barn",
    "category": "Café & Restaurant",
@@ -12630,6 +13256,7 @@
   },
   {
    "unitId": "ioi-g-g-47-48",
+   "poiId": "672b30145351051c3ee4da7b",
    "unitNumber": "G-47&48",
    "name": "Swarovski",
    "category": "Jewellery",
@@ -12649,6 +13276,7 @@
   },
   {
    "unitId": "ioi-g-pedro",
+   "poiId": "672b300a5351051c3ee4da61",
    "unitNumber": "G-36048_22849",
    "name": "Pedro",
    "category": "Footwear",
@@ -12668,6 +13296,7 @@
   },
   {
    "unitId": "ioi-g-g-45",
+   "poiId": "672b31495351051c3ee4dd60",
    "unitNumber": "G-45",
    "name": "Dior",
    "category": "Beauty",
@@ -12687,6 +13316,7 @@
   },
   {
    "unitId": "ioi-g-g-44",
+   "poiId": "698598c953510502c6da32cb",
    "unitNumber": "G-44",
    "name": "BONIA",
    "category": "Footwear",
@@ -12706,6 +13336,7 @@
   },
   {
    "unitId": "ioi-g-g-43",
+   "poiId": "698598f153510502c6da32cc",
    "unitNumber": "G-43",
    "name": "KENS Apothecary",
    "category": "Beauty",
@@ -12725,6 +13356,7 @@
   },
   {
    "unitId": "ioi-g-ge-7",
+   "poiId": "672b3d915351052ffe16da53",
    "unitNumber": "GE-7",
    "name": "Chili's",
    "category": "Café & Restaurant",
@@ -12744,6 +13376,7 @@
   },
   {
    "unitId": "ioi-g-g-28-29",
+   "poiId": "672b2ff35351051c3ee4da23",
    "unitNumber": "G-28&29",
    "name": "Ole-Ole Bali",
    "category": "Details under review",
@@ -12763,6 +13396,7 @@
   },
   {
    "unitId": "ioi-g-g-27",
+   "poiId": "672b30585351051c3ee4db16",
    "unitNumber": "G-27",
    "name": "The Coffee Bean & Tea Leaf",
    "category": "Details under review",
@@ -12782,6 +13416,7 @@
   },
   {
    "unitId": "ioi-g-ge-19",
+   "poiId": "672b3cc95351052ffe16d87d",
    "unitNumber": "GE-19",
    "name": "luckin coffee",
    "category": "Food & Beverages",
@@ -12801,6 +13436,7 @@
   },
   {
    "unitId": "ioi-g-ge-14",
+   "poiId": "672b30df5351051c3ee4dc51",
    "unitNumber": "GE-14",
    "name": "India Gate",
    "category": "Food & Beverages",
@@ -12820,6 +13456,7 @@
   },
   {
    "unitId": "ioi-g-ge-13",
+   "poiId": "672b316b5351051c3ee4ddb9",
    "unitNumber": "GE-13",
    "name": "Dip N Dip",
    "category": "Desserts",
@@ -12839,6 +13476,7 @@
   },
   {
    "unitId": "ioi-g-ge-12",
+   "poiId": "672b30335351051c3ee4dac0",
    "unitNumber": "GE-12",
    "name": "Mr Dakgalbi",
    "category": "Details under review",
@@ -12858,6 +13496,7 @@
   },
   {
    "unitId": "ioi-g-g40-2",
+   "poiId": "672b30535351051c3ee4db08",
    "unitNumber": "G40-2",
    "name": "Adidas",
    "category": "Sports Wear",
@@ -12877,6 +13516,7 @@
   },
   {
    "unitId": "ioi-g-m-a-c",
+   "poiId": "693f7a0f535105ba8b804dc1",
    "unitNumber": "G-43704_26022",
    "name": "M.A.C",
    "category": "Beauty",
@@ -12896,6 +13536,7 @@
   },
   {
    "unitId": "ioi-g-lilanz",
+   "poiId": "693f7a1c535105ba8b804dc2",
    "unitNumber": "G-45700_26646",
    "name": "LILANZ",
    "category": "Fashion",
@@ -12915,6 +13556,7 @@
   },
   {
    "unitId": "ioi-g-new-era",
+   "poiId": "68940430535105b285e2222c",
    "unitNumber": "G-45974_28364",
    "name": "New Era",
    "category": "Ladies Fashion",
@@ -12930,6 +13572,7 @@
   },
   {
    "unitId": "ioi-g-g-34",
+   "poiId": "672b2d465351051c3ee4d95f",
    "unitNumber": "G-34",
    "name": "Smiggle",
    "category": "Gifts & Souvenirs",
@@ -12949,6 +13592,7 @@
   },
   {
    "unitId": "ioi-g-g-33",
+   "poiId": "68944f1e535105b285e2223b",
    "unitNumber": "G-33",
    "name": "Birkenstock",
    "category": "Bag & Leather Goods",
@@ -12968,6 +13612,7 @@
   },
   {
    "unitId": "ioi-g-g30-5",
+   "poiId": "672b359e5351051c3ee4de7e",
    "unitNumber": "G30-5",
    "name": "Padini Concept Store",
    "category": "Ladies & Men Fashion",
@@ -12987,6 +13632,7 @@
   },
   {
    "unitId": "ioi-g-lg-11",
+   "poiId": "68944ef8535105b285e2223a",
    "unitNumber": "LG - 11",
    "name": "Irama Signature",
    "category": "Food & Beverages",
@@ -13006,6 +13652,7 @@
   },
   {
    "unitId": "ioi-g-ge-8",
+   "poiId": "672b30965351051c3ee4dbaa",
    "unitNumber": "GE-8",
    "name": "Thong Bowl & Thong Cha",
    "category": "Café & Restaurant",
@@ -13029,6 +13676,7 @@
   },
   {
    "unitId": "ioi-g-ge9-2",
+   "poiId": "6a3c872b535105480489a541",
    "unitNumber": "GE9-2",
    "name": "JP & Co",
    "category": "Food & Beverages",
@@ -13048,6 +13696,7 @@
   },
   {
    "unitId": "ioi-g-59377-31415-0",
+   "poiId": null,
    "unitNumber": "G-59377_31415",
    "name": "Unit ?",
    "category": "Details under review",
@@ -13063,6 +13712,7 @@
   },
   {
    "unitId": "ioi-g-g-k1d",
+   "poiId": "672b2cff5351051c3ee4d8ae",
    "unitNumber": "G-K1D",
    "name": "Rabanne",
    "category": "Beauty, Skincare & Perfumery",
@@ -13082,6 +13732,7 @@
   },
   {
    "unitId": "ioi-g-ge-18",
+   "poiId": "672b2fd15351051c3ee4d9cf",
    "unitNumber": "GE-18",
    "name": "ThaiKor BBQ",
    "category": "Café & Restaurant",
@@ -13101,6 +13752,7 @@
   },
   {
    "unitId": "ioi-g-g-78a",
+   "poiId": "672b3cd15351052ffe16d88e",
    "unitNumber": "G-78A",
    "name": "Jo Malone London",
    "category": "Beauty, Skincare & Perfumery",
@@ -13124,6 +13776,7 @@
   },
   {
    "unitId": "ioi-g-rituals",
+   "poiId": "672b2fee5351051c3ee4da15",
    "unitNumber": "G-29022_27038",
    "name": "Rituals",
    "category": "Beauty, Skincare & Perfumery",
@@ -13139,6 +13792,7 @@
   },
   {
    "unitId": "ioi-g-g-76",
+   "poiId": "672b30735351051c3ee4db55",
    "unitNumber": "G-76",
    "name": "Aesop",
    "category": "Beauty, Skincare & Perfumery",
@@ -13158,6 +13812,7 @@
   },
   {
    "unitId": "ioi-g-g-73b",
+   "poiId": "672b30305351051c3ee4dab9",
    "unitNumber": "G-73B",
    "name": "Seen",
    "category": "Optical & Eyewear",
@@ -13177,6 +13832,7 @@
   },
   {
    "unitId": "ioi-g-g-74a",
+   "poiId": "672b31765351051c3ee4ddd3",
    "unitNumber": "G-74A",
    "name": "Timekeeper",
    "category": "Timepiece",
@@ -13196,6 +13852,7 @@
   },
   {
    "unitId": "ioi-g-g-74b",
+   "poiId": "672b30f85351051c3ee4dc95",
    "unitNumber": "G-74B",
    "name": "Tissot",
    "category": "Timepiece",
@@ -13215,6 +13872,7 @@
   },
   {
    "unitId": "ioi-g-molton-brown",
+   "poiId": "672b3da55351052ffe16da86",
    "unitNumber": "G-26797_26762",
    "name": "Molton Brown",
    "category": "Beauty, Skincare & Perfumery",
@@ -13234,6 +13892,7 @@
   },
   {
    "unitId": "ioi-g-g-77",
+   "poiId": "672b3d3e5351052ffe16d993",
    "unitNumber": "G-77",
    "name": "BYD",
    "category": "Automotive",
@@ -13253,6 +13912,7 @@
   },
   {
    "unitId": "ioi-g-g-60",
+   "poiId": "6775f1be53510545ec954d93",
    "unitNumber": "G-60",
    "name": "JeMels Atelier",
    "category": "Fashion",
@@ -13272,6 +13932,7 @@
   },
   {
    "unitId": "ioi-g-g-59",
+   "poiId": "672b2fed5351051c3ee4da0f",
    "unitNumber": "G-59",
    "name": "Machines",
    "category": "Digital Lifestyle",
@@ -13291,6 +13952,7 @@
   },
   {
    "unitId": "ioi-g-16990-15483-0",
+   "poiId": null,
    "unitNumber": "G-16990_15483",
    "name": "Unit ?",
    "category": "Details under review",
@@ -13306,9 +13968,11 @@
   },
   {
    "unitId": "ioi-g-g-58a",
+   "poiId": "672b316d5351051c3ee4ddbe",
    "unitNumber": "G-58A",
-   "name": "Watsons Pink (Coming Soon)",
+   "name": "Watsons Pink",
    "category": "Beauty",
+   "comingSoon": true,
    "description": null,
    "phone": null,
    "website": null,
@@ -13325,6 +13989,7 @@
   },
   {
    "unitId": "ioi-g-g-57",
+   "poiId": "672b30675351051c3ee4db3c",
    "unitNumber": "G-57",
    "name": "Charles & Keith",
    "category": "Footwear",
@@ -13344,6 +14009,7 @@
   },
   {
    "unitId": "ioi-g-g-57a",
+   "poiId": "672b3dbb5351052ffe16dabc",
    "unitNumber": "G-57A",
    "name": "Timberland",
    "category": "Ladies & Men Fashion",
@@ -13363,6 +14029,7 @@
   },
   {
    "unitId": "ioi-g-g-56",
+   "poiId": "672b35b85351051c3ee4debc",
    "unitNumber": "G-56",
    "name": "TM Money Exchange",
    "category": "Money Changer",
@@ -13382,6 +14049,7 @@
   },
   {
    "unitId": "ioi-g-victoria-s-secret",
+   "poiId": "672b3d265351052ffe16d955",
    "unitNumber": "G-23943_18752",
    "name": "Victoria's Secret",
    "category": "Beauty, Skincare & Perfumery",
@@ -13401,6 +14069,7 @@
   },
   {
    "unitId": "ioi-g-g-53b",
+   "poiId": "672b3da85351052ffe16da8c",
    "unitNumber": "G-53B",
    "name": "Lovisa",
    "category": "Accessories",
@@ -13420,6 +14089,7 @@
   },
   {
    "unitId": "ioi-g-g-52b-53a",
+   "poiId": "672b2d6b5351051c3ee4d9b5",
    "unitNumber": "G-52B&53A",
    "name": "Kiehl's",
    "category": "Beauty, Skincare & Perfumery",
@@ -13439,6 +14109,7 @@
   },
   {
    "unitId": "ioi-g-g-52a",
+   "poiId": "672b313d5351051c3ee4dd41",
    "unitNumber": "G-52A",
    "name": "The Body Shop",
    "category": "Beauty, Skincare & Perfumery",
@@ -13458,6 +14129,7 @@
   },
   {
    "unitId": "ioi-g-g-51",
+   "poiId": "672b35655351051c3ee4ddfc",
    "unitNumber": "G-51",
    "name": "Aape",
    "category": "Fashion",
@@ -13477,6 +14149,7 @@
   },
   {
    "unitId": "ioi-g-g-50",
+   "poiId": "672b2ffd5351051c3ee4da3b",
    "unitNumber": "G-50",
    "name": "Yves Saint Laurent",
    "category": "Beauty, Skincare & Perfumery",
@@ -13496,6 +14169,7 @@
   },
   {
    "unitId": "ioi-g-g-49",
+   "poiId": "672b3dba5351052ffe16dabb",
    "unitNumber": "G-49",
    "name": "Godiva Café",
    "category": "Details under review",
@@ -13515,6 +14189,7 @@
   },
   {
    "unitId": "ioi-g-g-48a",
+   "poiId": "672b3cc95351052ffe16d87a",
    "unitNumber": "G-48A",
    "name": "Patchi",
    "category": "Food & Beverages",
@@ -13534,6 +14209,7 @@
   },
   {
    "unitId": "ioi-g-ge-3b",
+   "poiId": "672b30115351051c3ee4da73",
    "unitNumber": "GE-3B",
    "name": "Dotty'S Pastries & Coffee",
    "category": "Café & Restaurant",
@@ -13552,26 +14228,24 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-salad-atelier",
+   "unitId": "ioi-g-28815-17919-0",
+   "poiId": null,
    "unitNumber": "G-28815_17919",
-   "name": "Salad Atelier",
-   "category": "Café & Restaurant",
-   "description": "Salad Atelier offers a variety of healthier Asian Fusion, Western and local dishes.",
+   "name": "Unit ?",
+   "category": "Details under review",
+   "description": null,
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": "/ioi/logos/27ce1de8-5066-44d3-96a3-291a4f1b3b13.png",
-   "logo": {
-    "src": "/ioi/logos/27ce1de8-5066-44d3-96a3-291a4f1b3b13.png",
-    "w": 256,
-    "h": 112
-   },
+   "thumb": null,
+   "logo": null,
    "photo": null,
    "hours": null,
    "floorLabel": "Ground"
   },
   {
    "unitId": "ioi-g-ge-2",
+   "poiId": "6757a22c53510545ec9546eb",
    "unitNumber": "GE-2",
    "name": "CHAGEE (Flagship Store)",
    "category": "Details under review",
@@ -13591,6 +14265,7 @@
   },
   {
    "unitId": "ioi-g-ge-1",
+   "poiId": "672b35695351051c3ee4de07",
    "unitNumber": "GE-1",
    "name": "Khawaja Middle Eastern Restaurant",
    "category": "Food & Beverages",
@@ -13610,6 +14285,7 @@
   },
   {
    "unitId": "ioi-g-g-61-66",
+   "poiId": "672b30d35351051c3ee4dc30",
    "unitNumber": "G-61-66",
    "name": "Decathlon",
    "category": "Details under review",
@@ -13629,6 +14305,7 @@
   },
   {
    "unitId": "ioi-g-g-73a",
+   "poiId": "6a4bd98b535105480489b543",
    "unitNumber": "G-73A",
    "name": "Amaris",
    "category": "Beauty",
@@ -13648,6 +14325,7 @@
   },
   {
    "unitId": "ioi-g-g-72a",
+   "poiId": "672b30645351051c3ee4db39",
    "unitNumber": "G-72A",
    "name": "Staccato",
    "category": "Footwear",
@@ -13667,6 +14345,7 @@
   },
   {
    "unitId": "ioi-g-g-72",
+   "poiId": "672b30935351051c3ee4dba6",
    "unitNumber": "G-72",
    "name": "Clarks",
    "category": "Footwear",
@@ -13686,6 +14365,7 @@
   },
   {
    "unitId": "ioi-g-g-71-71",
+   "poiId": "672b30215351051c3ee4da95",
    "unitNumber": "G-71&71",
    "name": "Bath & Body Works",
    "category": "Beauty, Skincare & Perfumery",
@@ -13705,6 +14385,7 @@
   },
   {
    "unitId": "ioi-g-g-68",
+   "poiId": "672b2d2e5351051c3ee4d927",
    "unitNumber": "G-68",
    "name": "Benjamin Barker",
    "category": "Details under review",
@@ -13724,18 +14405,19 @@
   },
   {
    "unitId": "ioi-g-g-67",
+   "poiId": "6acf578353510529d62ed2b3",
    "unitNumber": "G-67",
-   "name": "Amber",
+   "name": "Cabbeen",
    "category": "Fashion",
-   "description": "Amber Officials is a contemporary modest fashion brand that blends traditional elegance with modern design. Known for its refined silhouettes and premium fabrics, Amber offers a wide range of stylish outfits for both men and women, perfect for festive occasions and everyday wear.\n\nEach collection reflects a harmonious balance of cultural heritage and modern sophistication, with thoughtfully crafted pieces designed for comfort, versatility, and timeless appeal.",
+   "description": null,
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": "/ioi/logos/35ca9eea-2f29-49aa-8895-57396aa97bba.png",
+   "thumb": "/ioi/logos/09d1d113-a806-4d06-91e8-fb0287286d6e.png",
    "logo": {
-    "src": "/ioi/logos/35ca9eea-2f29-49aa-8895-57396aa97bba.png",
+    "src": "/ioi/logos/09d1d113-a806-4d06-91e8-fb0287286d6e.png",
     "w": 256,
-    "h": 36
+    "h": 256
    },
    "photo": null,
    "hours": null,
@@ -13743,6 +14425,7 @@
   },
   {
    "unitId": "ioi-g-parkson",
+   "poiId": "673eb22453510545ec954200",
    "unitNumber": "G-10992_25273",
    "name": "Parkson",
    "category": "Departmental Stores",
@@ -13762,6 +14445,7 @@
   },
   {
    "unitId": "ioi-g-aldo",
+   "poiId": "672b3d795351052ffe16da19",
    "unitNumber": "G-18656_22182",
    "name": "Aldo",
    "category": "Footwear",
@@ -13781,6 +14465,7 @@
   },
   {
    "unitId": "ioi-g-the-ordinary",
+   "poiId": "6882fe3f535105b285e2164c",
    "unitNumber": "G-42720_30871",
    "name": "The Ordinary",
    "category": "Beauty",
@@ -13800,6 +14485,7 @@
   },
   {
    "unitId": "ioi-g-g-9a",
+   "poiId": "672b3d735351052ffe16da0e",
    "unitNumber": "G-9A",
    "name": "Laneige",
    "category": "Beauty, Skincare & Perfumery",
@@ -13819,6 +14505,7 @@
   },
   {
    "unitId": "ioi-g-g-8a",
+   "poiId": "672b3d225351052ffe16d94c",
    "unitNumber": "G-8A",
    "name": "Typo",
    "category": "Gifts & Souvenirs",
@@ -13838,6 +14525,7 @@
   },
   {
    "unitId": "ioi-g-g-7",
+   "poiId": "672b3cd35351052ffe16d894",
    "unitNumber": "G-7",
    "name": "Lush Fresh Handmade Cosmetics",
    "category": "Beauty, Skincare & Perfumery",
@@ -13857,6 +14545,7 @@
   },
   {
    "unitId": "ioi-g-g5-2",
+   "poiId": "672b2fd25351051c3ee4d9d0",
    "unitNumber": "G5-2",
    "name": "innisfree",
    "category": "Beauty, Skincare & Perfumery",
@@ -13876,6 +14565,7 @@
   },
   {
    "unitId": "ioi-g-g-4",
+   "poiId": "672b31655351051c3ee4ddab",
    "unitNumber": "G-4",
    "name": "Klinik Mediviron",
    "category": "Clinic, Medical & Dental",
@@ -13895,6 +14585,7 @@
   },
   {
    "unitId": "ioi-g-g-8b",
+   "poiId": "672b31725351051c3ee4ddcb",
    "unitNumber": "G-8B",
    "name": "Nike",
    "category": "Ladies & Men Fashion",
@@ -13914,6 +14605,7 @@
   },
   {
    "unitId": "ioi-g-g-10",
+   "poiId": "672b2fd05351051c3ee4d9c9",
    "unitNumber": "G-10",
    "name": "H&M",
    "category": "Ladies & Men Fashion",
@@ -13937,6 +14629,7 @@
   },
   {
    "unitId": "ioi-g-g11-3",
+   "poiId": "672b3d225351052ffe16d94b",
    "unitNumber": "G11-3",
    "name": "Uniqlo",
    "category": "Ladies & Men Fashion",
@@ -13959,42 +14652,9 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-g-13a",
-   "unitNumber": "G-13A",
-   "name": "Eichitoo",
-   "category": "Fashion",
-   "description": null,
-   "phone": null,
-   "website": null,
-   "tenantKey": null,
-   "thumb": "/ioi/logos/c462ddbe-0551-4839-bce7-5044e329795c.jpg",
-   "logo": {
-    "src": "/ioi/logos/c462ddbe-0551-4839-bce7-5044e329795c.jpg",
-    "w": 256,
-    "h": 131
-   },
-   "photo": null,
-   "hours": null,
-   "floorLabel": "Ground"
-  },
-  {
-   "unitId": "ioi-g-56506-35840-0",
-   "unitNumber": "G-56506_35840",
-   "name": "Unit ?",
-   "category": "Details under review",
-   "description": null,
-   "phone": null,
-   "website": null,
-   "tenantKey": null,
-   "thumb": null,
-   "logo": null,
-   "photo": null,
-   "hours": null,
-   "floorLabel": "Ground"
-  },
-  {
-   "unitId": "ioi-g-54573-36564-0",
-   "unitNumber": "G-54573_36564",
+   "unitId": "ioi-g-54575-36878-0",
+   "poiId": null,
+   "unitNumber": "G-54575_36878",
    "name": "Unit ?",
    "category": "Details under review",
    "description": null,
@@ -14009,6 +14669,7 @@
   },
   {
    "unitId": "ioi-g-kipling",
+   "poiId": "6892acf8535105b285e22066",
    "unitNumber": "G-60329_33463",
    "name": "Kipling",
    "category": "Bag & Leather Goods",
@@ -14028,6 +14689,7 @@
   },
   {
    "unitId": "ioi-g-g-16-17",
+   "poiId": "672b2d005351051c3ee4d8b2",
    "unitNumber": "G-16&17",
    "name": "MUJI 無印良品",
    "category": "Home & Living",
@@ -14047,6 +14709,7 @@
   },
   {
    "unitId": "ioi-g-g-239a",
+   "poiId": "672b311b5351051c3ee4dce8",
    "unitNumber": "G-239A",
    "name": "JD Sports",
    "category": "Sports Wear",
@@ -14066,6 +14729,7 @@
   },
   {
    "unitId": "ioi-g-ge-244",
+   "poiId": "672b3dbc5351052ffe16dabf",
    "unitNumber": "GE-244",
    "name": "CHERY",
    "category": "Automotive",
@@ -14085,6 +14749,7 @@
   },
   {
    "unitId": "ioi-g-g-241-243",
+   "poiId": "672b315e5351051c3ee4dd97",
    "unitNumber": "G-241-243",
    "name": "Swiss Watch",
    "category": "Timepiece",
@@ -14104,6 +14769,7 @@
   },
   {
    "unitId": "ioi-g-g-239b-240",
+   "poiId": "672b3d455351052ffe16d9a5",
    "unitNumber": "G-239B&240",
    "name": "MLB",
    "category": "Sports Wear",
@@ -14122,27 +14788,9 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-g-223",
-   "unitNumber": "G-223",
-   "name": "Chow Tai Fook",
-   "category": "Jewellery",
-   "description": "Founded in 1929, CHOW TAI FOOK has been widely recognised for its trustworthiness and authenticity, and is renowned for its product design, quality and value. To meet different consumer needs, CHOW TAI FOOK offers a better customer experience also a wide variety of products, services and channels for different lifestyles and personalities, as well as customers' important life stages.",
-   "phone": null,
-   "website": null,
-   "tenantKey": null,
-   "thumb": "/ioi/logos/f5c631e2-00a6-4967-9f50-0c29c479e0cc.jpg",
-   "logo": {
-    "src": "/ioi/logos/f5c631e2-00a6-4967-9f50-0c29c479e0cc.jpg",
-    "w": 256,
-    "h": 160
-   },
-   "photo": null,
-   "hours": null,
-   "floorLabel": "Ground"
-  },
-  {
-   "unitId": "ioi-g-90361-26157-0",
-   "unitNumber": "G-90361_26157",
+   "unitId": "ioi-g-89231-26857-0",
+   "poiId": null,
+   "unitNumber": "G-89231_26857",
    "name": "Unit ?",
    "category": "Details under review",
    "description": null,
@@ -14157,6 +14805,7 @@
   },
   {
    "unitId": "ioi-g-g-221",
+   "poiId": "672b303a5351051c3ee4dacf",
    "unitNumber": "G-221",
    "name": "Levi's",
    "category": "Ladies & Men Fashion",
@@ -14176,6 +14825,7 @@
   },
   {
    "unitId": "ioi-g-93036-26210-0",
+   "poiId": "672b3da25351052ffe16da7e",
    "unitNumber": "G-93036_26210",
    "name": "Unit ?",
    "category": "No Category",
@@ -14191,6 +14841,7 @@
   },
   {
    "unitId": "ioi-g-ge-215",
+   "poiId": "672b312f5351051c3ee4dd1e",
    "unitNumber": "GE-215",
    "name": "OGA",
    "category": "Details under review",
@@ -14209,26 +14860,8 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-ge-213-214",
-   "unitNumber": "GE-213&214",
-   "name": "La Mesa",
-   "category": "Café & Restaurant",
-   "description": "La Mesa Tapas & Bar - a modern and contemporary Spanish restaurant.",
-   "phone": null,
-   "website": null,
-   "tenantKey": null,
-   "thumb": "/ioi/logos/c7fc81d8-326b-4451-b45a-54f78049e813.jpg",
-   "logo": {
-    "src": "/ioi/logos/c7fc81d8-326b-4451-b45a-54f78049e813.jpg",
-    "w": 256,
-    "h": 256
-   },
-   "photo": null,
-   "hours": "10AM - 10PM",
-   "floorLabel": "Ground"
-  },
-  {
    "unitId": "ioi-g-ge-209",
+   "poiId": "672b35675351051c3ee4de00",
    "unitNumber": "GE-209",
    "name": "Ticco",
    "category": "Café & Restaurant",
@@ -14248,6 +14881,7 @@
   },
   {
    "unitId": "ioi-g-ge-210",
+   "poiId": "672b2d1c5351051c3ee4d8f8",
    "unitNumber": "GE-210",
    "name": "Mokky's With Flaaah",
    "category": "Food & Beverages",
@@ -14263,6 +14897,7 @@
   },
   {
    "unitId": "ioi-g-ge-211-212",
+   "poiId": "672b3dab5351052ffe16da94",
    "unitNumber": "GE-211&212",
    "name": "Lavish",
    "category": "Details under review",
@@ -14281,26 +14916,96 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-g-224-225",
-   "unitNumber": "G-224 & 225",
-   "name": "Mango",
-   "category": "Ladies Fashion",
-   "description": "Discover Mediterranean style and culture at MANGO.",
+   "unitId": "ioi-g-ge-213-214",
+   "poiId": "672b31205351051c3ee4dcf7",
+   "unitNumber": "GE-213&214",
+   "name": "La Mesa",
+   "category": "Café & Restaurant",
+   "description": "La Mesa Tapas & Bar - a modern and contemporary Spanish restaurant.",
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": "/ioi/logos/e65355ad-2ad4-4127-9afb-424f97f8598f.png",
+   "thumb": "/ioi/logos/c7fc81d8-326b-4451-b45a-54f78049e813.jpg",
    "logo": {
-    "src": "/ioi/logos/e65355ad-2ad4-4127-9afb-424f97f8598f.png",
+    "src": "/ioi/logos/c7fc81d8-326b-4451-b45a-54f78049e813.jpg",
     "w": 256,
-    "h": 60
+    "h": 256
+   },
+   "photo": null,
+   "hours": "10AM - 10PM",
+   "floorLabel": "Ground"
+  },
+  {
+   "unitId": "ioi-g-90361-26157-0",
+   "poiId": null,
+   "unitNumber": "G-90361_26157",
+   "name": "Unit ?",
+   "category": "Details under review",
+   "description": null,
+   "phone": null,
+   "website": null,
+   "tenantKey": null,
+   "thumb": null,
+   "logo": null,
+   "photo": null,
+   "hours": null,
+   "floorLabel": "Ground"
+  },
+  {
+   "unitId": "ioi-g-g-223",
+   "poiId": "674d292253510545ec9545f3",
+   "unitNumber": "G-223",
+   "name": "Chow Tai Fook",
+   "category": "Jewellery",
+   "description": "Founded in 1929, CHOW TAI FOOK has been widely recognised for its trustworthiness and authenticity, and is renowned for its product design, quality and value. To meet different consumer needs, CHOW TAI FOOK offers a better customer experience also a wide variety of products, services and channels for different lifestyles and personalities, as well as customers' important life stages.",
+   "phone": null,
+   "website": null,
+   "tenantKey": null,
+   "thumb": "/ioi/logos/f5c631e2-00a6-4967-9f50-0c29c479e0cc.jpg",
+   "logo": {
+    "src": "/ioi/logos/f5c631e2-00a6-4967-9f50-0c29c479e0cc.jpg",
+    "w": 256,
+    "h": 160
    },
    "photo": null,
    "hours": null,
    "floorLabel": "Ground"
   },
   {
+   "unitId": "ioi-g-86732-26364-0",
+   "poiId": null,
+   "unitNumber": "G-86732_26364",
+   "name": "Unit ?",
+   "category": "Details under review",
+   "description": null,
+   "phone": null,
+   "website": null,
+   "tenantKey": null,
+   "thumb": null,
+   "logo": null,
+   "photo": null,
+   "hours": null,
+   "floorLabel": "Ground"
+  },
+  {
+   "unitId": "ioi-g-85102-26367-0",
+   "poiId": null,
+   "unitNumber": "G-85102_26367",
+   "name": "Unit ?",
+   "category": "Details under review",
+   "description": null,
+   "phone": null,
+   "website": null,
+   "tenantKey": null,
+   "thumb": null,
+   "logo": null,
+   "photo": null,
+   "hours": null,
+   "floorLabel": "Ground"
+  },
+  {
    "unitId": "ioi-g-g-226",
+   "poiId": "672b3cbc5351052ffe16d85b",
    "unitNumber": "G-226",
    "name": "Melissa Clube",
    "category": "Footwear",
@@ -14320,6 +15025,7 @@
   },
   {
    "unitId": "ioi-g-91208-33523-0",
+   "poiId": null,
    "unitNumber": "G-91208_33523",
    "name": "Unit ?",
    "category": "Details under review",
@@ -14335,6 +15041,7 @@
   },
   {
    "unitId": "ioi-g-g-213-214",
+   "poiId": "672b31685351051c3ee4ddaf",
    "unitNumber": "G-213&214",
    "name": "iORA",
    "category": "Ladies Fashion",
@@ -14354,6 +15061,7 @@
   },
   {
    "unitId": "ioi-g-chj-jewellery",
+   "poiId": "6753ce2c53510545ec9546b8",
    "unitNumber": "G-87725_32039",
    "name": "CHJ Jewellery",
    "category": "Jewellery",
@@ -14373,6 +15081,7 @@
   },
   {
    "unitId": "ioi-g-g-211",
+   "poiId": "672b30635351051c3ee4db36",
    "unitNumber": "G-211",
    "name": "Diamond & Platinum",
    "category": "Jewellery",
@@ -14392,6 +15101,7 @@
   },
   {
    "unitId": "ioi-g-g-210",
+   "poiId": "672b2fe75351051c3ee4da06",
    "unitNumber": "G-210",
    "name": "Fossil",
    "category": "Footwear",
@@ -14411,6 +15121,7 @@
   },
   {
    "unitId": "ioi-g-g-209",
+   "poiId": "672b305c5351051c3ee4db22",
    "unitNumber": "G-209",
    "name": "Fred Perry",
    "category": "Ladies & Men Fashion",
@@ -14430,6 +15141,7 @@
   },
   {
    "unitId": "ioi-g-g-208",
+   "poiId": "672b30905351051c3ee4db9c",
    "unitNumber": "G-208",
    "name": "Tommy Hilfiger",
    "category": "Ladies & Men Fashion",
@@ -14449,6 +15161,7 @@
   },
   {
    "unitId": "ioi-g-g-207",
+   "poiId": "672b35c05351051c3ee4decc",
    "unitNumber": "G-207",
    "name": "Tumi",
    "category": "Bag & Leather Goods",
@@ -14468,6 +15181,7 @@
   },
   {
    "unitId": "ioi-g-aigner",
+   "poiId": "672b35af5351051c3ee4dea8",
    "unitNumber": "G-73123_31459",
    "name": "Aigner",
    "category": "Jewellery",
@@ -14487,6 +15201,7 @@
   },
   {
    "unitId": "ioi-g-g-245",
+   "poiId": "672b3cf65351052ffe16d8e6",
    "unitNumber": "G-245",
    "name": "The Cayman Tailor",
    "category": "Men Fashion",
@@ -14506,6 +15221,7 @@
   },
   {
    "unitId": "ioi-g-g-202",
+   "poiId": "672b35965351051c3ee4de69",
    "unitNumber": "G-202",
    "name": "Lululemon",
    "category": "Sports Wear",
@@ -14524,10 +15240,12 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-opening-soon",
+   "unitId": "ioi-g-78019-31985-0",
+   "poiId": "6985990753510502c6da32cd",
    "unitNumber": "G-78019_31985",
-   "name": "Opening Soon",
+   "name": "New shop",
    "category": "No Category",
+   "comingSoon": true,
    "description": null,
    "phone": null,
    "website": null,
@@ -14540,6 +15258,7 @@
   },
   {
    "unitId": "ioi-g-ge-15",
+   "poiId": "672b30075351051c3ee4da59",
    "unitNumber": "GE-15",
    "name": "Amalfi",
    "category": "Food & Beverages",
@@ -14559,6 +15278,7 @@
   },
   {
    "unitId": "ioi-g-ge-16",
+   "poiId": "672b30175351051c3ee4da83",
    "unitNumber": "GE-16",
    "name": "CU",
    "category": "Convenience Store",
@@ -14578,6 +15298,7 @@
   },
   {
    "unitId": "ioi-g-78627-28381-0",
+   "poiId": null,
    "unitNumber": "G-78627_28381",
    "name": "Unit ?",
    "category": "Details under review",
@@ -14593,6 +15314,7 @@
   },
   {
    "unitId": "ioi-g-61268-31415-0",
+   "poiId": null,
    "unitNumber": "G-61268_31415",
    "name": "Unit ?",
    "category": "Details under review",
@@ -14608,6 +15330,7 @@
   },
   {
    "unitId": "ioi-g-57535-31415-0",
+   "poiId": null,
    "unitNumber": "G-57535_31415",
    "name": "Unit ?",
    "category": "Details under review",
@@ -14622,10 +15345,12 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-opening-soon-136",
+   "unitId": "ioi-g-92231-28722-0",
+   "poiId": "672b3dc15351052ffe16dace",
    "unitNumber": "G-92231_28722",
-   "name": "Opening Soon",
+   "name": "New shop",
    "category": "No Category",
+   "comingSoon": true,
    "description": null,
    "phone": null,
    "website": null,
@@ -14638,6 +15363,7 @@
   },
   {
    "unitId": "ioi-g-pokok",
+   "poiId": "672b3d725351052ffe16da08",
    "unitNumber": "G-63458_21558",
    "name": "POKOK",
    "category": "Café & Restaurant",
@@ -14657,6 +15383,7 @@
   },
   {
    "unitId": "ioi-g-g-26",
+   "poiId": "672b3d1f5351052ffe16d947",
    "unitNumber": "G-26",
    "name": "K Fry Urban Korean",
    "category": "Café & Restaurant",
@@ -14676,6 +15403,7 @@
   },
   {
    "unitId": "ioi-g-g24-2",
+   "poiId": "672b2d685351051c3ee4d9af",
    "unitNumber": "G24-2",
    "name": "F.O.S",
    "category": "Ladies & Men Fashion",
@@ -14695,6 +15423,7 @@
   },
   {
    "unitId": "ioi-g-g-236",
+   "poiId": "69e1d6ad5351054b1d1ffd0c",
    "unitNumber": "G-236",
    "name": "Calvin Klein",
    "category": "Ladies Fashion",
@@ -14714,6 +15443,7 @@
   },
   {
    "unitId": "ioi-g-g-237",
+   "poiId": "6a4be0b5535105480489b54f",
    "unitNumber": "G-237",
    "name": "Foot Locker",
    "category": "Sports Wear",
@@ -14733,9 +15463,11 @@
   },
   {
    "unitId": "ioi-g-ge202-2",
+   "poiId": "6a759dda53510529d62e896d",
    "unitNumber": "GE202-2",
-   "name": "Giraffe Cafe (Coming Soon)",
+   "name": "Giraffe Cafe",
    "category": "Food & Beverages",
+   "comingSoon": true,
    "description": null,
    "phone": null,
    "website": null,
@@ -14748,6 +15480,7 @@
   },
   {
    "unitId": "ioi-g-g-23",
+   "poiId": "672b2d5b5351051c3ee4d98e",
    "unitNumber": "G-23",
    "name": "Barry Smith",
    "category": "Footwear",
@@ -14767,6 +15500,7 @@
   },
   {
    "unitId": "ioi-g-g-22",
+   "poiId": "69859b4f53510502c6da32d6",
    "unitNumber": "G-22",
    "name": "MS. READ",
    "category": "Fashion",
@@ -14786,6 +15520,7 @@
   },
   {
    "unitId": "ioi-g-g20-2",
+   "poiId": "69859b7d53510502c6da32d7",
    "unitNumber": "G20-2",
    "name": "HLA Concept Store",
    "category": "Fashion",
@@ -14805,6 +15540,7 @@
   },
   {
    "unitId": "ioi-g-lacoste",
+   "poiId": "69859b8c53510502c6da32d8",
    "unitNumber": "G-59601_29160",
    "name": "Lacoste",
    "category": "Accessories",
@@ -14823,10 +15559,12 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-opening-soon-147",
+   "unitId": "ioi-g-60558-28235-0",
+   "poiId": "698d8b6353510502c6da3a75",
    "unitNumber": "G-60558_28235",
-   "name": "Opening Soon",
+   "name": "New shop",
    "category": "No Category",
+   "comingSoon": true,
    "description": null,
    "phone": null,
    "website": null,
@@ -14839,6 +15577,7 @@
   },
   {
    "unitId": "ioi-g-g-238",
+   "poiId": "672b3df05351052ffe16db3c",
    "unitNumber": "G-238",
    "name": "Optometris Anggun",
    "category": "Optical & Eyewear",
@@ -14858,6 +15597,7 @@
   },
   {
    "unitId": "ioi-g-g-1",
+   "poiId": "672b35ae5351051c3ee4dea5",
    "unitNumber": "G-1",
    "name": "Lancome",
    "category": "Beauty, Skincare & Perfumery",
@@ -14877,6 +15617,7 @@
   },
   {
    "unitId": "ioi-g-g-2",
+   "poiId": "672b3d625351052ffe16d9e4",
    "unitNumber": "G-2",
    "name": "Chanel",
    "category": "Beauty, Skincare & Perfumery",
@@ -14896,6 +15637,7 @@
   },
   {
    "unitId": "ioi-g-g-79",
+   "poiId": "672b356f5351051c3ee4de15",
    "unitNumber": "G-79",
    "name": "Wardrobe",
    "category": "Men Fashion",
@@ -14915,6 +15657,7 @@
   },
   {
    "unitId": "ioi-g-g-3b",
+   "poiId": "672b355d5351051c3ee4dde9",
    "unitNumber": "G-3B",
    "name": "Swatch",
    "category": "Timepiece",
@@ -14934,6 +15677,7 @@
   },
   {
    "unitId": "ioi-g-g-3a",
+   "poiId": "672b3dea5351052ffe16db2e",
    "unitNumber": "G-3A",
    "name": "Sephora",
    "category": "Beauty, Skincare & Perfumery",
@@ -14953,6 +15697,7 @@
   },
   {
    "unitId": "ioi-g-ge-205",
+   "poiId": "672b3da95351052ffe16da8f",
    "unitNumber": "GE-205",
    "name": "Dome",
    "category": "Café & Restaurant",
@@ -14971,26 +15716,24 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-g-230",
-   "unitNumber": "G-230",
-   "name": "ADLV",
-   "category": "Ladies & Men Fashion",
-   "description": "Trendy and vintage mood acmé de la vie 23F/W Collection. Feel the unique sensibility of acmé de la vie with retro creature artwork and colorful and bold color combinations.",
+   "unitId": "ioi-g-78722-24453-0",
+   "poiId": null,
+   "unitNumber": "G-78722_24453",
+   "name": "Unit ?",
+   "category": "Details under review",
+   "description": null,
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": "/ioi/logos/dc768dca-9743-4982-b46e-d06d5b536164.jpg",
-   "logo": {
-    "src": "/ioi/logos/dc768dca-9743-4982-b46e-d06d5b536164.jpg",
-    "w": 256,
-    "h": 256
-   },
+   "thumb": null,
+   "logo": null,
    "photo": null,
-   "hours": "10am - 10pm",
+   "hours": null,
    "floorLabel": "Ground"
   },
   {
    "unitId": "ioi-g-g-229c",
+   "poiId": "672b307a5351051c3ee4db6a",
    "unitNumber": "G-229C",
    "name": "Kate Spade",
    "category": "Footwear",
@@ -15010,6 +15753,7 @@
   },
   {
    "unitId": "ioi-g-b3-1-2",
+   "poiId": "672b35a05351051c3ee4de83",
    "unitNumber": "B3-1&2",
    "name": "myNEWS",
    "category": "Convenience Store",
@@ -15028,26 +15772,24 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-ge-207",
-   "unitNumber": "GE-207",
-   "name": "Ippudo",
-   "category": "Café & Restaurant",
-   "description": "IPPUDO’s tonkotsu ramen soup is devoid of the typical pork smell and leaves a light aftertaste. The selection of ingredients and customer-suited seasoning have captivated female patrons, enticing them to want it every day. IPPUDO was also a pioneer in colour-naming broths, such as Shiro (white) and Aka (red), which became industry standards. To this day, Shiromaru and Akamaru remain IPPUDO’s signature ramen.",
+   "unitId": "ioi-g-81243-22909-0",
+   "poiId": null,
+   "unitNumber": "G-81243_22909",
+   "name": "Unit ?",
+   "category": "Details under review",
+   "description": null,
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": "/ioi/logos/acfb4dc0-931a-473b-8c66-7435de0b58d6.png",
-   "logo": {
-    "src": "/ioi/logos/acfb4dc0-931a-473b-8c66-7435de0b58d6.png",
-    "w": 256,
-    "h": 256
-   },
+   "thumb": null,
+   "logo": null,
    "photo": null,
-   "hours": "10AM - 10PM",
+   "hours": null,
    "floorLabel": "Ground"
   },
   {
    "unitId": "ioi-g-g-229b",
+   "poiId": "672b31305351051c3ee4dd22",
    "unitNumber": "G-229B",
    "name": "Braun Buffel",
    "category": "Footwear",
@@ -15067,6 +15809,7 @@
   },
   {
    "unitId": "ioi-g-g-229a",
+   "poiId": "672b30b45351051c3ee4dbf3",
    "unitNumber": "G-229A",
    "name": "Coach",
    "category": "Footwear",
@@ -15086,6 +15829,7 @@
   },
   {
    "unitId": "ioi-g-ge-206",
+   "poiId": "672b30405351051c3ee4dade",
    "unitNumber": "GE-206",
    "name": "Ying Xian Canton Cuisine",
    "category": "Café & Restaurant",
@@ -15105,6 +15849,7 @@
   },
   {
    "unitId": "ioi-g-g-231",
+   "poiId": "672b3d325351052ffe16d972",
    "unitNumber": "G-231",
    "name": "Hackett London",
    "category": "Men Fashion",
@@ -15124,6 +15869,7 @@
   },
   {
    "unitId": "ioi-g-g-233",
+   "poiId": "672b308b5351051c3ee4db8d",
    "unitNumber": "G-233",
    "name": "Michael Kors",
    "category": "Ladies & Men Fashion",
@@ -15143,6 +15889,7 @@
   },
   {
    "unitId": "ioi-g-g-232",
+   "poiId": "672b30595351051c3ee4db1a",
    "unitNumber": "G-232",
    "name": "Rado",
    "category": "Timepiece",
@@ -15162,6 +15909,7 @@
   },
   {
    "unitId": "ioi-g-ge-204",
+   "poiId": "672b35865351051c3ee4de47",
    "unitNumber": "GE-204",
    "name": "Isabelle",
    "category": "Details under review",
@@ -15181,6 +15929,7 @@
   },
   {
    "unitId": "ioi-g-ge-203",
+   "poiId": "672b3d505351052ffe16d9be",
    "unitNumber": "GE-203",
    "name": "Cafe Chef Wan",
    "category": "Café & Restaurant",
@@ -15200,6 +15949,7 @@
   },
   {
    "unitId": "ioi-g-piquadro",
+   "poiId": "672b2d355351051c3ee4d939",
    "unitNumber": "G-69561_26451",
    "name": "Piquadro",
    "category": "Footwear",
@@ -15219,6 +15969,7 @@
   },
   {
    "unitId": "ioi-g-g-235",
+   "poiId": "672b2d335351051c3ee4d932",
    "unitNumber": "G-235",
    "name": "Steve Madden",
    "category": "Footwear",
@@ -15238,6 +15989,7 @@
   },
   {
    "unitId": "ioi-g-ge-217-218",
+   "poiId": "672b3d3c5351052ffe16d98b",
    "unitNumber": "GE-217&218",
    "name": "Kenny Hills Bakers",
    "category": "Details under review",
@@ -15257,6 +16009,7 @@
   },
   {
    "unitId": "ioi-g-ge-216",
+   "poiId": "672b30015351051c3ee4da49",
    "unitNumber": "GE-216",
    "name": "Awagyu Yakiniku",
    "category": "Café & Restaurant",
@@ -15276,6 +16029,7 @@
   },
   {
    "unitId": "ioi-g-proton-e-mas",
+   "poiId": "684fd4be53510535d6f06f3d",
    "unitNumber": "G-95572_24838",
    "name": "Proton e.MAS",
    "category": "Automotive",
@@ -15295,6 +16049,7 @@
   },
   {
    "unitId": "ioi-g-g-2at-2",
+   "poiId": "672b30c05351051c3ee4dc08",
    "unitNumber": "G-2AT-2",
    "name": "Aeon",
    "category": "Departmental Stores",
@@ -15313,10 +16068,12 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-opening-soon-173",
+   "unitId": "ioi-g-93830-31996-0",
+   "poiId": "68904b9a535105b285e21ed1",
    "unitNumber": "G-93830_31996",
-   "name": "Opening Soon",
+   "name": "New shop",
    "category": "No Category",
+   "comingSoon": true,
    "description": null,
    "phone": null,
    "website": null,
@@ -15329,6 +16086,7 @@
   },
   {
    "unitId": "ioi-g-g-216",
+   "poiId": "672b3d0c5351052ffe16d91a",
    "unitNumber": "G-216",
    "name": "ZCOVA",
    "category": "Jewellery",

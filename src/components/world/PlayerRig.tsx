@@ -7,21 +7,37 @@ import { Suspense, useCallback, useEffect, useMemo, useRef } from "react";
 import { Group, MathUtils, Vector3 } from "three";
 import {
   CAMERA_DIRECTION,
+  ESCALATOR_RISE,
+  ESCALATOR_RUN,
   ZOOM_MAX,
   ZOOM_MIN,
+  escalatorFootprint,
+  escalatorPoint,
+  getEscalators,
   getFloorPlan,
   getWallSegments,
+  nearestStandingPoint,
   planToWorld,
   spawnPoint,
+  unitEntrance,
 } from "@/lib/mall";
-import type { WallSegment } from "@/lib/mall";
+import { findPath, routeLength } from "@/lib/navigation";
+import type { Escalator, WallSegment } from "@/lib/mall";
 import { FemaleCharacter } from "./character/FemaleCharacter";
 import { MaleCharacter } from "./character/MaleCharacter";
 import type { CharacterLimbs } from "./character/types";
+import { RouteLine } from "./RouteLine";
+import type { RouteState } from "./RouteLine";
 import type { PlayerRigProps } from "./types";
 
 /** How close (world units; 1 = 2 m) the character must be to a lift for the up/down prompt. */
 const LIFT_RADIUS = 4.5;
+/** How close the character must be to an escalator's entry for the ride prompt. */
+const ESCALATOR_RADIUS = 2.4;
+/** Seconds the steps take to carry the character from bottom to top. */
+const RIDE_SECONDS = 2.2;
+/** Clearance kept from an escalator bank when walking round it to the entry. */
+const RIDE_CLEARANCE = 0.45;
 /** The level-picker pad sits this far from the spawn point, off the corridor. */
 const PAD_OFFSET_Z = -2.4;
 const PAD_RADIUS = 0.55;
@@ -29,6 +45,11 @@ const PAD_TRIGGER_DISTANCE = 0.8;
 const PAD_TRIGGER_DELAY = 0.4;
 
 const WALK_SPEED = 5.5;
+/** Holding Shift runs at this multiple of walking speed. */
+const SPRINT_MULTIPLIER = 1.8;
+const SPRINT_KEYS = ["ShiftLeft", "ShiftRight"];
+/** Routes longer than this (world units) are jogged at sprint pace instead of walked. */
+const AUTO_SPRINT_DISTANCE = 14;
 const EYE_TURN_SPEED = 2.4;
 const HEADING_LAMBDA = 12;
 const JUMP_VELOCITY = 5.2;
@@ -63,16 +84,30 @@ interface RigState {
   targetHeading: number;
   yaw: number;
   walkBlend: number;
+  /** 0 walking → 1 sprinting, eased so the stride doesn't snap. */
+  sprintBlend: number;
+  /** Accumulated stride phase in radians; drives arm and leg swing. */
+  gait: number;
+  /** An auto-walk to a shop is under way (so its end, or a cancel, is reported). */
+  walking: boolean;
+  /** The current auto-walk is long enough to jog. */
+  autoSprint: boolean;
+  /** Speed of the route being followed, used to trim the route line behind the character. */
+  routeSpeed: number;
   stepDistance: number;
   nearbyTimer: number;
   nearbyId: string | null;
   /** Index into the level's lifts of the one the character is beside, or -1. */
   nearLift: number;
+  /** Bank id of the escalators the character is beside, or -1. */
+  nearEscalator: number;
+  /** "approach" walks to the steps, "glide" stands still on them; input is ignored while riding. */
+  riding: "none" | "approach" | "glide";
   padTimer: number;
   padTriggered: boolean;
   jumpQueued: boolean;
-  tween: gsap.core.Tween | null;
-  proxy: { x: number; z: number };
+  tween: gsap.core.Animation | null;
+  proxy: { x: number; z: number; y: number };
   cameraReady: boolean;
   look: Vector3;
 }
@@ -87,15 +122,22 @@ function createRigState(): RigState {
     targetHeading: 0,
     yaw: 0,
     walkBlend: 0,
+    sprintBlend: 0,
+    gait: 0,
+    walking: false,
+    autoSprint: false,
+    routeSpeed: 0,
     stepDistance: 0,
     nearbyTimer: 0,
     nearbyId: null,
     nearLift: -1,
+    nearEscalator: -1,
+    riding: "none",
     padTimer: 0,
     padTriggered: false,
     jumpQueued: false,
     tween: null,
-    proxy: { x: 0, z: 0 },
+    proxy: { x: 0, z: 0, y: 0 },
     cameraReady: false,
     look: new Vector3(),
   };
@@ -154,6 +196,41 @@ function crossesWall(x0: number, z0: number, x1: number, z1: number, walls: Wall
   return false;
 }
 
+/** Appends one tween per route leg to `timeline`, at a constant `speed`, starting from route[0]. */
+function followRoute(timeline: gsap.core.Timeline, proxy: RigState["proxy"], route: [number, number][], speed: number) {
+  for (let i = 1; i < route.length; i++) {
+    const duration = Math.hypot(route[i][0] - route[i - 1][0], route[i][1] - route[i - 1][1]) / speed;
+    if (duration > 0.01) timeline.to(proxy, { x: route[i][0], z: route[i][1], duration, ease: "none" });
+  }
+}
+
+/**
+ * Walking route from (x, z) to an escalator's entry that goes round its bank rather than through the
+ * ramps or a floor opening: out to the bank's side, along it, then in to the entry.
+ */
+function rideApproach(x: number, z: number, target: Escalator, bank: Escalator[]): [number, number][] {
+  const c = Math.cos(target.angle);
+  const s = Math.sin(target.angle);
+  const toLocal = (wx: number, wz: number): [number, number] => [(wx - target.x) * c - (wz - target.z) * s, (wx - target.x) * s + (wz - target.z) * c];
+  const corners = bank.flatMap((e) => escalatorFootprint(e).map(([wx, wz]) => toLocal(wx, wz)));
+  const minX = Math.min(...corners.map((p) => p[0])) - RIDE_CLEARANCE;
+  const maxX = Math.max(...corners.map((p) => p[0])) + RIDE_CLEARANCE;
+  const minZ = Math.min(...corners.map((p) => p[1])) - RIDE_CLEARANCE;
+  const maxZ = Math.max(...corners.map((p) => p[1])) + RIDE_CLEARANCE;
+  const [lx, lz] = toLocal(x, z);
+  const entryZ = ESCALATOR_RUN / 2 + 0.6;
+  const inBox = (px: number, pz: number) => px > minX && px < maxX && pz > minZ && pz < maxZ;
+  let crosses = false;
+  for (let i = 1; i < 12 && !crosses; i++) crosses = inBox(lx + (0 - lx) * (i / 12), lz + (entryZ - lz) * (i / 12));
+  const route: [number, number][] = [];
+  if (crosses) {
+    const sideX = Math.abs(lx - minX) < Math.abs(lx - maxX) ? minX : maxX;
+    route.push(escalatorPoint(target, sideX, Math.min(lz, maxZ)), escalatorPoint(target, sideX, Math.max(maxZ, entryZ)));
+  }
+  route.push(target.entry);
+  return route;
+}
+
 /** Shortest signed angle from `from` to `to`, in (-PI, PI]. */
 function angleDelta(from: number, to: number): number {
   return MathUtils.euclideanModulo(to - from + Math.PI, Math.PI * 2) - Math.PI;
@@ -182,14 +259,22 @@ export function PlayerRig(props: PlayerRigProps) {
       footprint: plan.footprint.map((point) => planToWorld(point)),
       walls: getWallSegments(floor),
       lifts: plan.amenities.filter((amenity) => amenity.kind === "lift").map((amenity) => planToWorld(amenity.at)),
+      escalators: getEscalators(floor),
       corridor: plan.corridor.map((point) => planToWorld(point)),
       units: plan.units.map((unit) => {
         const [x, z] = planToWorld(unit.labelPoint);
-        return { id: unit.id, x, z };
+        return { id: unit.id, x, z, entrance: unitEntrance(unit) };
       }),
     };
   }, [floor]);
   const floorDataRef = useRef(floorData);
+  const routeRef = useRef<RouteState>({ points: null, version: 0, travelled: 0 });
+  const showRoute = useCallback((points: [number, number][] | null) => {
+    const route = routeRef.current;
+    route.points = points;
+    route.version++;
+    route.travelled = 0;
+  }, []);
 
   useEffect(() => {
     latest.current = props;
@@ -208,24 +293,18 @@ export function PlayerRig(props: PlayerRigProps) {
     const s = rig.current;
     s.tween?.kill();
     s.tween = null;
-    // After a lift ride, step out at the walkway point nearest that lift instead of the level spawn.
+    // After a lift or escalator ride, step out at the walkway point nearest where the ride ended.
     const arriveAt = latest.current.arriveAt;
-    let spawnX = floorData.spawn.x;
-    let spawnZ = floorData.spawn.z;
-    if (arriveAt && floorData.corridor.length > 0) {
-      let best = Infinity;
-      for (const [cx, cz] of floorData.corridor) {
-        const distance = Math.hypot(cx - arriveAt[0], cz - arriveAt[1]);
-        if (distance < best) {
-          best = distance;
-          spawnX = cx;
-          spawnZ = cz;
-        }
-      }
-    }
+    const [spawnX, spawnZ] = (arriveAt && nearestStandingPoint(floor, arriveAt)) ?? [floorData.spawn.x, floorData.spawn.z];
     s.x = spawnX;
     s.z = spawnZ;
+    s.walking = false;
+    s.routeSpeed = 0;
+    showRoute(null);
     s.nearLift = -1;
+    s.nearEscalator = -1;
+    s.riding = "none";
+    s.proxy.y = 0;
     s.y = 0;
     s.vy = 0;
     s.heading = 0;
@@ -234,31 +313,114 @@ export function PlayerRig(props: PlayerRigProps) {
     s.padTimer = 0;
     s.padTriggered = false;
     s.nearbyTimer = NEARBY_INTERVAL;
-  }, [floor, floorData]);
+  }, [floor, floorData, showRoute]);
 
-  // Directory click → auto-walk to the unit's label point.
+  // Walk to a shop's entrance along a real route (round shops, not through them), drawn on the floor.
   const walkNonce = props.walkTarget?.nonce;
   useEffect(() => {
     const target = latest.current.walkTarget;
     if (walkNonce === undefined || !target) return;
+    const s = rig.current;
+    if (s.riding !== "none") return;
+    s.tween?.kill();
+    s.tween = null;
+    const wasWalking = s.walking;
+    s.walking = false;
+    s.routeSpeed = 0;
+    showRoute(null);
+    // A null unit is a request to stop.
+    if (target.unitId === null) {
+      if (wasWalking) latest.current.onWalkEnd("cancelled");
+      return;
+    }
     const unit = floorDataRef.current.units.find((candidate) => candidate.id === target.unitId);
     if (!unit) return;
-    const s = rig.current;
-    s.tween?.kill();
+    const route = findPath(latest.current.floor, [s.x, s.z], unit.entrance) ?? [
+      [s.x, s.z],
+      unit.entrance,
+    ];
+    const length = routeLength(route);
+    s.autoSprint = length > AUTO_SPRINT_DISTANCE;
+    s.routeSpeed = s.autoSprint ? WALK_SPEED * SPRINT_MULTIPLIER : WALK_SPEED;
+    s.walking = true;
     s.proxy.x = s.x;
     s.proxy.z = s.z;
-    const distance = Math.hypot(unit.x - s.x, unit.z - s.z);
-    const tween = gsap.to(s.proxy, {
-      x: unit.x,
-      z: unit.z,
-      duration: MathUtils.clamp(distance / WALK_SPEED, 0.4, 6),
-      ease: "power1.inOut",
+    showRoute(route);
+    const timeline = gsap.timeline({
       onComplete: () => {
-        if (rig.current.tween === tween) rig.current.tween = null;
+        const rigState = rig.current;
+        if (rigState.tween !== timeline) return;
+        rigState.tween = null;
+        rigState.walking = false;
+        rigState.routeSpeed = 0;
+        showRoute(null);
+        latest.current.onWalkEnd("arrived");
       },
     });
-    s.tween = tween;
-  }, [walkNonce]);
+    followRoute(timeline, s.proxy, route, s.routeSpeed);
+    s.tween = timeline;
+  }, [walkNonce, showRoute]);
+
+  // Escalator ride: walk round to the entry, step on, glide up (or down) the steps, step off.
+  const rideNonce = props.ride?.nonce;
+  useEffect(() => {
+    const ride = latest.current.ride;
+    if (rideNonce === undefined || !ride) return;
+    const { escalators } = floorDataRef.current;
+    const e = escalators[ride.index];
+    if (!e) return;
+    const s = rig.current;
+    s.tween?.kill();
+    s.walking = false;
+    s.proxy.x = s.x;
+    s.proxy.z = s.z;
+    s.proxy.y = 0;
+    s.vy = 0;
+    s.riding = "approach";
+    // Route to the entry round the other ramps; fall back to skirting the bank directly.
+    const approach = findPath(latest.current.floor, [s.x, s.z], e.entry) ?? [
+      [s.x, s.z] as [number, number],
+      ...rideApproach(s.x, s.z, e, escalators.filter((other) => other.bank === e.bank)),
+    ];
+    s.autoSprint = routeLength(approach) > AUTO_SPRINT_DISTANCE;
+    s.routeSpeed = s.autoSprint ? WALK_SPEED * SPRINT_MULTIPLIER : WALK_SPEED;
+    showRoute(approach);
+
+    const timeline = gsap.timeline({
+      onComplete: () => {
+        if (rig.current.tween === timeline) rig.current.tween = null;
+        latest.current.onRideEnd(ride.index);
+      },
+    });
+    followRoute(timeline, s.proxy, approach, s.routeSpeed);
+    const [firstX, firstZ] = escalatorPoint(e, 0, ESCALATOR_RUN / 2);
+    const [lastX, lastZ] = escalatorPoint(e, 0, -ESCALATOR_RUN / 2);
+    const rise = e.direction === "up" ? ESCALATOR_RISE : -ESCALATOR_RISE;
+    timeline
+      .to(s.proxy, { x: firstX, z: firstZ, duration: 0.3, ease: "power1.out" })
+      .to(s.proxy, {
+        x: lastX,
+        z: lastZ,
+        y: rise,
+        duration: RIDE_SECONDS,
+        ease: "none",
+        onStart: () => {
+          rig.current.riding = "glide";
+          rig.current.routeSpeed = 0;
+          showRoute(null);
+        },
+      })
+      .to(s.proxy, {
+        x: e.exit[0],
+        z: e.exit[1],
+        duration: 0.3,
+        ease: "power1.out",
+        onStart: () => {
+          rig.current.riding = "approach";
+        },
+      });
+    s.tween = timeline;
+  }, [rideNonce, showRoute]);
 
   // Keyboard: movement keys, Space jump, E open nearby.
   useEffect(() => {
@@ -274,6 +436,10 @@ export function PlayerRig(props: PlayerRigProps) {
         if (!event.repeat && rig.current.nearbyId) {
           window.dispatchEvent(new CustomEvent("mall:open-nearby"));
         }
+        return;
+      }
+      if (SPRINT_KEYS.includes(event.code)) {
+        pressed.add(event.code);
         return;
       }
       if (ALL_MOVE_KEYS.has(event.code)) {
@@ -378,16 +544,29 @@ export function PlayerRig(props: PlayerRigProps) {
       moveY /= inputLength;
     }
     const hasInput = inputLength > 0.01;
+    const autoWalking = !!s.tween && s.autoSprint && s.riding !== "glide";
+    const sprinting = (hasInput && SPRINT_KEYS.some((code) => pressed.has(code))) || autoWalking;
+    s.sprintBlend = MathUtils.damp(s.sprintBlend, sprinting ? 1 : 0, 8, dt);
+    const speed = WALK_SPEED * (1 + (SPRINT_MULTIPLIER - 1) * s.sprintBlend);
 
     if (input?.jump) {
       input.jump = false;
       s.jumpQueued = true;
     }
 
-    if (hasInput && s.tween) {
+    const riding = s.riding !== "none";
+    if (hasInput && s.tween && !riding) {
       s.tween.kill();
       s.tween = null;
+      s.routeSpeed = 0;
+      showRoute(null);
+      if (s.walking) {
+        s.walking = false;
+        p.onWalkEnd("cancelled");
+      }
     }
+    // Trim the route line to what's left: legs are linear, so time × speed is the distance walked.
+    if (s.tween && s.routeSpeed > 0 && routeRef.current.points) routeRef.current.travelled = s.tween.time() * s.routeSpeed;
 
     // --- Horizontal movement ---
     const prevX = s.x;
@@ -398,7 +577,7 @@ export function PlayerRig(props: PlayerRigProps) {
       const dx = s.x - prevX;
       const dz = s.z - prevZ;
       if (dx * dx + dz * dz > 1e-8) s.targetHeading = Math.atan2(dx, dz);
-    } else if (hasInput) {
+    } else if (hasInput && !riding) {
       let dirX: number;
       let dirZ: number;
       if (mode === "eye") {
@@ -420,8 +599,8 @@ export function PlayerRig(props: PlayerRigProps) {
         if (Math.hypot(dirX, dirZ) > 0.01) s.targetHeading = Math.atan2(dirX, dirZ);
       }
 
-      const stepX = dirX * WALK_SPEED * dt;
-      const stepZ = dirZ * WALK_SPEED * dt;
+      const stepX = dirX * speed * dt;
+      const stepZ = dirZ * speed * dt;
       const { footprint, walls } = floorDataRef.current;
       // Try the full step, then each axis alone so the character slides along walls.
       const candidates: [number, number][] = [
@@ -447,12 +626,15 @@ export function PlayerRig(props: PlayerRigProps) {
       s.stepDistance -= STEP_LENGTH;
       p.onSteps(1);
     }
-    const walking = dt > 0 && travelled / dt > 0.5;
+    const walking = dt > 0 && travelled / dt > 0.5 && s.riding !== "glide";
     s.walkBlend = MathUtils.damp(s.walkBlend, walking ? 1 : 0, 10, dt);
 
     // --- Jump ---
     const grounded = s.y <= 0 && s.vy === 0;
-    if (s.jumpQueued) {
+    if (riding) {
+      s.jumpQueued = false;
+      s.y = s.proxy.y;
+    } else if (s.jumpQueued) {
       s.jumpQueued = false;
       if (grounded) {
         s.vy = JUMP_VELOCITY;
@@ -464,7 +646,7 @@ export function PlayerRig(props: PlayerRigProps) {
         }
       }
     }
-    if (s.y > 0 || s.vy !== 0) {
+    if (!riding && (s.y > 0 || s.vy !== 0)) {
       s.vy += GRAVITY * dt;
       s.y += s.vy * dt;
       if (s.y <= 0) {
@@ -505,6 +687,23 @@ export function PlayerRig(props: PlayerRigProps) {
         s.nearLift = liftIndex;
         p.onNearLift(liftIndex === -1 ? null : floorDataRef.current.lifts[liftIndex]);
       }
+
+      // Nearest escalator entry within reach; its bank gets the up/down prompt.
+      let bank = -1;
+      if (!riding) {
+        let bankDistance = ESCALATOR_RADIUS;
+        for (const e of floorDataRef.current.escalators) {
+          const distance = Math.hypot(e.entry[0] - s.x, e.entry[1] - s.z);
+          if (distance <= bankDistance) {
+            bankDistance = distance;
+            bank = e.bank;
+          }
+        }
+      }
+      if (bank !== s.nearEscalator) {
+        s.nearEscalator = bank;
+        p.onNearEscalator(bank === -1 ? null : bank);
+      }
     }
 
     // --- Level picker pad ---
@@ -520,18 +719,24 @@ export function PlayerRig(props: PlayerRigProps) {
       s.padTriggered = false;
     }
 
+    if (p.playerRef.current) {
+      p.playerRef.current.x = s.x;
+      p.playerRef.current.z = s.z;
+    }
+
     // --- Character transforms ---
     const t = state.clock.elapsedTime;
     rootRef.current?.position.set(s.x, 0, s.z);
     if (headingRef.current) headingRef.current.rotation.y = s.heading;
     if (jumpRef.current) {
       const idleBob = Math.sin(t * 2.4) * 0.02;
-      const walkBob = Math.abs(Math.sin(t * 6)) * 0.05;
+      const walkBob = Math.abs(Math.sin(s.gait / 2)) * (0.05 + 0.03 * s.sprintBlend);
       const bob = MathUtils.lerp(idleBob, walkBob, s.walkBlend);
       jumpRef.current.position.y = s.y + bob;
     }
-    if (leanRef.current) leanRef.current.rotation.x = s.walkBlend * 0.12;
-    const swing = Math.sin(t * 12) * 0.7 * s.walkBlend;
+    if (leanRef.current) leanRef.current.rotation.x = s.walkBlend * (0.12 + 0.1 * s.sprintBlend);
+    s.gait += dt * 12 * (1 + 0.5 * s.sprintBlend);
+    const swing = Math.sin(s.gait) * (0.7 + 0.25 * s.sprintBlend) * s.walkBlend;
     const limbSet = limbs.current;
     if (limbSet) {
       if (limbSet.leftArm) limbSet.leftArm.rotation.x = swing;
@@ -551,7 +756,7 @@ export function PlayerRig(props: PlayerRigProps) {
       scratchDesired.set(s.x - hx * 3.2, s.y + 1.25, s.z - hz * 3.2);
       scratchLook.set(s.x + hx * 4, s.y + 1.0, s.z + hz * 4);
     } else {
-      scratchLook.set(s.x, 0.8, s.z);
+      scratchLook.set(s.x, s.y + 0.8, s.z);
       scratchOffset.copy(BASE_CAMERA_OFFSET).applyAxisAngle(UP, s.yaw).multiplyScalar(p.zoom);
       scratchDesired.copy(scratchLook).add(scratchOffset);
     }
@@ -569,6 +774,7 @@ export function PlayerRig(props: PlayerRigProps) {
 
   return (
     <>
+      <RouteLine routeRef={routeRef} />
       <group ref={rootRef} position={[floorData.spawn.x, 0, floorData.spawn.z]}>
         <mesh rotation-x={-Math.PI / 2} position={[0, 0.018, 0]}>
           <circleGeometry args={[0.36, 48]} />

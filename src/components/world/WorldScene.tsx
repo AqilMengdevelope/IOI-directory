@@ -4,19 +4,22 @@ import { useEffect, useMemo, useRef } from "react";
 import type { PointerEvent as ReactPointerEvent } from "react";
 import * as THREE from "three";
 import { mergeGeometries } from "three/examples/jsm/utils/BufferGeometryUtils.js";
+import brandColorsJson from "@/data/brand-colors.json";
 import type { ThreeEvent } from "@react-three/fiber";
 import { Html } from "@react-three/drei";
 import { Icon } from "@/components/icons";
 import {
-  adjacentFloor,
-  floorTitle,
-  frontEdgeIndex,
+  escalatorFootprint,
+  frontEdges,
   getDirectory,
+  getEscalators,
   getFloorPlan,
   planToWorld,
   WORLD_BACKGROUND,
 } from "@/lib/mall";
-import type { FloorId, FloorPlan } from "@/types/mall";
+import type { FloorId, FloorPlan, FloorUnit } from "@/types/mall";
+import { Escalators } from "./Escalators";
+import { ShopInteriors } from "./ShopInteriors";
 import { UnitLogos } from "./UnitLogos";
 
 export interface WorldSceneProps {
@@ -36,6 +39,10 @@ const WALL_HEIGHT = 0.9;
 const LIP_HEIGHT = 0.18;
 const CAP_HEIGHT = 0.04;
 const CAP_WIDTH = 0.16;
+// Hoarding in front of shops being fitted out: taller than the walls, with a red band on top.
+const HOARDING_HEIGHT = 1.15;
+const HOARDING_THICKNESS = 0.2;
+const HOARDING_BAND = 0.1;
 
 const COLORS = {
   slab: "#f5f5f2",
@@ -46,10 +53,27 @@ const COLORS = {
   wall: "#ffffff",
   cap: "#f6f1e8",
   corridor: "#e9dcbf",
-  anchor: "#cfcfcc",
-  rail: "#252524",
-  tread: "#bdbcb6",
+  hoarding: "#3d4149",
+  hoardingBand: "#ec1d25",
+  tileComingSoon: "#d6d3cc",
 } as const;
+
+const brandColors = brandColorsJson as Record<string, { primary: string; accent: string | null }>;
+
+/**
+ * Floor colour for an anchor (big store): its brand colour, softened, when the logo has a real colour;
+ * otherwise the mall map's fill. Black, white and grey logos fall back to the map colour.
+ */
+function anchorFloor(unit: FloorUnit): THREE.Color | null {
+  const brand = brandColors[unit.id];
+  for (const hex of [brand?.primary, brand?.accent]) {
+    if (!hex) continue;
+    const color = new THREE.Color(hex);
+    const { s, l } = color.getHSL({ h: 0, s: 0, l: 0 });
+    if (s > 0.3 && l > 0.15 && l < 0.85) return color.lerp(new THREE.Color("#ffffff"), 0.35);
+  }
+  return null;
+}
 
 // ---------------------------------------------------------------------------
 // Geometry helpers (world x/z)
@@ -66,13 +90,15 @@ function pointInPolygon([x, z]: XZ, poly: XZ[]): boolean {
 }
 
 /** Shape x = world x, shape y = −world z, so rotating −π/2 about X lands points back on (x, z). */
-function shapeFromWorld(points: XZ[]): THREE.Shape {
-  return new THREE.Shape(points.map(([x, z]) => new THREE.Vector2(x, -z)));
+function shapeFromWorld(points: XZ[], holes: XZ[][] = []): THREE.Shape {
+  const shape = new THREE.Shape(points.map(([x, z]) => new THREE.Vector2(x, -z)));
+  shape.holes = holes.map((hole) => new THREE.Path(hole.map(([x, z]) => new THREE.Vector2(x, -z))));
+  return shape;
 }
 
-/** Extruded flat polygon with its top face at `topY`. */
-function extrudeFlat(points: XZ[], depth: number, topY: number): THREE.BufferGeometry {
-  const geometry = new THREE.ExtrudeGeometry(shapeFromWorld(points), { depth, bevelEnabled: false });
+/** Extruded flat polygon with its top face at `topY`, optionally with openings cut through it. */
+function extrudeFlat(points: XZ[], depth: number, topY: number, holes: XZ[][] = []): THREE.BufferGeometry {
+  const geometry = new THREE.ExtrudeGeometry(shapeFromWorld(points, holes), { depth, bevelEnabled: false });
   geometry.rotateX(-Math.PI / 2);
   geometry.translate(0, topY - depth, 0);
   return geometry;
@@ -137,13 +163,6 @@ function mergeAndDispose(parts: THREE.BufferGeometry[]): THREE.BufferGeometry | 
 // Scene geometry build
 // ---------------------------------------------------------------------------
 
-interface EscalatorPlacement {
-  x: number;
-  z: number;
-  /** Rotation about Y; the ramp rises towards its local −z. */
-  angle: number;
-}
-
 interface WorldGeometry {
   slab: THREE.BufferGeometry;
   rim: THREE.BufferGeometry;
@@ -157,72 +176,24 @@ interface WorldGeometry {
   eastTiles: THREE.BufferGeometry | null;
   kioskTiles: THREE.BufferGeometry | null;
   corridor: THREE.BufferGeometry | null;
-  anchors: THREE.BufferGeometry | null;
-  treads: THREE.BufferGeometry | null;
-  rails: THREE.BufferGeometry | null;
   liftShafts: THREE.BufferGeometry | null;
   liftCaps: THREE.BufferGeometry | null;
-  escalators: EscalatorPlacement[];
+  hoarding: THREE.BufferGeometry | null;
+  hoardingBands: THREE.BufferGeometry | null;
 }
 
-const ANCHOR_HEIGHT = 1.6;
 const KIOSK_HEIGHT = 0.5;
 const LIFT_HEIGHT = 1.9;
-const ESCALATOR_RUN = 2.6;
-const ESCALATOR_RISE = 1.4;
-const ESCALATOR_WIDTH = 0.6;
-/** Only the escalator pairs nearest the East Court get ramps; the rest stay as map points. */
-const ESCALATOR_LIMIT = 4;
-
-/** Direction of the corridor centreline at its point nearest `x, z`, as an angle about Y. */
-function corridorAngleAt(corridor: XZ[], x: number, z: number): number {
-  if (corridor.length < 2) return 0;
-  let best = 0;
-  let bestDistance = Infinity;
-  corridor.forEach(([cx, cz], i) => {
-    const d = Math.hypot(cx - x, cz - z);
-    if (d < bestDistance) {
-      bestDistance = d;
-      best = i;
-    }
-  });
-  const a = corridor[Math.max(0, best - 1)];
-  const b = corridor[Math.min(corridor.length - 1, best + 1)];
-  // Ramp geometry runs along local z, so rotate the +z axis onto the corridor direction.
-  return Math.atan2(b[0] - a[0], b[1] - a[1]);
-}
-
-function buildEscalator(place: EscalatorPlacement, treads: THREE.BufferGeometry[], rails: THREE.BufferGeometry[]) {
-  const length = Math.hypot(ESCALATOR_RUN, ESCALATOR_RISE);
-  const slope = Math.atan2(ESCALATOR_RISE, ESCALATOR_RUN);
-  const parts: [THREE.BufferGeometry, boolean][] = [];
-  // Rises towards local −z; low end sits at local z = +RUN/2 on the floor.
-  const sloped = (w: number, h: number, dx: number, lift: number) => {
-    const geometry = new THREE.BoxGeometry(w, h, length);
-    geometry.rotateX(slope);
-    geometry.translate(dx, ESCALATOR_RISE / 2 + lift, 0);
-    return geometry;
-  };
-  parts.push([sloped(ESCALATOR_WIDTH, 0.14, 0, 0.07), true]);
-  const side = ESCALATOR_WIDTH / 2 + 0.04;
-  for (const dx of [-side, side]) {
-    parts.push([sloped(0.08, 0.3, dx, 0.12), false]);
-    parts.push([sloped(0.06, 0.06, dx, 1.0), false]);
-    parts.push([box(0.06, 1.0, 0.06, dx, 0.5, ESCALATOR_RUN / 2), false]);
-    parts.push([box(0.06, 1.0, 0.06, dx, ESCALATOR_RISE + 0.5, -ESCALATOR_RUN / 2), false]);
-  }
-  for (const [geometry, isTread] of parts) {
-    geometry.rotateY(place.angle);
-    geometry.translate(place.x, 0, place.z);
-    (isTread ? treads : rails).push(geometry);
-  }
-}
 
 function buildWorld(plan: FloorPlan): WorldGeometry {
   const footprint = plan.footprint.map(planToWorld);
-  const slab = extrudeFlat(footprint, SLAB_DEPTH, 0);
+  // Down escalators descend through openings in the floor.
+  const openings = getEscalators(plan.level)
+    .filter((escalator) => escalator.direction === "down")
+    .map(escalatorFootprint);
+  const slab = extrudeFlat(footprint, SLAB_DEPTH, 0, openings);
   // Layers are spaced well apart: at this mall's size, centimetre gaps depth-fight when zoomed out.
-  const rim = extrudeFlat(offsetPolygon(footprint, RIM_OFFSET), SLAB_DEPTH, -0.08);
+  const rim = extrudeFlat(offsetPolygon(footprint, RIM_OFFSET), SLAB_DEPTH, -0.08, openings);
 
   const tileParts: THREE.BufferGeometry[] = [];
   const tileTriangleEnds: number[] = [];
@@ -230,10 +201,11 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
   let triangleCount = 0;
 
   const wallEdges = new Map<string, { a: XZ; b: XZ; height: number }>();
-  const anchorParts: THREE.BufferGeometry[] = [];
   const westTiles: THREE.BufferGeometry[] = [];
   const eastTiles: THREE.BufferGeometry[] = [];
   const kioskTiles: THREE.BufferGeometry[] = [];
+  const hoardingParts: THREE.BufferGeometry[] = [];
+  const hoardingBandParts: THREE.BufferGeometry[] = [];
 
   for (const unit of plan.units) {
     const poly = unit.polygon.map(planToWorld);
@@ -245,16 +217,14 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
     tileTriangleEnds.push(triangleCount);
     tileUnitIds.push(unit.id);
 
-    if (unit.kind === "anchor") {
-      anchorParts.push(extrudeFlat(poly, ANCHOR_HEIGHT, ANCHOR_HEIGHT));
-      continue;
-    }
-
+    // Anchors are drawn like shops (low walls, open front) on a floor in their brand colour.
     const isKiosk = unit.kind === "kiosk";
     const tinted = extrudeFlat(poly, TILE_THICKNESS, 0.035 + TILE_THICKNESS);
     // Paint each tile with the mall map's own fill colour (softened), falling back to the zone tint.
-    const fill = new THREE.Color(unit.color ?? (isKiosk ? COLORS.tileKiosk : unit.zone === "East wing" ? COLORS.tileEast : COLORS.tileWest));
-    if (unit.color) fill.lerp(new THREE.Color("#ffffff"), 0.45);
+    let fill = new THREE.Color(unit.color ?? (isKiosk ? COLORS.tileKiosk : unit.zone === "East wing" ? COLORS.tileEast : COLORS.tileWest));
+    if (unit.color) fill.lerp(new THREE.Color("#ffffff"), unit.kind === "anchor" ? 0.25 : 0.45);
+    if (unit.kind === "anchor") fill = anchorFloor(unit) ?? fill;
+    if (unit.comingSoon) fill = new THREE.Color(COLORS.tileComingSoon);
     const count = tinted.getAttribute("position").count;
     const colors = new Float32Array(count * 3);
     for (let i = 0; i < count; i++) {
@@ -265,14 +235,24 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
     tinted.setAttribute("color", new THREE.BufferAttribute(colors, 3));
     (isKiosk ? kioskTiles : unit.zone === "East wing" ? eastTiles : westTiles).push(tinted);
 
-    const front = isKiosk ? -1 : frontEdgeIndex(unit);
+    const fronts = frontEdges(unit);
+    // A shop being fitted out is closed all round; its would-be shopfront gets hoarding.
+    if (unit.comingSoon) {
+      for (const i of frontEdges({ ...unit, comingSoon: false })) {
+        const a = poly[i];
+        const b = poly[(i + 1) % poly.length];
+        if (Math.hypot(b[0] - a[0], b[1] - a[1]) < 0.05) continue;
+        hoardingParts.push(edgeBox(a, b, HOARDING_THICKNESS, HOARDING_HEIGHT, 0, 0));
+        hoardingBandParts.push(edgeBox(a, b, HOARDING_THICKNESS + 0.02, HOARDING_BAND, HOARDING_HEIGHT - HOARDING_BAND - 0.08, 0.01));
+      }
+    }
     poly.forEach((a, i) => {
       const b = poly[(i + 1) % poly.length];
       if (Math.hypot(b[0] - a[0], b[1] - a[1]) < 0.05) return;
       const ka = `${a[0].toFixed(1)},${a[1].toFixed(1)}`;
       const kb = `${b[0].toFixed(1)},${b[1].toFixed(1)}`;
       const key = ka < kb ? `${ka}|${kb}` : `${kb}|${ka}`;
-      const height = isKiosk ? KIOSK_HEIGHT : i === front ? LIP_HEIGHT : WALL_HEIGHT;
+      const height = isKiosk ? KIOSK_HEIGHT : fronts.has(i) ? LIP_HEIGHT : WALL_HEIGHT;
       const existing = wallEdges.get(key);
       if (!existing || existing.height < height) wallEdges.set(key, { a, b, height });
     });
@@ -287,20 +267,6 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
 
   // The corridor is the slab itself: the walk graph is pathfinding data, not something to draw.
   const corridorParts: THREE.BufferGeometry[] = [];
-
-  // Escalators come from the traced amenities, aligned to the corridor and sorted nearest the East Court.
-  const corridor = plan.corridor.map(planToWorld);
-  const escalators: EscalatorPlacement[] = plan.amenities
-    .filter((amenity) => amenity.kind === "escalator")
-    .map((amenity) => {
-      const [x, z] = planToWorld(amenity.at);
-      return { x, z, angle: corridorAngleAt(corridor, x, z) };
-    })
-    .sort((a, b) => Math.hypot(a.x, a.z) - Math.hypot(b.x, b.z))
-    .slice(0, ESCALATOR_LIMIT);
-  const treadParts: THREE.BufferGeometry[] = [];
-  const railParts: THREE.BufferGeometry[] = [];
-  for (const place of escalators) buildEscalator(place, treadParts, railParts);
 
   // Lifts: a small shaft with a brand-red cap, so they are easy to spot and walk up to.
   const liftShaftParts: THREE.BufferGeometry[] = [];
@@ -324,12 +290,10 @@ function buildWorld(plan: FloorPlan): WorldGeometry {
     eastTiles: mergeAndDispose(eastTiles),
     kioskTiles: mergeAndDispose(kioskTiles),
     corridor: mergeAndDispose(corridorParts),
-    anchors: mergeAndDispose(anchorParts),
-    treads: mergeAndDispose(treadParts),
-    rails: mergeAndDispose(railParts),
     liftShafts: mergeAndDispose(liftShaftParts),
     liftCaps: mergeAndDispose(liftCapParts),
-    escalators,
+    hoarding: mergeAndDispose(hoardingParts),
+    hoardingBands: mergeAndDispose(hoardingBandParts),
   };
 }
 
@@ -344,11 +308,10 @@ function disposeWorld(world: WorldGeometry) {
     world.eastTiles,
     world.kioskTiles,
     world.corridor,
-    world.anchors,
-    world.treads,
-    world.rails,
     world.liftShafts,
     world.liftCaps,
+    world.hoarding,
+    world.hoardingBands,
   ].forEach((geometry) => geometry?.dispose());
 }
 
@@ -387,13 +350,6 @@ export function WorldScene({ floor, nearbyUnitId, onSelectUnit }: WorldSceneProp
     : null;
   const nearbyPosition = nearbyUnit ? planToWorld(nearbyUnit.labelPoint) : null;
 
-  const above = adjacentFloor(floor, "up");
-  const below = adjacentFloor(floor, "down");
-  const upLabel = above ? `↑ ${floorTitle(above)}` : "↑ Top level";
-  const upAria = above ? `Up escalator to ${floorTitle(above)}` : "Top level";
-  const downLabel = below ? `↓ ${floorTitle(below)}` : "↓ Lowest level";
-  const downAria = below ? `Down escalator to ${floorTitle(below)}` : "Lowest level";
-
   const handleTileClick = (event: ThreeEvent<MouseEvent>) => {
     const id = unitIdForFace(world, event.faceIndex);
     if (!id) return;
@@ -418,7 +374,8 @@ export function WorldScene({ floor, nearbyUnitId, onSelectUnit }: WorldSceneProp
       <hemisphereLight args={["#ffffff", "#8a8d85", 1]} />
       <directionalLight position={[10, 24, 8]} intensity={2.1} />
 
-      <mesh rotation-x={-Math.PI / 2} position={[0, -0.6, 0]}>
+      {/* Below the escalator wells (ESCALATOR_RISE deep), so they're never clipped by it. */}
+      <mesh rotation-x={-Math.PI / 2} position={[0, -2.2, 0]}>
         <planeGeometry args={[600, 600]} />
         <meshBasicMaterial color={WORLD_BACKGROUND} />
       </mesh>
@@ -465,21 +422,6 @@ export function WorldScene({ floor, nearbyUnitId, onSelectUnit }: WorldSceneProp
           <meshLambertMaterial color={COLORS.corridor} />
         </mesh>
       )}
-      {world.anchors && (
-        <mesh geometry={world.anchors}>
-          <meshLambertMaterial color={COLORS.anchor} />
-        </mesh>
-      )}
-      {world.treads && (
-        <mesh geometry={world.treads}>
-          <meshLambertMaterial color={COLORS.tread} />
-        </mesh>
-      )}
-      {world.rails && (
-        <mesh geometry={world.rails}>
-          <meshLambertMaterial color={COLORS.rail} />
-        </mesh>
-      )}
 
       {world.liftShafts && (
         <mesh geometry={world.liftShafts}>
@@ -491,31 +433,18 @@ export function WorldScene({ floor, nearbyUnitId, onSelectUnit }: WorldSceneProp
           <meshLambertMaterial color="#ec1d25" />
         </mesh>
       )}
+      {world.hoarding && (
+        <mesh geometry={world.hoarding}>
+          <meshLambertMaterial color={COLORS.hoarding} />
+        </mesh>
+      )}
+      {world.hoardingBands && (
+        <mesh geometry={world.hoardingBands}>
+          <meshLambertMaterial color={COLORS.hoardingBand} />
+        </mesh>
+      )}
 
-      {world.escalators[0] && (
-        <Html
-          center
-          position={[world.escalators[0].x, ESCALATOR_RISE + 0.9, world.escalators[0].z]}
-          zIndexRange={[12, 10]}
-          style={{ pointerEvents: "none" }}
-        >
-          <span className="escalator-direction" aria-label={upAria}>
-            {upLabel}
-          </span>
-        </Html>
-      )}
-      {world.escalators[1] && (
-        <Html
-          center
-          position={[world.escalators[1].x, ESCALATOR_RISE + 0.9, world.escalators[1].z]}
-          zIndexRange={[12, 10]}
-          style={{ pointerEvents: "none" }}
-        >
-          <span className="escalator-direction" aria-label={downAria}>
-            {downLabel}
-          </span>
-        </Html>
-      )}
+      <Escalators floor={floor} />
 
       {!hasUnits && (
         <Html center position={[0, 1, 0]}>
@@ -523,6 +452,7 @@ export function WorldScene({ floor, nearbyUnitId, onSelectUnit }: WorldSceneProp
         </Html>
       )}
 
+      <ShopInteriors plan={plan} directory={directory} />
       <UnitLogos plan={plan} />
 
       {nearbyUnit && nearbyName && nearbyPosition && (

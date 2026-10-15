@@ -1,0 +1,2782 @@
+{
+ "ioi-1-6ixty8ight": {
+  "accent": null,
+  "primary": "#f39dc4"
+ },
+ "ioi-1-at-3": {
+  "accent": null,
+  "primary": "#a38669"
+ },
+ "ioi-1-at-4": {
+  "accent": null,
+  "primary": "#194381"
+ },
+ "ioi-1-at-6": {
+  "accent": null,
+  "primary": "#fbcd3e"
+ },
+ "ioi-1-avenys": {
+  "accent": null,
+  "primary": "#9b1b32"
+ },
+ "ioi-1-cotton-on": {
+  "accent": null,
+  "primary": "#b40837"
+ },
+ "ioi-1-dc-by-nc-dcnc": {
+  "accent": null,
+  "primary": "#d7cfc4"
+ },
+ "ioi-1-east-india-company": {
+  "accent": "#815444",
+  "primary": "#e0e0e0"
+ },
+ "ioi-1-f-k1": {
+  "accent": "#1258a4",
+  "primary": "#dc59a1"
+ },
+ "ioi-1-f-k11": {
+  "accent": null,
+  "primary": "#ccac8b"
+ },
+ "ioi-1-f-k14": {
+  "accent": null,
+  "primary": "#83c350"
+ },
+ "ioi-1-f-k15": {
+  "accent": null,
+  "primary": "#fa4516"
+ },
+ "ioi-1-f-k16": {
+  "accent": null,
+  "primary": "#ec1b24"
+ },
+ "ioi-1-f-k17": {
+  "accent": null,
+  "primary": "#41372e"
+ },
+ "ioi-1-f-k18": {
+  "accent": null,
+  "primary": "#cccbca"
+ },
+ "ioi-1-f-k20": {
+  "accent": null,
+  "primary": "#fada9d"
+ },
+ "ioi-1-f-k2a": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-1-f-k3": {
+  "accent": "#c5202b",
+  "primary": "#23734d"
+ },
+ "ioi-1-f-k5": {
+  "accent": "#9c7053",
+  "primary": "#c8b0a0"
+ },
+ "ioi-1-f-k6": {
+  "accent": null,
+  "primary": "#cdcdcd"
+ },
+ "ioi-1-f-k7": {
+  "accent": null,
+  "primary": "#f9951d"
+ },
+ "ioi-1-f-k8a": {
+  "accent": "#06aceb",
+  "primary": "#d9f0fe"
+ },
+ "ioi-1-f-k8b": {
+  "accent": null,
+  "primary": "#ed7d70"
+ },
+ "ioi-1-just-good-coffee": {
+  "accent": null,
+  "primary": "#9e5124"
+ },
+ "ioi-1-l1-1-2": {
+  "accent": null,
+  "primary": "#535353"
+ },
+ "ioi-1-l1-10a": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-1-l1-10b": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-1-l1-11a": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-1-l1-11c": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-1-l1-12a": {
+  "accent": "#e68486",
+  "primary": "#050505"
+ },
+ "ioi-1-l1-12b": {
+  "accent": null,
+  "primary": "#c3a78e"
+ },
+ "ioi-1-l1-13a": {
+  "accent": "#e5012e",
+  "primary": "#1d1d1b"
+ },
+ "ioi-1-l1-13b": {
+  "accent": null,
+  "primary": "#b00a3b"
+ },
+ "ioi-1-l1-14a-14b": {
+  "accent": "#019e4c",
+  "primary": "#3d2415"
+ },
+ "ioi-1-l1-14c-14d": {
+  "accent": null,
+  "primary": "#ed1c24"
+ },
+ "ioi-1-l1-15": {
+  "accent": null,
+  "primary": "#bb0609"
+ },
+ "ioi-1-l1-16-17": {
+  "accent": "#550f15",
+  "primary": "#000000"
+ },
+ "ioi-1-l1-18": {
+  "accent": null,
+  "primary": "#7e2129"
+ },
+ "ioi-1-l1-19a": {
+  "accent": "#f41108",
+  "primary": "#019f97"
+ },
+ "ioi-1-l1-201": {
+  "accent": null,
+  "primary": "#3a3a3c"
+ },
+ "ioi-1-l1-202": {
+  "accent": null,
+  "primary": "#e4a198"
+ },
+ "ioi-1-l1-204": {
+  "accent": null,
+  "primary": "#e1e0e0"
+ },
+ "ioi-1-l1-205": {
+  "accent": null,
+  "primary": "#28136e"
+ },
+ "ioi-1-l1-206": {
+  "accent": null,
+  "primary": "#545152"
+ },
+ "ioi-1-l1-209": {
+  "accent": null,
+  "primary": "#251f21"
+ },
+ "ioi-1-l1-210": {
+  "accent": null,
+  "primary": "#44176c"
+ },
+ "ioi-1-l1-211": {
+  "accent": null,
+  "primary": "#050505"
+ },
+ "ioi-1-l1-212-213": {
+  "accent": null,
+  "primary": "#93a399"
+ },
+ "ioi-1-l1-214": {
+  "accent": null,
+  "primary": "#dfdfdf"
+ },
+ "ioi-1-l1-216": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-1-l1-217": {
+  "accent": null,
+  "primary": "#a3d3e7"
+ },
+ "ioi-1-l1-219": {
+  "accent": null,
+  "primary": "#ca9ba5"
+ },
+ "ioi-1-l1-221": {
+  "accent": "#a39370",
+  "primary": "#cdc6b6"
+ },
+ "ioi-1-l1-222": {
+  "accent": null,
+  "primary": "#e1d183"
+ },
+ "ioi-1-l1-225": {
+  "accent": null,
+  "primary": "#e1c588"
+ },
+ "ioi-1-l1-226-227": {
+  "accent": null,
+  "primary": "#701921"
+ },
+ "ioi-1-l1-228": {
+  "accent": null,
+  "primary": "#e6bcbe"
+ },
+ "ioi-1-l1-229": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-1-l1-23": {
+  "accent": null,
+  "primary": "#271500"
+ },
+ "ioi-1-l1-231": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-1-l1-232": {
+  "accent": null,
+  "primary": "#1d1d1b"
+ },
+ "ioi-1-l1-234": {
+  "accent": null,
+  "primary": "#1e2027"
+ },
+ "ioi-1-l1-235": {
+  "accent": "#40693b",
+  "primary": "#8d6f4a"
+ },
+ "ioi-1-l1-235a": {
+  "accent": "#d4965b",
+  "primary": "#da1f26"
+ },
+ "ioi-1-l1-236": {
+  "accent": null,
+  "primary": "#020202"
+ },
+ "ioi-1-l1-237": {
+  "accent": null,
+  "primary": "#d0cdc9"
+ },
+ "ioi-1-l1-238": {
+  "accent": null,
+  "primary": "#252027"
+ },
+ "ioi-1-l1-239": {
+  "accent": null,
+  "primary": "#878787"
+ },
+ "ioi-1-l1-24-25": {
+  "accent": "#b32a11",
+  "primary": "#080c0d"
+ },
+ "ioi-1-l1-240": {
+  "accent": null,
+  "primary": "#e91d2b"
+ },
+ "ioi-1-l1-241a-l1-241c": {
+  "accent": null,
+  "primary": "#06a351"
+ },
+ "ioi-1-l1-243": {
+  "accent": null,
+  "primary": "#5b6945"
+ },
+ "ioi-1-l1-244a": {
+  "accent": "#6eb356",
+  "primary": "#24206e"
+ },
+ "ioi-1-l1-244b": {
+  "accent": null,
+  "primary": "#010000"
+ },
+ "ioi-1-l1-245": {
+  "accent": "#3d332a",
+  "primary": "#000000"
+ },
+ "ioi-1-l1-246": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-1-l1-247": {
+  "accent": "#f19fa3",
+  "primary": "#4f2072"
+ },
+ "ioi-1-l1-26a": {
+  "accent": null,
+  "primary": "#040707"
+ },
+ "ioi-1-l1-26b": {
+  "accent": null,
+  "primary": "#040405"
+ },
+ "ioi-1-l1-27": {
+  "accent": null,
+  "primary": "#de3c41"
+ },
+ "ioi-1-l1-28-29-30": {
+  "accent": null,
+  "primary": "#f46822"
+ },
+ "ioi-1-l1-2at-2": {
+  "accent": null,
+  "primary": "#b41d8e"
+ },
+ "ioi-1-l1-3": {
+  "accent": null,
+  "primary": "#e41c39"
+ },
+ "ioi-1-l1-31": {
+  "accent": "#6a9dd1",
+  "primary": "#f6bd1c"
+ },
+ "ioi-1-l1-32": {
+  "accent": null,
+  "primary": "#b23e51"
+ },
+ "ioi-1-l1-33": {
+  "accent": null,
+  "primary": "#fcac2d"
+ },
+ "ioi-1-l1-34-35-36": {
+  "accent": null,
+  "primary": "#040506"
+ },
+ "ioi-1-l1-37-40": {
+  "accent": null,
+  "primary": "#9f9f9a"
+ },
+ "ioi-1-l1-4": {
+  "accent": null,
+  "primary": "#6c6b6b"
+ },
+ "ioi-1-l1-41": {
+  "accent": null,
+  "primary": "#212121"
+ },
+ "ioi-1-l1-42": {
+  "accent": null,
+  "primary": "#cbcbcb"
+ },
+ "ioi-1-l1-43": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-1-l1-44": {
+  "accent": null,
+  "primary": "#27394c"
+ },
+ "ioi-1-l1-45-46": {
+  "accent": null,
+  "primary": "#01437a"
+ },
+ "ioi-1-l1-47": {
+  "accent": null,
+  "primary": "#e89782"
+ },
+ "ioi-1-l1-48-49": {
+  "accent": "#d43550",
+  "primary": "#1e407b"
+ },
+ "ioi-1-l1-5": {
+  "accent": null,
+  "primary": "#241f20"
+ },
+ "ioi-1-l1-50": {
+  "accent": null,
+  "primary": "#ceae97"
+ },
+ "ioi-1-l1-51": {
+  "accent": null,
+  "primary": "#0074cb"
+ },
+ "ioi-1-l1-52": {
+  "accent": "#d2577c",
+  "primary": "#050505"
+ },
+ "ioi-1-l1-55": {
+  "accent": "#feb827",
+  "primary": "#080a0b"
+ },
+ "ioi-1-l1-56a-b": {
+  "accent": "#e54038",
+  "primary": "#b5036e"
+ },
+ "ioi-1-l1-58": {
+  "accent": null,
+  "primary": "#fad407"
+ },
+ "ioi-1-l1-59": {
+  "accent": "#a1866e",
+  "primary": "#ae9b8a"
+ },
+ "ioi-1-l1-6": {
+  "accent": "#f98424",
+  "primary": "#626365"
+ },
+ "ioi-1-l1-60": {
+  "accent": null,
+  "primary": "#6d226a"
+ },
+ "ioi-1-l1-61": {
+  "accent": null,
+  "primary": "#020202"
+ },
+ "ioi-1-l1-62a-62b": {
+  "accent": "#ae7082",
+  "primary": "#e2dddf"
+ },
+ "ioi-1-l1-63": {
+  "accent": "#e81255",
+  "primary": "#0862ad"
+ },
+ "ioi-1-l1-64": {
+  "accent": null,
+  "primary": "#404041"
+ },
+ "ioi-1-l1-65": {
+  "accent": null,
+  "primary": "#1d1d1b"
+ },
+ "ioi-1-l1-66": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-1-l1-67": {
+  "accent": null,
+  "primary": "#9d9a9b"
+ },
+ "ioi-1-l1-68-69-70": {
+  "accent": "#4f2c1c",
+  "primary": "#ffc60e"
+ },
+ "ioi-1-l1-7": {
+  "accent": null,
+  "primary": "#ec2029"
+ },
+ "ioi-1-l1-72": {
+  "accent": "#393995",
+  "primary": "#030303"
+ },
+ "ioi-1-l1-73b": {
+  "accent": null,
+  "primary": "#e31e27"
+ },
+ "ioi-1-l1-74": {
+  "accent": null,
+  "primary": "#deddd3"
+ },
+ "ioi-1-l1-75": {
+  "accent": null,
+  "primary": "#dfdfdf"
+ },
+ "ioi-1-l1-8": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-1-l1-9": {
+  "accent": null,
+  "primary": "#cccccc"
+ },
+ "ioi-1-l1-k201": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-1-l1-k202": {
+  "accent": "#991f22",
+  "primary": "#cee4be"
+ },
+ "ioi-1-l1-k203": {
+  "accent": null,
+  "primary": "#2e318e"
+ },
+ "ioi-1-l1-k204": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-1-l1-k205": {
+  "accent": null,
+  "primary": "#01172f"
+ },
+ "ioi-1-l1-k206": {
+  "accent": null,
+  "primary": "#1a3538"
+ },
+ "ioi-1-l120-2": {
+  "accent": null,
+  "primary": "#ffe000"
+ },
+ "ioi-1-l1e-201-202-203": {
+  "accent": null,
+  "primary": "#f3ba6b"
+ },
+ "ioi-1-l1e-204": {
+  "accent": null,
+  "primary": "#2c3d19"
+ },
+ "ioi-1-l1e205-207": {
+  "accent": "#da85b6",
+  "primary": "#e3b3d0"
+ },
+ "ioi-1-l1e208-212": {
+  "accent": "#3e593a",
+  "primary": "#f56f31"
+ },
+ "ioi-1-l1e213-214": {
+  "accent": "#3e3723",
+  "primary": "#1f1f1e"
+ },
+ "ioi-1-l2-223-2": {
+  "accent": null,
+  "primary": "#d0ac83"
+ },
+ "ioi-1-lady-k": {
+  "accent": null,
+  "primary": "#cccccc"
+ },
+ "ioi-1-megan": {
+  "accent": null,
+  "primary": "#cda792"
+ },
+ "ioi-1-my-ballerine": {
+  "accent": null,
+  "primary": "#dfc3ad"
+ },
+ "ioi-1-panda-eyes": {
+  "accent": null,
+  "primary": "#f5de85"
+ },
+ "ioi-1-rest-n-go": {
+  "accent": "#f9cf0d",
+  "primary": "#3a190f"
+ },
+ "ioi-1-smart-master": {
+  "accent": null,
+  "primary": "#001441"
+ },
+ "ioi-1-the-founders-bakery": {
+  "accent": null,
+  "primary": "#eb008b"
+ },
+ "ioi-2-at-5": {
+  "accent": "#fef900",
+  "primary": "#221f1f"
+ },
+ "ioi-2-at-6s": {
+  "accent": "#b57229",
+  "primary": "#35994a"
+ },
+ "ioi-2-attic": {
+  "accent": null,
+  "primary": "#050505"
+ },
+ "ioi-2-celcomdigi": {
+  "accent": "#fde409",
+  "primary": "#001771"
+ },
+ "ioi-2-colegacy": {
+  "accent": null,
+  "primary": "#23338a"
+ },
+ "ioi-2-d21-r1": {
+  "accent": "#44a44e",
+  "primary": "#cada3c"
+ },
+ "ioi-2-d21-r6": {
+  "accent": "#e90809",
+  "primary": "#060606"
+ },
+ "ioi-2-dreame": {
+  "accent": null,
+  "primary": "#071121"
+ },
+ "ioi-2-fujifilm": {
+  "accent": null,
+  "primary": "#e2e1e2"
+ },
+ "ioi-2-honor": {
+  "accent": null,
+  "primary": "#060606"
+ },
+ "ioi-2-huuk-barbershop": {
+  "accent": "#ec1425",
+  "primary": "#f6e600"
+ },
+ "ioi-2-kfc": {
+  "accent": null,
+  "primary": "#a3080b"
+ },
+ "ioi-2-kiddytopia": {
+  "accent": "#38519d",
+  "primary": "#3ec2ca"
+ },
+ "ioi-2-kiddytopia-kiddyride": {
+  "accent": "#576c9e",
+  "primary": "#3ec2c9"
+ },
+ "ioi-2-l2-1": {
+  "accent": null,
+  "primary": "#d00a2c"
+ },
+ "ioi-2-l2-10": {
+  "accent": null,
+  "primary": "#1851a0"
+ },
+ "ioi-2-l2-11": {
+  "accent": null,
+  "primary": "#00befa"
+ },
+ "ioi-2-l2-12-13": {
+  "accent": "#f6af2b",
+  "primary": "#2a2522"
+ },
+ "ioi-2-l2-14": {
+  "accent": "#ce5158",
+  "primary": "#cfb386"
+ },
+ "ioi-2-l2-17": {
+  "accent": "#ed1c23",
+  "primary": "#221e1f"
+ },
+ "ioi-2-l2-19a-19b": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-2-l2-2": {
+  "accent": null,
+  "primary": "#020202"
+ },
+ "ioi-2-l2-201-203": {
+  "accent": null,
+  "primary": "#f6d100"
+ },
+ "ioi-2-l2-204": {
+  "accent": null,
+  "primary": "#115132"
+ },
+ "ioi-2-l2-205-206": {
+  "accent": null,
+  "primary": "#cab19a"
+ },
+ "ioi-2-l2-208": {
+  "accent": null,
+  "primary": "#425eff"
+ },
+ "ioi-2-l2-211": {
+  "accent": null,
+  "primary": "#545454"
+ },
+ "ioi-2-l2-213": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-2-l2-215": {
+  "accent": null,
+  "primary": "#7f8386"
+ },
+ "ioi-2-l2-217": {
+  "accent": "#266c9c",
+  "primary": "#1a2674"
+ },
+ "ioi-2-l2-218": {
+  "accent": null,
+  "primary": "#584096"
+ },
+ "ioi-2-l2-219": {
+  "accent": "#e3b820",
+  "primary": "#241e20"
+ },
+ "ioi-2-l2-22": {
+  "accent": "#07e6fb",
+  "primary": "#f4a1c5"
+ },
+ "ioi-2-l2-220a": {
+  "accent": null,
+  "primary": "#da0000"
+ },
+ "ioi-2-l2-220b": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-2-l2-221a-b": {
+  "accent": null,
+  "primary": "#2f2f2f"
+ },
+ "ioi-2-l2-222": {
+  "accent": null,
+  "primary": "#202221"
+ },
+ "ioi-2-l2-223a": {
+  "accent": null,
+  "primary": "#17a2c3"
+ },
+ "ioi-2-l2-223b": {
+  "accent": null,
+  "primary": "#e20466"
+ },
+ "ioi-2-l2-224": {
+  "accent": null,
+  "primary": "#99b4d0"
+ },
+ "ioi-2-l2-225": {
+  "accent": null,
+  "primary": "#989898"
+ },
+ "ioi-2-l2-227b": {
+  "accent": "#ec4d07",
+  "primary": "#89c457"
+ },
+ "ioi-2-l2-228": {
+  "accent": "#ea141d",
+  "primary": "#086ab2"
+ },
+ "ioi-2-l2-232": {
+  "accent": "#fdd00a",
+  "primary": "#010150"
+ },
+ "ioi-2-l2-233": {
+  "accent": null,
+  "primary": "#2b2b2b"
+ },
+ "ioi-2-l2-234": {
+  "accent": null,
+  "primary": "#dfdede"
+ },
+ "ioi-2-l2-235b": {
+  "accent": null,
+  "primary": "#b11d24"
+ },
+ "ioi-2-l2-236a-b": {
+  "accent": null,
+  "primary": "#fb0202"
+ },
+ "ioi-2-l2-236c": {
+  "accent": null,
+  "primary": "#e52951"
+ },
+ "ioi-2-l2-237": {
+  "accent": null,
+  "primary": "#b3b3b3"
+ },
+ "ioi-2-l2-238": {
+  "accent": null,
+  "primary": "#a91f2e"
+ },
+ "ioi-2-l2-239": {
+  "accent": "#379244",
+  "primary": "#54853d"
+ },
+ "ioi-2-l2-24": {
+  "accent": null,
+  "primary": "#b85155"
+ },
+ "ioi-2-l2-240": {
+  "accent": null,
+  "primary": "#facb0e"
+ },
+ "ioi-2-l2-241": {
+  "accent": null,
+  "primary": "#211f20"
+ },
+ "ioi-2-l2-25": {
+  "accent": null,
+  "primary": "#b32a1c"
+ },
+ "ioi-2-l2-26": {
+  "accent": "#c62331",
+  "primary": "#f99523"
+ },
+ "ioi-2-l2-26a": {
+  "accent": null,
+  "primary": "#f46b21"
+ },
+ "ioi-2-l2-27": {
+  "accent": null,
+  "primary": "#015295"
+ },
+ "ioi-2-l2-28": {
+  "accent": null,
+  "primary": "#7cc142"
+ },
+ "ioi-2-l2-29a": {
+  "accent": "#ec151d",
+  "primary": "#221e1f"
+ },
+ "ioi-2-l2-29b": {
+  "accent": null,
+  "primary": "#b2aea1"
+ },
+ "ioi-2-l2-2at-2": {
+  "accent": null,
+  "primary": "#b41d8e"
+ },
+ "ioi-2-l2-3": {
+  "accent": null,
+  "primary": "#152868"
+ },
+ "ioi-2-l2-30-31": {
+  "accent": "#e4223a",
+  "primary": "#aba14e"
+ },
+ "ioi-2-l2-32-37": {
+  "accent": null,
+  "primary": "#3d9f8c"
+ },
+ "ioi-2-l2-33": {
+  "accent": null,
+  "primary": "#e51d25"
+ },
+ "ioi-2-l2-34": {
+  "accent": null,
+  "primary": "#060c0c"
+ },
+ "ioi-2-l2-35": {
+  "accent": null,
+  "primary": "#1c3851"
+ },
+ "ioi-2-l2-36": {
+  "accent": null,
+  "primary": "#fd6802"
+ },
+ "ioi-2-l2-38-39": {
+  "accent": "#cb706b",
+  "primary": "#100e0f"
+ },
+ "ioi-2-l2-4": {
+  "accent": "#ed7e1e",
+  "primary": "#514345"
+ },
+ "ioi-2-l2-40-41": {
+  "accent": null,
+  "primary": "#0d27aa"
+ },
+ "ioi-2-l2-42": {
+  "accent": "#1ee800",
+  "primary": "#293997"
+ },
+ "ioi-2-l2-43-44": {
+  "accent": null,
+  "primary": "#c41230"
+ },
+ "ioi-2-l2-46": {
+  "accent": "#fcfb00",
+  "primary": "#ff0000"
+ },
+ "ioi-2-l2-47": {
+  "accent": "#0154dd",
+  "primary": "#cb0404"
+ },
+ "ioi-2-l2-48": {
+  "accent": null,
+  "primary": "#363739"
+ },
+ "ioi-2-l2-49": {
+  "accent": null,
+  "primary": "#555555"
+ },
+ "ioi-2-l2-5": {
+  "accent": null,
+  "primary": "#c40a2a"
+ },
+ "ioi-2-l2-50": {
+  "accent": null,
+  "primary": "#060606"
+ },
+ "ioi-2-l2-51": {
+  "accent": null,
+  "primary": "#f99d25"
+ },
+ "ioi-2-l2-52": {
+  "accent": null,
+  "primary": "#010101"
+ },
+ "ioi-2-l2-53": {
+  "accent": null,
+  "primary": "#9cd3e3"
+ },
+ "ioi-2-l2-54": {
+  "accent": "#1fb5d3",
+  "primary": "#eb3a69"
+ },
+ "ioi-2-l2-55": {
+  "accent": null,
+  "primary": "#cf023a"
+ },
+ "ioi-2-l2-56": {
+  "accent": "#82ccc8",
+  "primary": "#cbcaca"
+ },
+ "ioi-2-l2-57": {
+  "accent": null,
+  "primary": "#83d2cc"
+ },
+ "ioi-2-l2-58": {
+  "accent": "#ae9a6e",
+  "primary": "#e2decd"
+ },
+ "ioi-2-l2-59": {
+  "accent": null,
+  "primary": "#593f98"
+ },
+ "ioi-2-l2-6-7": {
+  "accent": "#583a22",
+  "primary": "#241e20"
+ },
+ "ioi-2-l2-60": {
+  "accent": null,
+  "primary": "#d6b056"
+ },
+ "ioi-2-l2-61a-b": {
+  "accent": "#9ddff7",
+  "primary": "#060606"
+ },
+ "ioi-2-l2-61c": {
+  "accent": null,
+  "primary": "#e11309"
+ },
+ "ioi-2-l2-62": {
+  "accent": null,
+  "primary": "#0588cd"
+ },
+ "ioi-2-l2-63": {
+  "accent": null,
+  "primary": "#045098"
+ },
+ "ioi-2-l2-64": {
+  "accent": "#fee708",
+  "primary": "#101571"
+ },
+ "ioi-2-l2-65-66": {
+  "accent": null,
+  "primary": "#008c56"
+ },
+ "ioi-2-l2-67-68": {
+  "accent": null,
+  "primary": "#ec3725"
+ },
+ "ioi-2-l2-69": {
+  "accent": "#e71d25",
+  "primary": "#030303"
+ },
+ "ioi-2-l2-70a": {
+  "accent": null,
+  "primary": "#cacaca"
+ },
+ "ioi-2-l2-70b": {
+  "accent": "#1bb2e9",
+  "primary": "#500707"
+ },
+ "ioi-2-l2-8": {
+  "accent": null,
+  "primary": "#010101"
+ },
+ "ioi-2-l2-9": {
+  "accent": null,
+  "primary": "#231f20"
+ },
+ "ioi-2-l2-at-3": {
+  "accent": null,
+  "primary": "#a38669"
+ },
+ "ioi-2-l2-k1b": {
+  "accent": null,
+  "primary": "#415fff"
+ },
+ "ioi-2-l2-k201": {
+  "accent": "#f2983c",
+  "primary": "#fbf8d6"
+ },
+ "ioi-2-l2-k203": {
+  "accent": null,
+  "primary": "#ac966b"
+ },
+ "ioi-2-l2-k204": {
+  "accent": "#6e7d3e",
+  "primary": "#060606"
+ },
+ "ioi-2-l2-k206": {
+  "accent": "#04b1e1",
+  "primary": "#fab122"
+ },
+ "ioi-2-mommy-hana": {
+  "accent": null,
+  "primary": "#572270"
+ },
+ "ioi-2-montigo-cosmic-cookware": {
+  "accent": "#11bed6",
+  "primary": "#111b4e"
+ },
+ "ioi-2-oh-some": {
+  "accent": null,
+  "primary": "#fdc52a"
+ },
+ "ioi-2-poney": {
+  "accent": null,
+  "primary": "#e61938"
+ },
+ "ioi-2-pop-mart": {
+  "accent": null,
+  "primary": "#e4011e"
+ },
+ "ioi-2-s-k07": {
+  "accent": null,
+  "primary": "#191919"
+ },
+ "ioi-2-s-k09": {
+  "accent": null,
+  "primary": "#f26c25"
+ },
+ "ioi-2-s-k10": {
+  "accent": null,
+  "primary": "#11257e"
+ },
+ "ioi-2-s-k11": {
+  "accent": null,
+  "primary": "#010101"
+ },
+ "ioi-2-s-k18": {
+  "accent": null,
+  "primary": "#030705"
+ },
+ "ioi-2-s-k1a": {
+  "accent": null,
+  "primary": "#040303"
+ },
+ "ioi-2-s-k2a": {
+  "accent": "#fecc13",
+  "primary": "#000000"
+ },
+ "ioi-2-s-k2b": {
+  "accent": null,
+  "primary": "#64ff01"
+ },
+ "ioi-2-s-k3": {
+  "accent": null,
+  "primary": "#ffd216"
+ },
+ "ioi-2-s-k4": {
+  "accent": "#e92235",
+  "primary": "#fcb331"
+ },
+ "ioi-2-s-k6": {
+  "accent": "#642a8c",
+  "primary": "#242224"
+ },
+ "ioi-2-s-k8": {
+  "accent": "#d248ae",
+  "primary": "#070f67"
+ },
+ "ioi-2-umobile": {
+  "accent": null,
+  "primary": "#ff8601"
+ },
+ "ioi-2-yl-camera": {
+  "accent": null,
+  "primary": "#fd730b"
+ },
+ "ioi-2-yogurt-planet": {
+  "accent": null,
+  "primary": "#cada10"
+ },
+ "ioi-2-zte-nubia": {
+  "accent": "#c95966",
+  "primary": "#6eb1c9"
+ },
+ "ioi-3-2at-3a": {
+  "accent": null,
+  "primary": "#fcb01b"
+ },
+ "ioi-3-2at-5": {
+  "accent": "#fef900",
+  "primary": "#221f1f"
+ },
+ "ioi-3-aeon-credit-service": {
+  "accent": "#fcab1c",
+  "primary": "#4c5bab"
+ },
+ "ioi-3-l3-201": {
+  "accent": "#083a8c",
+  "primary": "#e34d0d"
+ },
+ "ioi-3-l3-202": {
+  "accent": "#f70808",
+  "primary": "#50a136"
+ },
+ "ioi-3-l3-203": {
+  "accent": null,
+  "primary": "#0d0d0d"
+ },
+ "ioi-3-l3-204": {
+  "accent": "#b4843d",
+  "primary": "#283151"
+ },
+ "ioi-3-l3-205-206": {
+  "accent": "#1e9434",
+  "primary": "#084d9e"
+ },
+ "ioi-3-l3-209": {
+  "accent": "#d41325",
+  "primary": "#040303"
+ },
+ "ioi-3-l3-210": {
+  "accent": null,
+  "primary": "#06c3df"
+ },
+ "ioi-3-l3-211": {
+  "accent": null,
+  "primary": "#fcc402"
+ },
+ "ioi-3-l3-213-215": {
+  "accent": "#e68385",
+  "primary": "#d0bb6a"
+ },
+ "ioi-3-l3-216": {
+  "accent": null,
+  "primary": "#cc5383"
+ },
+ "ioi-3-l3-219": {
+  "accent": null,
+  "primary": "#ff002a"
+ },
+ "ioi-3-l3-220": {
+  "accent": null,
+  "primary": "#ec6c6a"
+ },
+ "ioi-3-l3-221": {
+  "accent": null,
+  "primary": "#020202"
+ },
+ "ioi-3-l3-222": {
+  "accent": null,
+  "primary": "#fd0183"
+ },
+ "ioi-3-l3-223-224": {
+  "accent": "#cccf00",
+  "primary": "#026526"
+ },
+ "ioi-3-l3-225": {
+  "accent": null,
+  "primary": "#f8e80e"
+ },
+ "ioi-3-l3-226": {
+  "accent": null,
+  "primary": "#0ca1dc"
+ },
+ "ioi-3-l3-227-229": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-3-l3-230": {
+  "accent": null,
+  "primary": "#fedbe2"
+ },
+ "ioi-3-l3-232a-b": {
+  "accent": "#f7e481",
+  "primary": "#0000fd"
+ },
+ "ioi-3-l3-233-234": {
+  "accent": null,
+  "primary": "#f1ccd3"
+ },
+ "ioi-3-l3-235": {
+  "accent": null,
+  "primary": "#ed008c"
+ },
+ "ioi-3-l3-k201": {
+  "accent": null,
+  "primary": "#fe312e"
+ },
+ "ioi-3-l3-k202": {
+  "accent": null,
+  "primary": "#6d1434"
+ },
+ "ioi-3-l3-k204": {
+  "accent": null,
+  "primary": "#202859"
+ },
+ "ioi-3-l3207-2": {
+  "accent": null,
+  "primary": "#c5161d"
+ },
+ "ioi-4-2at-10": {
+  "accent": null,
+  "primary": "#f29858"
+ },
+ "ioi-4-l4-201": {
+  "accent": "#fa532c",
+  "primary": "#000000"
+ },
+ "ioi-4-l4-202": {
+  "accent": null,
+  "primary": "#eaf40b"
+ },
+ "ioi-g-2at-8": {
+  "accent": null,
+  "primary": "#010101"
+ },
+ "ioi-g-aigner": {
+  "accent": null,
+  "primary": "#060606"
+ },
+ "ioi-g-aldo": {
+  "accent": null,
+  "primary": "#262223"
+ },
+ "ioi-g-b3-1-2": {
+  "accent": null,
+  "primary": "#ed1c24"
+ },
+ "ioi-g-chagee": {
+  "accent": null,
+  "primary": "#fe0202"
+ },
+ "ioi-g-chj-jewellery": {
+  "accent": null,
+  "primary": "#cccbcc"
+ },
+ "ioi-g-estee-lauder": {
+  "accent": null,
+  "primary": "#050505"
+ },
+ "ioi-g-fresh": {
+  "accent": null,
+  "primary": "#cbcdcf"
+ },
+ "ioi-g-g-1": {
+  "accent": null,
+  "primary": "#cbced0"
+ },
+ "ioi-g-g-10": {
+  "accent": null,
+  "primary": "#cf071e"
+ },
+ "ioi-g-g-16-17": {
+  "accent": null,
+  "primary": "#7f0119"
+ },
+ "ioi-g-g-2": {
+  "accent": null,
+  "primary": "#161413"
+ },
+ "ioi-g-g-202": {
+  "accent": null,
+  "primary": "#010101"
+ },
+ "ioi-g-g-207": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-g-g-208": {
+  "accent": "#cc051c",
+  "primary": "#122352"
+ },
+ "ioi-g-g-209": {
+  "accent": null,
+  "primary": "#231f20"
+ },
+ "ioi-g-g-210": {
+  "accent": null,
+  "primary": "#030303"
+ },
+ "ioi-g-g-211": {
+  "accent": null,
+  "primary": "#b3bbc6"
+ },
+ "ioi-g-g-213-214": {
+  "accent": null,
+  "primary": "#cecfcf"
+ },
+ "ioi-g-g-216": {
+  "accent": null,
+  "primary": "#031f34"
+ },
+ "ioi-g-g-22": {
+  "accent": null,
+  "primary": "#ff7f65"
+ },
+ "ioi-g-g-221": {
+  "accent": null,
+  "primary": "#c51230"
+ },
+ "ioi-g-g-223": {
+  "accent": null,
+  "primary": "#a10c1f"
+ },
+ "ioi-g-g-226": {
+  "accent": null,
+  "primary": "#030303"
+ },
+ "ioi-g-g-229a": {
+  "accent": null,
+  "primary": "#b6b6b6"
+ },
+ "ioi-g-g-229b": {
+  "accent": null,
+  "primary": "#313131"
+ },
+ "ioi-g-g-229c": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-g-g-23": {
+  "accent": null,
+  "primary": "#e0e0e0"
+ },
+ "ioi-g-g-231": {
+  "accent": null,
+  "primary": "#1f2034"
+ },
+ "ioi-g-g-232": {
+  "accent": null,
+  "primary": "#080607"
+ },
+ "ioi-g-g-233": {
+  "accent": null,
+  "primary": "#211d1e"
+ },
+ "ioi-g-g-235": {
+  "accent": null,
+  "primary": "#b3b2b2"
+ },
+ "ioi-g-g-236": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-g-g-237": {
+  "accent": null,
+  "primary": "#e82935"
+ },
+ "ioi-g-g-238": {
+  "accent": null,
+  "primary": "#84cdca"
+ },
+ "ioi-g-g-239a": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-g-g-239b-240": {
+  "accent": "#be0b3c",
+  "primary": "#041e42"
+ },
+ "ioi-g-g-241-243": {
+  "accent": null,
+  "primary": "#633359"
+ },
+ "ioi-g-g-245": {
+  "accent": null,
+  "primary": "#a4925e"
+ },
+ "ioi-g-g-26": {
+  "accent": "#9e2226",
+  "primary": "#010101"
+ },
+ "ioi-g-g-27": {
+  "accent": null,
+  "primary": "#070707"
+ },
+ "ioi-g-g-28-29": {
+  "accent": "#cd9639",
+  "primary": "#000000"
+ },
+ "ioi-g-g-2at-2": {
+  "accent": null,
+  "primary": "#b41d8e"
+ },
+ "ioi-g-g-33": {
+  "accent": null,
+  "primary": "#01408b"
+ },
+ "ioi-g-g-34": {
+  "accent": "#db6e81",
+  "primary": "#262223"
+ },
+ "ioi-g-g-3a": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-g-g-3b": {
+  "accent": "#fc0b04",
+  "primary": "#000000"
+ },
+ "ioi-g-g-4": {
+  "accent": "#6e97b6",
+  "primary": "#3b3a96"
+ },
+ "ioi-g-g-42": {
+  "accent": null,
+  "primary": "#fcbb02"
+ },
+ "ioi-g-g-43": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-g-g-44": {
+  "accent": null,
+  "primary": "#080808"
+ },
+ "ioi-g-g-45": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-g-g-47-48": {
+  "accent": null,
+  "primary": "#66676b"
+ },
+ "ioi-g-g-48a": {
+  "accent": null,
+  "primary": "#95b993"
+ },
+ "ioi-g-g-49": {
+  "accent": null,
+  "primary": "#b4b4b4"
+ },
+ "ioi-g-g-50": {
+  "accent": null,
+  "primary": "#cbcbcb"
+ },
+ "ioi-g-g-51": {
+  "accent": "#db2340",
+  "primary": "#050507"
+ },
+ "ioi-g-g-52a": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-g-g-52b-53a": {
+  "accent": null,
+  "primary": "#6d6b6b"
+ },
+ "ioi-g-g-53b": {
+  "accent": null,
+  "primary": "#535353"
+ },
+ "ioi-g-g-56": {
+  "accent": "#9c292e",
+  "primary": "#cdcdcd"
+ },
+ "ioi-g-g-57": {
+  "accent": null,
+  "primary": "#121211"
+ },
+ "ioi-g-g-57a": {
+  "accent": null,
+  "primary": "#161817"
+ },
+ "ioi-g-g-58a": {
+  "accent": null,
+  "primary": "#3ab9af"
+ },
+ "ioi-g-g-59": {
+  "accent": null,
+  "primary": "#010101"
+ },
+ "ioi-g-g-60": {
+  "accent": null,
+  "primary": "#040707"
+ },
+ "ioi-g-g-61-66": {
+  "accent": null,
+  "primary": "#0199f3"
+ },
+ "ioi-g-g-67": {
+  "accent": null,
+  "primary": "#ffb700"
+ },
+ "ioi-g-g-68": {
+  "accent": null,
+  "primary": "#143867"
+ },
+ "ioi-g-g-7": {
+  "accent": null,
+  "primary": "#010101"
+ },
+ "ioi-g-g-71-71": {
+  "accent": "#e64097",
+  "primary": "#035397"
+ },
+ "ioi-g-g-72": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-g-g-72a": {
+  "accent": null,
+  "primary": "#060606"
+ },
+ "ioi-g-g-73a": {
+  "accent": null,
+  "primary": "#b3b3b3"
+ },
+ "ioi-g-g-73b": {
+  "accent": null,
+  "primary": "#7996a5"
+ },
+ "ioi-g-g-74a": {
+  "accent": "#38ab4b",
+  "primary": "#222021"
+ },
+ "ioi-g-g-74b": {
+  "accent": "#e62027",
+  "primary": "#030304"
+ },
+ "ioi-g-g-76": {
+  "accent": null,
+  "primary": "#030305"
+ },
+ "ioi-g-g-77": {
+  "accent": null,
+  "primary": "#e4010b"
+ },
+ "ioi-g-g-78a": {
+  "accent": null,
+  "primary": "#1d1d1b"
+ },
+ "ioi-g-g-79": {
+  "accent": "#57381e",
+  "primary": "#69ccf4"
+ },
+ "ioi-g-g-8a": {
+  "accent": null,
+  "primary": "#050505"
+ },
+ "ioi-g-g-8b": {
+  "accent": null,
+  "primary": "#020202"
+ },
+ "ioi-g-g-9a": {
+  "accent": null,
+  "primary": "#79a3dd"
+ },
+ "ioi-g-g-k1a": {
+  "accent": null,
+  "primary": "#061630"
+ },
+ "ioi-g-g-k1d": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-g-g-k3": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-g-g-k3b": {
+  "accent": null,
+  "primary": "#99c6a5"
+ },
+ "ioi-g-g-k4": {
+  "accent": null,
+  "primary": "#d2053d"
+ },
+ "ioi-g-g-k6": {
+  "accent": null,
+  "primary": "#cbcbcb"
+ },
+ "ioi-g-g11-3": {
+  "accent": null,
+  "primary": "#e52129"
+ },
+ "ioi-g-g20-2": {
+  "accent": null,
+  "primary": "#011567"
+ },
+ "ioi-g-g24-2": {
+  "accent": null,
+  "primary": "#be1521"
+ },
+ "ioi-g-g30-5": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-g-g40-2": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-g-g5-2": {
+  "accent": null,
+  "primary": "#52680d"
+ },
+ "ioi-g-ge-1": {
+  "accent": "#e9db7e",
+  "primary": "#65a4ac"
+ },
+ "ioi-g-ge-12": {
+  "accent": null,
+  "primary": "#de3528"
+ },
+ "ioi-g-ge-13": {
+  "accent": null,
+  "primary": "#2d100f"
+ },
+ "ioi-g-ge-14": {
+  "accent": null,
+  "primary": "#c79d54"
+ },
+ "ioi-g-ge-15": {
+  "accent": "#2883c6",
+  "primary": "#fab620"
+ },
+ "ioi-g-ge-16": {
+  "accent": "#a1cf5f",
+  "primary": "#5d409a"
+ },
+ "ioi-g-ge-17": {
+  "accent": null,
+  "primary": "#e50011"
+ },
+ "ioi-g-ge-18": {
+  "accent": "#ce293b",
+  "primary": "#24204f"
+ },
+ "ioi-g-ge-19": {
+  "accent": null,
+  "primary": "#333679"
+ },
+ "ioi-g-ge-2": {
+  "accent": null,
+  "primary": "#fe0202"
+ },
+ "ioi-g-ge-203": {
+  "accent": null,
+  "primary": "#b3b1b2"
+ },
+ "ioi-g-ge-204": {
+  "accent": "#c3ab84",
+  "primary": "#d3c6b1"
+ },
+ "ioi-g-ge-205": {
+  "accent": null,
+  "primary": "#cf570f"
+ },
+ "ioi-g-ge-206": {
+  "accent": null,
+  "primary": "#d40506"
+ },
+ "ioi-g-ge-209": {
+  "accent": null,
+  "primary": "#0021fa"
+ },
+ "ioi-g-ge-211-212": {
+  "accent": "#3c3a24",
+  "primary": "#060807"
+ },
+ "ioi-g-ge-213-214": {
+  "accent": "#9e823c",
+  "primary": "#02644d"
+ },
+ "ioi-g-ge-215": {
+  "accent": null,
+  "primary": "#45401d"
+ },
+ "ioi-g-ge-216": {
+  "accent": null,
+  "primary": "#241e20"
+ },
+ "ioi-g-ge-217-218": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-g-ge-244": {
+  "accent": "#c62a40",
+  "primary": "#cccdcc"
+ },
+ "ioi-g-ge-3b": {
+  "accent": "#e7cf9b",
+  "primary": "#f5e9cd"
+ },
+ "ioi-g-ge-5": {
+  "accent": null,
+  "primary": "#cdcdcd"
+ },
+ "ioi-g-ge-6": {
+  "accent": null,
+  "primary": "#136437"
+ },
+ "ioi-g-ge-7": {
+  "accent": "#4d8c1d",
+  "primary": "#ed291c"
+ },
+ "ioi-g-ge-8": {
+  "accent": "#3b663d",
+  "primary": "#126042"
+ },
+ "ioi-g-ge9-2": {
+  "accent": "#8b705b",
+  "primary": "#d2cec7"
+ },
+ "ioi-g-kipling": {
+  "accent": null,
+  "primary": "#262528"
+ },
+ "ioi-g-lacoste": {
+  "accent": "#403426",
+  "primary": "#004526"
+ },
+ "ioi-g-lilanz": {
+  "accent": null,
+  "primary": "#020202"
+ },
+ "ioi-g-m-a-c": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-g-molton-brown": {
+  "accent": null,
+  "primary": "#cccbcb"
+ },
+ "ioi-g-nars": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-g-parkson": {
+  "accent": null,
+  "primary": "#ba9765"
+ },
+ "ioi-g-pedro": {
+  "accent": null,
+  "primary": "#050505"
+ },
+ "ioi-g-piquadro": {
+  "accent": null,
+  "primary": "#0395d3"
+ },
+ "ioi-g-pokok": {
+  "accent": null,
+  "primary": "#cbe7d4"
+ },
+ "ioi-g-proton-e-mas": {
+  "accent": null,
+  "primary": "#010101"
+ },
+ "ioi-g-shiseido": {
+  "accent": null,
+  "primary": "#b53328"
+ },
+ "ioi-g-sk-ii": {
+  "accent": null,
+  "primary": "#9a012e"
+ },
+ "ioi-g-the-ordinary": {
+  "accent": null,
+  "primary": "#1f1d1e"
+ },
+ "ioi-g-tom-ford": {
+  "accent": null,
+  "primary": "#828080"
+ },
+ "ioi-g-victoria-s-secret": {
+  "accent": null,
+  "primary": "#ecb0c9"
+ },
+ "ioi-lg-airi-berry": {
+  "accent": "#ddb880",
+  "primary": "#d42e27"
+ },
+ "ioi-lg-at-2": {
+  "accent": "#cb8b37",
+  "primary": "#0163ac"
+ },
+ "ioi-lg-bananabro": {
+  "accent": "#f9e06c",
+  "primary": "#69a140"
+ },
+ "ioi-lg-banglo-289": {
+  "accent": null,
+  "primary": "#e1e1e1"
+ },
+ "ioi-lg-beard-papa": {
+  "accent": "#676e99",
+  "primary": "#fed601"
+ },
+ "ioi-lg-c-19k": {
+  "accent": null,
+  "primary": "#c85b60"
+ },
+ "ioi-lg-columbia": {
+  "accent": null,
+  "primary": "#54b2e1"
+ },
+ "ioi-lg-converse": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-lg-daisy-by-voir-gallery": {
+  "accent": null,
+  "primary": "#b3b3b3"
+ },
+ "ioi-lg-daniel-wellington": {
+  "accent": null,
+  "primary": "#1e1e1c"
+ },
+ "ioi-lg-dimsusu": {
+  "accent": "#feeb63",
+  "primary": "#020001"
+ },
+ "ioi-lg-don-makase": {
+  "accent": "#ec6859",
+  "primary": "#f7dad5"
+ },
+ "ioi-lg-dotnuts": {
+  "accent": null,
+  "primary": "#004b24"
+ },
+ "ioi-lg-famous-amos": {
+  "accent": "#09b1f2",
+  "primary": "#6b80b6"
+ },
+ "ioi-lg-g-101": {
+  "accent": null,
+  "primary": "#0082cb"
+ },
+ "ioi-lg-garrett-popcorn": {
+  "accent": null,
+  "primary": "#083765"
+ },
+ "ioi-lg-ipg-tower-1": {
+  "accent": null,
+  "primary": "#202a81"
+ },
+ "ioi-lg-ipg-tower-2": {
+  "accent": null,
+  "primary": "#202a81"
+ },
+ "ioi-lg-kakatoogo": {
+  "accent": "#03b099",
+  "primary": "#252925"
+ },
+ "ioi-lg-khatam": {
+  "accent": null,
+  "primary": "#3b302d"
+ },
+ "ioi-lg-kyoto-katsu": {
+  "accent": null,
+  "primary": "#ca3b32"
+ },
+ "ioi-lg-le-creuset": {
+  "accent": "#fb4f02",
+  "primary": "#211e1f"
+ },
+ "ioi-lg-lg-1": {
+  "accent": null,
+  "primary": "#014b8e"
+ },
+ "ioi-lg-lg-10": {
+  "accent": null,
+  "primary": "#010101"
+ },
+ "ioi-lg-lg-101b": {
+  "accent": null,
+  "primary": "#1e1e1e"
+ },
+ "ioi-lg-lg-102": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-lg-lg-103": {
+  "accent": null,
+  "primary": "#534135"
+ },
+ "ioi-lg-lg-104": {
+  "accent": "#6c3f2c",
+  "primary": "#616365"
+ },
+ "ioi-lg-lg-105": {
+  "accent": null,
+  "primary": "#090909"
+ },
+ "ioi-lg-lg-106": {
+  "accent": null,
+  "primary": "#93236e"
+ },
+ "ioi-lg-lg-107a": {
+  "accent": null,
+  "primary": "#7c0d54"
+ },
+ "ioi-lg-lg-107b": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-lg-lg-12-14": {
+  "accent": null,
+  "primary": "#e51837"
+ },
+ "ioi-lg-lg-13-15": {
+  "accent": "#f41108",
+  "primary": "#019f97"
+ },
+ "ioi-lg-lg-16": {
+  "accent": null,
+  "primary": "#e5001a"
+ },
+ "ioi-lg-lg-17b": {
+  "accent": null,
+  "primary": "#002d56"
+ },
+ "ioi-lg-lg-18": {
+  "accent": "#e50411",
+  "primary": "#00665d"
+ },
+ "ioi-lg-lg-2": {
+  "accent": null,
+  "primary": "#ed5b99"
+ },
+ "ioi-lg-lg-20": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-lg-lg-201": {
+  "accent": "#3e381c",
+  "primary": "#221e20"
+ },
+ "ioi-lg-lg-202": {
+  "accent": null,
+  "primary": "#020408"
+ },
+ "ioi-lg-lg-203": {
+  "accent": null,
+  "primary": "#cdcdcd"
+ },
+ "ioi-lg-lg-204": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-lg-lg-205": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-lg-lg-206-208": {
+  "accent": null,
+  "primary": "#e71422"
+ },
+ "ioi-lg-lg-207": {
+  "accent": null,
+  "primary": "#231f1f"
+ },
+ "ioi-lg-lg-209": {
+  "accent": null,
+  "primary": "#3b4e69"
+ },
+ "ioi-lg-lg-210": {
+  "accent": null,
+  "primary": "#b4b4b4"
+ },
+ "ioi-lg-lg-211": {
+  "accent": null,
+  "primary": "#010101"
+ },
+ "ioi-lg-lg-212": {
+  "accent": null,
+  "primary": "#8e236b"
+ },
+ "ioi-lg-lg-215": {
+  "accent": "#7fc241",
+  "primary": "#565555"
+ },
+ "ioi-lg-lg-217-219": {
+  "accent": null,
+  "primary": "#cecaca"
+ },
+ "ioi-lg-lg-218": {
+  "accent": "#00ab4f",
+  "primary": "#0096db"
+ },
+ "ioi-lg-lg-22": {
+  "accent": null,
+  "primary": "#004355"
+ },
+ "ioi-lg-lg-220": {
+  "accent": null,
+  "primary": "#b41d8e"
+ },
+ "ioi-lg-lg-222a": {
+  "accent": null,
+  "primary": "#002d57"
+ },
+ "ioi-lg-lg-223": {
+  "accent": null,
+  "primary": "#029d97"
+ },
+ "ioi-lg-lg-224": {
+  "accent": null,
+  "primary": "#f2882a"
+ },
+ "ioi-lg-lg-226": {
+  "accent": null,
+  "primary": "#e91d26"
+ },
+ "ioi-lg-lg-227": {
+  "accent": null,
+  "primary": "#c2531b"
+ },
+ "ioi-lg-lg-228": {
+  "accent": "#debd85",
+  "primary": "#d01f26"
+ },
+ "ioi-lg-lg-229": {
+  "accent": "#f6c80c",
+  "primary": "#221514"
+ },
+ "ioi-lg-lg-23": {
+  "accent": "#e51a39",
+  "primary": "#000000"
+ },
+ "ioi-lg-lg-230": {
+  "accent": "#37583f",
+  "primary": "#ac1e24"
+ },
+ "ioi-lg-lg-231": {
+  "accent": null,
+  "primary": "#107c42"
+ },
+ "ioi-lg-lg-232": {
+  "accent": "#53210c",
+  "primary": "#21361a"
+ },
+ "ioi-lg-lg-233": {
+  "accent": null,
+  "primary": "#242424"
+ },
+ "ioi-lg-lg-234": {
+  "accent": null,
+  "primary": "#070707"
+ },
+ "ioi-lg-lg-235": {
+  "accent": "#55c9d5",
+  "primary": "#f34e86"
+ },
+ "ioi-lg-lg-236": {
+  "accent": "#876956",
+  "primary": "#e2d2c5"
+ },
+ "ioi-lg-lg-237": {
+  "accent": null,
+  "primary": "#d20355"
+ },
+ "ioi-lg-lg-238": {
+  "accent": null,
+  "primary": "#010000"
+ },
+ "ioi-lg-lg-239": {
+  "accent": null,
+  "primary": "#df002f"
+ },
+ "ioi-lg-lg-24": {
+  "accent": null,
+  "primary": "#ed1c24"
+ },
+ "ioi-lg-lg-240": {
+  "accent": null,
+  "primary": "#b62210"
+ },
+ "ioi-lg-lg-242": {
+  "accent": "#b3b239",
+  "primary": "#000001"
+ },
+ "ioi-lg-lg-244": {
+  "accent": "#a31325",
+  "primary": "#1f386f"
+ },
+ "ioi-lg-lg-245": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-lg-lg-246-247": {
+  "accent": null,
+  "primary": "#c7a072"
+ },
+ "ioi-lg-lg-246a": {
+  "accent": null,
+  "primary": "#abcd39"
+ },
+ "ioi-lg-lg-248-249": {
+  "accent": "#e8401c",
+  "primary": "#129047"
+ },
+ "ioi-lg-lg-25": {
+  "accent": null,
+  "primary": "#76b909"
+ },
+ "ioi-lg-lg-250": {
+  "accent": "#3e3725",
+  "primary": "#050608"
+ },
+ "ioi-lg-lg-251": {
+  "accent": null,
+  "primary": "#b4b3b3"
+ },
+ "ioi-lg-lg-252": {
+  "accent": "#ca9a20",
+  "primary": "#401d1d"
+ },
+ "ioi-lg-lg-252a": {
+  "accent": "#9e8540",
+  "primary": "#1e2967"
+ },
+ "ioi-lg-lg-253": {
+  "accent": "#892b94",
+  "primary": "#b89a5a"
+ },
+ "ioi-lg-lg-254": {
+  "accent": null,
+  "primary": "#d01d2c"
+ },
+ "ioi-lg-lg-255": {
+  "accent": "#1258a4",
+  "primary": "#dc59a1"
+ },
+ "ioi-lg-lg-256": {
+  "accent": null,
+  "primary": "#fec50d"
+ },
+ "ioi-lg-lg-256b": {
+  "accent": null,
+  "primary": "#f4b56e"
+ },
+ "ioi-lg-lg-256c": {
+  "accent": "#055441",
+  "primary": "#fef700"
+ },
+ "ioi-lg-lg-257-259": {
+  "accent": null,
+  "primary": "#d61b22"
+ },
+ "ioi-lg-lg-258-260": {
+  "accent": "#e56c4c",
+  "primary": "#f7c96a"
+ },
+ "ioi-lg-lg-26": {
+  "accent": null,
+  "primary": "#b3b3b3"
+ },
+ "ioi-lg-lg-261": {
+  "accent": "#be1d2b",
+  "primary": "#fec923"
+ },
+ "ioi-lg-lg-262": {
+  "accent": "#a37c52",
+  "primary": "#211e1f"
+ },
+ "ioi-lg-lg-263-265": {
+  "accent": null,
+  "primary": "#f6821f"
+ },
+ "ioi-lg-lg-264-266": {
+  "accent": null,
+  "primary": "#082e86"
+ },
+ "ioi-lg-lg-267": {
+  "accent": null,
+  "primary": "#242122"
+ },
+ "ioi-lg-lg-268": {
+  "accent": "#87439a",
+  "primary": "#010000"
+ },
+ "ioi-lg-lg-269": {
+  "accent": null,
+  "primary": "#c8b26c"
+ },
+ "ioi-lg-lg-27": {
+  "accent": "#ed1b24",
+  "primary": "#1f429d"
+ },
+ "ioi-lg-lg-270": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-lg-lg-271": {
+  "accent": null,
+  "primary": "#726656"
+ },
+ "ioi-lg-lg-272": {
+  "accent": null,
+  "primary": "#0c0901"
+ },
+ "ioi-lg-lg-273": {
+  "accent": null,
+  "primary": "#ec008c"
+ },
+ "ioi-lg-lg-274": {
+  "accent": null,
+  "primary": "#3c5372"
+ },
+ "ioi-lg-lg-275": {
+  "accent": null,
+  "primary": "#e0003b"
+ },
+ "ioi-lg-lg-276": {
+  "accent": null,
+  "primary": "#4b322f"
+ },
+ "ioi-lg-lg-277": {
+  "accent": null,
+  "primary": "#030303"
+ },
+ "ioi-lg-lg-278-279": {
+  "accent": "#e2d41c",
+  "primary": "#000000"
+ },
+ "ioi-lg-lg-28": {
+  "accent": "#ed1c24",
+  "primary": "#005bad"
+ },
+ "ioi-lg-lg-280": {
+  "accent": null,
+  "primary": "#b192af"
+ },
+ "ioi-lg-lg-29b": {
+  "accent": null,
+  "primary": "#21573d"
+ },
+ "ioi-lg-lg-29c": {
+  "accent": null,
+  "primary": "#836083"
+ },
+ "ioi-lg-lg-2at-1": {
+  "accent": null,
+  "primary": "#b41d8e"
+ },
+ "ioi-lg-lg-30": {
+  "accent": "#991f22",
+  "primary": "#cee4be"
+ },
+ "ioi-lg-lg-30a": {
+  "accent": null,
+  "primary": "#bb9865"
+ },
+ "ioi-lg-lg-32a": {
+  "accent": "#1c439d",
+  "primary": "#facd53"
+ },
+ "ioi-lg-lg-32b": {
+  "accent": "#568a82",
+  "primary": "#e1d1c8"
+ },
+ "ioi-lg-lg-33": {
+  "accent": "#e3355c",
+  "primary": "#545152"
+ },
+ "ioi-lg-lg-34c": {
+  "accent": null,
+  "primary": "#e41f26"
+ },
+ "ioi-lg-lg-35": {
+  "accent": null,
+  "primary": "#b3802b"
+ },
+ "ioi-lg-lg-36": {
+  "accent": "#6e53b6",
+  "primary": "#ffc701"
+ },
+ "ioi-lg-lg-37": {
+  "accent": null,
+  "primary": "#e80102"
+ },
+ "ioi-lg-lg-38-40": {
+  "accent": null,
+  "primary": "#010000"
+ },
+ "ioi-lg-lg-39": {
+  "accent": null,
+  "primary": "#0fa298"
+ },
+ "ioi-lg-lg-3a": {
+  "accent": null,
+  "primary": "#050505"
+ },
+ "ioi-lg-lg-3b": {
+  "accent": null,
+  "primary": "#231f20"
+ },
+ "ioi-lg-lg-41a": {
+  "accent": null,
+  "primary": "#20409b"
+ },
+ "ioi-lg-lg-42": {
+  "accent": null,
+  "primary": "#62be4a"
+ },
+ "ioi-lg-lg-43": {
+  "accent": "#eb1e25",
+  "primary": "#b3b3b3"
+ },
+ "ioi-lg-lg-44": {
+  "accent": "#3c2d67",
+  "primary": "#e84444"
+ },
+ "ioi-lg-lg-45": {
+  "accent": "#3f94ba",
+  "primary": "#222222"
+ },
+ "ioi-lg-lg-46": {
+  "accent": "#e28286",
+  "primary": "#221e1f"
+ },
+ "ioi-lg-lg-47": {
+  "accent": "#fdd002",
+  "primary": "#af0827"
+ },
+ "ioi-lg-lg-48a": {
+  "accent": null,
+  "primary": "#848382"
+ },
+ "ioi-lg-lg-48b": {
+  "accent": "#cf5838",
+  "primary": "#f2ae2d"
+ },
+ "ioi-lg-lg-49": {
+  "accent": "#f9b907",
+  "primary": "#f2edd0"
+ },
+ "ioi-lg-lg-5": {
+  "accent": null,
+  "primary": "#9a080d"
+ },
+ "ioi-lg-lg-51": {
+  "accent": null,
+  "primary": "#e88183"
+ },
+ "ioi-lg-lg-52": {
+  "accent": null,
+  "primary": "#f26e81"
+ },
+ "ioi-lg-lg-53-55": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-lg-lg-54-56": {
+  "accent": "#b5cb3d",
+  "primary": "#ec1c24"
+ },
+ "ioi-lg-lg-57-58": {
+  "accent": "#fdc92f",
+  "primary": "#d52a1e"
+ },
+ "ioi-lg-lg-59": {
+  "accent": null,
+  "primary": "#e4292c"
+ },
+ "ioi-lg-lg-6": {
+  "accent": null,
+  "primary": "#f10327"
+ },
+ "ioi-lg-lg-61": {
+  "accent": "#facb03",
+  "primary": "#b10f14"
+ },
+ "ioi-lg-lg-63": {
+  "accent": null,
+  "primary": "#1e2e5a"
+ },
+ "ioi-lg-lg-64": {
+  "accent": null,
+  "primary": "#c9143e"
+ },
+ "ioi-lg-lg-65": {
+  "accent": "#fe6d02",
+  "primary": "#ea0e28"
+ },
+ "ioi-lg-lg-65a": {
+  "accent": "#3f6534",
+  "primary": "#074224"
+ },
+ "ioi-lg-lg-66a": {
+  "accent": null,
+  "primary": "#00b08c"
+ },
+ "ioi-lg-lg-66b": {
+  "accent": "#c96e1d",
+  "primary": "#9c060e"
+ },
+ "ioi-lg-lg-67": {
+  "accent": null,
+  "primary": "#ed1c24"
+ },
+ "ioi-lg-lg-68": {
+  "accent": "#f63a3c",
+  "primary": "#01713e"
+ },
+ "ioi-lg-lg-69": {
+  "accent": null,
+  "primary": "#c2182d"
+ },
+ "ioi-lg-lg-7": {
+  "accent": null,
+  "primary": "#050564"
+ },
+ "ioi-lg-lg-70": {
+  "accent": "#531e1f",
+  "primary": "#fdb454"
+ },
+ "ioi-lg-lg-72": {
+  "accent": "#00ab4f",
+  "primary": "#0096db"
+ },
+ "ioi-lg-lg-73": {
+  "accent": "#d2c686",
+  "primary": "#e8e4c7"
+ },
+ "ioi-lg-lg-74a": {
+  "accent": null,
+  "primary": "#231a16"
+ },
+ "ioi-lg-lg-74b": {
+  "accent": "#cc1289",
+  "primary": "#c61d24"
+ },
+ "ioi-lg-lg-75": {
+  "accent": "#ce6985",
+  "primary": "#b3b3b3"
+ },
+ "ioi-lg-lg-76a": {
+  "accent": null,
+  "primary": "#374c21"
+ },
+ "ioi-lg-lg-78d": {
+  "accent": "#55b17d",
+  "primary": "#242424"
+ },
+ "ioi-lg-lg-78e": {
+  "accent": null,
+  "primary": "#543728"
+ },
+ "ioi-lg-lg-79a": {
+  "accent": null,
+  "primary": "#cbcbcb"
+ },
+ "ioi-lg-lg-79b": {
+  "accent": "#b2282c",
+  "primary": "#010101"
+ },
+ "ioi-lg-lg-79d": {
+  "accent": null,
+  "primary": "#333679"
+ },
+ "ioi-lg-lg-8": {
+  "accent": null,
+  "primary": "#080808"
+ },
+ "ioi-lg-lg-80": {
+  "accent": "#8cc4e9",
+  "primary": "#231f20"
+ },
+ "ioi-lg-lg-80c": {
+  "accent": null,
+  "primary": "#b62639"
+ },
+ "ioi-lg-lg-80d": {
+  "accent": "#ffc440",
+  "primary": "#2ddcca"
+ },
+ "ioi-lg-lg-81-82a": {
+  "accent": null,
+  "primary": "#023a65"
+ },
+ "ioi-lg-lg-82b": {
+  "accent": null,
+  "primary": "#116ba0"
+ },
+ "ioi-lg-lg-83": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-lg-lg-84": {
+  "accent": null,
+  "primary": "#b5253c"
+ },
+ "ioi-lg-lg-85": {
+  "accent": null,
+  "primary": "#3c3c3c"
+ },
+ "ioi-lg-lg-89a": {
+  "accent": "#fe9582",
+  "primary": "#fce236"
+ },
+ "ioi-lg-lg-89b": {
+  "accent": "#b7983e",
+  "primary": "#e91c2d"
+ },
+ "ioi-lg-lg-90": {
+  "accent": "#4cabc8",
+  "primary": "#b5b4b4"
+ },
+ "ioi-lg-lg-91": {
+  "accent": "#dd4053",
+  "primary": "#9e9d9c"
+ },
+ "ioi-lg-lg-92": {
+  "accent": "#3c3553",
+  "primary": "#f37020"
+ },
+ "ioi-lg-lg-93": {
+  "accent": "#392623",
+  "primary": "#3a3905"
+ },
+ "ioi-lg-lg-94-96": {
+  "accent": null,
+  "primary": "#ec1b30"
+ },
+ "ioi-lg-lg-97-99": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-lg-lg-at-1": {
+  "accent": "#fdc300",
+  "primary": "#00c2ba"
+ },
+ "ioi-lg-lg-c20b": {
+  "accent": "#870203",
+  "primary": "#adeab2"
+ },
+ "ioi-lg-lg-c30-k": {
+  "accent": "#b5986e",
+  "primary": "#051d43"
+ },
+ "ioi-lg-lg-c42a-k": {
+  "accent": null,
+  "primary": "#7f1719"
+ },
+ "ioi-lg-lg-c43-k": {
+  "accent": "#69583b",
+  "primary": "#131315"
+ },
+ "ioi-lg-lg-c57-k": {
+  "accent": null,
+  "primary": "#81570d"
+ },
+ "ioi-lg-lg-k1": {
+  "accent": null,
+  "primary": "#818181"
+ },
+ "ioi-lg-lg-k10a": {
+  "accent": null,
+  "primary": "#8fd300"
+ },
+ "ioi-lg-lg-k11": {
+  "accent": "#fde59b",
+  "primary": "#24669e"
+ },
+ "ioi-lg-lg-k11a": {
+  "accent": null,
+  "primary": "#040509"
+ },
+ "ioi-lg-lg-k11b": {
+  "accent": "#cfb883",
+  "primary": "#040404"
+ },
+ "ioi-lg-lg-k12": {
+  "accent": null,
+  "primary": "#f3eb49"
+ },
+ "ioi-lg-lg-k13": {
+  "accent": null,
+  "primary": "#030303"
+ },
+ "ioi-lg-lg-k14": {
+  "accent": "#991f22",
+  "primary": "#cee4be"
+ },
+ "ioi-lg-lg-k15": {
+  "accent": null,
+  "primary": "#3c1e14"
+ },
+ "ioi-lg-lg-k16-k19": {
+  "accent": "#da0007",
+  "primary": "#737373"
+ },
+ "ioi-lg-lg-k1a": {
+  "accent": null,
+  "primary": "#010101"
+ },
+ "ioi-lg-lg-k2": {
+  "accent": null,
+  "primary": "#b5b5b5"
+ },
+ "ioi-lg-lg-k20": {
+  "accent": null,
+  "primary": "#060606"
+ },
+ "ioi-lg-lg-k20-k23": {
+  "accent": "#de98e0",
+  "primary": "#cbb2e4"
+ },
+ "ioi-lg-lg-k202": {
+  "accent": null,
+  "primary": "#5b3285"
+ },
+ "ioi-lg-lg-k204": {
+  "accent": null,
+  "primary": "#d9d9d9"
+ },
+ "ioi-lg-lg-k205": {
+  "accent": null,
+  "primary": "#202a81"
+ },
+ "ioi-lg-lg-k207": {
+  "accent": null,
+  "primary": "#f79f99"
+ },
+ "ioi-lg-lg-k208": {
+  "accent": "#5751a0",
+  "primary": "#6c3d97"
+ },
+ "ioi-lg-lg-k210": {
+  "accent": "#1ee800",
+  "primary": "#293997"
+ },
+ "ioi-lg-lg-k211": {
+  "accent": "#eb9c9c",
+  "primary": "#9c9c9c"
+ },
+ "ioi-lg-lg-k215": {
+  "accent": null,
+  "primary": "#0a224d"
+ },
+ "ioi-lg-lg-k217": {
+  "accent": "#685729",
+  "primary": "#e9242c"
+ },
+ "ioi-lg-lg-k219": {
+  "accent": null,
+  "primary": "#244094"
+ },
+ "ioi-lg-lg-k220": {
+  "accent": "#2695a1",
+  "primary": "#6f5da9"
+ },
+ "ioi-lg-lg-k222": {
+  "accent": "#b2ca55",
+  "primary": "#258750"
+ },
+ "ioi-lg-lg-k24": {
+  "accent": null,
+  "primary": "#2c2e66"
+ },
+ "ioi-lg-lg-k3": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-lg-lg-k30": {
+  "accent": null,
+  "primary": "#93236e"
+ },
+ "ioi-lg-lg-k32": {
+  "accent": null,
+  "primary": "#15462b"
+ },
+ "ioi-lg-lg-k4": {
+  "accent": null,
+  "primary": "#b51f8d"
+ },
+ "ioi-lg-lg-k4a": {
+  "accent": null,
+  "primary": "#241f20"
+ },
+ "ioi-lg-lg-k5a": {
+  "accent": null,
+  "primary": "#202a81"
+ },
+ "ioi-lg-lg-k5b": {
+  "accent": null,
+  "primary": "#010101"
+ },
+ "ioi-lg-lg-k5g": {
+  "accent": "#7f6757",
+  "primary": "#cf142c"
+ },
+ "ioi-lg-lg-k5h": {
+  "accent": null,
+  "primary": "#024bc8"
+ },
+ "ioi-lg-lg-k6": {
+  "accent": null,
+  "primary": "#cdcfcc"
+ },
+ "ioi-lg-lg-k7": {
+  "accent": null,
+  "primary": "#2b2a28"
+ },
+ "ioi-lg-lg-k8": {
+  "accent": "#7fc240",
+  "primary": "#f98420"
+ },
+ "ioi-lg-lg-k9": {
+  "accent": null,
+  "primary": "#f36422"
+ },
+ "ioi-lg-lg-k9a": {
+  "accent": "#1ee800",
+  "primary": "#293997"
+ },
+ "ioi-lg-lg-k9b": {
+  "accent": null,
+  "primary": "#9c0911"
+ },
+ "ioi-lg-lg9-2": {
+  "accent": null,
+  "primary": "#02244d"
+ },
+ "ioi-lg-love-maya": {
+  "accent": null,
+  "primary": "#000000"
+ },
+ "ioi-lg-lumi": {
+  "accent": null,
+  "primary": "#9c9c9c"
+ },
+ "ioi-lg-maison-la-manne": {
+  "accent": "#89664f",
+  "primary": "#481114"
+ },
+ "ioi-lg-montigo": {
+  "accent": "#11bdd4",
+  "primary": "#060f43"
+ },
+ "ioi-lg-nikumai": {
+  "accent": null,
+  "primary": "#231f1e"
+ },
+ "ioi-lg-ombak-kitchen": {
+  "accent": null,
+  "primary": "#4ebdbb"
+ },
+ "ioi-lg-rhapsody": {
+  "accent": null,
+  "primary": "#6d6c6c"
+ },
+ "ioi-lg-s-wan-jewels": {
+  "accent": null,
+  "primary": "#020408"
+ },
+ "ioi-lg-sisters-crispy-popiah": {
+  "accent": "#63b143",
+  "primary": "#e25b20"
+ },
+ "ioi-lg-skintific": {
+  "accent": null,
+  "primary": "#00afd8"
+ },
+ "ioi-lg-tous-les-jours": {
+  "accent": "#e0e182",
+  "primary": "#28673d"
+ },
+ "ioi-lg-voir": {
+  "accent": null,
+  "primary": "#231f20"
+ },
+ "ioi-lg-wow-beauty": {
+  "accent": "#3a2227",
+  "primary": "#edc7ca"
+ },
+ "ioi-lg-ygf-malatang": {
+  "accent": null,
+  "primary": "#399538"
+ },
+ "ioi-lg-zus-coffee": {
+  "accent": null,
+  "primary": "#283680"
+ }
+}

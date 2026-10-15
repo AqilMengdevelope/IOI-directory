@@ -1,0 +1,320 @@
+{
+ "version": 1209,
+ "releaseDate": "2026-10-14T14:51:00+08:00",
+ "hours": {
+  "sunday": {
+   "from": "10:00",
+   "to": "22:00"
+  },
+  "monday": {
+   "from": "10:00",
+   "to": "22:00"
+  },
+  "tuesday": {
+   "from": "10:00",
+   "to": "22:00"
+  },
+  "wednesday": {
+   "from": "10:00",
+   "to": "22:00"
+  },
+  "thursday": {
+   "from": "10:00",
+   "to": "22:00"
+  },
+  "friday": {
+   "from": "10:00",
+   "to": "22:00"
+  },
+  "saturday": {
+   "from": "10:00",
+   "to": "22:00"
+  }
+ },
+ "offers": [
+  {
+   "id": "6acc8fd153510529d62ecff5",
+   "title": "CELEBRATE DEEPAVALI WITH AN EXCLUSIVERADO GIFT",
+   "description": "With a minimum spend of RM1,500 and IOI Points earned at any CLUB IOI participating store in IOI City Mall, receive an exclusive Rado Deepavali Packet.\n\nA refined expression of the season, thoughtfully presented by Rado.",
+   "startsAt": null,
+   "endsAt": "2026-11-08T23:43:00+08:00",
+   "image": {
+    "src": "/ioi/whats-on/ddc07498-d7f3-40f3-8ae7-f14c2e287728.png",
+    "w": 500,
+    "h": 500
+   },
+   "shops": [
+    {
+     "floor": "G",
+     "unitId": "ioi-g-g-232"
+    }
+   ]
+  },
+  {
+   "id": "682ea28853510535d6f06a9f",
+   "title": "15% OFF AT FITNESS CONCEPT",
+   "description": "Exclusive for CLUB IOI Members!\n\nEnjoy 15% OFF on fitness accessories with a wide range to choose from yoga mats, dumbbells, kettlebells, weight lifting gloves and gym balls.\n\nPresent your CLUB IOI app to enjoy this deals.\n\nNot a CLUB IOI member yet? Download CLUB IOI app now.",
+   "startsAt": "2025-05-22T12:04:00+08:00",
+   "endsAt": "2026-12-31T23:00:00+08:00",
+   "image": {
+    "src": "/ioi/whats-on/3727a42e-2c68-4ea6-ab20-8a855e2d85a0.jpg",
+    "w": 500,
+    "h": 500
+   },
+   "shops": [
+    {
+     "floor": "2",
+     "unitId": "ioi-2-l2-6-7"
+    }
+   ]
+  },
+  {
+   "id": "6a858b8e53510529d62e8e2d",
+   "title": "TAKE A BITE, SAVE MORE AT SUBWAY",
+   "description": "Your favourite Subway meal just got even better!\n\nEnjoy 10% OFF any 6-inch Sub Meal at Subway IOI City Mall and IOI Mall Puchong. Whether it''s lunch, dinner, or a quick bite in between, savour your go-to meal with extra savings.\n\nTreat yourself to fresh flavours and great value today!",
+   "startsAt": "2026-08-20T08:30:00+08:00",
+   "endsAt": "2026-12-31T23:00:00+08:00",
+   "image": {
+    "src": "/ioi/whats-on/b5626179-d5e6-4679-91b4-d2f874566b3c.jpg",
+    "w": 720,
+    "h": 720
+   },
+   "shops": [
+    {
+     "floor": "LG",
+     "unitId": "ioi-lg-lg-256c"
+    }
+   ]
+  },
+  {
+   "id": "6a8c281553510529d62e9019",
+   "title": "SCORE RM20 SAVINGS AT AL-IKHSAN",
+   "description": "Shop your favourite sportswear and gear at Al-Ikhsan!\n\nMembers who spend a minimum of RM200 in a single receipt will enjoy an instant RM20 discount.",
+   "startsAt": null,
+   "endsAt": "2026-12-31T23:00:00+08:00",
+   "image": {
+    "src": "/ioi/whats-on/ae9b9467-c4dd-4da4-a9fd-853247bb8fe8.jpg",
+    "w": 719,
+    "h": 720
+   },
+   "shops": [
+    {
+     "floor": "1",
+     "unitId": "ioi-1-l1-24-25"
+    }
+   ]
+  },
+  {
+   "id": "6abb2e2353510529d62ec81d",
+   "title": "SAVE RM10 ON YOUR BETTER LIVING PICKS",
+   "description": "Discover quality home furnishings and daily essentials at Nitori IOI City Mall.\n\nSpend a minimum of RM100 and enjoy RM10 OFF instantly during the Better Living Bundle Fest.",
+   "startsAt": null,
+   "endsAt": "2026-11-02T23:18:00+08:00",
+   "image": {
+    "src": "/ioi/whats-on/c25160dd-1b01-4b7d-b837-71635f4e943b.jpg",
+    "w": 720,
+    "h": 720
+   },
+   "shops": [
+    {
+     "floor": "LG",
+     "unitId": "ioi-lg-lg-223"
+    }
+   ]
+  },
+  {
+   "id": "6a312bbc5351054b1d201687",
+   "title": "A SWEET BIRTHDAY INDULGENCE AWAITS AT BEARD PAPA'S",
+   "description": "Celebrate your special month with a delightful treat.\n\nBirthday stars can enjoy a FREE Pie Cream Puff, Custard a little indulgence on us.\n\n- Minimum purchase 1 Pie Cream Puff Custard required\n\n- Exclusively during your birthday month\n\nBecause every celebration deserves a touch of sweetness.",
+   "startsAt": "2026-06-22T08:30:00+08:00",
+   "endsAt": "2026-12-31T22:00:00+08:00",
+   "image": {
+    "src": "/ioi/whats-on/7c159d0a-7f6a-41fa-9285-4bcf532d662c.jpg",
+    "w": 720,
+    "h": 720
+   },
+   "shops": [
+    {
+     "floor": "LG",
+     "unitId": "ioi-lg-beard-papa"
+    }
+   ]
+  },
+  {
+   "id": "6a3ca7c3535105480489a551",
+   "title": "CELEBRATE YOUR BIRTHDAY WITH A RM10 TREAT AT AKEMIN SLEEP STUDIO",
+   "description": "A moment of calm, just for you.\n\nUnwind and indulge this birthday month with an RM10 voucher at Akemi Sleep Studio, IOI City Mall, your destination for comfort and relaxation.\n\nCelebrate your special day by treating yourself to a little extra rest, softness, and ease, because you deserve to feel your best.",
+   "startsAt": "2026-07-01T09:30:00+08:00",
+   "endsAt": "2026-12-31T22:00:00+08:00",
+   "image": {
+    "src": "/ioi/whats-on/2840d7e6-f550-4fa1-9915-76af612fdd37.jpg",
+    "w": 720,
+    "h": 720
+   },
+   "shops": [
+    {
+     "floor": "2",
+     "unitId": "ioi-2-l2-215"
+    }
+   ]
+  },
+  {
+   "id": "6acc921953510529d62ecffc",
+   "title": "SCOOP UP RM5 SAVINGS AT YOLE IOI CITY MALL",
+   "description": "Craving yogurt? Enjoy RM5 OFF when you spend RM25 minimum in a single receipt at Yole IOI City Mall.\n\nMore toppings, more savings!",
+   "startsAt": null,
+   "endsAt": "2027-01-12T23:53:00+08:00",
+   "image": {
+    "src": "/ioi/whats-on/02a1273e-83ff-4a2e-88b4-9838da38f0b9.jpg",
+    "w": 240,
+    "h": 240
+   },
+   "shops": [
+    {
+     "floor": "LG",
+     "unitId": "ioi-lg-lg-80d"
+    }
+   ]
+  },
+  {
+   "id": "6ac45f6b53510529d62eceee",
+   "title": "2 FREE FRAGRANCE VIALS FROM SA SA AWAIT YOU!",
+   "description": "Indulge in a touch of luxury with 2 FREE fragrance vials from Sa Sa. Simply be a registered Sa Sa Member and CLUB IOI Member to enjoy this exclusive redemption.\n\nNo minimum spend required. Discover and sample your next favourite scent.",
+   "startsAt": null,
+   "endsAt": "2026-12-31T02:00:00+08:00",
+   "image": {
+    "src": "/ioi/whats-on/2fca9e72-9f6b-4ead-9ea9-161a0ae254cd.jpg",
+    "w": 720,
+    "h": 720
+   },
+   "shops": [
+    {
+     "floor": "LG",
+     "unitId": "ioi-lg-lg-273"
+    }
+   ]
+  },
+  {
+   "id": "6acf4ff453510529d62ed2b0",
+   "title": "OPEN YOUR EARS TO A NEW SOUND EXPERIENCE WITH SHOKZ",
+   "description": "Experience the freedom of open-ear listening with selected Shokz models (Shokz OpenSwim Pro, Shokz OpenRun Pro2 & Shokz OpenFit 2+) and enjoy 5% OFF on your purchase.\n\nPlus, new Shokz members receive a Welcome Voucher for additional savings.\n\nInnovative comfort. Immersive sound. Designed to move with you.",
+   "startsAt": "2026-10-15T08:30:00+08:00",
+   "endsAt": "2026-12-31T23:47:00+08:00",
+   "image": {
+    "src": "/ioi/whats-on/ddd6d5f1-1f52-4bed-903f-97c42b10edb0.jpg",
+    "w": 720,
+    "h": 720
+   },
+   "shops": [
+    {
+     "floor": "2",
+     "unitId": "ioi-2-s-k11"
+    }
+   ]
+  },
+  {
+   "id": "6acc912453510529d62ecff7",
+   "title": "COLLECT, EARN & SAVE AT CHJ JEWELLERY",
+   "description": "Purchase 2 Lucky Charms (RM99) or 1 Lucky Gold Bead (RM88) and enjoy 2X Points plus a RM100 Discount E-Voucher from CHJ Jewellery IOI City Mall.\n\nA sparkling rewards you won't want to miss!",
+   "startsAt": null,
+   "endsAt": "2026-11-30T15:48:00+08:00",
+   "image": {
+    "src": "/ioi/whats-on/8fb7e5ad-8d31-4e55-9d85-11f0b448ac59.png",
+    "w": 630,
+    "h": 630
+   },
+   "shops": [
+    {
+     "floor": "G",
+     "unitId": "ioi-g-chj-jewellery"
+    }
+   ]
+  },
+  {
+   "id": "69b7f19e53510502c6da56c0",
+   "title": "A WELCOME GIFT AWAITS AT FRESH IOI CITY MALL",
+   "description": "Your self-care moment awaits! Enjoy a complimentary express service and receive a Fresh trial kit designed to refresh and pamper your skin. Visit the Fresh Pop-Up at IOI City Mall, Ground Floor Centre (in front of Uniqlo) and indulge in this exclusive experience.",
+   "startsAt": null,
+   "endsAt": "2026-12-31T21:02:00+08:00",
+   "image": {
+    "src": "/ioi/whats-on/c9632871-6492-4c3a-a163-3da71ffc90a6.jpg",
+    "w": 500,
+    "h": 500
+   },
+   "shops": [
+    {
+     "floor": "G",
+     "unitId": "ioi-g-fresh"
+    }
+   ]
+  }
+ ],
+ "announcements": [
+  {
+   "id": "672b3e185351052ffe16dc83",
+   "title": "District 21",
+   "description": "District 21 is a first of its kind, apocalypse themed Adventure Park. This action park is located in a 52,000 sq.ft, indoor premise with a 55ft air-conditioned atrium, within IOI City Mall, Putrajaya. Comprising 8 prominent attractions and 5 function rooms, District21 also offers an ideal venue for corporate team building events, school group visitations and birthday parties. Void of ‘passive’ rides, the credo of District 21 is Fun, Passion, and its Participation requires the engagement of the entire family. Incorporating 8 adventure attractions, many of which have never been seen in Asia, District 21 offers activities for all visitors to get you climbing, jumping, riding, sliding and flying.\n\nBook the ticket at https://d21.ioileisure.com.my/",
+   "link": "https://d21.ioileisure.com.my/",
+   "image": {
+    "src": "/ioi/whats-on/c9336444-725d-4fa4-be49-dd2f65ce88f5.png",
+    "w": 720,
+    "h": 479
+   }
+  },
+  {
+   "id": "672b3e155351052ffe16dc7f",
+   "title": "Icescape Ice Rink",
+   "description": "Time to put your skates on! Icescape welcomes all skating enthusiasts!\n\nLocated on the First Floor of IOI City Mall, The Icescape ice rink is Olympic size and perfect for hosting premier ice skating performances & competitions.\n\nBook your ticket at https://is.ioileisure.com.my/",
+   "link": "https://is.ioileisure.com.my/",
+   "image": {
+    "src": "/ioi/whats-on/3bd1fa63-7280-43ab-a16a-5f072fe8127a.png",
+    "w": 720,
+    "h": 479
+   }
+  },
+  {
+   "id": "672b3e125351052ffe16dc7b",
+   "title": "The Symphony Walk",
+   "description": "Located at the ground floor of the mall, The Symphony Walk at West Wing features stunning waterfront and al-fresco unique dining concept. Overlooking the golf course and lush greenery, The Symphony Walk also features dancing musical fountains and dazzling lights. The walkway is lined with restaurants and cafes, offering a diverse range of cuisines and beverages. Visitors can leisurely stroll along the walkway, take photos and immerse themselves in the lively atmosphere.\n\nAt the East Wing of The Symphony Walk, you’ll find the Creative Park featuring vibrant and colourful displays of LED night lights, transforming the urban landscape into a stunningly modern and futuristic world of lights. Definitely an Instagrammable spot!\n\nThe Symphony Walk is a must-visit destination for those seeking entertainment, dining, and relaxation in the heart of IOI Resort City.",
+   "link": null,
+   "image": {
+    "src": "/ioi/whats-on/3537d380-d6d5-443f-b2cc-d7df01cb4df2.jpg",
+    "w": 720,
+    "h": 479
+   }
+  },
+  {
+   "id": "672b3e165351052ffe16dc81",
+   "title": "IOI Grand Exhibition and Convention Centre",
+   "description": "IOIGECC is the best choice for some of the biggest and most important events owing to its commitment to provide first-rate facilities together with a competent, efficient, and client-oriented approach that will surely leave an impression for event-goers.\n\nWe are known for bringing your grand visions to life, from yearly award ceremonies to global conferences and exhibitions, business conventions, wedding dinners, award nights and more. We will continue to bring renowned national and international events to our community as we are proud of the legacy we have established. Our team of committed and vibrant professionals supports IOIGECC and is committed to offering our clients the best solutions, support, and experience.",
+   "link": null,
+   "image": {
+    "src": "/ioi/whats-on/914209f6-ff68-4fb3-8d46-d73d6fadd6c8.png",
+    "w": 720,
+    "h": 479
+   }
+  },
+  {
+   "id": "672b3e1a5351052ffe16dc85",
+   "title": "IOI City Farm",
+   "description": "Provides a welcome contrast, offering a serene retreat for nature aficionados. Amidst lush greenery and playful farm animals, guests can reconnect with the Earth, partaking in the workshops and activities that rekindle a sense of harmony with the natural world.\n\nBook your ticket at https://cf.ioileisure.com.my/",
+   "link": "https://cf.ioileisure.com.my/",
+   "image": {
+    "src": "/ioi/whats-on/51861b9e-6769-4f6a-81eb-086940f95155.png",
+    "w": 720,
+    "h": 479
+   }
+  },
+  {
+   "id": "672b3e145351052ffe16dc7d",
+   "title": "IOI Sports Centre",
+   "description": "Get ready to sweat, compete, and revel in the joy of sports like never before! IOI Sports Centre is the ultimate playground for badminton and futsal players! Challenge your friend to a game of billiards or badminton or even have a sports tournament for your company! With top-notch facilities, from pristine courts to state-of-the-art equipment, it's where your sporting dreams come alive.\n\nBook your courts at https://sc.ioileisure.com.my/",
+   "link": "https://sc.ioileisure.com.my/",
+   "image": {
+    "src": "/ioi/whats-on/2b8d4f43-2242-4c2b-94c2-208abab303e4.png",
+    "w": 720,
+    "h": 479
+   }
+  }
+ ]
+}
