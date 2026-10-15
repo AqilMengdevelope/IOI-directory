@@ -27,12 +27,12 @@ const MODE_LABELS: Record<CameraMode, string> = {
 const MODE_OPTIONS: CameraMode[] = ["follow", "eye"];
 
 const MUSIC_LABELS: Record<MusicMood, string> = {
+  bossa: "Bossa nova",
   chill: "Chill lofi",
-  hiphop: "Hiphop lofi",
   rock: "Rock",
 };
 
-const MUSIC_OPTIONS: MusicMood[] = ["chill", "hiphop", "rock"];
+const MUSIC_OPTIONS: MusicMood[] = ["bossa", "chill", "rock"];
 
 const GENDER_LABELS: Record<CharacterGender, string> = {
   male: "Male",

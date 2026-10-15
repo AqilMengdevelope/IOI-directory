@@ -723,3 +723,14 @@ button.whats-on-offer:hover {
   background: #3d4149;
   border-top: 4px solid var(--ioi-red);
 }
+
+/* Music credit in the About modal (required by the track's CC BY licence). */
+.about-credits {
+  font-size: 11px;
+  line-height: 1.55;
+}
+.about-credits a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}

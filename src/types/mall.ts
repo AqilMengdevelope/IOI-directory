@@ -123,5 +123,5 @@ export interface TenantStoryFile {
 }
 
 export type CameraMode = "follow" | "eye" | "overview";
-export type MusicMood = "hiphop" | "chill" | "rock";
+export type MusicMood = "bossa" | "chill" | "rock";
 export type CharacterGender = "male" | "female";

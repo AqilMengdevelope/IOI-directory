@@ -84,7 +84,7 @@ export function Explorer() {
   const [zoom, setZoom] = useState(ZOOM_DEFAULT);
   const [gender, setGender] = useState<CharacterGender>("male");
   const [soundOn, setSoundOn] = useState(true);
-  const [music, setMusic] = useState<MusicMood>("hiphop");
+  const [music, setMusic] = useState<MusicMood>("bossa");
   const [steps, setSteps] = useState(0);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [directoryOpen, setDirectoryOpen] = useState(false);

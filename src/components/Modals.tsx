@@ -112,6 +112,17 @@ export function AboutModal({ onClose }: AboutModalProps) {
         identification only. Floor plans, shop details and opening hours may be out of date or inaccurate,
         so check with the mall or the shop before you visit.
       </p>
+      <p className="modal-body quiet about-credits">
+        Music: “Bossa Antigua” by Kevin MacLeod (
+        <a href="https://incompetech.com" target="_blank" rel="noopener noreferrer">
+          incompetech.com
+        </a>
+        ), licensed under{" "}
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">
+          Creative Commons: By Attribution 4.0
+        </a>
+        .
+      </p>
       <div className="modal-actions gmbb-actions">
         <a
           className="primary-button"

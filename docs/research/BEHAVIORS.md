@@ -37,7 +37,7 @@ Captured with Chrome DevTools MCP at 1440×876 (DPR 2) and 390×844 (DPR 3, mobi
 - Palette: near-white walls/floors (`#f5f5f2`, `#e8eae2`, `#e0dbd0`), dark accents `#303038` / `#252524`, avatar ring `#4d537e`.
 - Controls: WASD walk, Space jump (plays `/audio/jump.wav`), drag to turn, E opens the nearby shop. Mobile: left joystick (`.stick-pad` 172px, knob 72px, `transform .05s linear`) and Jump button (92px).
 - Labels (drei Html): "YOU" pill above the character, "Level picker" pill over the lift pad, "↑ Level 2" / "↓ Level G · Coming soon" escalator pills, `.nearby-shop-pill` with shop name + chevron when near a unit.
-- BGM `/audio/bgm-hiphop.mp3` (chill/rock variants) loops when sound is on.
+- BGM `/audio/bgm-bossa.mp3` ("Bossa Antigua", Kevin MacLeod, CC BY 4.0; chill/rock variants) loops when sound is on.
 
 ## Directory side panel
 - Opens with `slide-in .28s cubic-bezier(.2,.8,.3,1) both`. Close button top-right.
