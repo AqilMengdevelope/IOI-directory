@@ -5,15 +5,15 @@
  },
  "ioi-1-at-3": {
   "accent": null,
-  "primary": "#a38669"
+  "primary": "#b29a82"
  },
  "ioi-1-at-4": {
   "accent": null,
-  "primary": "#194381"
+  "primary": "#194380"
  },
  "ioi-1-at-6": {
   "accent": null,
-  "primary": "#fbcd3e"
+  "primary": "#facc3d"
  },
  "ioi-1-avenys": {
   "accent": null,
@@ -21,19 +21,19 @@
  },
  "ioi-1-cotton-on": {
   "accent": null,
-  "primary": "#b40837"
+  "primary": "#b40838"
  },
  "ioi-1-dc-by-nc-dcnc": {
   "accent": null,
   "primary": "#d7cfc4"
  },
  "ioi-1-east-india-company": {
-  "accent": "#815444",
-  "primary": "#e0e0e0"
+  "accent": "#82594d",
+  "primary": "#cecbc9"
  },
  "ioi-1-f-k1": {
-  "accent": "#1258a4",
-  "primary": "#dc59a1"
+  "accent": "#2266ac",
+  "primary": "#dc5aa1"
  },
  "ioi-1-f-k11": {
   "accent": null,
@@ -41,7 +41,7 @@
  },
  "ioi-1-f-k14": {
   "accent": null,
-  "primary": "#83c350"
+  "primary": "#84c351"
  },
  "ioi-1-f-k15": {
   "accent": null,
@@ -68,36 +68,36 @@
   "primary": "#000000"
  },
  "ioi-1-f-k3": {
-  "accent": "#c5202b",
+  "accent": "#c4212c",
   "primary": "#23734d"
  },
  "ioi-1-f-k5": {
-  "accent": "#9c7053",
+  "accent": "#ac876f",
   "primary": "#c8b0a0"
  },
  "ioi-1-f-k6": {
   "accent": null,
-  "primary": "#cdcdcd"
+  "primary": "#cccccc"
  },
  "ioi-1-f-k7": {
   "accent": null,
   "primary": "#f9951d"
  },
  "ioi-1-f-k8a": {
-  "accent": "#06aceb",
+  "accent": "#07aceb",
   "primary": "#d9f0fe"
  },
  "ioi-1-f-k8b": {
   "accent": null,
-  "primary": "#ed7d70"
+  "primary": "#ed7d71"
  },
  "ioi-1-just-good-coffee": {
   "accent": null,
-  "primary": "#9e5124"
+  "primary": "#9d5124"
  },
  "ioi-1-l1-1-2": {
   "accent": null,
-  "primary": "#535353"
+  "primary": "#868686"
  },
  "ioi-1-l1-10a": {
   "accent": null,
@@ -124,15 +124,15 @@
   "primary": "#c3a78e"
  },
  "ioi-1-l1-13a": {
-  "accent": "#e5012e",
+  "accent": "#e4022e",
   "primary": "#1d1d1b"
  },
  "ioi-1-l1-13b": {
   "accent": null,
-  "primary": "#b00a3b"
+  "primary": "#b00b3b"
  },
  "ioi-1-l1-14a-14b": {
-  "accent": "#019e4c",
+  "accent": "#019d4c",
   "primary": "#3d2415"
  },
  "ioi-1-l1-14c-14d": {
@@ -141,10 +141,10 @@
  },
  "ioi-1-l1-15": {
   "accent": null,
-  "primary": "#bb0609"
+  "primary": "#c63b3e"
  },
  "ioi-1-l1-16-17": {
-  "accent": "#550f15",
+  "accent": "#561015",
   "primary": "#000000"
  },
  "ioi-1-l1-18": {
@@ -157,7 +157,7 @@
  },
  "ioi-1-l1-201": {
   "accent": null,
-  "primary": "#3a3a3c"
+  "primary": "#3b3b3c"
  },
  "ioi-1-l1-202": {
   "accent": null,
@@ -165,7 +165,7 @@
  },
  "ioi-1-l1-204": {
   "accent": null,
-  "primary": "#e1e0e0"
+  "primary": "#e0dfdf"
  },
  "ioi-1-l1-205": {
   "accent": null,
@@ -173,7 +173,7 @@
  },
  "ioi-1-l1-206": {
   "accent": null,
-  "primary": "#545152"
+  "primary": "#565354"
  },
  "ioi-1-l1-209": {
   "accent": null,
@@ -205,19 +205,19 @@
  },
  "ioi-1-l1-219": {
   "accent": null,
-  "primary": "#ca9ba5"
+  "primary": "#cececd"
  },
  "ioi-1-l1-221": {
-  "accent": "#a39370",
-  "primary": "#cdc6b6"
+  "accent": "#a29371",
+  "primary": "#e0dcd0"
  },
  "ioi-1-l1-222": {
   "accent": null,
-  "primary": "#e1d183"
+  "primary": "#e1d284"
  },
  "ioi-1-l1-225": {
   "accent": null,
-  "primary": "#e1c588"
+  "primary": "#e2c688"
  },
  "ioi-1-l1-226-227": {
   "accent": null,
@@ -245,7 +245,7 @@
  },
  "ioi-1-l1-234": {
   "accent": null,
-  "primary": "#1e2027"
+  "primary": "#1e2127"
  },
  "ioi-1-l1-235": {
   "accent": "#40693b",
@@ -261,42 +261,42 @@
  },
  "ioi-1-l1-237": {
   "accent": null,
-  "primary": "#d0cdc9"
+  "primary": "#d0cec9"
  },
  "ioi-1-l1-238": {
   "accent": null,
-  "primary": "#252027"
+  "primary": "#262128"
  },
  "ioi-1-l1-239": {
   "accent": null,
-  "primary": "#878787"
+  "primary": "#999999"
  },
  "ioi-1-l1-24-25": {
-  "accent": "#b32a11",
+  "accent": "#c92e12",
   "primary": "#080c0d"
  },
  "ioi-1-l1-240": {
   "accent": null,
-  "primary": "#e91d2b"
+  "primary": "#e91e2b"
  },
  "ioi-1-l1-241a-l1-241c": {
   "accent": null,
-  "primary": "#06a351"
+  "primary": "#07a452"
  },
  "ioi-1-l1-243": {
   "accent": null,
   "primary": "#5b6945"
  },
  "ioi-1-l1-244a": {
-  "accent": "#6eb356",
-  "primary": "#24206e"
+  "accent": "#6cb254",
+  "primary": "#24206f"
  },
  "ioi-1-l1-244b": {
   "accent": null,
   "primary": "#010000"
  },
  "ioi-1-l1-245": {
-  "accent": "#3d332a",
+  "accent": "#352b23",
   "primary": "#000000"
  },
  "ioi-1-l1-246": {
@@ -304,8 +304,8 @@
   "primary": "#000000"
  },
  "ioi-1-l1-247": {
-  "accent": "#f19fa3",
-  "primary": "#4f2072"
+  "accent": "#f19ea2",
+  "primary": "#502072"
  },
  "ioi-1-l1-26a": {
   "accent": null,
@@ -313,15 +313,15 @@
  },
  "ioi-1-l1-26b": {
   "accent": null,
-  "primary": "#040405"
+  "primary": "#050607"
  },
  "ioi-1-l1-27": {
   "accent": null,
-  "primary": "#de3c41"
+  "primary": "#de3c42"
  },
  "ioi-1-l1-28-29-30": {
   "accent": null,
-  "primary": "#f46822"
+  "primary": "#f36822"
  },
  "ioi-1-l1-2at-2": {
   "accent": null,
@@ -332,20 +332,20 @@
   "primary": "#e41c39"
  },
  "ioi-1-l1-31": {
-  "accent": "#6a9dd1",
+  "accent": "#6b9dd1",
   "primary": "#f6bd1c"
  },
  "ioi-1-l1-32": {
   "accent": null,
-  "primary": "#b23e51"
+  "primary": "#ad263b"
  },
  "ioi-1-l1-33": {
   "accent": null,
-  "primary": "#fcac2d"
+  "primary": "#fcac2c"
  },
  "ioi-1-l1-34-35-36": {
   "accent": null,
-  "primary": "#040506"
+  "primary": "#050607"
  },
  "ioi-1-l1-37-40": {
   "accent": null,
@@ -353,7 +353,7 @@
  },
  "ioi-1-l1-4": {
   "accent": null,
-  "primary": "#6c6b6b"
+  "primary": "#6c6c6c"
  },
  "ioi-1-l1-41": {
   "accent": null,
@@ -369,23 +369,23 @@
  },
  "ioi-1-l1-44": {
   "accent": null,
-  "primary": "#27394c"
+  "primary": "#26384b"
  },
  "ioi-1-l1-45-46": {
   "accent": null,
-  "primary": "#01437a"
+  "primary": "#01427a"
  },
  "ioi-1-l1-47": {
   "accent": null,
-  "primary": "#e89782"
+  "primary": "#e89883"
  },
  "ioi-1-l1-48-49": {
-  "accent": "#d43550",
-  "primary": "#1e407b"
+  "accent": "#d33450",
+  "primary": "#1d407b"
  },
  "ioi-1-l1-5": {
   "accent": null,
-  "primary": "#241f20"
+  "primary": "#231f20"
  },
  "ioi-1-l1-50": {
   "accent": null,
@@ -396,24 +396,24 @@
   "primary": "#0074cb"
  },
  "ioi-1-l1-52": {
-  "accent": "#d2577c",
+  "accent": "#e28caa",
   "primary": "#050505"
  },
  "ioi-1-l1-55": {
-  "accent": "#feb827",
-  "primary": "#080a0b"
+  "accent": "#fdb726",
+  "primary": "#090b0c"
  },
  "ioi-1-l1-56a-b": {
   "accent": "#e54038",
-  "primary": "#b5036e"
+  "primary": "#b5046f"
  },
  "ioi-1-l1-58": {
   "accent": null,
   "primary": "#fad407"
  },
  "ioi-1-l1-59": {
-  "accent": "#a1866e",
-  "primary": "#ae9b8a"
+  "accent": "#a1856d",
+  "primary": "#af9c8a"
  },
  "ioi-1-l1-6": {
   "accent": "#f98424",
@@ -421,19 +421,19 @@
  },
  "ioi-1-l1-60": {
   "accent": null,
-  "primary": "#6d226a"
+  "primary": "#6f246b"
  },
  "ioi-1-l1-61": {
   "accent": null,
   "primary": "#020202"
  },
  "ioi-1-l1-62a-62b": {
-  "accent": "#ae7082",
+  "accent": "#a26b7c",
   "primary": "#e2dddf"
  },
  "ioi-1-l1-63": {
-  "accent": "#e81255",
-  "primary": "#0862ad"
+  "accent": "#e81356",
+  "primary": "#0962ad"
  },
  "ioi-1-l1-64": {
   "accent": null,
@@ -449,18 +449,18 @@
  },
  "ioi-1-l1-67": {
   "accent": null,
-  "primary": "#9d9a9b"
+  "primary": "#9c999a"
  },
  "ioi-1-l1-68-69-70": {
-  "accent": "#4f2c1c",
-  "primary": "#ffc60e"
+  "accent": "#502d1c",
+  "primary": "#fec60e"
  },
  "ioi-1-l1-7": {
   "accent": null,
-  "primary": "#ec2029"
+  "primary": "#f2686e"
  },
  "ioi-1-l1-72": {
-  "accent": "#393995",
+  "accent": "#393994",
   "primary": "#030303"
  },
  "ioi-1-l1-73b": {
@@ -469,7 +469,7 @@
  },
  "ioi-1-l1-74": {
   "accent": null,
-  "primary": "#deddd3"
+  "primary": "#deded3"
  },
  "ioi-1-l1-75": {
   "accent": null,
@@ -488,8 +488,8 @@
   "primary": "#000000"
  },
  "ioi-1-l1-k202": {
-  "accent": "#991f22",
-  "primary": "#cee4be"
+  "accent": "#991e21",
+  "primary": "#cee3be"
  },
  "ioi-1-l1-k203": {
   "accent": null,
@@ -520,20 +520,20 @@
   "primary": "#2c3d19"
  },
  "ioi-1-l1e205-207": {
-  "accent": "#da85b6",
-  "primary": "#e3b3d0"
+  "accent": "#da88b9",
+  "primary": "#e3b2cf"
  },
  "ioi-1-l1e208-212": {
-  "accent": "#3e593a",
-  "primary": "#f56f31"
+  "accent": "#416c3d",
+  "primary": "#f56f32"
  },
  "ioi-1-l1e213-214": {
-  "accent": "#3e3723",
+  "accent": "#3e3724",
   "primary": "#1f1f1e"
  },
  "ioi-1-l2-223-2": {
   "accent": null,
-  "primary": "#d0ac83"
+  "primary": "#c99d6d"
  },
  "ioi-1-lady-k": {
   "accent": null,
@@ -549,10 +549,10 @@
  },
  "ioi-1-panda-eyes": {
   "accent": null,
-  "primary": "#f5de85"
+  "primary": "#f6dd83"
  },
  "ioi-1-rest-n-go": {
-  "accent": "#f9cf0d",
+  "accent": "#face0d",
   "primary": "#3a190f"
  },
  "ioi-1-smart-master": {
@@ -564,12 +564,12 @@
   "primary": "#eb008b"
  },
  "ioi-2-at-5": {
-  "accent": "#fef900",
+  "accent": "#fff800",
   "primary": "#221f1f"
  },
  "ioi-2-at-6s": {
-  "accent": "#b57229",
-  "primary": "#35994a"
+  "accent": "#b5722a",
+  "primary": "#35994b"
  },
  "ioi-2-attic": {
   "accent": null,
@@ -584,39 +584,39 @@
   "primary": "#23338a"
  },
  "ioi-2-d21-r1": {
-  "accent": "#44a44e",
+  "accent": "#45a54f",
   "primary": "#cada3c"
  },
  "ioi-2-d21-r6": {
-  "accent": "#e90809",
+  "accent": "#e52324",
   "primary": "#060606"
  },
  "ioi-2-dreame": {
   "accent": null,
-  "primary": "#071121"
+  "primary": "#071122"
  },
  "ioi-2-fujifilm": {
   "accent": null,
-  "primary": "#e2e1e2"
+  "primary": "#e0e0e0"
  },
  "ioi-2-honor": {
   "accent": null,
   "primary": "#060606"
  },
  "ioi-2-huuk-barbershop": {
-  "accent": "#ec1425",
-  "primary": "#f6e600"
+  "accent": "#eb1c24",
+  "primary": "#f5e500"
  },
  "ioi-2-kfc": {
   "accent": null,
-  "primary": "#a3080b"
+  "primary": "#a3080c"
  },
  "ioi-2-kiddytopia": {
-  "accent": "#38519d",
-  "primary": "#3ec2ca"
+  "accent": "#3a539e",
+  "primary": "#3fc2ca"
  },
  "ioi-2-kiddytopia-kiddyride": {
-  "accent": "#576c9e",
+  "accent": "#dcaf84",
   "primary": "#3ec2c9"
  },
  "ioi-2-l2-1": {
@@ -633,11 +633,11 @@
  },
  "ioi-2-l2-12-13": {
   "accent": "#f6af2b",
-  "primary": "#2a2522"
+  "primary": "#2b2522"
  },
  "ioi-2-l2-14": {
-  "accent": "#ce5158",
-  "primary": "#cfb386"
+  "accent": "#dd8186",
+  "primary": "#cfb487"
  },
  "ioi-2-l2-17": {
   "accent": "#ed1c23",
@@ -645,11 +645,11 @@
  },
  "ioi-2-l2-19a-19b": {
   "accent": null,
-  "primary": "#000000"
+  "primary": "#010101"
  },
  "ioi-2-l2-2": {
   "accent": null,
-  "primary": "#020202"
+  "primary": "#030303"
  },
  "ioi-2-l2-201-203": {
   "accent": null,
@@ -669,7 +669,7 @@
  },
  "ioi-2-l2-211": {
   "accent": null,
-  "primary": "#545454"
+  "primary": "#cccccc"
  },
  "ioi-2-l2-213": {
   "accent": null,
@@ -685,15 +685,15 @@
  },
  "ioi-2-l2-218": {
   "accent": null,
-  "primary": "#584096"
+  "primary": "#584197"
  },
  "ioi-2-l2-219": {
-  "accent": "#e3b820",
+  "accent": "#e2b720",
   "primary": "#241e20"
  },
  "ioi-2-l2-22": {
-  "accent": "#07e6fb",
-  "primary": "#f4a1c5"
+  "accent": "#07e5fb",
+  "primary": "#f5b4d2"
  },
  "ioi-2-l2-220a": {
   "accent": null,
@@ -721,31 +721,31 @@
  },
  "ioi-2-l2-224": {
   "accent": null,
-  "primary": "#99b4d0"
+  "primary": "#99b4d1"
  },
  "ioi-2-l2-225": {
   "accent": null,
-  "primary": "#989898"
+  "primary": "#999999"
  },
  "ioi-2-l2-227b": {
-  "accent": "#ec4d07",
-  "primary": "#89c457"
+  "accent": "#89c457",
+  "primary": "#ed510b"
  },
  "ioi-2-l2-228": {
-  "accent": "#ea141d",
-  "primary": "#086ab2"
+  "accent": "#e81f26",
+  "primary": "#0a6db4"
  },
  "ioi-2-l2-232": {
-  "accent": "#fdd00a",
+  "accent": "#fcce0a",
   "primary": "#010150"
  },
  "ioi-2-l2-233": {
   "accent": null,
-  "primary": "#2b2b2b"
+  "primary": "#2c2c2c"
  },
  "ioi-2-l2-234": {
   "accent": null,
-  "primary": "#dfdede"
+  "primary": "#cbcbcb"
  },
  "ioi-2-l2-235b": {
   "accent": null,
@@ -757,43 +757,43 @@
  },
  "ioi-2-l2-236c": {
   "accent": null,
-  "primary": "#e52951"
+  "primary": "#e82a53"
  },
  "ioi-2-l2-237": {
   "accent": null,
-  "primary": "#b3b3b3"
+  "primary": "#b4b4b4"
  },
  "ioi-2-l2-238": {
   "accent": null,
   "primary": "#a91f2e"
  },
  "ioi-2-l2-239": {
-  "accent": "#379244",
-  "primary": "#54853d"
+  "accent": "#388744",
+  "primary": "#53853d"
  },
  "ioi-2-l2-24": {
-  "accent": null,
-  "primary": "#b85155"
+  "accent": "#ba5256",
+  "primary": "#e5c8c9"
  },
  "ioi-2-l2-240": {
   "accent": null,
   "primary": "#facb0e"
  },
  "ioi-2-l2-241": {
-  "accent": null,
-  "primary": "#211f20"
+  "accent": "#8492be",
+  "primary": "#201e1f"
  },
  "ioi-2-l2-25": {
   "accent": null,
-  "primary": "#b32a1c"
+  "primary": "#b22a1c"
  },
  "ioi-2-l2-26": {
-  "accent": "#c62331",
+  "accent": "#b5202d",
   "primary": "#f99523"
  },
  "ioi-2-l2-26a": {
   "accent": null,
-  "primary": "#f46b21"
+  "primary": "#f36b21"
  },
  "ioi-2-l2-27": {
   "accent": null,
@@ -804,8 +804,8 @@
   "primary": "#7cc142"
  },
  "ioi-2-l2-29a": {
-  "accent": "#ec151d",
-  "primary": "#221e1f"
+  "accent": "#ea1d24",
+  "primary": "#211d1e"
  },
  "ioi-2-l2-29b": {
   "accent": null,
@@ -820,16 +820,16 @@
   "primary": "#152868"
  },
  "ioi-2-l2-30-31": {
-  "accent": "#e4223a",
+  "accent": "#e4233b",
   "primary": "#aba14e"
  },
  "ioi-2-l2-32-37": {
   "accent": null,
-  "primary": "#3d9f8c"
+  "primary": "#44a592"
  },
  "ioi-2-l2-33": {
-  "accent": null,
-  "primary": "#e51d25"
+  "accent": "#a0822a",
+  "primary": "#e51e25"
  },
  "ioi-2-l2-34": {
   "accent": null,
@@ -837,26 +837,26 @@
  },
  "ioi-2-l2-35": {
   "accent": null,
-  "primary": "#1c3851"
+  "primary": "#1d3951"
  },
  "ioi-2-l2-36": {
   "accent": null,
-  "primary": "#fd6802"
+  "primary": "#fd6902"
  },
  "ioi-2-l2-38-39": {
-  "accent": "#cb706b",
-  "primary": "#100e0f"
+  "accent": "#cd706c",
+  "primary": "#110f10"
  },
  "ioi-2-l2-4": {
-  "accent": "#ed7e1e",
-  "primary": "#514345"
+  "accent": "#02a0df",
+  "primary": "#514244"
  },
  "ioi-2-l2-40-41": {
   "accent": null,
   "primary": "#0d27aa"
  },
  "ioi-2-l2-42": {
-  "accent": "#1ee800",
+  "accent": "#1ee700",
   "primary": "#293997"
  },
  "ioi-2-l2-43-44": {
@@ -864,12 +864,12 @@
   "primary": "#c41230"
  },
  "ioi-2-l2-46": {
-  "accent": "#fcfb00",
+  "accent": "#fcf900",
   "primary": "#ff0000"
  },
  "ioi-2-l2-47": {
-  "accent": "#0154dd",
-  "primary": "#cb0404"
+  "accent": "#0154dc",
+  "primary": "#ca0506"
  },
  "ioi-2-l2-48": {
   "accent": null,
@@ -877,7 +877,7 @@
  },
  "ioi-2-l2-49": {
   "accent": null,
-  "primary": "#555555"
+  "primary": "#cccccc"
  },
  "ioi-2-l2-5": {
   "accent": null,
@@ -885,11 +885,11 @@
  },
  "ioi-2-l2-50": {
   "accent": null,
-  "primary": "#060606"
+  "primary": "#070707"
  },
  "ioi-2-l2-51": {
   "accent": null,
-  "primary": "#f99d25"
+  "primary": "#f99d26"
  },
  "ioi-2-l2-52": {
   "accent": null,
@@ -897,34 +897,34 @@
  },
  "ioi-2-l2-53": {
   "accent": null,
-  "primary": "#9cd3e3"
+  "primary": "#3cacda"
  },
  "ioi-2-l2-54": {
-  "accent": "#1fb5d3",
-  "primary": "#eb3a69"
+  "accent": "#1fb6d4",
+  "primary": "#ec3b6a"
  },
  "ioi-2-l2-55": {
   "accent": null,
   "primary": "#cf023a"
  },
  "ioi-2-l2-56": {
-  "accent": "#82ccc8",
-  "primary": "#cbcaca"
+  "accent": "#82ccc9",
+  "primary": "#cbcbcb"
  },
  "ioi-2-l2-57": {
-  "accent": null,
-  "primary": "#83d2cc"
+  "accent": "#84d3ce",
+  "primary": "#b4e5e1"
  },
  "ioi-2-l2-58": {
-  "accent": "#ae9a6e",
-  "primary": "#e2decd"
+  "accent": "#9a8452",
+  "primary": "#e1ddcc"
  },
  "ioi-2-l2-59": {
   "accent": null,
   "primary": "#593f98"
  },
  "ioi-2-l2-6-7": {
-  "accent": "#583a22",
+  "accent": "#573821",
   "primary": "#241e20"
  },
  "ioi-2-l2-60": {
@@ -932,8 +932,8 @@
   "primary": "#d6b056"
  },
  "ioi-2-l2-61a-b": {
-  "accent": "#9ddff7",
-  "primary": "#060606"
+  "accent": "#9fe0f7",
+  "primary": "#070707"
  },
  "ioi-2-l2-61c": {
   "accent": null,
@@ -941,11 +941,11 @@
  },
  "ioi-2-l2-62": {
   "accent": null,
-  "primary": "#0588cd"
+  "primary": "#0688cc"
  },
  "ioi-2-l2-63": {
   "accent": null,
-  "primary": "#045098"
+  "primary": "#045198"
  },
  "ioi-2-l2-64": {
   "accent": "#fee708",
@@ -953,23 +953,23 @@
  },
  "ioi-2-l2-65-66": {
   "accent": null,
-  "primary": "#008c56"
+  "primary": "#008b56"
  },
  "ioi-2-l2-67-68": {
   "accent": null,
-  "primary": "#ec3725"
+  "primary": "#ec3927"
  },
  "ioi-2-l2-69": {
-  "accent": "#e71d25",
-  "primary": "#030303"
+  "accent": "#e81e26",
+  "primary": "#040303"
  },
  "ioi-2-l2-70a": {
   "accent": null,
-  "primary": "#cacaca"
+  "primary": "#cbcbcb"
  },
  "ioi-2-l2-70b": {
-  "accent": "#1bb2e9",
-  "primary": "#500707"
+  "accent": "#1bb2e8",
+  "primary": "#500607"
  },
  "ioi-2-l2-8": {
   "accent": null,
@@ -981,23 +981,23 @@
  },
  "ioi-2-l2-at-3": {
   "accent": null,
-  "primary": "#a38669"
+  "primary": "#b29a82"
  },
  "ioi-2-l2-k1b": {
   "accent": null,
   "primary": "#415fff"
  },
  "ioi-2-l2-k201": {
-  "accent": "#f2983c",
+  "accent": "#f2983d",
   "primary": "#fbf8d6"
  },
  "ioi-2-l2-k203": {
   "accent": null,
-  "primary": "#ac966b"
+  "primary": "#ac966c"
  },
  "ioi-2-l2-k204": {
-  "accent": "#6e7d3e",
-  "primary": "#060606"
+  "accent": "#70823c",
+  "primary": "#070707"
  },
  "ioi-2-l2-k206": {
   "accent": "#04b1e1",
@@ -1008,12 +1008,12 @@
   "primary": "#572270"
  },
  "ioi-2-montigo-cosmic-cookware": {
-  "accent": "#11bed6",
+  "accent": "#12bed6",
   "primary": "#111b4e"
  },
  "ioi-2-oh-some": {
   "accent": null,
-  "primary": "#fdc52a"
+  "primary": "#fec52b"
  },
  "ioi-2-poney": {
   "accent": null,
@@ -1021,7 +1021,7 @@
  },
  "ioi-2-pop-mart": {
   "accent": null,
-  "primary": "#e4011e"
+  "primary": "#e3011f"
  },
  "ioi-2-s-k07": {
   "accent": null,
@@ -1041,11 +1041,11 @@
  },
  "ioi-2-s-k18": {
   "accent": null,
-  "primary": "#030705"
+  "primary": "#030706"
  },
  "ioi-2-s-k1a": {
   "accent": null,
-  "primary": "#040303"
+  "primary": "#050303"
  },
  "ioi-2-s-k2a": {
   "accent": "#fecc13",
@@ -1060,16 +1060,16 @@
   "primary": "#ffd216"
  },
  "ioi-2-s-k4": {
-  "accent": "#e92235",
+  "accent": "#e92336",
   "primary": "#fcb331"
  },
  "ioi-2-s-k6": {
   "accent": "#642a8c",
-  "primary": "#242224"
+  "primary": "#242123"
  },
  "ioi-2-s-k8": {
-  "accent": "#d248ae",
-  "primary": "#070f67"
+  "accent": "#d449af",
+  "primary": "#081067"
  },
  "ioi-2-umobile": {
   "accent": null,
@@ -1081,7 +1081,7 @@
  },
  "ioi-2-yogurt-planet": {
   "accent": null,
-  "primary": "#cada10"
+  "primary": "#cada11"
  },
  "ioi-2-zte-nubia": {
   "accent": "#c95966",
@@ -1092,20 +1092,20 @@
   "primary": "#fcb01b"
  },
  "ioi-3-2at-5": {
-  "accent": "#fef900",
+  "accent": "#fff800",
   "primary": "#221f1f"
  },
  "ioi-3-aeon-credit-service": {
-  "accent": "#fcab1c",
+  "accent": "#fcab1b",
   "primary": "#4c5bab"
  },
  "ioi-3-l3-201": {
-  "accent": "#083a8c",
+  "accent": "#0e4092",
   "primary": "#e34d0d"
  },
  "ioi-3-l3-202": {
-  "accent": "#f70808",
-  "primary": "#50a136"
+  "accent": "#f70909",
+  "primary": "#4fa036"
  },
  "ioi-3-l3-203": {
   "accent": null,
@@ -1116,8 +1116,8 @@
   "primary": "#283151"
  },
  "ioi-3-l3-205-206": {
-  "accent": "#1e9434",
-  "primary": "#084d9e"
+  "accent": "#1e9535",
+  "primary": "#094f9f"
  },
  "ioi-3-l3-209": {
   "accent": "#d41325",
@@ -1129,15 +1129,15 @@
  },
  "ioi-3-l3-211": {
   "accent": null,
-  "primary": "#fcc402"
+  "primary": "#fcc502"
  },
  "ioi-3-l3-213-215": {
-  "accent": "#e68385",
-  "primary": "#d0bb6a"
+  "accent": "#e78586",
+  "primary": "#d0bc6b"
  },
  "ioi-3-l3-216": {
   "accent": null,
-  "primary": "#cc5383"
+  "primary": "#ce5485"
  },
  "ioi-3-l3-219": {
   "accent": null,
@@ -1145,7 +1145,7 @@
  },
  "ioi-3-l3-220": {
   "accent": null,
-  "primary": "#ec6c6a"
+  "primary": "#ed6d6c"
  },
  "ioi-3-l3-221": {
   "accent": null,
@@ -1156,7 +1156,7 @@
   "primary": "#fd0183"
  },
  "ioi-3-l3-223-224": {
-  "accent": "#cccf00",
+  "accent": "#cbce00",
   "primary": "#026526"
  },
  "ioi-3-l3-225": {
@@ -1165,11 +1165,11 @@
  },
  "ioi-3-l3-226": {
   "accent": null,
-  "primary": "#0ca1dc"
+  "primary": "#0ea2dd"
  },
  "ioi-3-l3-227-229": {
   "accent": null,
-  "primary": "#000000"
+  "primary": "#010101"
  },
  "ioi-3-l3-230": {
   "accent": null,
@@ -1177,7 +1177,7 @@
  },
  "ioi-3-l3-232a-b": {
   "accent": "#f7e481",
-  "primary": "#0000fd"
+  "primary": "#0101fd"
  },
  "ioi-3-l3-233-234": {
   "accent": null,
@@ -1205,15 +1205,15 @@
  },
  "ioi-4-2at-10": {
   "accent": null,
-  "primary": "#f29858"
+  "primary": "#f2a067"
  },
  "ioi-4-l4-201": {
-  "accent": "#fa532c",
+  "accent": "#fa532d",
   "primary": "#000000"
  },
  "ioi-4-l4-202": {
   "accent": null,
-  "primary": "#eaf40b"
+  "primary": "#ebf50e"
  },
  "ioi-g-2at-8": {
   "accent": null,
@@ -1221,7 +1221,7 @@
  },
  "ioi-g-aigner": {
   "accent": null,
-  "primary": "#060606"
+  "primary": "#070707"
  },
  "ioi-g-aldo": {
   "accent": null,
@@ -1237,23 +1237,23 @@
  },
  "ioi-g-chj-jewellery": {
   "accent": null,
-  "primary": "#cccbcc"
+  "primary": "#cccccc"
  },
  "ioi-g-estee-lauder": {
   "accent": null,
-  "primary": "#050505"
+  "primary": "#060606"
  },
  "ioi-g-fresh": {
   "accent": null,
-  "primary": "#cbcdcf"
+  "primary": "#cccfd0"
  },
  "ioi-g-g-1": {
   "accent": null,
-  "primary": "#cbced0"
+  "primary": "#cbcfd1"
  },
  "ioi-g-g-10": {
   "accent": null,
-  "primary": "#cf071e"
+  "primary": "#ce071e"
  },
  "ioi-g-g-16-17": {
   "accent": null,
@@ -1289,7 +1289,7 @@
  },
  "ioi-g-g-213-214": {
   "accent": null,
-  "primary": "#cecfcf"
+  "primary": "#dedfdf"
  },
  "ioi-g-g-216": {
   "accent": null,
@@ -1313,7 +1313,7 @@
  },
  "ioi-g-g-229a": {
   "accent": null,
-  "primary": "#b6b6b6"
+  "primary": "#b5b5b5"
  },
  "ioi-g-g-229b": {
   "accent": null,
@@ -1325,7 +1325,7 @@
  },
  "ioi-g-g-23": {
   "accent": null,
-  "primary": "#e0e0e0"
+  "primary": "#dfdfdf"
  },
  "ioi-g-g-231": {
   "accent": null,
@@ -1333,11 +1333,15 @@
  },
  "ioi-g-g-232": {
   "accent": null,
-  "primary": "#080607"
+  "primary": "#090708"
  },
  "ioi-g-g-233": {
   "accent": null,
   "primary": "#211d1e"
+ },
+ "ioi-g-g-234": {
+  "accent": null,
+  "primary": "#000000"
  },
  "ioi-g-g-235": {
   "accent": null,
@@ -1353,7 +1357,7 @@
  },
  "ioi-g-g-238": {
   "accent": null,
-  "primary": "#84cdca"
+  "primary": "#83ccca"
  },
  "ioi-g-g-239a": {
   "accent": null,
@@ -1372,15 +1376,15 @@
   "primary": "#a4925e"
  },
  "ioi-g-g-26": {
-  "accent": "#9e2226",
+  "accent": "#9e2327",
   "primary": "#010101"
  },
  "ioi-g-g-27": {
   "accent": null,
-  "primary": "#070707"
+  "primary": "#cbcbcb"
  },
  "ioi-g-g-28-29": {
-  "accent": "#cd9639",
+  "accent": "#cc9639",
   "primary": "#000000"
  },
  "ioi-g-g-2at-2": {
@@ -1389,10 +1393,10 @@
  },
  "ioi-g-g-33": {
   "accent": null,
-  "primary": "#01408b"
+  "primary": "#01418b"
  },
  "ioi-g-g-34": {
-  "accent": "#db6e81",
+  "accent": "#db6f82",
   "primary": "#262223"
  },
  "ioi-g-g-3a": {
@@ -1400,12 +1404,12 @@
   "primary": "#000000"
  },
  "ioi-g-g-3b": {
-  "accent": "#fc0b04",
+  "accent": "#fc0c04",
   "primary": "#000000"
  },
  "ioi-g-g-4": {
   "accent": "#6e97b6",
-  "primary": "#3b3a96"
+  "primary": "#3c3b96"
  },
  "ioi-g-g-42": {
   "accent": null,
@@ -1417,7 +1421,7 @@
  },
  "ioi-g-g-44": {
   "accent": null,
-  "primary": "#080808"
+  "primary": "#555555"
  },
  "ioi-g-g-45": {
   "accent": null,
@@ -1433,15 +1437,15 @@
  },
  "ioi-g-g-49": {
   "accent": null,
-  "primary": "#b4b4b4"
+  "primary": "#b5b5b5"
  },
  "ioi-g-g-50": {
   "accent": null,
-  "primary": "#cbcbcb"
+  "primary": "#cacaca"
  },
  "ioi-g-g-51": {
-  "accent": "#db2340",
-  "primary": "#050507"
+  "accent": "#db203d",
+  "primary": "#050607"
  },
  "ioi-g-g-52a": {
   "accent": null,
@@ -1449,19 +1453,19 @@
  },
  "ioi-g-g-52b-53a": {
   "accent": null,
-  "primary": "#6d6b6b"
+  "primary": "#6c6a6a"
  },
  "ioi-g-g-53b": {
   "accent": null,
-  "primary": "#535353"
+  "primary": "#555555"
  },
  "ioi-g-g-56": {
-  "accent": "#9c292e",
-  "primary": "#cdcdcd"
+  "accent": "#9d2b33",
+  "primary": "#cbcbcc"
  },
  "ioi-g-g-57": {
   "accent": null,
-  "primary": "#121211"
+  "primary": "#121210"
  },
  "ioi-g-g-57a": {
   "accent": null,
@@ -1469,7 +1473,7 @@
  },
  "ioi-g-g-58a": {
   "accent": null,
-  "primary": "#3ab9af"
+  "primary": "#38b9af"
  },
  "ioi-g-g-59": {
   "accent": null,
@@ -1489,14 +1493,14 @@
  },
  "ioi-g-g-68": {
   "accent": null,
-  "primary": "#143867"
+  "primary": "#1c3f6c"
  },
  "ioi-g-g-7": {
   "accent": null,
   "primary": "#010101"
  },
  "ioi-g-g-71-71": {
-  "accent": "#e64097",
+  "accent": "#e74097",
   "primary": "#035397"
  },
  "ioi-g-g-72": {
@@ -1509,18 +1513,18 @@
  },
  "ioi-g-g-73a": {
   "accent": null,
-  "primary": "#b3b3b3"
+  "primary": "#b2b2b1"
  },
  "ioi-g-g-73b": {
   "accent": null,
   "primary": "#7996a5"
  },
  "ioi-g-g-74a": {
-  "accent": "#38ab4b",
+  "accent": "#38aa4c",
   "primary": "#222021"
  },
  "ioi-g-g-74b": {
-  "accent": "#e62027",
+  "accent": "#e62127",
   "primary": "#030304"
  },
  "ioi-g-g-76": {
@@ -1529,15 +1533,15 @@
  },
  "ioi-g-g-77": {
   "accent": null,
-  "primary": "#e4010b"
+  "primary": "#e4010c"
  },
  "ioi-g-g-78a": {
   "accent": null,
   "primary": "#1d1d1b"
  },
  "ioi-g-g-79": {
-  "accent": "#57381e",
-  "primary": "#69ccf4"
+  "accent": "#5a3c22",
+  "primary": "#6accf4"
  },
  "ioi-g-g-8a": {
   "accent": null,
@@ -1581,7 +1585,7 @@
  },
  "ioi-g-g20-2": {
   "accent": null,
-  "primary": "#011567"
+  "primary": "#011667"
  },
  "ioi-g-g24-2": {
   "accent": null,
@@ -1597,7 +1601,7 @@
  },
  "ioi-g-g5-2": {
   "accent": null,
-  "primary": "#52680d"
+  "primary": "#52690e"
  },
  "ioi-g-ge-1": {
   "accent": "#e9db7e",
@@ -1616,20 +1620,20 @@
   "primary": "#c79d54"
  },
  "ioi-g-ge-15": {
-  "accent": "#2883c6",
-  "primary": "#fab620"
+  "accent": "#2983c6",
+  "primary": "#fbb620"
  },
  "ioi-g-ge-16": {
-  "accent": "#a1cf5f",
-  "primary": "#5d409a"
+  "accent": "#a4d361",
+  "primary": "#5d419a"
  },
  "ioi-g-ge-17": {
   "accent": null,
-  "primary": "#e50011"
+  "primary": "#e40011"
  },
  "ioi-g-ge-18": {
-  "accent": "#ce293b",
-  "primary": "#24204f"
+  "accent": "#ce2a3c",
+  "primary": "#241f4f"
  },
  "ioi-g-ge-19": {
   "accent": null,
@@ -1641,26 +1645,26 @@
  },
  "ioi-g-ge-203": {
   "accent": null,
-  "primary": "#b3b1b2"
+  "primary": "#b4b2b3"
  },
  "ioi-g-ge-204": {
-  "accent": "#c3ab84",
-  "primary": "#d3c6b1"
+  "accent": "#c4ac87",
+  "primary": "#c7b69f"
  },
  "ioi-g-ge-205": {
-  "accent": null,
-  "primary": "#cf570f"
+  "accent": "#cf5811",
+  "primary": "#d0e1dc"
  },
  "ioi-g-ge-206": {
   "accent": null,
-  "primary": "#d40506"
+  "primary": "#d40607"
  },
  "ioi-g-ge-209": {
   "accent": null,
   "primary": "#0021fa"
  },
  "ioi-g-ge-211-212": {
-  "accent": "#3c3a24",
+  "accent": "#3c3924",
   "primary": "#060807"
  },
  "ioi-g-ge-213-214": {
@@ -1669,31 +1673,31 @@
  },
  "ioi-g-ge-215": {
   "accent": null,
-  "primary": "#45401d"
+  "primary": "#45411d"
  },
  "ioi-g-ge-216": {
   "accent": null,
-  "primary": "#241e20"
+  "primary": "#241f20"
  },
  "ioi-g-ge-217-218": {
   "accent": null,
   "primary": "#000000"
  },
  "ioi-g-ge-244": {
-  "accent": "#c62a40",
-  "primary": "#cccdcc"
+  "accent": "#c93a4e",
+  "primary": "#cdcdcd"
  },
  "ioi-g-ge-3b": {
-  "accent": "#e7cf9b",
-  "primary": "#f5e9cd"
+  "accent": "#e7cb89",
+  "primary": "#f6eace"
  },
  "ioi-g-ge-5": {
   "accent": null,
-  "primary": "#cdcdcd"
+  "primary": "#d0d0d0"
  },
  "ioi-g-ge-6": {
   "accent": null,
-  "primary": "#136437"
+  "primary": "#136537"
  },
  "ioi-g-ge-7": {
   "accent": "#4d8c1d",
@@ -1704,15 +1708,15 @@
   "primary": "#126042"
  },
  "ioi-g-ge9-2": {
-  "accent": "#8b705b",
-  "primary": "#d2cec7"
+  "accent": null,
+  "primary": "#967e6a"
  },
  "ioi-g-kipling": {
   "accent": null,
   "primary": "#262528"
  },
  "ioi-g-lacoste": {
-  "accent": "#403426",
+  "accent": "#413527",
   "primary": "#004526"
  },
  "ioi-g-lilanz": {
@@ -1725,7 +1729,7 @@
  },
  "ioi-g-molton-brown": {
   "accent": null,
-  "primary": "#cccbcb"
+  "primary": "#cbcbcb"
  },
  "ioi-g-nars": {
   "accent": null,
@@ -1739,10 +1743,6 @@
   "accent": null,
   "primary": "#050505"
  },
- "ioi-g-piquadro": {
-  "accent": null,
-  "primary": "#0395d3"
- },
  "ioi-g-pokok": {
   "accent": null,
   "primary": "#cbe7d4"
@@ -1753,7 +1753,7 @@
  },
  "ioi-g-shiseido": {
   "accent": null,
-  "primary": "#b53328"
+  "primary": "#b8352a"
  },
  "ioi-g-sk-ii": {
   "accent": null,
@@ -1761,35 +1761,35 @@
  },
  "ioi-g-the-ordinary": {
   "accent": null,
-  "primary": "#1f1d1e"
+  "primary": "#1e1d1e"
  },
  "ioi-g-tom-ford": {
   "accent": null,
-  "primary": "#828080"
+  "primary": "#838182"
  },
  "ioi-g-victoria-s-secret": {
   "accent": null,
   "primary": "#ecb0c9"
  },
  "ioi-lg-airi-berry": {
-  "accent": "#ddb880",
-  "primary": "#d42e27"
+  "accent": "#d3ae83",
+  "primary": "#d52e27"
  },
  "ioi-lg-at-2": {
   "accent": "#cb8b37",
   "primary": "#0163ac"
  },
  "ioi-lg-bananabro": {
-  "accent": "#f9e06c",
-  "primary": "#69a140"
+  "accent": "#fae26f",
+  "primary": "#69a141"
  },
  "ioi-lg-banglo-289": {
   "accent": null,
-  "primary": "#e1e1e1"
+  "primary": "#dfdfdf"
  },
  "ioi-lg-beard-papa": {
-  "accent": "#676e99",
-  "primary": "#fed601"
+  "accent": "#676f99",
+  "primary": "#fdd601"
  },
  "ioi-lg-c-19k": {
   "accent": null,
@@ -1797,7 +1797,7 @@
  },
  "ioi-lg-columbia": {
   "accent": null,
-  "primary": "#54b2e1"
+  "primary": "#54b3e1"
  },
  "ioi-lg-converse": {
   "accent": null,
@@ -1821,11 +1821,11 @@
  },
  "ioi-lg-dotnuts": {
   "accent": null,
-  "primary": "#004b24"
+  "primary": "#014b24"
  },
  "ioi-lg-famous-amos": {
   "accent": "#09b1f2",
-  "primary": "#6b80b6"
+  "primary": "#6c81b7"
  },
  "ioi-lg-g-101": {
   "accent": null,
@@ -1837,11 +1837,11 @@
  },
  "ioi-lg-ipg-tower-1": {
   "accent": null,
-  "primary": "#202a81"
+  "primary": "#212b82"
  },
  "ioi-lg-ipg-tower-2": {
   "accent": null,
-  "primary": "#202a81"
+  "primary": "#212b82"
  },
  "ioi-lg-kakatoogo": {
   "accent": "#03b099",
@@ -1861,11 +1861,11 @@
  },
  "ioi-lg-lg-1": {
   "accent": null,
-  "primary": "#014b8e"
+  "primary": "#014c8e"
  },
  "ioi-lg-lg-10": {
   "accent": null,
-  "primary": "#010101"
+  "primary": "#030303"
  },
  "ioi-lg-lg-101b": {
   "accent": null,
@@ -1880,8 +1880,8 @@
   "primary": "#534135"
  },
  "ioi-lg-lg-104": {
-  "accent": "#6c3f2c",
-  "primary": "#616365"
+  "accent": "#6c402c",
+  "primary": "#626264"
  },
  "ioi-lg-lg-105": {
   "accent": null,
@@ -1889,11 +1889,11 @@
  },
  "ioi-lg-lg-106": {
   "accent": null,
-  "primary": "#93236e"
+  "primary": "#8f226b"
  },
  "ioi-lg-lg-107a": {
   "accent": null,
-  "primary": "#7c0d54"
+  "primary": "#7c0d53"
  },
  "ioi-lg-lg-107b": {
   "accent": null,
@@ -1901,7 +1901,7 @@
  },
  "ioi-lg-lg-12-14": {
   "accent": null,
-  "primary": "#e51837"
+  "primary": "#e51836"
  },
  "ioi-lg-lg-13-15": {
   "accent": "#f41108",
@@ -1909,7 +1909,7 @@
  },
  "ioi-lg-lg-16": {
   "accent": null,
-  "primary": "#e5001a"
+  "primary": "#e4001a"
  },
  "ioi-lg-lg-17b": {
   "accent": null,
@@ -1917,7 +1917,7 @@
  },
  "ioi-lg-lg-18": {
   "accent": "#e50411",
-  "primary": "#00665d"
+  "primary": "#00675d"
  },
  "ioi-lg-lg-2": {
   "accent": null,
@@ -1928,8 +1928,8 @@
   "primary": "#000000"
  },
  "ioi-lg-lg-201": {
-  "accent": "#3e381c",
-  "primary": "#221e20"
+  "accent": "#3f381c",
+  "primary": "#231f20"
  },
  "ioi-lg-lg-202": {
   "accent": null,
@@ -1937,7 +1937,7 @@
  },
  "ioi-lg-lg-203": {
   "accent": null,
-  "primary": "#cdcdcd"
+  "primary": "#cdcccc"
  },
  "ioi-lg-lg-204": {
   "accent": null,
@@ -1953,7 +1953,7 @@
  },
  "ioi-lg-lg-207": {
   "accent": null,
-  "primary": "#231f1f"
+  "primary": "#231f20"
  },
  "ioi-lg-lg-209": {
   "accent": null,
@@ -1961,7 +1961,7 @@
  },
  "ioi-lg-lg-210": {
   "accent": null,
-  "primary": "#b4b4b4"
+  "primary": "#565656"
  },
  "ioi-lg-lg-211": {
   "accent": null,
@@ -1972,15 +1972,15 @@
   "primary": "#8e236b"
  },
  "ioi-lg-lg-215": {
-  "accent": "#7fc241",
-  "primary": "#565555"
+  "accent": null,
+  "primary": "#7fc241"
  },
  "ioi-lg-lg-217-219": {
   "accent": null,
-  "primary": "#cecaca"
+  "primary": "#cecbca"
  },
  "ioi-lg-lg-218": {
-  "accent": "#00ab4f",
+  "accent": "#00ac4f",
   "primary": "#0096db"
  },
  "ioi-lg-lg-22": {
@@ -2000,8 +2000,8 @@
   "primary": "#029d97"
  },
  "ioi-lg-lg-224": {
-  "accent": null,
-  "primary": "#f2882a"
+  "accent": "#f18729",
+  "primary": "#282526"
  },
  "ioi-lg-lg-226": {
   "accent": null,
@@ -2012,7 +2012,7 @@
   "primary": "#c2531b"
  },
  "ioi-lg-lg-228": {
-  "accent": "#debd85",
+  "accent": "#dfbe85",
   "primary": "#d01f26"
  },
  "ioi-lg-lg-229": {
@@ -2020,36 +2020,36 @@
   "primary": "#221514"
  },
  "ioi-lg-lg-23": {
-  "accent": "#e51a39",
+  "accent": "#e61a38",
   "primary": "#000000"
  },
  "ioi-lg-lg-230": {
-  "accent": "#37583f",
-  "primary": "#ac1e24"
+  "accent": "#375940",
+  "primary": "#ac1f24"
  },
  "ioi-lg-lg-231": {
   "accent": null,
   "primary": "#107c42"
  },
  "ioi-lg-lg-232": {
-  "accent": "#53210c",
+  "accent": "#53210d",
   "primary": "#21361a"
  },
  "ioi-lg-lg-233": {
   "accent": null,
-  "primary": "#242424"
+  "primary": "#393939"
  },
  "ioi-lg-lg-234": {
   "accent": null,
-  "primary": "#070707"
+  "primary": "#cbcbcb"
  },
  "ioi-lg-lg-235": {
-  "accent": "#55c9d5",
+  "accent": "#55c9d4",
   "primary": "#f34e86"
  },
  "ioi-lg-lg-236": {
-  "accent": "#876956",
-  "primary": "#e2d2c5"
+  "accent": "#886956",
+  "primary": "#e1d2c5"
  },
  "ioi-lg-lg-237": {
   "accent": null,
@@ -2069,22 +2069,22 @@
  },
  "ioi-lg-lg-240": {
   "accent": null,
-  "primary": "#b62210"
+  "primary": "#b72210"
  },
  "ioi-lg-lg-242": {
   "accent": "#b3b239",
-  "primary": "#000001"
+  "primary": "#010101"
  },
  "ioi-lg-lg-244": {
-  "accent": "#a31325",
-  "primary": "#1f386f"
+  "accent": "#a41324",
+  "primary": "#213a70"
  },
  "ioi-lg-lg-245": {
   "accent": null,
   "primary": "#000000"
  },
  "ioi-lg-lg-246-247": {
-  "accent": null,
+  "accent": "#69b189",
   "primary": "#c7a072"
  },
  "ioi-lg-lg-246a": {
@@ -2105,27 +2105,27 @@
  },
  "ioi-lg-lg-251": {
   "accent": null,
-  "primary": "#b4b3b3"
+  "primary": "#b3b2b2"
  },
  "ioi-lg-lg-252": {
-  "accent": "#ca9a20",
-  "primary": "#401d1d"
+  "accent": "#c9991f",
+  "primary": "#411d1d"
  },
  "ioi-lg-lg-252a": {
   "accent": "#9e8540",
   "primary": "#1e2967"
  },
  "ioi-lg-lg-253": {
-  "accent": "#892b94",
-  "primary": "#b89a5a"
+  "accent": "#892c94",
+  "primary": "#b79a5a"
  },
  "ioi-lg-lg-254": {
   "accent": null,
-  "primary": "#d01d2c"
+  "primary": "#d11e2c"
  },
  "ioi-lg-lg-255": {
-  "accent": "#1258a4",
-  "primary": "#dc59a1"
+  "accent": "#2266ac",
+  "primary": "#dc5aa1"
  },
  "ioi-lg-lg-256": {
   "accent": null,
@@ -2133,10 +2133,10 @@
  },
  "ioi-lg-lg-256b": {
   "accent": null,
-  "primary": "#f4b56e"
+  "primary": "#f4b56d"
  },
  "ioi-lg-lg-256c": {
-  "accent": "#055441",
+  "accent": "#065541",
   "primary": "#fef700"
  },
  "ioi-lg-lg-257-259": {
@@ -2144,15 +2144,15 @@
   "primary": "#d61b22"
  },
  "ioi-lg-lg-258-260": {
-  "accent": "#e56c4c",
-  "primary": "#f7c96a"
+  "accent": "#2a3262",
+  "primary": "#e88153"
  },
  "ioi-lg-lg-26": {
   "accent": null,
-  "primary": "#b3b3b3"
+  "primary": "#b4b4b4"
  },
  "ioi-lg-lg-261": {
-  "accent": "#be1d2b",
+  "accent": "#be1d2c",
   "primary": "#fec923"
  },
  "ioi-lg-lg-262": {
@@ -2165,19 +2165,19 @@
  },
  "ioi-lg-lg-264-266": {
   "accent": null,
-  "primary": "#082e86"
+  "primary": "#092e87"
  },
  "ioi-lg-lg-267": {
   "accent": null,
   "primary": "#242122"
  },
  "ioi-lg-lg-268": {
-  "accent": "#87439a",
+  "accent": "#874299",
   "primary": "#010000"
  },
  "ioi-lg-lg-269": {
   "accent": null,
-  "primary": "#c8b26c"
+  "primary": "#c9b26c"
  },
  "ioi-lg-lg-27": {
   "accent": "#ed1b24",
@@ -2205,7 +2205,7 @@
  },
  "ioi-lg-lg-275": {
   "accent": null,
-  "primary": "#e0003b"
+  "primary": "#e0013b"
  },
  "ioi-lg-lg-276": {
   "accent": null,
@@ -2216,7 +2216,7 @@
   "primary": "#030303"
  },
  "ioi-lg-lg-278-279": {
-  "accent": "#e2d41c",
+  "accent": "#e3d61d",
   "primary": "#000000"
  },
  "ioi-lg-lg-28": {
@@ -2229,7 +2229,7 @@
  },
  "ioi-lg-lg-29b": {
   "accent": null,
-  "primary": "#21573d"
+  "primary": "#22593e"
  },
  "ioi-lg-lg-29c": {
   "accent": null,
@@ -2240,24 +2240,24 @@
   "primary": "#b41d8e"
  },
  "ioi-lg-lg-30": {
-  "accent": "#991f22",
-  "primary": "#cee4be"
+  "accent": "#991e21",
+  "primary": "#cee3be"
  },
  "ioi-lg-lg-30a": {
   "accent": null,
   "primary": "#bb9865"
  },
  "ioi-lg-lg-32a": {
-  "accent": "#1c439d",
-  "primary": "#facd53"
+  "accent": "#1c439c",
+  "primary": "#fbcd53"
  },
  "ioi-lg-lg-32b": {
   "accent": "#568a82",
   "primary": "#e1d1c8"
  },
  "ioi-lg-lg-33": {
-  "accent": "#e3355c",
-  "primary": "#545152"
+  "accent": "#e53e64",
+  "primary": "#595757"
  },
  "ioi-lg-lg-34c": {
   "accent": null,
@@ -2281,7 +2281,7 @@
  },
  "ioi-lg-lg-39": {
   "accent": null,
-  "primary": "#0fa298"
+  "primary": "#10a398"
  },
  "ioi-lg-lg-3a": {
   "accent": null,
@@ -2300,35 +2300,35 @@
   "primary": "#62be4a"
  },
  "ioi-lg-lg-43": {
-  "accent": "#eb1e25",
-  "primary": "#b3b3b3"
+  "accent": "#ec1e25",
+  "primary": "#b2b3b3"
  },
  "ioi-lg-lg-44": {
-  "accent": "#3c2d67",
+  "accent": "#3d2d67",
   "primary": "#e84444"
  },
  "ioi-lg-lg-45": {
-  "accent": "#3f94ba",
-  "primary": "#222222"
+  "accent": "#b2283a",
+  "primary": "#232223"
  },
  "ioi-lg-lg-46": {
   "accent": "#e28286",
-  "primary": "#221e1f"
+  "primary": "#231f20"
  },
  "ioi-lg-lg-47": {
-  "accent": "#fdd002",
-  "primary": "#af0827"
+  "accent": "#fdd003",
+  "primary": "#b00827"
  },
  "ioi-lg-lg-48a": {
   "accent": null,
-  "primary": "#848382"
+  "primary": "#9c9a9a"
  },
  "ioi-lg-lg-48b": {
-  "accent": "#cf5838",
-  "primary": "#f2ae2d"
+  "accent": "#d05b39",
+  "primary": "#f2ad2d"
  },
  "ioi-lg-lg-49": {
-  "accent": "#f9b907",
+  "accent": "#fab906",
   "primary": "#f2edd0"
  },
  "ioi-lg-lg-5": {
@@ -2337,7 +2337,7 @@
  },
  "ioi-lg-lg-51": {
   "accent": null,
-  "primary": "#e88183"
+  "primary": "#e98184"
  },
  "ioi-lg-lg-52": {
   "accent": null,
@@ -2348,8 +2348,8 @@
   "primary": "#000000"
  },
  "ioi-lg-lg-54-56": {
-  "accent": "#b5cb3d",
-  "primary": "#ec1c24"
+  "accent": "#b6cb3e",
+  "primary": "#ec1b24"
  },
  "ioi-lg-lg-57-58": {
   "accent": "#fdc92f",
@@ -2357,14 +2357,14 @@
  },
  "ioi-lg-lg-59": {
   "accent": null,
-  "primary": "#e4292c"
+  "primary": "#e2363b"
  },
  "ioi-lg-lg-6": {
   "accent": null,
   "primary": "#f10327"
  },
  "ioi-lg-lg-61": {
-  "accent": "#facb03",
+  "accent": "#f9cc03",
   "primary": "#b10f14"
  },
  "ioi-lg-lg-63": {
@@ -2376,27 +2376,27 @@
   "primary": "#c9143e"
  },
  "ioi-lg-lg-65": {
-  "accent": "#fe6d02",
-  "primary": "#ea0e28"
+  "accent": "#fe6d03",
+  "primary": "#eb0e28"
  },
  "ioi-lg-lg-65a": {
-  "accent": "#3f6534",
-  "primary": "#074224"
+  "accent": "#3f6635",
+  "primary": "#074324"
  },
  "ioi-lg-lg-66a": {
   "accent": null,
   "primary": "#00b08c"
  },
  "ioi-lg-lg-66b": {
-  "accent": "#c96e1d",
-  "primary": "#9c060e"
+  "accent": "#ca6d1d",
+  "primary": "#9d070f"
  },
  "ioi-lg-lg-67": {
   "accent": null,
   "primary": "#ed1c24"
  },
  "ioi-lg-lg-68": {
-  "accent": "#f63a3c",
+  "accent": null,
   "primary": "#01713e"
  },
  "ioi-lg-lg-69": {
@@ -2405,43 +2405,43 @@
  },
  "ioi-lg-lg-7": {
   "accent": null,
-  "primary": "#050564"
+  "primary": "#050565"
  },
  "ioi-lg-lg-70": {
-  "accent": "#531e1f",
+  "accent": "#552021",
   "primary": "#fdb454"
  },
  "ioi-lg-lg-72": {
-  "accent": "#00ab4f",
+  "accent": "#00ac4f",
   "primary": "#0096db"
  },
  "ioi-lg-lg-73": {
-  "accent": "#d2c686",
-  "primary": "#e8e4c7"
+  "accent": "#d4c584",
+  "primary": "#e9e5c7"
  },
  "ioi-lg-lg-74a": {
   "accent": null,
-  "primary": "#231a16"
+  "primary": "#231a17"
  },
  "ioi-lg-lg-74b": {
   "accent": "#cc1289",
   "primary": "#c61d24"
  },
  "ioi-lg-lg-75": {
-  "accent": "#ce6985",
-  "primary": "#b3b3b3"
+  "accent": "#ca4365",
+  "primary": "#cccccc"
  },
  "ioi-lg-lg-76a": {
   "accent": null,
   "primary": "#374c21"
  },
  "ioi-lg-lg-78d": {
-  "accent": "#55b17d",
+  "accent": "#56b17d",
   "primary": "#242424"
  },
  "ioi-lg-lg-78e": {
   "accent": null,
-  "primary": "#543728"
+  "primary": "#553728"
  },
  "ioi-lg-lg-79a": {
   "accent": null,
@@ -2460,24 +2460,24 @@
   "primary": "#080808"
  },
  "ioi-lg-lg-80": {
-  "accent": "#8cc4e9",
+  "accent": "#8bc3e9",
   "primary": "#231f20"
  },
  "ioi-lg-lg-80c": {
   "accent": null,
-  "primary": "#b62639"
+  "primary": "#b7273a"
  },
  "ioi-lg-lg-80d": {
-  "accent": "#ffc440",
+  "accent": "#ffc340",
   "primary": "#2ddcca"
  },
  "ioi-lg-lg-81-82a": {
   "accent": null,
-  "primary": "#023a65"
+  "primary": "#033a65"
  },
  "ioi-lg-lg-82b": {
   "accent": null,
-  "primary": "#116ba0"
+  "primary": "#116b9f"
  },
  "ioi-lg-lg-83": {
   "accent": null,
@@ -2489,31 +2489,31 @@
  },
  "ioi-lg-lg-85": {
   "accent": null,
-  "primary": "#3c3c3c"
+  "primary": "#828282"
  },
  "ioi-lg-lg-89a": {
   "accent": "#fe9582",
   "primary": "#fce236"
  },
  "ioi-lg-lg-89b": {
-  "accent": "#b7983e",
+  "accent": "#b38439",
   "primary": "#e91c2d"
  },
  "ioi-lg-lg-90": {
-  "accent": "#4cabc8",
-  "primary": "#b5b4b4"
+  "accent": "#4aa8c4",
+  "primary": "#868586"
  },
  "ioi-lg-lg-91": {
-  "accent": "#dd4053",
-  "primary": "#9e9d9c"
+  "accent": "#de5768",
+  "primary": "#9d9c9b"
  },
  "ioi-lg-lg-92": {
-  "accent": "#3c3553",
+  "accent": "#3d3554",
   "primary": "#f37020"
  },
  "ioi-lg-lg-93": {
-  "accent": "#392623",
-  "primary": "#3a3905"
+  "accent": "#392523",
+  "primary": "#3a3805"
  },
  "ioi-lg-lg-94-96": {
   "accent": null,
@@ -2524,23 +2524,23 @@
   "primary": "#000000"
  },
  "ioi-lg-lg-at-1": {
-  "accent": "#fdc300",
-  "primary": "#00c2ba"
+  "accent": "#fcc200",
+  "primary": "#00bdb5"
  },
  "ioi-lg-lg-c20b": {
-  "accent": "#870203",
+  "accent": "#860303",
   "primary": "#adeab2"
  },
  "ioi-lg-lg-c30-k": {
   "accent": "#b5986e",
-  "primary": "#051d43"
+  "primary": "#061e43"
  },
  "ioi-lg-lg-c42a-k": {
   "accent": null,
   "primary": "#7f1719"
  },
  "ioi-lg-lg-c43-k": {
-  "accent": "#69583b",
+  "accent": "#68573a",
   "primary": "#131315"
  },
  "ioi-lg-lg-c57-k": {
@@ -2556,16 +2556,16 @@
   "primary": "#8fd300"
  },
  "ioi-lg-lg-k11": {
-  "accent": "#fde59b",
-  "primary": "#24669e"
+  "accent": "#22669c",
+  "primary": "#9cb9ca"
  },
  "ioi-lg-lg-k11a": {
   "accent": null,
-  "primary": "#040509"
+  "primary": "#050609"
  },
  "ioi-lg-lg-k11b": {
-  "accent": "#cfb883",
-  "primary": "#040404"
+  "accent": null,
+  "primary": "#cfb882"
  },
  "ioi-lg-lg-k12": {
   "accent": null,
@@ -2576,31 +2576,31 @@
   "primary": "#030303"
  },
  "ioi-lg-lg-k14": {
-  "accent": "#991f22",
-  "primary": "#cee4be"
+  "accent": "#991e21",
+  "primary": "#cee3be"
  },
  "ioi-lg-lg-k15": {
   "accent": null,
-  "primary": "#3c1e14"
+  "primary": "#43251c"
  },
  "ioi-lg-lg-k16-k19": {
-  "accent": "#da0007",
-  "primary": "#737373"
+  "accent": "#da0108",
+  "primary": "#7d7e7e"
  },
  "ioi-lg-lg-k1a": {
   "accent": null,
-  "primary": "#010101"
+  "primary": "#020202"
  },
  "ioi-lg-lg-k2": {
   "accent": null,
-  "primary": "#b5b5b5"
+  "primary": "#b3b3b3"
  },
  "ioi-lg-lg-k20": {
   "accent": null,
   "primary": "#060606"
  },
  "ioi-lg-lg-k20-k23": {
-  "accent": "#de98e0",
+  "accent": "#df98e0",
   "primary": "#cbb2e4"
  },
  "ioi-lg-lg-k202": {
@@ -2613,23 +2613,23 @@
  },
  "ioi-lg-lg-k205": {
   "accent": null,
-  "primary": "#202a81"
+  "primary": "#212b82"
  },
  "ioi-lg-lg-k207": {
   "accent": null,
-  "primary": "#f79f99"
+  "primary": "#f7a099"
  },
  "ioi-lg-lg-k208": {
   "accent": "#5751a0",
   "primary": "#6c3d97"
  },
  "ioi-lg-lg-k210": {
-  "accent": "#1ee800",
+  "accent": "#1ee700",
   "primary": "#293997"
  },
  "ioi-lg-lg-k211": {
   "accent": "#eb9c9c",
-  "primary": "#9c9c9c"
+  "primary": "#9b9b9b"
  },
  "ioi-lg-lg-k215": {
   "accent": null,
@@ -2637,19 +2637,19 @@
  },
  "ioi-lg-lg-k217": {
   "accent": "#685729",
-  "primary": "#e9242c"
+  "primary": "#e9252c"
  },
  "ioi-lg-lg-k219": {
   "accent": null,
-  "primary": "#244094"
+  "primary": "#39529c"
  },
  "ioi-lg-lg-k220": {
-  "accent": "#2695a1",
+  "accent": "#2696a2",
   "primary": "#6f5da9"
  },
  "ioi-lg-lg-k222": {
-  "accent": "#b2ca55",
-  "primary": "#258750"
+  "accent": "#9db63c",
+  "primary": "#25864f"
  },
  "ioi-lg-lg-k24": {
   "accent": null,
@@ -2661,11 +2661,11 @@
  },
  "ioi-lg-lg-k30": {
   "accent": null,
-  "primary": "#93236e"
+  "primary": "#8f226b"
  },
  "ioi-lg-lg-k32": {
   "accent": null,
-  "primary": "#15462b"
+  "primary": "#15462c"
  },
  "ioi-lg-lg-k4": {
   "accent": null,
@@ -2673,11 +2673,11 @@
  },
  "ioi-lg-lg-k4a": {
   "accent": null,
-  "primary": "#241f20"
+  "primary": "#231f20"
  },
  "ioi-lg-lg-k5a": {
   "accent": null,
-  "primary": "#202a81"
+  "primary": "#212b82"
  },
  "ioi-lg-lg-k5b": {
   "accent": null,
@@ -2697,27 +2697,27 @@
  },
  "ioi-lg-lg-k7": {
   "accent": null,
-  "primary": "#2b2a28"
+  "primary": "#3a3938"
  },
  "ioi-lg-lg-k8": {
-  "accent": "#7fc240",
-  "primary": "#f98420"
+  "accent": "#7ec240",
+  "primary": "#f88420"
  },
  "ioi-lg-lg-k9": {
   "accent": null,
   "primary": "#f36422"
  },
  "ioi-lg-lg-k9a": {
-  "accent": "#1ee800",
+  "accent": "#1ee700",
   "primary": "#293997"
  },
  "ioi-lg-lg-k9b": {
   "accent": null,
-  "primary": "#9c0911"
+  "primary": "#9c0a11"
  },
  "ioi-lg-lg9-2": {
   "accent": null,
-  "primary": "#02244d"
+  "primary": "#02244e"
  },
  "ioi-lg-love-maya": {
   "accent": null,
@@ -2725,15 +2725,15 @@
  },
  "ioi-lg-lumi": {
   "accent": null,
-  "primary": "#9c9c9c"
+  "primary": "#9b9b9b"
  },
  "ioi-lg-maison-la-manne": {
-  "accent": "#89664f",
+  "accent": "#8a664f",
   "primary": "#481114"
  },
  "ioi-lg-montigo": {
-  "accent": "#11bdd4",
-  "primary": "#060f43"
+  "accent": "#12bdd4",
+  "primary": "#050e42"
  },
  "ioi-lg-nikumai": {
   "accent": null,
@@ -2745,35 +2745,35 @@
  },
  "ioi-lg-rhapsody": {
   "accent": null,
-  "primary": "#6d6c6c"
+  "primary": "#6f6e6e"
  },
  "ioi-lg-s-wan-jewels": {
   "accent": null,
   "primary": "#020408"
  },
  "ioi-lg-sisters-crispy-popiah": {
-  "accent": "#63b143",
-  "primary": "#e25b20"
+  "accent": "#62b143",
+  "primary": "#e25b21"
  },
  "ioi-lg-skintific": {
   "accent": null,
   "primary": "#00afd8"
  },
  "ioi-lg-tous-les-jours": {
-  "accent": "#e0e182",
-  "primary": "#28673d"
+  "accent": "#dfe182",
+  "primary": "#28673e"
  },
  "ioi-lg-voir": {
   "accent": null,
   "primary": "#231f20"
  },
  "ioi-lg-wow-beauty": {
-  "accent": "#3a2227",
+  "accent": "#392126",
   "primary": "#edc7ca"
  },
  "ioi-lg-ygf-malatang": {
   "accent": null,
-  "primary": "#399538"
+  "primary": "#3a9638"
  },
  "ioi-lg-zus-coffee": {
   "accent": null,

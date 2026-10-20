@@ -15948,20 +15948,21 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-piquadro",
-   "poiId": "672b2d355351051c3ee4d939",
-   "unitNumber": "G-69561_26451",
-   "name": "Piquadro",
+   "unitId": "ioi-g-g-234",
+   "poiId": "6ad5dc9c53510529d62ed923",
+   "unitNumber": "G-234",
+   "name": "Ecco",
    "category": "Footwear",
-   "description": "Italian brand of tech design accessories for business travelers.",
+   "comingSoon": true,
+   "description": "ECCO, a world-leading brand of shoes combining style and comfort, has built its success on quality and innovative technology. Founded in 1963, ECCO is one of the few major shoe manufacturers in the world to own and manage every step of the shoemaking process. Today, ECCO products are sold in 87 countries at 2,989 ECCO shops and shop-in-shops and a total of 15,000 sales points around the world. The company is family-owned and the workplace to 18,500 employees.",
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": "/ioi/logos/cebac473-7012-4ca2-a9ce-026c00b354c0.jpg",
+   "thumb": "/ioi/logos/15a1475a-0952-4e30-b8c8-d75ae3fbb604.png",
    "logo": {
-    "src": "/ioi/logos/cebac473-7012-4ca2-a9ce-026c00b354c0.jpg",
+    "src": "/ioi/logos/15a1475a-0952-4e30-b8c8-d75ae3fbb604.png",
     "w": 256,
-    "h": 256
+    "h": 84
    },
    "photo": null,
    "hours": null,

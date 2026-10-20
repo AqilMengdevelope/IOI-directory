@@ -1,6 +1,28 @@
 {
  "updates": [
   {
+   "version": 1212,
+   "previousVersion": 1209,
+   "releaseDate": "2026-10-18T17:02:00+08:00",
+   "detectedAt": "2026-10-20T00:50:58.339Z",
+   "changes": [
+    {
+     "type": "coming-soon",
+     "name": "Ecco",
+     "unitNumber": "G-234",
+     "floor": "G",
+     "unitId": "ioi-g-g-234"
+    },
+    {
+     "type": "closed",
+     "name": "Piquadro",
+     "unitNumber": null,
+     "floor": null,
+     "unitId": null
+    }
+   ]
+  },
+  {
    "version": 1209,
    "previousVersion": 1185,
    "releaseDate": "2026-10-14T14:51:00+08:00",
