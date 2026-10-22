@@ -1,6 +1,49 @@
 {
  "updates": [
   {
+   "version": 1217,
+   "previousVersion": 1212,
+   "releaseDate": "2026-10-20T16:54:00+08:00",
+   "detectedAt": "2026-10-22T00:20:40.681Z",
+   "changes": [
+    {
+     "type": "new",
+     "name": "Barbeque Nation (Edited)",
+     "unitNumber": "GE-3A",
+     "floor": "G",
+     "unitId": "ioi-g-ge-3a"
+    },
+    {
+     "type": "new",
+     "name": "Just Good Coffee",
+     "unitNumber": "F-K4",
+     "floor": "1",
+     "unitId": "ioi-1-f-k4-12"
+    },
+    {
+     "type": "coming-soon",
+     "name": "Arthur's Storehouse",
+     "unitNumber": "GE-5",
+     "floor": "G",
+     "unitId": "ioi-g-ge-5"
+    },
+    {
+     "type": "coming-soon",
+     "name": "Dan John",
+     "unitNumber": "G-224",
+     "floor": "G",
+     "unitId": "ioi-g-g-224"
+    },
+    {
+     "type": "coming-soon",
+     "name": "Oriental Kopi",
+     "unitNumber": "LG-29B",
+     "floor": "LG",
+     "unitId": "ioi-lg-lg-29b"
+    }
+   ]
+  },
+  {
    "version": 1212,
    "previousVersion": 1209,
    "releaseDate": "2026-10-18T17:02:00+08:00",

@@ -71,6 +71,14 @@
   "accent": "#c4212c",
   "primary": "#23734d"
  },
+ "ioi-1-f-k4": {
+  "accent": null,
+  "primary": "#9d5124"
+ },
+ "ioi-1-f-k4-12": {
+  "accent": null,
+  "primary": "#9d5124"
+ },
  "ioi-1-f-k5": {
   "accent": "#ac876f",
   "primary": "#c8b0a0"
@@ -90,10 +98,6 @@
  "ioi-1-f-k8b": {
   "accent": null,
   "primary": "#ed7d71"
- },
- "ioi-1-just-good-coffee": {
-  "accent": null,
-  "primary": "#9d5124"
  },
  "ioi-1-l1-1-2": {
   "accent": null,
@@ -558,10 +562,6 @@
  "ioi-1-smart-master": {
   "accent": null,
   "primary": "#001441"
- },
- "ioi-1-the-founders-bakery": {
-  "accent": null,
-  "primary": "#eb008b"
  },
  "ioi-2-at-5": {
   "accent": "#fff800",
@@ -1691,10 +1691,6 @@
   "accent": "#e7cb89",
   "primary": "#f6eace"
  },
- "ioi-g-ge-5": {
-  "accent": null,
-  "primary": "#d0d0d0"
- },
  "ioi-g-ge-6": {
   "accent": null,
   "primary": "#136537"
@@ -2351,10 +2347,6 @@
   "accent": "#b6cb3e",
   "primary": "#ec1b24"
  },
- "ioi-lg-lg-57-58": {
-  "accent": "#fdc92f",
-  "primary": "#d52a1e"
- },
  "ioi-lg-lg-59": {
   "accent": null,
   "primary": "#e2363b"
@@ -2646,6 +2638,10 @@
  "ioi-lg-lg-k220": {
   "accent": "#2696a2",
   "primary": "#6f5da9"
+ },
+ "ioi-lg-lg-k221": {
+  "accent": "#dd1d52",
+  "primary": "#f3ced6"
  },
  "ioi-lg-lg-k222": {
   "accent": "#9db63c",

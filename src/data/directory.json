@@ -249,9 +249,9 @@
    "floorLabel": "Level 1"
   },
   {
-   "unitId": "ioi-1-just-good-coffee",
-   "poiId": "680998be53510528fc423979",
-   "unitNumber": "L1-32837_21365",
+   "unitId": "ioi-1-f-k4",
+   "poiId": "6ad878ea53510529d62edad8",
+   "unitNumber": "F-K4",
    "name": "Just Good Coffee",
    "category": "Food & Beverages",
    "description": null,
@@ -269,20 +269,20 @@
    "floorLabel": "Level 1"
   },
   {
-   "unitId": "ioi-1-the-founders-bakery",
-   "poiId": "6808680f53510528fc423972",
-   "unitNumber": "L1-33902_21794",
-   "name": "The Founders Bakery",
+   "unitId": "ioi-1-f-k4-12",
+   "poiId": "6ad87dc053510529d62edad9",
+   "unitNumber": "F-K4",
+   "name": "Just Good Coffee",
    "category": "Food & Beverages",
    "description": null,
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": "/ioi/logos/b73255e6-99c8-47ae-9b16-8bf1b75e087c.jpg",
+   "thumb": "/ioi/logos/90c9e215-269e-41c8-a942-249ffef80cef.png",
    "logo": {
-    "src": "/ioi/logos/b73255e6-99c8-47ae-9b16-8bf1b75e087c.jpg",
+    "src": "/ioi/logos/90c9e215-269e-41c8-a942-249ffef80cef.png",
     "w": 256,
-    "h": 216
+    "h": 256
    },
    "photo": null,
    "hours": null,
@@ -7826,9 +7826,17 @@
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": null,
-   "logo": null,
-   "photo": null,
+   "thumb": "/ioi/logos/92887173-7543-4fef-8c77-8fd5097c6efa.jpg",
+   "logo": {
+    "src": "/ioi/logos/92887173-7543-4fef-8c77-8fd5097c6efa.jpg",
+    "w": 256,
+    "h": 256
+   },
+   "photo": {
+    "src": "/ioi/cards/f8ccb0a2-d2ab-4d87-a128-592bfd140fe0.jpg",
+    "w": 720,
+    "h": 450
+   },
    "hours": null,
    "floorLabel": "Lower Ground"
   },
@@ -8350,23 +8358,19 @@
    "floorLabel": "Lower Ground"
   },
   {
-   "unitId": "ioi-lg-lg-29b",
-   "poiId": "672b3cce5351052ffe16d889",
-   "unitNumber": "LG-29B",
-   "name": "Oriental Kopi",
-   "category": "Café & Restaurant",
-   "description": "Oriental Kopi prides itself in serving mouthwatering NanYang cuisine that is borne of age-old recipes and traditions. Signature dishes include Oriental Coffee, Portuguese EggTart & Polo Bun.",
+   "unitId": "ioi-lg-58900-29114-600",
+   "poiId": null,
+   "unitNumber": "LG-58900_29114",
+   "name": "Unit ?",
+   "category": "Details under review",
+   "description": null,
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": "/ioi/logos/16913ebc-c204-44bd-ad6e-2aaf95b1a20d.jpg",
-   "logo": {
-    "src": "/ioi/logos/16913ebc-c204-44bd-ad6e-2aaf95b1a20d.jpg",
-    "w": 256,
-    "h": 256
-   },
+   "thumb": null,
+   "logo": null,
    "photo": null,
-   "hours": "10AM - 10PM",
+   "hours": null,
    "floorLabel": "Lower Ground"
   },
   {
@@ -12641,23 +12645,24 @@
    "floorLabel": "Lower Ground"
   },
   {
-   "unitId": "ioi-lg-lg-57-58",
-   "poiId": "672b3da35351052ffe16da7f",
-   "unitNumber": "LG-57&58",
-   "name": "McDonald's",
-   "category": "Fast Food",
-   "description": "A quick bite or a satisfying meal, we’ve got you covered.",
+   "unitId": "ioi-lg-lg-29b",
+   "poiId": "672b3cce5351052ffe16d889",
+   "unitNumber": "LG-29B",
+   "name": "Oriental Kopi",
+   "category": "Café & Restaurant",
+   "comingSoon": true,
+   "description": "Oriental Kopi prides itself in serving mouthwatering NanYang cuisine that is borne of age-old recipes and traditions. Signature dishes include Oriental Coffee, Portuguese EggTart & Polo Bun.",
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": "/ioi/logos/5c8d4e59-fd4b-49eb-96c3-ce3989a4c64d.png",
+   "thumb": "/ioi/logos/16913ebc-c204-44bd-ad6e-2aaf95b1a20d.jpg",
    "logo": {
-    "src": "/ioi/logos/5c8d4e59-fd4b-49eb-96c3-ce3989a4c64d.png",
+    "src": "/ioi/logos/16913ebc-c204-44bd-ad6e-2aaf95b1a20d.jpg",
     "w": 256,
-    "h": 199
+    "h": 256
    },
    "photo": null,
-   "hours": null,
+   "hours": "10AM - 10PM",
    "floorLabel": "Lower Ground"
   },
   {
@@ -13238,20 +13243,17 @@
    "unitId": "ioi-g-ge-5",
    "poiId": "672b3d6e5351052ffe16d9fe",
    "unitNumber": "GE-5",
-   "name": "The Barn",
-   "category": "Café & Restaurant",
-   "description": "A cozy, chic destination for scrumptious food, and the finest selection of old and new world wines from all over the world.",
+   "name": "Arthur's Storehouse",
+   "category": "Food & Beverages",
+   "comingSoon": true,
+   "description": null,
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": "/ioi/logos/6d190c25-ec7e-4817-9030-4a3f7ddd6ad6.jpg",
-   "logo": {
-    "src": "/ioi/logos/6d190c25-ec7e-4817-9030-4a3f7ddd6ad6.jpg",
-    "w": 256,
-    "h": 256
-   },
+   "thumb": null,
+   "logo": null,
    "photo": null,
-   "hours": "10AM - 10PM",
+   "hours": null,
    "floorLabel": "Ground"
   },
   {
@@ -14228,11 +14230,11 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-28815-17919-0",
-   "poiId": null,
-   "unitNumber": "G-28815_17919",
-   "name": "Unit ?",
-   "category": "Details under review",
+   "unitId": "ioi-g-ge-3a",
+   "poiId": "6ad863b653510529d62edac1",
+   "unitNumber": "GE-3A",
+   "name": "Barbeque Nation (Edited)",
+   "category": "Food & Beverages",
    "description": null,
    "phone": null,
    "website": null,
@@ -14972,11 +14974,12 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-86732-26364-0",
-   "poiId": null,
-   "unitNumber": "G-86732_26364",
-   "name": "Unit ?",
-   "category": "Details under review",
+   "unitId": "ioi-g-g-224",
+   "poiId": "6ad865b953510529d62edace",
+   "unitNumber": "G-224",
+   "name": "Dan John",
+   "category": "Fashion",
+   "comingSoon": true,
    "description": null,
    "phone": null,
    "website": null,

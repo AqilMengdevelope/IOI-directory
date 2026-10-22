@@ -1,6 +1,6 @@
 {
- "version": 1212,
- "releaseDate": "2026-10-18T17:02:00+08:00",
+ "version": 1217,
+ "releaseDate": "2026-10-20T16:54:00+08:00",
  "hours": {
   "sunday": {
    "from": "10:00",
@@ -123,24 +123,6 @@
    ]
   },
   {
-   "id": "6a312bbc5351054b1d201687",
-   "title": "A SWEET BIRTHDAY INDULGENCE AWAITS AT BEARD PAPA'S",
-   "description": "Celebrate your special month with a delightful treat.\n\nBirthday stars can enjoy a FREE Pie Cream Puff, Custard a little indulgence on us.\n\n- Minimum purchase 1 Pie Cream Puff Custard required\n\n- Exclusively during your birthday month\n\nBecause every celebration deserves a touch of sweetness.",
-   "startsAt": "2026-06-22T08:30:00+08:00",
-   "endsAt": "2026-12-31T22:00:00+08:00",
-   "image": {
-    "src": "/ioi/whats-on/7c159d0a-7f6a-41fa-9285-4bcf532d662c.jpg",
-    "w": 720,
-    "h": 720
-   },
-   "shops": [
-    {
-     "floor": "LG",
-     "unitId": "ioi-lg-beard-papa"
-    }
-   ]
-  },
-  {
    "id": "6a3ca7c3535105480489a551",
    "title": "CELEBRATE YOUR BIRTHDAY WITH A RM10 TREAT AT AKEMIN SLEEP STUDIO",
    "description": "A moment of calm, just for you.\n\nUnwind and indulge this birthday month with an RM10 voucher at Akemi Sleep Studio, IOI City Mall, your destination for comfort and relaxation.\n\nCelebrate your special day by treating yourself to a little extra rest, softness, and ease, because you deserve to feel your best.",
@@ -155,6 +137,24 @@
     {
      "floor": "2",
      "unitId": "ioi-2-l2-215"
+    }
+   ]
+  },
+  {
+   "id": "6a312bbc5351054b1d201687",
+   "title": "A SWEET BIRTHDAY INDULGENCE AWAITS AT BEARD PAPA'S",
+   "description": "Celebrate your special month with a delightful treat.\n\nBirthday stars can enjoy a FREE Pie Cream Puff, Custard a little indulgence on us.\n\n- Minimum purchase 1 Pie Cream Puff Custard required\n\n- Exclusively during your birthday month\n\nBecause every celebration deserves a touch of sweetness.",
+   "startsAt": "2026-06-22T08:30:00+08:00",
+   "endsAt": "2026-12-31T22:00:00+08:00",
+   "image": {
+    "src": "/ioi/whats-on/7c159d0a-7f6a-41fa-9285-4bcf532d662c.jpg",
+    "w": 720,
+    "h": 720
+   },
+   "shops": [
+    {
+     "floor": "LG",
+     "unitId": "ioi-lg-beard-papa"
     }
    ]
   },
