@@ -1,6 +1,42 @@
 {
  "updates": [
   {
+   "version": 1220,
+   "previousVersion": 1217,
+   "releaseDate": "2026-10-22T10:19:00+08:00",
+   "detectedAt": "2026-10-24T00:10:32.847Z",
+   "changes": [
+    {
+     "type": "new",
+     "name": "Chonky Cookies",
+     "unitNumber": "F-K9",
+     "floor": "1",
+     "unitId": "ioi-1-f-k9"
+    },
+    {
+     "type": "opened",
+     "name": "Watsons Pink",
+     "unitNumber": "G-58A",
+     "floor": "G",
+     "unitId": "ioi-g-g-58a"
+    },
+    {
+     "type": "opened",
+     "name": "XTEP",
+     "unitNumber": null,
+     "floor": "LG",
+     "unitId": "ioi-lg-xtep"
+    },
+    {
+     "type": "closed",
+     "name": "Chonky Cookies",
+     "unitNumber": "L2-K201",
+     "floor": "2",
+     "unitId": null
+    }
+   ]
+  },
+  {
    "version": 1217,
    "previousVersion": 1212,
    "releaseDate": "2026-10-20T16:54:00+08:00",

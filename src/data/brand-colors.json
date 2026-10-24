@@ -99,6 +99,10 @@
   "accent": null,
   "primary": "#ed7d71"
  },
+ "ioi-1-f-k9": {
+  "accent": "#f2983d",
+  "primary": "#fbf8d6"
+ },
  "ioi-1-l1-1-2": {
   "accent": null,
   "primary": "#868686"
@@ -986,10 +990,6 @@
  "ioi-2-l2-k1b": {
   "accent": null,
   "primary": "#415fff"
- },
- "ioi-2-l2-k201": {
-  "accent": "#f2983d",
-  "primary": "#fbf8d6"
  },
  "ioi-2-l2-k203": {
   "accent": null,
