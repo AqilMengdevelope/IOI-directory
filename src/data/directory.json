@@ -46,17 +46,21 @@
    "unitNumber": "F-K9",
    "name": "Chonky Cookies",
    "category": "Bakery",
-   "description": "Life's too short for tiny treats, and Chonky Cookies is here to break the mould. Our menu unfolds tales of travel, discovery, and tireless dedication to create various flavours. From Miso Chocolate to Banana Chocolate, Cranberry Chocolate, Cranberry Oats, and more - each cookie is a masterpiece, crafted with the finest ingredients. We serve only what we'd proudly share with our own family and friends.",
+   "description": "Born from a love for all things sweet, our irresistibly\n\nthick, chunky, house-made cookies are crafted with love, packed with flavour\n\nand made to bring a little joy to every bite.\n\nAnd because we believe that life's too short for boring\n\ncookies, we're always keeping things exciting! Alongside our beloved OG\n\nflavours, we introduce a fresh rotation of exclusive flavours every month. From\n\nseasonal favourites to unexpected creations, there's always something new to\n\nfall in love with. But here's the catch — your new favourite might not stick\n\naround forever!\n\nNow, we're making room for a little something different.\n\nIntroducing our house-made vanilla frozen yoghurt soft serve, a lighter,\n\nrefreshing alternative for when you're craving something sweet. Enjoy it plain\n\nand simple, or go all out with an assortment of delicious toppings, from cookie\n\ncrumbles to our signature Chonky creations. After all, a little indulgence\n\nnever hurt anyone!\n\nWith a fresh new look, a playful new identity and even more\n\nsweet treats to discover, Chonky Cookies is growing beyond the cookie jar.",
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": "/ioi/logos/acad3dc0-95a2-4592-9b9f-5f08ae2d9ada.jpg",
+   "thumb": "/ioi/logos/93d98a7f-9da2-481f-bd97-5d1038f549ab.png",
    "logo": {
-    "src": "/ioi/logos/acad3dc0-95a2-4592-9b9f-5f08ae2d9ada.jpg",
-    "w": 256,
+    "src": "/ioi/logos/93d98a7f-9da2-481f-bd97-5d1038f549ab.png",
+    "w": 204,
     "h": 256
    },
-   "photo": null,
+   "photo": {
+    "src": "/ioi/cards/cd145bdd-b587-4bcc-869f-e58246061b94.jpg",
+    "w": 720,
+    "h": 450
+   },
    "hours": null,
    "floorLabel": "Level 1"
   },
