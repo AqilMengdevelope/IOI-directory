@@ -1,5 +1,5 @@
 {
- "version": 1221,
+ "version": 1222,
  "releaseDate": "2026-10-27T10:55:00+08:00",
  "hours": {
   "sunday": {
@@ -33,92 +33,20 @@
  },
  "offers": [
   {
-   "id": "6acc8fd153510529d62ecff5",
-   "title": "CELEBRATE DEEPAVALI WITH AN EXCLUSIVERADO GIFT",
-   "description": "With a minimum spend of RM1,500 and IOI Points earned at any CLUB IOI participating store in IOI City Mall, receive an exclusive Rado Deepavali Packet.\n\nA refined expression of the season, thoughtfully presented by Rado.",
-   "startsAt": null,
-   "endsAt": "2026-11-08T23:43:00+08:00",
+   "id": "6a312bbc5351054b1d201687",
+   "title": "A SWEET BIRTHDAY INDULGENCE AWAITS AT BEARD PAPA'S",
+   "description": "Celebrate your special month with a delightful treat.\n\nBirthday stars can enjoy a FREE Pie Cream Puff, Custard a little indulgence on us.\n\n- Minimum purchase 1 Pie Cream Puff Custard required\n\n- Exclusively during your birthday month\n\nBecause every celebration deserves a touch of sweetness.",
+   "startsAt": "2026-06-22T08:30:00+08:00",
+   "endsAt": "2026-12-31T22:00:00+08:00",
    "image": {
-    "src": "/ioi/whats-on/ddc07498-d7f3-40f3-8ae7-f14c2e287728.png",
-    "w": 500,
-    "h": 500
-   },
-   "shops": [
-    {
-     "floor": "G",
-     "unitId": "ioi-g-g-232"
-    }
-   ]
-  },
-  {
-   "id": "682ea28853510535d6f06a9f",
-   "title": "15% OFF AT FITNESS CONCEPT",
-   "description": "Exclusive for CLUB IOI Members!\n\nEnjoy 15% OFF on fitness accessories with a wide range to choose from yoga mats, dumbbells, kettlebells, weight lifting gloves and gym balls.\n\nPresent your CLUB IOI app to enjoy this deals.\n\nNot a CLUB IOI member yet? Download CLUB IOI app now.",
-   "startsAt": "2025-05-22T12:04:00+08:00",
-   "endsAt": "2026-12-31T23:00:00+08:00",
-   "image": {
-    "src": "/ioi/whats-on/3727a42e-2c68-4ea6-ab20-8a855e2d85a0.jpg",
-    "w": 500,
-    "h": 500
-   },
-   "shops": [
-    {
-     "floor": "2",
-     "unitId": "ioi-2-l2-6-7"
-    }
-   ]
-  },
-  {
-   "id": "6a858b8e53510529d62e8e2d",
-   "title": "TAKE A BITE, SAVE MORE AT SUBWAY",
-   "description": "Your favourite Subway meal just got even better!\n\nEnjoy 10% OFF any 6-inch Sub Meal at Subway IOI City Mall and IOI Mall Puchong. Whether it''s lunch, dinner, or a quick bite in between, savour your go-to meal with extra savings.\n\nTreat yourself to fresh flavours and great value today!",
-   "startsAt": "2026-08-20T08:30:00+08:00",
-   "endsAt": "2026-12-31T23:00:00+08:00",
-   "image": {
-    "src": "/ioi/whats-on/b5626179-d5e6-4679-91b4-d2f874566b3c.jpg",
+    "src": "/ioi/whats-on/7c159d0a-7f6a-41fa-9285-4bcf532d662c.jpg",
     "w": 720,
     "h": 720
    },
    "shops": [
     {
      "floor": "LG",
-     "unitId": "ioi-lg-lg-256c"
-    }
-   ]
-  },
-  {
-   "id": "6a8c281553510529d62e9019",
-   "title": "SCORE RM20 SAVINGS AT AL-IKHSAN",
-   "description": "Shop your favourite sportswear and gear at Al-Ikhsan!\n\nMembers who spend a minimum of RM200 in a single receipt will enjoy an instant RM20 discount.",
-   "startsAt": null,
-   "endsAt": "2026-12-31T23:00:00+08:00",
-   "image": {
-    "src": "/ioi/whats-on/ae9b9467-c4dd-4da4-a9fd-853247bb8fe8.jpg",
-    "w": 719,
-    "h": 720
-   },
-   "shops": [
-    {
-     "floor": "1",
-     "unitId": "ioi-1-l1-24-25"
-    }
-   ]
-  },
-  {
-   "id": "6abb2e2353510529d62ec81d",
-   "title": "SAVE RM10 ON YOUR BETTER LIVING PICKS",
-   "description": "Discover quality home furnishings and daily essentials at Nitori IOI City Mall.\n\nSpend a minimum of RM100 and enjoy RM10 OFF instantly during the Better Living Bundle Fest.",
-   "startsAt": null,
-   "endsAt": "2026-11-02T23:18:00+08:00",
-   "image": {
-    "src": "/ioi/whats-on/c25160dd-1b01-4b7d-b837-71635f4e943b.jpg",
-    "w": 720,
-    "h": 720
-   },
-   "shops": [
-    {
-     "floor": "LG",
-     "unitId": "ioi-lg-lg-223"
+     "unitId": "ioi-lg-beard-papa"
     }
    ]
   },
@@ -141,20 +69,20 @@
    ]
   },
   {
-   "id": "6a312bbc5351054b1d201687",
-   "title": "A SWEET BIRTHDAY INDULGENCE AWAITS AT BEARD PAPA'S",
-   "description": "Celebrate your special month with a delightful treat.\n\nBirthday stars can enjoy a FREE Pie Cream Puff, Custard a little indulgence on us.\n\n- Minimum purchase 1 Pie Cream Puff Custard required\n\n- Exclusively during your birthday month\n\nBecause every celebration deserves a touch of sweetness.",
-   "startsAt": "2026-06-22T08:30:00+08:00",
-   "endsAt": "2026-12-31T22:00:00+08:00",
+   "id": "6acc8fd153510529d62ecff5",
+   "title": "CELEBRATE DEEPAVALI WITH AN EXCLUSIVERADO GIFT",
+   "description": "With a minimum spend of RM1,500 and IOI Points earned at any CLUB IOI participating store in IOI City Mall, receive an exclusive Rado Deepavali Packet.\n\nA refined expression of the season, thoughtfully presented by Rado.",
+   "startsAt": null,
+   "endsAt": "2026-11-08T23:43:00+08:00",
    "image": {
-    "src": "/ioi/whats-on/7c159d0a-7f6a-41fa-9285-4bcf532d662c.jpg",
-    "w": 720,
-    "h": 720
+    "src": "/ioi/whats-on/ddc07498-d7f3-40f3-8ae7-f14c2e287728.png",
+    "w": 500,
+    "h": 500
    },
    "shops": [
     {
-     "floor": "LG",
-     "unitId": "ioi-lg-beard-papa"
+     "floor": "G",
+     "unitId": "ioi-g-g-232"
     }
    ]
   },
@@ -213,6 +141,42 @@
    ]
   },
   {
+   "id": "682ea28853510535d6f06a9f",
+   "title": "15% OFF AT FITNESS CONCEPT",
+   "description": "Exclusive for CLUB IOI Members!\n\nEnjoy 15% OFF on fitness accessories with a wide range to choose from yoga mats, dumbbells, kettlebells, weight lifting gloves and gym balls.\n\nPresent your CLUB IOI app to enjoy this deals.\n\nNot a CLUB IOI member yet? Download CLUB IOI app now.",
+   "startsAt": "2025-05-22T12:04:00+08:00",
+   "endsAt": "2026-12-31T23:00:00+08:00",
+   "image": {
+    "src": "/ioi/whats-on/3727a42e-2c68-4ea6-ab20-8a855e2d85a0.jpg",
+    "w": 500,
+    "h": 500
+   },
+   "shops": [
+    {
+     "floor": "2",
+     "unitId": "ioi-2-l2-6-7"
+    }
+   ]
+  },
+  {
+   "id": "6a858b8e53510529d62e8e2d",
+   "title": "TAKE A BITE, SAVE MORE AT SUBWAY",
+   "description": "Your favourite Subway meal just got even better!\n\nEnjoy 10% OFF any 6-inch Sub Meal at Subway IOI City Mall and IOI Mall Puchong. Whether it''s lunch, dinner, or a quick bite in between, savour your go-to meal with extra savings.\n\nTreat yourself to fresh flavours and great value today!",
+   "startsAt": "2026-08-20T08:30:00+08:00",
+   "endsAt": "2026-12-31T23:00:00+08:00",
+   "image": {
+    "src": "/ioi/whats-on/b5626179-d5e6-4679-91b4-d2f874566b3c.jpg",
+    "w": 720,
+    "h": 720
+   },
+   "shops": [
+    {
+     "floor": "LG",
+     "unitId": "ioi-lg-lg-256c"
+    }
+   ]
+  },
+  {
    "id": "6acc912453510529d62ecff7",
    "title": "COLLECT, EARN & SAVE AT CHJ JEWELLERY",
    "description": "Purchase 2 Lucky Charms (RM99) or 1 Lucky Gold Bead (RM88) and enjoy 2X Points plus a RM100 Discount E-Voucher from CHJ Jewellery IOI City Mall.\n\nA sparkling rewards you won't want to miss!",
@@ -227,6 +191,24 @@
     {
      "floor": "G",
      "unitId": "ioi-g-chj-jewellery"
+    }
+   ]
+  },
+  {
+   "id": "6a8c281553510529d62e9019",
+   "title": "SCORE RM20 SAVINGS AT AL-IKHSAN",
+   "description": "Shop your favourite sportswear and gear at Al-Ikhsan!\n\nMembers who spend a minimum of RM200 in a single receipt will enjoy an instant RM20 discount.",
+   "startsAt": null,
+   "endsAt": "2026-12-31T23:00:00+08:00",
+   "image": {
+    "src": "/ioi/whats-on/ae9b9467-c4dd-4da4-a9fd-853247bb8fe8.jpg",
+    "w": 719,
+    "h": 720
+   },
+   "shops": [
+    {
+     "floor": "1",
+     "unitId": "ioi-1-l1-24-25"
     }
    ]
   },

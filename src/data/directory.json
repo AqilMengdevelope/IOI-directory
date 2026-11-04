@@ -12731,9 +12731,9 @@
  ],
  "G": [
   {
-   "unitId": "ioi-g-68789-41975-0",
+   "unitId": "ioi-g-80571-43748-0",
    "poiId": null,
-   "unitNumber": "G-68789_41975",
+   "unitNumber": "G-80571_43748",
    "name": "Unit ?",
    "category": "Details under review",
    "description": null,
@@ -12747,9 +12747,9 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-66884-41975-0",
+   "unitId": "ioi-g-69089-41370-0",
    "poiId": null,
-   "unitNumber": "G-66884_41975",
+   "unitNumber": "G-69089_41370",
    "name": "Unit ?",
    "category": "Details under review",
    "description": null,
@@ -12763,9 +12763,25 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-65491-42166-0",
+   "unitId": "ioi-g-66884-41370-0",
    "poiId": null,
-   "unitNumber": "G-65491_42166",
+   "unitNumber": "G-66884_41370",
+   "name": "Unit ?",
+   "category": "Details under review",
+   "description": null,
+   "phone": null,
+   "website": null,
+   "tenantKey": null,
+   "thumb": null,
+   "logo": null,
+   "photo": null,
+   "hours": null,
+   "floorLabel": "Ground"
+  },
+  {
+   "unitId": "ioi-g-65086-41798-0",
+   "poiId": null,
+   "unitNumber": "G-65086_41798",
    "name": "Unit ?",
    "category": "Details under review",
    "description": null,
