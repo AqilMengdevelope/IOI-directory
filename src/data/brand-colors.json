@@ -1219,6 +1219,10 @@
   "accent": null,
   "primary": "#010101"
  },
+ "ioi-g-2at-9": {
+  "accent": null,
+  "primary": "#dd1921"
+ },
  "ioi-g-aigner": {
   "accent": null,
   "primary": "#070707"
@@ -1706,6 +1710,14 @@
  "ioi-g-ge9-2": {
   "accent": null,
   "primary": "#967e6a"
+ },
+ "ioi-g-gl1-246": {
+  "accent": null,
+  "primary": "#999999"
+ },
+ "ioi-g-gl1-247": {
+  "accent": null,
+  "primary": "#f46f20"
  },
  "ioi-g-kipling": {
   "accent": null,
