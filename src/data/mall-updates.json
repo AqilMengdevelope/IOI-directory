@@ -1,6 +1,35 @@
 {
  "updates": [
   {
+   "version": 1223,
+   "previousVersion": 1222,
+   "releaseDate": "2026-11-03T16:26:00+08:00",
+   "detectedAt": "2026-11-05T01:55:30.894Z",
+   "changes": [
+    {
+     "type": "new",
+     "name": "ICAUR",
+     "unitNumber": "GL1-247",
+     "floor": "G",
+     "unitId": "ioi-g-gl1-247"
+    },
+    {
+     "type": "new",
+     "name": "Toyota",
+     "unitNumber": "2AT-9",
+     "floor": "G",
+     "unitId": "ioi-g-2at-9"
+    },
+    {
+     "type": "new",
+     "name": "Zeekr",
+     "unitNumber": "GL1-246",
+     "floor": "G",
+     "unitId": "ioi-g-gl1-246"
+    }
+   ]
+  },
+  {
    "version": 1222,
    "previousVersion": 1221,
    "releaseDate": "2026-10-27T10:55:00+08:00",
