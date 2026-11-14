@@ -1,6 +1,13 @@
 {
  "updates": [
   {
+   "version": 1224,
+   "previousVersion": 1223,
+   "releaseDate": "2026-11-12T14:21:00+08:00",
+   "detectedAt": "2026-11-14T01:55:59.930Z",
+   "changes": []
+  },
+  {
    "version": 1223,
    "previousVersion": 1222,
    "releaseDate": "2026-11-03T16:26:00+08:00",
