@@ -1,6 +1,6 @@
 {
- "version": 1223,
- "releaseDate": "2026-11-03T16:26:00+08:00",
+ "version": 1224,
+ "releaseDate": "2026-11-12T14:21:00+08:00",
  "hours": {
   "sunday": {
    "from": "10:00",
@@ -65,24 +65,6 @@
     {
      "floor": "2",
      "unitId": "ioi-2-l2-215"
-    }
-   ]
-  },
-  {
-   "id": "6acc8fd153510529d62ecff5",
-   "title": "CELEBRATE DEEPAVALI WITH AN EXCLUSIVERADO GIFT",
-   "description": "With a minimum spend of RM1,500 and IOI Points earned at any CLUB IOI participating store in IOI City Mall, receive an exclusive Rado Deepavali Packet.\n\nA refined expression of the season, thoughtfully presented by Rado.",
-   "startsAt": null,
-   "endsAt": "2026-11-08T23:43:00+08:00",
-   "image": {
-    "src": "/ioi/whats-on/ddc07498-d7f3-40f3-8ae7-f14c2e287728.png",
-    "w": 500,
-    "h": 500
-   },
-   "shops": [
-    {
-     "floor": "G",
-     "unitId": "ioi-g-g-232"
     }
    ]
   },
