@@ -15435,23 +15435,19 @@
    "floorLabel": "Ground"
   },
   {
-   "unitId": "ioi-g-g24-2",
-   "poiId": "672b2d685351051c3ee4d9af",
-   "unitNumber": "G24-2",
-   "name": "F.O.S",
-   "category": "Ladies & Men Fashion",
-   "description": "F.O.S is an established clothing retail chain and value fashion in South East Asia that specializes in affordable quality apparel.Graphic tees, polo tees, shirts, denim, bottoms, accessories, basic wear, footwear, and more - If it's a fashion staple must-have, we'll carry it! Find it, Love it, Buy it for Less at F.O.S!",
+   "unitId": "ioi-g-59444-22290-0",
+   "poiId": null,
+   "unitNumber": "G-59444_22290",
+   "name": "Unit ?",
+   "category": "Details under review",
+   "description": null,
    "phone": null,
    "website": null,
    "tenantKey": null,
-   "thumb": "/ioi/logos/71b0f7f4-5b37-4503-8cd5-15d5e1abe1f4.png",
-   "logo": {
-    "src": "/ioi/logos/71b0f7f4-5b37-4503-8cd5-15d5e1abe1f4.png",
-    "w": 256,
-    "h": 249
-   },
+   "thumb": null,
+   "logo": null,
    "photo": null,
-   "hours": "10AM - 10PM",
+   "hours": null,
    "floorLabel": "Ground"
   },
   {
