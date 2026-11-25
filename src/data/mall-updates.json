@@ -1,6 +1,21 @@
 {
  "updates": [
   {
+   "version": 1228,
+   "previousVersion": 1227,
+   "releaseDate": "2026-11-23T15:50:00+08:00",
+   "detectedAt": "2026-11-25T04:43:58.581Z",
+   "changes": [
+    {
+     "type": "closed",
+     "name": "F.O.S",
+     "unitNumber": "G24-2",
+     "floor": "G",
+     "unitId": null
+    }
+   ]
+  },
+  {
    "version": 1227,
    "previousVersion": 1224,
    "releaseDate": "2026-11-20T15:53:00+08:00",
